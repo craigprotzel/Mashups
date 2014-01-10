@@ -70,7 +70,7 @@ Syllabus
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [Programmable Web](http://programmableweb.com)
-* Find, Post, & Describe - a url to JSON data from an Open API
+* Find, Post, & Describe - a url that returns JSON data from an Open API
 * Create & Post - a single web page (html file) that lists (some of) the data you found
 
 * Additional Readings
@@ -88,7 +88,7 @@ API - Wikipedia
 ### Week 3 (02/13): Intro to JS 
 API - Instagram
 
-### Week 4 (02/20): More JS + Josh
+### Week 4 (02/20): More JS + Guest Lecture (JB)
 API - Google Maps
 
 ### Week 5 (02/27): Assignment #1 Due + Intro to Part 2
@@ -110,7 +110,7 @@ API -
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
 API - Twitter
 
-### Week 12 (04/24): Running Wild - Heroku + MVC (with Miguel)
+### Week 12 (04/24): Running Wild - Heroku + Bonus MVC Talk (with Miguel)
 API -
 
 ### Week 13 (05/01): Final Project Workshop & User Testing
