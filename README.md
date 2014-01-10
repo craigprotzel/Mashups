@@ -45,7 +45,7 @@ API - Youtube & Vimeo
 
 ### Week 9 (04/03): Assignment #2 Due + Intro to Part 3
 
-### Week 10 (04/10): The Other Side - Server + Routes
+### Week 10 (04/10): The Other Side - Server & Routes
 API - 
 
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
