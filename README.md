@@ -59,6 +59,7 @@ Syllabus
   * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
+  * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
 
 ##### Exercise: 
 
@@ -79,8 +80,7 @@ Syllabus
   * [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
   * [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
   * [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
-  *   * [The Future of API Design by Daniel Jacobsn](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
-
+  * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
 API - Wikipedia
