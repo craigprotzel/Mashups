@@ -35,6 +35,8 @@ Syllabus
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro  
+* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
 
 ##### Review Course Info & Syllabus
 
@@ -44,6 +46,13 @@ Syllabus
 
 * Lecture Slides
 * References
+  * [Processing API](http://processing.org/reference/) 
+  * [IFTT Recipes](https://ifttt.com/recipes)
+  * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
+  * [Temboo](https://www.temboo.com/)
+  * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html) + [CitiBike Data Enpoints](https://github.com/danthemellowman/citibike-decompiled) courtesy of Dan the Mellow Man
+  * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
+  * [Open-Notify.org](http://open-notify.org/)
 
 ##### Homework
 * Sign Up - for class email list
@@ -59,6 +68,7 @@ Syllabus
   * [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
   * [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
   * [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
+  *   * [The Future of API Design by Daniel Jacobsn](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
