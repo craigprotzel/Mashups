@@ -7,6 +7,9 @@ Instructor: Craig Protzel
 Email: craig.protzel@nyu.edu  
 Office Hours: TBD
 
+Class Email List  
+Class Blog List  
+
 Course Description
 ------------------
 
@@ -24,6 +27,7 @@ Course Requirements
 * Attend all classes, no more than 2 absences allowed 
 * Arrive on time to the start of class or office hour appointment
 * Complete all homework exercises and assignments on time
+* Post homework exercises and assignments to your blog at least one hour prior to class
 * Participate in class through presentations, discussion, questions, and feedback
 * Respect fellow students' work, questions, and comments
 * Communicate with me if you need to miss class, would like extra help, or schedule additional office hours
@@ -46,22 +50,29 @@ Syllabus
 
 * Lecture Slides
 * References
-  * [Processing API](http://processing.org/reference/) 
+  * [Processing API](http://processing.org/reference/)
   * [IFTT Recipes](https://ifttt.com/recipes)
+  * [HealthCar.gov for Developers](https://www.healthcare.gov/developers/)
+  * [Programmable Web](http://programmableweb.com)
   * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
-  * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html) + [CitiBike Data Enpoints](https://github.com/danthemellowman/citibike-decompiled) courtesy of Dan the Mellow Man
+  * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html) + [CitiBike Data Enpoints](https://github.com/danthemellowman/citibike-decompiled) courtesy of [Dan the Mellow Man](https://twitter.com/theDANtheMAN)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
 
+##### Exercise: 
+
 ##### Homework
 * Sign Up - for class email list
+* Add -  your blog URL to the class blog list
+* * Read - [Ch.3 of Scott Murray's Interactive Data Viz for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
+* Read - [API 101](http://apievangelist.com/index.html)
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [Programmable Web](http://programmableweb.com)
-* Find, Post, & Describe - a url to JSON data from an Open API 
-* Read - [Ch.3 of Scott Murray's Interactive Data Viz for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
-* Read - [API 101](http://apievangelist.com/index.html)
+* Find, Post, & Describe - a url to JSON data from an Open API
+* Create & Post - a single web page (html file) that lists (some of) the data you found
+
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
