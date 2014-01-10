@@ -66,8 +66,7 @@ Syllabus
 ##### Homework
 * Sign Up - for class email list
 * Add -  your blog URL to the class blog list
-* * Read - [Ch.3 of Scott Murray's Interactive Data Viz for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
-* Read - [API 101](http://apievangelist.com/index.html)
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [Programmable Web](http://programmableweb.com)
@@ -80,6 +79,7 @@ Syllabus
   * [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
   * [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
   * [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
+  * [API 101](http://apievangelist.com/index.html)
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
