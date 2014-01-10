@@ -36,7 +36,7 @@ Syllabus
 
 ##### Class Intro  
 
-##### Course Info & Syllabus
+##### Review Course Info & Syllabus
 
 ##### Student Intros
 
@@ -46,11 +46,20 @@ Syllabus
 * References
 
 ##### Homework
-* Sign Up for class email list
-* Explore [Programmable Web](http://programmableweb.com)
+* Sign Up - for class email list
+* Download - a text editor
+* Donwload - a JSON formatter for the browser
+* Explore - [Programmable Web](http://programmableweb.com)
+* Find, Post, & Describe - a url to JSON data from an Open API 
+* Read - [Ch.3 of Scott Murray's Interactive Data Viz for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
+* Read - [API 101](http://apievangelist.com/index.html)
+* Additional Readings
+  * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
+  * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+  * [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
+  * [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
+  * [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
 
-
-API - Open-Notify
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
 API - Wikipedia
