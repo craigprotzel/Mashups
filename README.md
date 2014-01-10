@@ -56,7 +56,7 @@ Syllabus
   * [Programmable Web](http://programmableweb.com)
   * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
-  * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html) + [CitiBike Data Enpoints](https://github.com/danthemellowman/citibike-decompiled) courtesy of [Dan the Mellow Man](https://twitter.com/theDANtheMAN)
+  * [New Yorker A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
 
