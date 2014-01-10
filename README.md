@@ -17,10 +17,39 @@ This class is about building interactive single-page web applications that lever
 Course Goals
 ------------
 
+Course Requirements
+-------------------
+
+* Sign up for class email list
+* Attend all classes, no more than 2 absences allowed 
+* Arrive on time to the start of class or office hour appointment
+* Complete all homework exercises and assignments on time
+* Participate in class through presentations, discussion, questions, and feedback
+* Respect fellow students' work, questions, and comments
+* Communicate with me if you need to miss class, would like extra help, or schedule additional office hours
+
+
 Syllabus
 --------
 
-### Week 1 (01/30) - Hello Class - The Web, APIs, & Data
+### Week 1 (01/30) - The Web, APIs, & Data
+
+##### Class Intro  
+
+##### Course Info & Syllabus
+
+##### Student Intros
+
+##### Lecture: The Web, APIs, & Data
+
+* Lecture Slides
+* References
+
+##### Homework
+* Sign Up for class email list
+* Explore [Programmable Web](http://programmableweb.com)
+
+
 API - Open-Notify
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
