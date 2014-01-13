@@ -20,6 +20,15 @@ This class is about building interactive single-page web applications that lever
 Course Goals
 ------------
 
+* Develop an understanding of front-end web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
+* Develop a basic understanding of Javascript and the world of (client-side) Javascript libraries
+* Gain exposure to server-side web development
+* Learn how to work with a variety of data-serving public web APIs
+* Learn how to create web pages that leverage data from public web services via public web APIs
+* Be empowered to produce compelling single page web experiences
+
+
+
 Course Requirements
 -------------------
 
@@ -89,7 +98,7 @@ API - Wikipedia
 ### Week 3 (02/13): Intro to JS 
 API - Instagram
 
-### Week 4 (02/20): More JS + Guest Lecture (JB)
+### Week 4 (02/20): More JS + Guest Lecture (with JB)
 API - Google Maps
 
 ### Week 5 (02/27): Assignment #1 Due + Intro to Part 2
@@ -111,7 +120,7 @@ API -
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
 API - Twitter
 
-### Week 12 (04/24): Running Wild - Heroku + Bonus MVC Talk (with Miguel)
+### Week 12 (04/24): Running Wild - Heroku + Bonus MVC Talk (with MB)
 API -
 
 ### Week 13 (05/01): Final Project Workshop & User Testing
