@@ -50,12 +50,11 @@ Syllabus
 
 * Lecture Slides
 * References
-  * [Processing API](http://processing.org/reference/)
-  * [IFTT Recipes](https://ifttt.com/recipes)
-  * [HealthCar.gov for Developers](https://www.healthcare.gov/developers/)
   * [Programmable Web](http://programmableweb.com)
+  * [IFTT Recipes](https://ifttt.com/recipes)
   * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
+  * [HealthCar.gov for Developers](https://www.healthcare.gov/developers/)
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
