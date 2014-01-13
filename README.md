@@ -42,6 +42,14 @@ Course Requirements
 * Communicate with me if you need to miss class, would like extra help, or schedule additional office hours
 
 
+Grading
+--------
+
+**25%** Attendance & Class Participation  
+**25%** Homework    
+**25%** Assignments #1 & #2  
+**25%** Final  
+
 Syllabus
 --------
 
