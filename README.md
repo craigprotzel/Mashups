@@ -21,7 +21,7 @@ Course Goals
 ------------
 
 * Develop an understanding of front-end web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
-* Develop a basic understanding of Javascript and the world of (client-side) Javascript libraries
+* Develop a basic understanding of Javascript and the world of open source (client-side) Javascript libraries
 * Gain exposure to server-side web development
 * Learn how to work with a variety of data-serving public web APIs
 * Learn how to create web pages that leverage data from public web services via public web APIs
