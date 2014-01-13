@@ -39,7 +39,7 @@ Syllabus
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro
-* [StoryScramble.com](http://storyscramble.com)
+* [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 * [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 * [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
