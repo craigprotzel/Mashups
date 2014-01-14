@@ -103,10 +103,10 @@ Syllabus
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
 API - Wikipedia
 
-### Week 3 (02/13): Intro to JS 
+### Week 3 (02/13): Intro to Javascript 
 API - Instagram
 
-### Week 4 (02/20): More JS + Guest Lecture (with JB)
+### Week 4 (02/20): More Javascript + Guest Lecture (with JB)
 API - Google Maps
 
 ### Week 5 (02/27): Assignment #1 Due + Intro to Part 2
