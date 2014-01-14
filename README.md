@@ -70,15 +70,15 @@ Syllabus
 * Lecture Slides
 * References
   * [Programmable Web](http://programmableweb.com)
-  * [IFTT Recipes](https://ifttt.com/recipes)
   * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
-  * [HealthCar.gov for Developers](https://www.healthcare.gov/developers/)
-  * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
+  * [IFTT Recipes](https://ifttt.com/recipes)
+  * [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
   * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
-
+  * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
+  
 ##### Exercise: 
 
 ##### Homework
@@ -87,7 +87,7 @@ Syllabus
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
-* Explore - [Programmable Web](http://programmableweb.com)
+* Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
 * Create & Post - a single web page (html file) that lists (some of) the data you found
 
