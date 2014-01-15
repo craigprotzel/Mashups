@@ -24,7 +24,7 @@ Course Goals
 * Develop a basic understanding of Javascript and the world of open source (client-side) Javascript libraries
 * Gain exposure to server-side web development
 * Learn how to work with a variety of data-serving public web APIs
-* Learn how to create web pages that leverage data from public web services via public web APIs
+* Learn how to create web pages in modern browsers that leverage data from web services via public web APIs
 * Be empowered to produce compelling single page web experiences
 
 
