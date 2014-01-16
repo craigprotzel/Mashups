@@ -74,22 +74,21 @@ Syllabus
   * [Temboo](https://www.temboo.com/)
   * [IFTT Recipes](https://ifttt.com/recipes)
   * [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
+  * [OpenWeatherMap API](http://openweathermap.org/API)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
   * [Open-Notify.org](http://open-notify.org/)
   * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
   
-##### Exercise: 
-
 ##### Homework
 * Sign Up - for class email list [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
-* Add -  your blog URL to the class blog list
+* Add -  your blog URL to the [class blog list](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html) up to but not including the section on Javascript
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Creat & Post - a single web page (html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
+* Creat & Upload - a single web page (html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -131,9 +130,13 @@ Syllabus
 ##### Homework
 * Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
+* Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 ### Week 4 (02/20): More Javascript + Guest Talk by Josh Begley 
 API - Google Maps
+
+##### Homework
+* Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 
 ### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
@@ -141,6 +144,10 @@ API - Google Maps
 
 ##### Martin Bravo - "Going From 0 to 1" 
 * References
+
+##### Homework
+* Read - 
+
 
 ### Week 6 (03/06): Graphs on Graphs on Graphs + D3 Talk by Jeremy Scott Diamond
 API - Sunlight Foundation
@@ -175,9 +182,18 @@ API - Twitter
 
 ##### Final Presentations
 
-How-To Links
+Helpful Links
 ------------------
-Create a Favicon - [Favicon Generator](http://www.favicon.cc/)  
-Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)  
-Share Some Code  - [JS Fiddle](http://jsfiddle.net/)  
+#### General Web  
+* Mozilla - [Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+* Share Some Code  - [JS Fiddle](http://jsfiddle.net/)
 
+#### HTML
+* Create a Favicon - [Favicon Generator](http://www.favicon.cc/)
+
+#### CSS
+* Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)
+  
+#### JS  
+* [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
+* [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/?utm_source=javascriptweekly&utm_medium=email)
