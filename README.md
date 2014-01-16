@@ -32,7 +32,7 @@ Course Goals
 Course Requirements
 -------------------
 
-* Sign up for class email list
+* Sign up for class email list - [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
 * Attend all classes, no more than 2 absences allowed 
 * Arrive on time to the start of class or office hour appointment
 * Complete all homework exercises and assignments on time
@@ -58,8 +58,8 @@ Syllabus
 ##### Class Intro
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
-* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 * [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
+* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 
 ##### Review Course Info & Syllabus
 
@@ -82,9 +82,9 @@ Syllabus
 ##### Exercise: 
 
 ##### Homework
-* Sign Up - for class email list
+* Sign Up - for class email list [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
 * Add -  your blog URL to the class blog list
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html ) (up to the section on JS)
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html) up to but not including the section on Javascript
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
@@ -100,7 +100,18 @@ Syllabus
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
 ### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
-API - Wikipedia
+
+##### Discussion - Week 1 Homework
+
+##### Lecture - HTML & CSS
+
+##### Exercise - Wikipedia API  
+* Wikipedia Search Example 1
+* Wikipedia Search Example 2
+* Wikipedia Search Example 3
+
+##### Homework
+* Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
 
 ### Week 3 (02/13): Intro to Javascript 
 API - NY Times + Instagram 
