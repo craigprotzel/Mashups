@@ -112,9 +112,25 @@ Syllabus
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
+* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up to but not including the section on Functions
+* Additional Readings
+** [JS For Cats](http://jsforcats.com/)
+** [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
-### Week 3 (02/13): Intro to Javascript 
-API - NY Times + Instagram 
+### Week 3 (02/13): Intro to Javascript
+
+##### Discussion - Week 2 Homework
+
+##### Lecture - Intro to Javascript
+
+##### Exercise - NY Times + Instagram API Mashup
+* InstaTimes Example 1
+* InstaTimes Example 2
+* InstaTimes Example 3
+
+##### Homework
+* Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
+* Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 
 ### Week 4 (02/20): More Javascript + Guest Talk by Josh Begley 
 API - Google Maps
@@ -143,7 +159,7 @@ API - Youtube & Vimeo
 * References
 
 ### Week 10 (04/10): The Other Side - Server & Routes
-API - 
+API - Fitbit
 
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
 API - Twitter
