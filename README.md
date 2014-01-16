@@ -89,7 +89,7 @@ Syllabus
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Creat & Post - a single web page (html file) that lists (some of) the data you found
+* Creat & Post - a single web page (html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -103,14 +103,19 @@ Syllabus
 API - Wikipedia
 
 ### Week 3 (02/13): Intro to Javascript 
-API - Instagram
+API - NY Times + Instagram 
 
-### Week 4 (02/20): More Javascript + Guest Lecture (with JB)
+### Week 4 (02/20): More Javascript + Guest Talk by Josh Begley 
 API - Google Maps
 
-### Week 5 (02/27): Assignment #1 Due + Intro to Part 2
+### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
-### Week 6 (03/06): Graphs on Graphs on Graphs - D3 & Friends (with JSD)
+##### Assignment #1 Presentations
+
+##### Martin Bravo - "Going From 0 to 1" 
+* References
+
+### Week 6 (03/06): Graphs on Graphs on Graphs + D3 Talk by Jeremy Scott Diamond
 API - Sunlight Foundation
 
 ### Week 7 (03/13): A Blank Canvas - PaperJS & P5
@@ -119,7 +124,12 @@ API - Xively
 ### Week 8 (03/27):  - Video & PopcornJS   
 API - Youtube & Vimeo
 
-### Week 9 (04/03): Assignment #2 Due + Intro to Part 3
+### Week 9 (04/03): Assignment #2 Due + Guest Talk by Steve Klise
+
+##### Assignment #2 Presentations
+
+##### Steve Klise - "TBD" 
+* References
 
 ### Week 10 (04/10): The Other Side - Server & Routes
 API - 
@@ -127,9 +137,20 @@ API -
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
 API - Twitter
 
-### Week 12 (04/24): Running Wild - Heroku + Bonus MVC Talk (with MB)
-API -
+### Week 12 (04/24): Running Wild - Heroku + Guest Talk by Miguel Bermudez
+
+##### Miguel Bermudez - "MVC" 
+* References
 
 ### Week 13 (05/01): Final Project Workshop & User Testing
 
 ### Week 14 (05/08): FINAL DUE
+
+##### Final Presentations
+
+How-To Links
+------------------
+Create a Favicon - [Favicon Generator](http://www.favicon.cc/)  
+Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)  
+Share Some Code  - [JS Fiddle](http://jsfiddle.net/)  
+
