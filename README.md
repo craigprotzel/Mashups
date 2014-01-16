@@ -113,8 +113,8 @@ Syllabus
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
 * Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up to but not including the section on Functions
 * Additional Readings
-** [JS For Cats](http://jsforcats.com/)
-** [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
+  * [JS For Cats](http://jsforcats.com/)
+  * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
 ### Week 3 (02/13): Intro to Javascript
 
