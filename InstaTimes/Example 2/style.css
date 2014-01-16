@@ -1,0 +1,29 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+button{
+	font-size: 16px;
+	width: 260px;
+	height: 50px;
+	margin: 10px;
+	text-align: center;
+}
+.articleBox{
+	float: left;
+	margin: 5px 10px;
+}
+.articleTitle{
+	text-align: center;
+	font-family: georgia;
+	font-style: italic;
+}
+
+.articleImg{
+}
+
+

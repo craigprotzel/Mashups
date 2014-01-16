@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Wikipedia Example 3</title>
+
+		<script charset="utf-8" type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script charset="utf-8" src="http://underscorejs.org/underscore-min.js"></script>
+	</head>
+
+	<body>
+
+		<h2>Wikipedia Search</h2>
+		<input id="query" type="text"></input>
+		<button id="search">ENTER</button>
+
+		<h1 id="searchTerm"></h1>
+		<div id="resultsTarget"></div>
+
+		<script id="tmpl-results" type="text/template">
+			<% for (var i = 0; i < 5; i++) { %>
+				<% /* Use 'replace' and a regular expression to substitue white space with '_' character */ %>
+				<% var resultTerms = results[i].replace(/\s/g, '_'); %>
+				<% var curURL = 'http://en.wikipedia.org/wiki/' + resultTerms; %>
+				<p class="wikiResults">
+					<a href=<%=curURL%>>
+						<%= results[i] %>
+					</a>
+				</p>
+			<% } %>
+		</script>
+
+	</body>
+
+	<script charset="utf-8" type="text/javascript" src="wiki_ex3_script.js"></script>
+</html>
