@@ -146,7 +146,7 @@ API - Google Maps
 * References
 
 ##### Homework
-* Read - 
+* Read - ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
 
 
 ### Week 6 (03/06): Graphs on Graphs on Graphs + D3 Talk by Jeremy Scott Diamond
@@ -187,6 +187,7 @@ Helpful Links
 #### General Web  
 * Mozilla - [Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
 * Share Some Code  - [JS Fiddle](http://jsfiddle.net/)
+* [11 Phases of a Web Developer's Career](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 
 #### HTML
 * Create a Favicon - [Favicon Generator](http://www.favicon.cc/)
@@ -195,5 +196,11 @@ Helpful Links
 * Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)
   
 #### JS  
+* [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript#types)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/?utm_source=javascriptweekly&utm_medium=email)
+
+#### APIs
+
+
+
