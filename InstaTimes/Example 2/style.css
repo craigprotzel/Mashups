@@ -13,17 +13,14 @@ button{
 	margin: 10px;
 	text-align: center;
 }
+
 .articleBox{
 	float: left;
 	margin: 5px 10px;
 }
+
 .articleTitle{
 	text-align: center;
 	font-family: georgia;
 	font-style: italic;
 }
-
-.articleImg{
-}
-
-

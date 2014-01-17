@@ -18,17 +18,14 @@ button{
 	float: left;
 	margin: 0 5px 10px 0;
 	width: 320px;
-
 }
+
 .articleTitle{
 	font-family: georgia;
 	font-style: italic;
 	font-weight: bolder;
 	font-size: 22px;
 	margin: 15px 0 2px;
-}
-
-.contentBox{
 }
 
 .articleImg{
@@ -39,5 +36,3 @@ button{
 .articleText{
 	font-family: 'times new roman';
 }
-
-

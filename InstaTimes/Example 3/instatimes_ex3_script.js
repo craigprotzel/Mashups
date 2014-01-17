@@ -132,6 +132,3 @@ $(document).ready(function(){
 		getNYTimesData();
 	});
 });
-
-
-

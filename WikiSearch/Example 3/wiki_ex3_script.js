@@ -39,7 +39,6 @@ myApp.searchWikipedia = function(currentTerm){
 	});
 };
 
-
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
 	"use strict";
@@ -65,4 +64,3 @@ $(document).ready(function(){
 		}
 	});
 });
-

@@ -58,11 +58,9 @@ Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 	searchWikipedia(currentWord);
 })();
 
-
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
 	"use strict";
 
 	console.log("LOADED!!!!");
 });
-

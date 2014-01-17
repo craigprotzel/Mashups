@@ -83,6 +83,3 @@ $(document).ready(function(){
 		getNYTimesData();
 	});
 });
-
-
-
