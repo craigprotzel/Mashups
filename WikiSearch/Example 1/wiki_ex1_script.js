@@ -1,11 +1,13 @@
-/*	NYU - ITP - MASHUPS CLASS
-	SPRING 2014
-	gihtub.com/craigprotzel/Mashups
+/*	
 
-	WIKIPEDIA SEARCH - EXAMPLE #1
-	Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
+NYU - ITP - MASHUPS CLASS
+SPRING 2014
+gihtub.com/craigprotzel/Mashups
+
+WIKIPEDIA SEARCH - EXAMPLE #1
+Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
+
 */
-
 
 //Define the url for the wikipedia API call
 var url = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
@@ -48,8 +50,6 @@ searchWikipedia(currentWord);
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
 	"use strict";
-
 	console.log("LOADED!!!!");
-
 });
 

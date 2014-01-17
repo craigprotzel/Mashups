@@ -1,22 +1,23 @@
-/*	NYU - ITP - MASHUPS CLASS
-	SPRING 2014
-	gihtub.com/craigprotzel/Mashups
+/*	
 
-	WIKIPEDIA SEARCH - EXAMPLE #2
-	Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
+NYU - ITP - MASHUPS CLASS
+SPRING 2014
+gihtub.com/craigprotzel/Mashups
+
+WIKIPEDIA SEARCH - EXAMPLE #2
+Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
+
 */
 
-
-/*	Wrapping the code like this as an IIFE (Immediately invoked Functional Expression) has Pro's and Con's.
+/*	Wrapping the code like this, known as an IIFE (Immediately invoked Functional Expression), has pros and cons
 
 	(function(){
 		...js code...
 	});
 
-	The code will be executed immediately and it will be "protected" from the rest of the app.
-	BUT it can make the code within the function inaccessible to the rest of the app.
+	The code will be executed immediately and will be "protected" from the rest of the app.
+	BUT it also makes the code within the function inaccessible to the rest of the app.
 */
-
 (function () {
 	"use strict";
 

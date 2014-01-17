@@ -1,14 +1,18 @@
-/*	NYU - ITP - MASHUPS CLASS
-	SPRING 2014
-	gihtub.com/craigprotzel/Mashups
- 
-	INSTATIMES - A NY Times + Instagram Mashup
-	NY Times API Reference - http://developer.nytimes.com/page
-	Instagram API Reference - http://instagram.com/developer/
+/*
 
-	Example 2:
-		- Add in NY Times API request functionality
-		- Create InstaTimesArticle objects within the NY Times function
+NYU - ITP - MASHUPS CLASS
+SPRING 2014
+gihtub.com/craigprotzel/Mashups
+ 
+INSTATIMES - A NY Times + Instagram Mashup
+NY Times API Reference - http://developer.nytimes.com/page
+Instagram API Reference - http://instagram.com/developer/
+Developer Keys for BOTH APIs are necessary to execute the final script
+
+Example 2:
+- Add in NY Times API request functionality
+- Create InstaTimesArticle objects within the NY Times function
+
 */
 
 //Create a constructor function for the main object
@@ -16,7 +20,6 @@
 //Add an argument to the constructor that will be the value of the 'title'
 function InstaTimesArticle(curHeadline){
 	"use strict";
-
 	this.title = curHeadline;
 	this.img = "http://www.warmaal.com/wp-content/uploads/2013/12/breaking-news-logo.jpg";
 }
@@ -46,7 +49,7 @@ function getNYTimesData(){
 				console.log("Huh??? Data is not an array");
 				return;
 			}
-			else{
+			else {
 				nyTimesArticles = data.response.docs;
 				//console.log(nyTimesArticles);
 			}
@@ -56,7 +59,14 @@ function getNYTimesData(){
 				tempArticleObj = new InstaTimesArticle(nyTimesArticles[i].headline.main);
 				instaTimes.push(tempArticleObj);
 				$("#latestUpdates").append(
-					"<div class='articleBox'><p class='articleTitle'>" + tempArticleObj.title + "</p><img class='articleImg' src=" + tempArticleObj.img + "></div>");
+					//This is one long string of HTML markup broken into multiple lines for readability
+					"<div class='articleBox'>" +
+						"<p class='articleTitle'>" +
+							tempArticleObj.title +
+						"</p>" +
+						"<img class='articleImg' src=" + tempArticleObj.img + ">" +
+					"</div>"
+				);
 			}
 		}
 	});
@@ -65,7 +75,6 @@ function getNYTimesData(){
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
 	"use strict";
-
 	$("#update").click(function(){
 		console.log("Clicked Update");
 		//Use jQuery to clear out all the previous items
