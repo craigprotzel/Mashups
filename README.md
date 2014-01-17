@@ -123,9 +123,9 @@ Syllabus
 ##### Lecture - Intro to Javascript
 
 ##### Exercise - NY Times + Instagram API Mashup
-* InstaTimes Example 1
-* InstaTimes Example 2
-* InstaTimes Example 3
+* [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
+* [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
+* [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
 
 ##### Homework
 * Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
