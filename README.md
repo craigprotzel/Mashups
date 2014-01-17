@@ -104,7 +104,7 @@ Syllabus
 
 ##### Lecture - HTML & CSS
 
-##### Exercise - Wikipedia API  
+##### Exercise - Wikipedia Search API  
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
 * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
