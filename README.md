@@ -105,9 +105,9 @@ Syllabus
 ##### Lecture - HTML & CSS
 
 ##### Exercise - Wikipedia API  
-* Wikipedia Search Example 1
-* Wikipedia Search Example 2
-* Wikipedia Search Example 3
+* [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
+* [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
+* [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
