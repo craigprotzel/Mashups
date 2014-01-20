@@ -22,9 +22,9 @@ Course Goals
 
 * Develop an understanding of front-end web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
 * Develop a basic understanding of Javascript and the world of open source (client-side) Javascript libraries
-* Gain exposure to server-side web development
 * Learn how to work with a variety of data-serving public web APIs
 * Learn how to create web pages in modern browsers that leverage data from web services via public web APIs
+* Gain exposure to server-side web development
 * Be empowered to produce compelling single page web experiences
 
 
@@ -45,10 +45,10 @@ Course Requirements
 Grading
 --------
 
-**25%** Attendance & Class Participation  
-**25%** Homework    
-**25%** Assignments #1 & #2  
-**25%** Final  
+**25%**  Attendance & Class Participation  
+**25%**  Homework Exercises    
+**25%**  Assignments #1 & #2  
+**25%**  Final Project
 
 Syllabus
 --------
@@ -149,8 +149,11 @@ API - Google Maps
 * Read - ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
 
 
-### Week 6 (03/06): Graphs on Graphs on Graphs + D3 Talk by Jeremy Scott Diamond
+### Week 6 (03/06): Graphs on Graphs on Graphs + Guest Talk by Jeremy Scott Diamond
 API - Sunlight Foundation
+
+##### Jeremy Scott Diamond - "D3" 
+* References
 
 ### Week 7 (03/13): A Blank Canvas - PaperJS & P5
 API - Xively
