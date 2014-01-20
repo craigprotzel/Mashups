@@ -132,11 +132,14 @@ Syllabus
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
+
 ### Week 4 (02/20): More Javascript + Guest Talk by Josh Begley 
 API - Google Maps
 
 ##### Homework
+* DUE - Assignment #1
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
+
 
 ### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
