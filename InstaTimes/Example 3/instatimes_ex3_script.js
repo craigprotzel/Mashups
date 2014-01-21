@@ -1,5 +1,4 @@
 /*
-
 NYU - ITP - MASHUPS CLASS
 SPRING 2014
 gihtub.com/craigprotzel/Mashups
@@ -11,7 +10,6 @@ Developer Keys for BOTH APIs are necessary to execute the final script
 
 Example 3:
 - Add in Instagram API request functionality
-
 */
 
 //Create a constructor function for the main object
@@ -50,6 +48,7 @@ function getNYTimesData() {
 			var nyTimesArticles;
 			if (!(data.response.docs instanceof Array )){
 				console.log("Huh??? NY Times Data is not an array");
+				//Exit the function
 				return;
 			}
 			else {
@@ -95,6 +94,7 @@ function getInstagramData() {
 			if (!(data.data instanceof Array )){
 				console.log("Huh??? Instagram data is not an array");
 				console.log(data);
+				//Exit the function
 				return;
 			}
 			else {

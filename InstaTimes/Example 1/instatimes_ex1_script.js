@@ -1,5 +1,4 @@
 /*
-
 NYU - ITP - MASHUPS CLASS
 SPRING 2014
 gihtub.com/craigprotzel/Mashups
@@ -13,7 +12,6 @@ Example 1:
 - Hardcode the basic functionality of the end result
 - Lay the foundation for the app's main object
 - Get the main object(s) to properly appear on the page
-
 */
 
 //Create a constructor for the main object

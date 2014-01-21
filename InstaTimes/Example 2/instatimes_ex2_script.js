@@ -1,5 +1,4 @@
 /*
-
 NYU - ITP - MASHUPS CLASS
 SPRING 2014
 gihtub.com/craigprotzel/Mashups
@@ -12,7 +11,6 @@ Developer Keys for BOTH APIs are necessary to execute the final script
 Example 2:
 - Add in NY Times API request functionality
 - Create InstaTimesArticle objects within the NY Times function
-
 */
 
 //Create a constructor function for the main object
