@@ -129,6 +129,7 @@ Syllabus
 
 ##### Homework
 * Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
+* Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
