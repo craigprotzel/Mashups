@@ -7,7 +7,6 @@ PEOPLE IN SPACE - EXAMPLE #2
 Open-Notify.org - http://open-notify.org/Open-Notify-API/People-In-Space/
 */
 
-
 //Define a global object to store the data
 var spaceData = {};
 

@@ -6,18 +6,24 @@ gihtub.com/craigprotzel/Mashups
 WIKIPEDIA SEARCH - EXAMPLE #3
 Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 
-This example will search Wikipedia for a user submitted entry
-And then populate those results on the page as hyperlinks using an Underscore template
+This example will immediately search Wikipedia for entries with the word "dog"
+And then populate those results on the page using an UNDERSCORE TEMPLATE
+Some CSS styling has been added to this example as well 
 */
 
-//Create a global app object
-var myApp = {};
+//Define the url for the wikipedia API call
+var url = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
+//Define an intial search term
+var currentWord = "dogs";
 
-//Add a method to the global app object that will execute the Wikipedia AJAX call
-myApp.searchWikipedia = function(currentTerm){
-	var url =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
+//Define a funnction to execute the AJAX call
+//The argument will be the desired search term
+function searchWikipedia(word) {
+	"use strict";
+
+	//Use jQuery to make the AJAX call
 	$.ajax({
-		url: url + currentTerm,
+		url: url + word,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
@@ -46,31 +52,7 @@ myApp.searchWikipedia = function(currentTerm){
 			$("#resultsTarget").html(compiledTmpl);
 		}
 	});
-};
+}
 
-//Code to be executed once the page has fully loaded
-$(document).ready(function(){
-	"use strict";
-	console.log("LOADED!!!!");
-
-	//Use jQuery to assign a callback function when the 'search' button is clicked
-	$("#search").click(function(){
-		console.log("Clicked search");
-		//Use jQuery to get the value of the 'query' input box
-		var newSearchTerm = $("#query").val();
-		console.log(newSearchTerm);
-		//Execute the Wikipedia API call with the 'newSearchTerm' string as its argument 
-		myApp.searchWikipedia(newSearchTerm);
-	});
-
-	//What if someone just wants to click "ENTER"?
-	//Use jQuery to assign a callback function when enter is pressed 
-	//This will ONLY work when the 'query' input box is active
-	$("#query").keypress(function(e){
-		//If enter key is pressed
-		if (e.which == 13){
-			//Use jQuery's trigger() function to execute the click event
-			$("#search").trigger('click');
-		}
-	});
-});
+//Execute the wikipedia API call function with the correct search term var as the argument
+searchWikipedia(currentWord);

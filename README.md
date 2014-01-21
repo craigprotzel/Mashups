@@ -88,7 +88,7 @@ Syllabus
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Creat & Upload - a single web page (html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
+* Create & Upload - a single web page (can be just a single html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -104,14 +104,18 @@ Syllabus
 
 ##### Lecture - HTML & CSS
 
+##### Exercise - 
+
+##### Lecture - AJAX
+
 ##### Exercise - Wikipedia Search API  
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
 
-
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
-* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up to but not including the section on Functions
+* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions
+* Create & Upload -  a web page that uses AJAX to programatically load and display data, this should include an html file, a css file, and a js file  
 * Additional Readings
   * [JS For Cats](http://jsforcats.com/)
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
@@ -128,7 +132,6 @@ Syllabus
 * [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
 
 ##### Homework
-* Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)

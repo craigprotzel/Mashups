@@ -7,8 +7,8 @@ WIKIPEDIA SEARCH - EXAMPLE #2
 Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 
 This example will immediately search Wikipedia for entries with the word "dog"
-And then populate those results on the page using an Underscore template
-Some CSS styling has been added to this example as well 
+And then populate those results on the page using jQuery
+Styling has been added
 */
 
 //Define the url for the wikipedia API call
@@ -39,17 +39,15 @@ function searchWikipedia(word) {
 			//The data we want is the first item in the returned JSON, hence value "0"
 			$("#searchTerm").html(data[0]);
 
-			//Use the Undesrcore Template to add the data to the page
-			//Involves 3 steps
-			//(1) Get the template markup - use jQuery's html() function to get the markup
-			var tmplMarkup = $('#tmpl-results').html();
-			//(2) Tell Underscore to render the template with the appropriate data
-			//We're using Underscore's built-in template() method to do this
-			//Also, the key value here, which we're calling 'results', is how we reference the data in the template
-			var compiledTmpl = _.template(tmplMarkup, { results : data[1] });
-			//(3) Update the page
-			//Use jQuery's html() method to add the markup to the appropriate div
-			$("#resultsTarget").html(compiledTmpl);
+			//The data we want is the second item in the returned JSON, hence value "1"
+			//Create a var to save the array of search results 
+			var searchResults = data[1];
+			//Loop through the array of results
+			for (var i = 0; i < searchResults.length; i++){
+				//Use jQuery's append() function to add the searchResults to the DOM
+				//The argument for the append function will be a string of HTML that has a tag, a class, and the search result 
+				$("#results").append("<p class='wikiResults'>" + searchResults[i] + "</p>");
+			}
 		}
 	});
 }

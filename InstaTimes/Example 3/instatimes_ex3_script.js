@@ -46,9 +46,10 @@ function getNYTimesData() {
 			//console.log(data);
 
 			var nyTimesArticles;
+			//Check to make sure the data is correct
 			if (!(data.response.docs instanceof Array )){
 				console.log("Huh??? NY Times Data is not an array");
-				//Exit the function
+				//Exit the function if the data is not an array
 				return;
 			}
 			else {
@@ -91,10 +92,11 @@ function getInstagramData() {
 			//console.log(data);
 
 			var instagramData;
+			//Check to make sure the data is correct
 			if (!(data.data instanceof Array )){
 				console.log("Huh??? Instagram data is not an array");
 				console.log(data);
-				//Exit the function
+				//Exit the function if the data is not an array
 				return;
 			}
 			else {
@@ -128,7 +130,9 @@ $(document).ready(function(){
 		console.log("Clicked Update");
 		//Clear the instaTimes array
 		instaTimes = [];
+		//Use jQuery to clear out the previous items
 		$("#latestUpdates").empty();
+		//Execute the API Call
 		getNYTimesData();
 	});
 });

@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
-		<title>Wikipedia Example 3</title>
+		<title>Wikipedia Example 4</title>
 
 		<!-- Loading the js libraries at the top. -->
 		<!-- They can also be loaded at the bottom, but they NEED to be loaded before the app's js file -->
@@ -12,19 +12,26 @@
 	</head>
 
 	<body>
+		<h2>Wikipedia Search</h2>
+		<input id="query" type="text"></input>
+		<button id="search">ENTER</button>
+
 		<h1 id="searchTerm"></h1>
 		<div id="resultsTarget"></div>
 
-		<!-- Create a script tag that will contain the Underscore Template -->
 		<script id="tmpl-results" type="text/template">
-			<% /*Standard for loop*/ %> 
-			<% for (var i = 0; i < results.length; i++) { %>
+			<% for (var i = 0; i < 5; i++) { %>
+				<% /* Use 'replace' and a regular expression to substitue white space with '_' character */ %>
+				<% var resultTerms = results[i].replace(/\s/g, '_'); %>
+				<% var curURL = 'http://en.wikipedia.org/wiki/' + resultTerms; %>
 				<p class="wikiResults">
-					<%= results[i] %>
+					<a href=<%=curURL%>>
+						<%= results[i] %>
+					</a>
 				</p>
 			<% } %>
 		</script>
 	</body>
 
-	<script type="text/javascript" src="wiki_ex3_script.js"></script>
+	<script type="text/javascript" src="wiki_ex4_script.js"></script>
 </html>

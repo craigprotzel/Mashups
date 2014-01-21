@@ -43,8 +43,10 @@ function getNYTimesData(){
 			console.log("WooHoo!");
 			//console.log(data);
 			var nyTimesArticles;
+			//Check to make sure the data is correct
 			if (!(data.response.docs instanceof Array )){
 				console.log("Huh??? Data is not an array");
+				//Exit the function if the data is not an array
 				return;
 			}
 			else {
@@ -75,7 +77,9 @@ $(document).ready(function(){
 	"use strict";
 	$("#update").click(function(){
 		console.log("Clicked Update");
-		//Use jQuery to clear out all the previous items
+		//Clear the instaTimes array
+		instaTimes = [];
+		//Use jQuery to clear out the previous items
 		$("#latestUpdates").empty();
 		//Execute the NY Times function
 		getNYTimesData();
