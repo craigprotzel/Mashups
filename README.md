@@ -98,7 +98,7 @@ Syllabus
   * [API 101](http://apievangelist.com/index.html)
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
-### Week 2 (02/06) -  HTML, CSS, & Client-Side Templates
+### Week 2 (02/06) -  HTML, CSS, & AJAX
 
 ##### Discussion - Week 1 Homework
 
@@ -107,7 +107,7 @@ Syllabus
 ##### Exercise - Wikipedia Search API  
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
-* [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
+
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
@@ -130,17 +130,17 @@ Syllabus
 ##### Homework
 * Read - [The rest of Javascript 101](http://learn.jquery.com/javascript-101/) starting with the section on Functions and up to and including the section on Closures
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
+* Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
-* Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 4 (02/20): More Javascript + Guest Talk by Josh Begley 
+### Week 4 (02/20): Javascript & jQuery + Guest Talk by Josh Begley 
 API - Google Maps
 
 ##### Homework
 * DUE - Assignment #1
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
-
+* Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 ### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
