@@ -25,7 +25,6 @@ function getSpaceData() {
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
-			//Insert the first array item returned as text in the DOM element with the id 'searchTerm'
 			$("#totalPeople").html(data.number);
 		}
 	});
