@@ -88,7 +88,7 @@ Syllabus
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Create & Upload - a single web page (can be just a single html file) that displays (some of) the data you found, feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
+* Create & Upload - a single web page that displays (some of) the data you found with some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data 
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -98,38 +98,36 @@ Syllabus
   * [API 101](http://apievangelist.com/index.html)
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
-### Week 2 (02/06) -  HTML, CSS, & AJAX
+
+### Week 2 (02/06) -  Web Dev 101 - HTML, CSS, & Javascript
 
 ##### Discussion - Week 1 Homework
 
 ##### Lecture - HTML & CSS
 
-##### Exercise - 
+##### Exercise - Pair Programming - Re-create the ITP home page 
 
-##### Lecture - AJAX
-
-##### Exercise - Wikipedia Search API  
-* [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
-* [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
+##### Lecture - Intro to JS
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
-* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions
-* Create & Upload -  a web page that uses AJAX to programatically load and display data, this should include an html file, a css file, and a js file  
+* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions  
+* Create & Upload -
 * Additional Readings
   * [JS For Cats](http://jsforcats.com/)
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
-### Week 3 (02/13): Intro to Javascript
+
+### Week 3 (02/13): Interaction On The Page - Javascript with jQuery
 
 ##### Discussion - Week 2 Homework
 
-##### Lecture - Intro to Javascript
+##### Lecture - Interaction On The Page - Javascript with jQuery
 
-##### Exercise - NY Times + Instagram API Mashup
-* [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
-* [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
-* [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
+##### Review - Wikipedia Search API  
+* [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
+* [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
+* [WikiSearch Example 4](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%204)
 
 ##### Homework
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
@@ -137,13 +135,26 @@ Syllabus
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 
 
-### Week 4 (02/20): Javascript & jQuery + Guest Talk by Josh Begley 
-API - Google Maps
+### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
+
+##### Lecture - OOP in JS + Client-Side Templates
+
+##### Review - NY Times + Instagram API Mashup
+* [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
+* [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
+* [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
+
+##### Review - Wikipedia Search API
+* [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
+* [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
+
+##### Josh Begley - "TBD"
 
 ##### Homework
 * DUE - Assignment #1
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
+
 
 ### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
@@ -162,11 +173,14 @@ API - Sunlight Foundation
 ##### Jeremy Scott Diamond - "D3" 
 * References
 
+
 ### Week 7 (03/13): A Blank Canvas - PaperJS & P5
 API - Xively
 
+
 ### Week 8 (03/27):  - Video & PopcornJS   
 API - Youtube & Vimeo
+
 
 ### Week 9 (04/03): Assignment #2 Due + Guest Talk by Steve Klise
 
@@ -175,22 +189,28 @@ API - Youtube & Vimeo
 ##### Steve Klise - "TBD" 
 * References
 
+
 ### Week 10 (04/10): The Other Side - Server & Routes
 API - Fitbit
 
+
 ### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
 API - Twitter
+
 
 ### Week 12 (04/24): Running Wild - Heroku + Guest Talk by Miguel Bermudez
 
 ##### Miguel Bermudez - "MVC" 
 * References
 
+
 ### Week 13 (05/01): Final Project Workshop & User Testing
+
 
 ### Week 14 (05/08): FINAL DUE
 
 ##### Final Presentations
+
 
 Helpful Links
 ------------------

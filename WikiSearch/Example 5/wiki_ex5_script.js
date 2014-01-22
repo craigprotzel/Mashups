@@ -3,11 +3,11 @@ NYU - ITP - MASHUPS CLASS
 SPRING 2014
 gihtub.com/craigprotzel/Mashups
 
-WIKIPEDIA SEARCH - EXAMPLE #4
+WIKIPEDIA SEARCH - EXAMPLE #5
 Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 
 This example will search Wikipedia for a user submitted entry
-And then populate those results on the page using the jQuery 'append' function
+And then populate those results on the page as hyperlinks using an UNDESRSCORE TEMPLATE
 */
 
 //Create a global app object
@@ -33,24 +33,17 @@ myApp.searchWikipedia = function(currentTerm){
 			//The data we want is the first item in the returned JSON, hence value "0"
 			$("#searchTerm").html(data[0]);
 
-			//The data we want is the second item in the returned JSON, hence value "1"
-			//Create a var to save the array of search results 
-			var searchResults = data[1];
-			//Loop through the array of results
-			for (var i = 0; i < searchResults.length; i++){
-				//Use 'replace' and a regular expression to substitue white space with '_' character
-				var resultTerms = searchResults[i].replace(/\s/g, '_');
-				var curURL = 'http://en.wikipedia.org/wiki/' + resultTerms;
-				//Use jQuery's append() function to add the searchResults to the DOM
-				//The argument for the append function will be a string of HTML
-				$("#resultsTarget").append(
-					"<p class='wikiResults'>" +
-						"<a href=" + curURL + ">" +
-							searchResults[i] +
-						"</a>" +
-					"</p>"
-				);
-			}
+			//Use the Undesrcore Template to add the data to the page
+			//Involves 3 steps
+			//(1) Get the template markup - use jQuery's html() function to get the markup
+			var tmplMarkup = $('#tmpl-results').html();
+			//(2) Tell Underscore to render the template with the appropriate data
+			//We're using Underscore's built-in template() method to do this
+			//Also, the key value here, which we're calling 'results', is how we reference the data in the template
+			var compiledTmpl = _.template(tmplMarkup, { results : data[1] });
+			//(3) Update the page
+			//Use jQuery's html() method to add the markup to the appropriate div
+			$("#resultsTarget").html(compiledTmpl);
 		}
 	});
 };
