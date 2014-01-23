@@ -7,8 +7,8 @@ Instructor: Craig Protzel
 Email: craig.protzel@nyu.edu  
 Office Hours: TBD
 
-Class Email List  
-Class Blog List  
+[Class Email List](https://groups.google.com/forum/#!forum/itp-mashups)  
+[Class Blog List](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
 
 Course Description
 ------------------
@@ -70,7 +70,7 @@ Syllabus
 * Lecture Slides
 * References
   * [Programmable Web](http://programmableweb.com)
-  * [Codecaademy API Tutorials](http://www.codecademy.com/tracks/apis)
+  * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
   * [IFTT Recipes](https://ifttt.com/recipes)
   * [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
@@ -103,28 +103,37 @@ Syllabus
 
 ##### Discussion - Week 1 Homework
 
-##### Lecture - HTML & CSS
+##### Workshop - HTML & CSS
 
-##### Exercise - Pair Programming - Re-create the ITP home page 
+##### Exercise - Pair Programming - Re-create the ITP home page
 
-##### Lecture - Intro to Javascript
+##### Workshop - Intro to Javascript
+
+##### Discussion - Assignment #1
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
 * Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions  
-* Create & Upload -
+* Complete & Upload - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html)
+* Think & Post - idea(s) for Assignment #1
 * Additional Readings
+  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
   * [JS For Cats](http://jsforcats.com/)
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
 
 ### Week 3 (02/13): Making Things Happen On The Page - Javascript + jQuery
 
+##### Exercise - JS Function
+
 ##### Discussion - Week 2 Homework
 
-##### Lecture - Making Things Happen On The Page - Javascript + jQuery
-
-##### Review - Wikipedia Search API  
+##### Workshop - Javascript + jQuery
+* AJAX
+* Loops
+* Selectors
+* Events
+* [PeopleInSpace Example 1](https://github.com/craigprotzel/Mashups/tree/master/PeopleInSpace/Example%201)
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
 * [WikiSearch Example 4](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%204)
@@ -133,11 +142,12 @@ Syllabus
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
+* Create & Upload 
 
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
 
-##### Lecture - OOP in JS + Client-Side Templates
+##### Workshop - OOP in JS + Underscore & Client-Side Templates
 
 ##### Review - NY Times + Instagram API Mashup
 * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
@@ -158,14 +168,13 @@ Syllabus
 
 ### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
 
-##### Assignment #1 Presentations
+##### Presentations - Assignment #1
 
 ##### Martin Bravo - "Going From 0 to 1" 
 * References
 
 ##### Homework
-* Read - ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
-
+* Read - [Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 
 ### Week 6 (03/06): Graphs on Graphs on Graphs + Guest Talk by Jeremy Scott Diamond
 API - Sunlight Foundation
@@ -226,6 +235,7 @@ Helpful Links
 * Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)
   
 #### JS  
+* ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript#types)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/?utm_source=javascriptweekly&utm_medium=email)

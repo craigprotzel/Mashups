@@ -13,7 +13,7 @@ var spaceData = {};
 //Define the url for the API call
 var url = "http://api.open-notify.org/astros.json";
 
-//Define the funnction to execute the AJAX call
+//Define a function to execute the AJAX call
 function getSpaceData() {
 	"use strict";
 
@@ -34,6 +34,5 @@ function getSpaceData() {
 	});
 }
 
-//Execute the wikipedia API call function with the correct argument
+//Execute the function to make the AJAX call
 getSpaceData();
-
