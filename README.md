@@ -83,7 +83,7 @@ Syllabus
 ##### Homework
 * Sign Up - for class email list [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
 * Add -  your blog URL to the [class blog list](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html) up to but not including the section on Javascript
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on Javascript
 * Download - a text editor
 * Donwload - a JSON formatter for the browser
 * Explore - [ProgrammableWeb](http://programmableweb.com)
@@ -107,10 +107,10 @@ Syllabus
 
 ##### Exercise - Pair Programming - Re-create the ITP home page 
 
-##### Lecture - Intro to JS
+##### Lecture - Intro to Javascript
 
 ##### Homework
-* Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/ch03.html#_javascript) up to but not including the section on SVGs
+* Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
 * Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions  
 * Create & Upload -
 * Additional Readings
@@ -118,11 +118,11 @@ Syllabus
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
 
 
-### Week 3 (02/13): Interaction On The Page - Javascript with jQuery
+### Week 3 (02/13): Making Things Happen On The Page - Javascript + jQuery
 
 ##### Discussion - Week 2 Homework
 
-##### Lecture - Interaction On The Page - Javascript with jQuery
+##### Lecture - Making Things Happen On The Page - Javascript + jQuery
 
 ##### Review - Wikipedia Search API  
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
