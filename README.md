@@ -142,19 +142,19 @@ Syllabus
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
-* Create & Upload 
+* Create & Upload - 
 
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
 
 ##### Workshop - OOP in JS + Underscore & Client-Side Templates
 
-##### Review - NY Times + Instagram API Mashup
+##### NY Times + Instagram API Mashup
 * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
 * [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
 * [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
 
-##### Review - Wikipedia Search API
+##### Wikipedia Search API
 * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
 * [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
 
@@ -162,6 +162,7 @@ Syllabus
 
 ##### Homework
 * DUE - Assignment #1
+* Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
@@ -170,7 +171,7 @@ Syllabus
 
 ##### Presentations - Assignment #1
 
-##### Martin Bravo - "Going From 0 to 1" 
+##### Martin Bravo - "Going From 0 to 1"
 * References
 
 ##### Homework
@@ -184,7 +185,7 @@ API - Sunlight Foundation
 
 
 ### Week 7 (03/13): A Blank Canvas - PaperJS & P5
-API - Xively
+API - Xively & Google Maps
 
 
 ### Week 8 (03/27):  - Video & PopcornJS   
@@ -195,7 +196,7 @@ API - Youtube & Vimeo
 
 ##### Assignment #2 Presentations
 
-##### Steve Klise - "TBD" 
+##### Steve Klise - "TBD"
 * References
 
 
