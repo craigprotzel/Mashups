@@ -105,7 +105,7 @@ Syllabus
 
 ##### Workshop - HTML & CSS
 
-##### Exercise - Pair Programming - Re-create the ITP home page
+##### Exercise - Pair Programming
 
 ##### Workshop - Intro to Javascript
 
@@ -120,6 +120,7 @@ Syllabus
   * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
   * [JS For Cats](http://jsforcats.com/)
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
+  * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
 
 ### Week 3 (02/13): Making Things Happen On The Page - Javascript + jQuery
@@ -142,7 +143,8 @@ Syllabus
 * Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
-* Create & Upload - 
+* Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
+* Create & Upload - a single web page that uses AJAX to load data from a public web api, your work should include an .html file, a .css file, and a .js file
 
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
@@ -162,12 +164,11 @@ Syllabus
 
 ##### Homework
 * DUE - Assignment #1
-* Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 5 (02/27): Assignment #1 Due + Guest Talk by Martin Bravo 
+### Week 5 (02/27): Assignment #1 DUE + Guest Talk by Martin Bravo 
 
 ##### Presentations - Assignment #1
 
@@ -178,23 +179,41 @@ Syllabus
 * Read - [Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 
 ### Week 6 (03/06): Graphs on Graphs on Graphs + Guest Talk by Jeremy Scott Diamond
-API - Sunlight Foundation
 
-##### Jeremy Scott Diamond - "D3" 
+##### Data Visulaization Tools
+* [Google Charts](https://developers.google.com/chart/)
+* [ChartJS](http://www.chartjs.org/)
+* [D3JS](http://d3js.org/)
+
+APIs - Sunlight Labs
+
+##### Jeremy Scott Diamond - "Working With D3" 
 * References
 
 
-### Week 7 (03/13): A Blank Canvas - PaperJS & P5
-API - Xively & Google Maps
+### Week 7 (03/13): A Blank Canvas
+
+##### Animation Tools
+* [RafaelJS](http://raphaeljs.com/)
+* [PaperJS](http://paperjs.org/)
+* [P5](https://github.com/lmccart/p5.js)
+
+APIs - Xively & Google Maps
 
 
-### Week 8 (03/27):  - Video & PopcornJS   
-API - Youtube & Vimeo
+### Week 8 (03/27): Video & PopcornJS 
+
+##### Video Tools 
+* [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
+* [VideoJS](http://www.videojs.com/) 
+* [PopcornJS](http://popcornjs.org/)
+
+APIs - Youtube & Vimeo
 
 
-### Week 9 (04/03): Assignment #2 Due + Guest Talk by Steve Klise
+### Week 9 (04/03): Assignment #2 DUE + Guest Talk by Steve Klise
 
-##### Assignment #2 Presentations
+##### Presentations - Assignment #2
 
 ##### Steve Klise - "TBD"
 * References
@@ -224,24 +243,32 @@ API - Twitter
 
 Helpful Links
 ------------------
-#### General Web  
-* Mozilla - [Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
-* Share Some Code  - [JS Fiddle](http://jsfiddle.net/)
+
+#### General Web
+* [Mozilla Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+* [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code
 * [11 Phases of a Web Developer's Career](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
+* [Wappalyzer](http://wappalyzer.com/) - browser plug-in to quickly identify a site's software
 
 #### HTML
-* Create a Favicon - [Favicon Generator](http://www.favicon.cc/)
+* [Favicon Generator](http://www.favicon.cc/)
 
 #### CSS
-* Set Page Background to a Full Image - [CSS Tricks](http://css-tricks.com/perfect-full-page-background-image/)
-  
-#### JS  
+* [CSS Tricks - Set Page Background to a Full Image](http://css-tricks.com/perfect-full-page-background-image/)
+
+#### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript#types)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/?utm_source=javascriptweekly&utm_medium=email)
+* [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [Lear X in Y Minutes - Javascript](http://learnxinyminutes.com/docs/javascript/)
+* [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
+
 
 #### APIs
+* ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
+* ["A REST Tutorial"](http://rest.elkstein.org/)
 
 
 
