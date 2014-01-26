@@ -144,7 +144,7 @@ Syllabus
 * Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
-* Create & Upload - a single web page that uses AJAX to load data from a public web api, your work should include an .html file, a .css file, and a .js file
+* Create & Upload - a single web page that uses AJAX to load data from a public web api, your work should include a .html file, a .css file, and a .js file
 
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
