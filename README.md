@@ -53,9 +53,9 @@ Grading
 Syllabus
 --------
 
-##### Part I: Weeks 1 - 5 Client-Side Web + API Fundamentals
-##### Part II: Weeks 6 - 9 Client-Side Javascript Frameworks 
-##### Part III: Weeks 10 - 14 Server-Side Web + Final Project 
+* **PART I: Weeks 1 - 5 Client-Side Web + API Fundamentals**
+* **PART II: Weeks 6 - 9 Client-Side Javascript Frameworks** 
+* **PART III: Weeks 10 - 14 Server-Side Web + Final Project** 
 
 ### Week 1 (01/30) - The Web, APIs, & Data
 
