@@ -262,9 +262,9 @@ Helpful Links
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
-* [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript#types)
+* [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
-* [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices/?utm_source=javascriptweekly&utm_medium=email)
+* [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [Lear X in Y Minutes - Javascript](http://learnxinyminutes.com/docs/javascript/)
 * [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
