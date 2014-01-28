@@ -172,7 +172,9 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 5 (02/27): Assignment #1 DUE + Guest Talk by Martin Bravo 
+### Week 5 (02/27*): Assignment #1 DUE + Guest Talk by Martin Bravo 
+
+###### NEED TO RESCHEDULE CLASS DATE
 
 ##### Presentations - Assignment #1
 
