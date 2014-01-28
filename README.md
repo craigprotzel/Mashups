@@ -215,19 +215,19 @@ APIs - Xively & Google Maps
 APIs - Youtube & Vimeo
 
 
-### Week 9 (04/03): Assignment #2 DUE + Guest Talk by Steve Klise
+### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
+
+
+### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
+API - CouchDB
 
 ##### Steve Klise - "TBD"
 * References
 
 
-### Week 10 (04/10): The Other Side - Server & Routes
-API - Fitbit
-
-
-### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
+### Week 11 (04/17): Re-Introduce Ourselves - OAuth + Final Project Proposal
 API - Twitter
 
 
