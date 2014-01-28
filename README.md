@@ -60,10 +60,10 @@ Syllabus
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro
+* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
-* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
-* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 
 ##### Review Course Info & Syllabus
 
@@ -217,25 +217,25 @@ APIs - Xively & Google Maps
 APIs - Youtube & Vimeo
 
 
-### Week 9 (04/03): Assignment #2 DUE + Guest Talk by Steve Klise
+### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
+
+
+### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
+API - CouchDB
 
 ##### Steve Klise - "TBD"
 * References
 
 
-### Week 10 (04/10): The Other Side - Server & Routes
-API - Fitbit
-
-
-### Week 11 (04/17): Re-Introduce Ourselves - OAuth & Passport + Final Project Proposal
+### Week 11 (04/17): Re-Introduce Ourselves - OAuth + Final Project Proposal
 API - Twitter
 
 
 ### Week 12 (04/24): Running Wild - Heroku + Guest Talk by Miguel Bermudez
 
-##### Miguel Bermudez - "MVC" 
+##### Miguel Bermudez - "TBD" 
 * References
 
 
@@ -255,12 +255,16 @@ Helpful Links
 * [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code
 * [11 Phases of a Web Developer's Career](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 * [Wappalyzer](http://wappalyzer.com/) - browser plug-in to quickly identify a site's software
+* [URL Encoding](http://www.blooberry.com/indexdot/html/topics/urlencoding.htm) or 'What are those "%20" codes in URLs'?
+* [Favicon Generator](http://www.favicon.cc/)
+
 
 #### HTML
-* [Favicon Generator](http://www.favicon.cc/)
+
 
 #### CSS
 * [CSS Tricks - Set Page Background to a Full Image](http://css-tricks.com/perfect-full-page-background-image/)
+
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
