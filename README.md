@@ -60,10 +60,10 @@ Syllabus
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro
+* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
-* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
-* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 
 ##### Review Course Info & Syllabus
 
@@ -233,7 +233,7 @@ API - Twitter
 
 ### Week 12 (04/24): Running Wild - Heroku + Guest Talk by Miguel Bermudez
 
-##### Miguel Bermudez - "MVC" 
+##### Miguel Bermudez - "TBD" 
 * References
 
 
