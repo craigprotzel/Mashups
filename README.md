@@ -60,8 +60,8 @@ Syllabus
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro
-* [Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
-* [Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
+* [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [ITP Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
@@ -73,6 +73,7 @@ Syllabus
 
 * Lecture Slides
 * References
+  * [What's In An HTTP Request](http://rve.org.uk/dumprequest)
   * [Programmable Web](http://programmableweb.com)
   * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
   * [Temboo](https://www.temboo.com/)
@@ -89,7 +90,7 @@ Syllabus
 * Add -  your blog URL to the [class blog list](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on Javascript
 * Download - a text editor
-* Donwload - a JSON formatter for the browser
+* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
 * Create & Upload - a single web page that displays (some of) the data you found with some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data 
