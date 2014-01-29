@@ -17,6 +17,7 @@ Much data and many services are now accessible through public APIs - Application
 
 This class is about building interactive single-page web applications that leverage public data from a range of existing web services. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Much of class time will be spent reviewing and writing code, mostly Javascript, for front-end (in-browser) web development. We will use a number of frameworks, including JQuery, Underscore, PaperJs, and D3. Where backend work is required, we will use Node-Express. Students should have some programming experience (ICM) as well as a basic understanding of web development (Comm Lab Web). Experience with Javascript is a plus.
 
+
 Course Goals
 ------------
 
@@ -26,7 +27,6 @@ Course Goals
 * Learn how to create web pages in modern browsers that leverage data from web services via public web APIs
 * Gain exposure to server-side web development
 * Be empowered to produce compelling single page web experiences
-
 
 
 Course Requirements
@@ -46,16 +46,16 @@ Grading
 --------
 
 **25%**  Attendance & Class Participation  
-**25%**  Homework Exercises    
+**25%**  Homework  
 **25%**  Assignments #1 & #2  
-**25%**  Final Project
+**25%**  Final Project  
 
 Syllabus
 --------
 
 * **PART I: Weeks 1 - 5 Client-Side Web + API Fundamentals**
-* **PART II: Weeks 6 - 9 Client-Side Javascript Frameworks** 
-* **PART III: Weeks 10 - 14 Server-Side Web + Final Project** 
+* **PART II: Weeks 6 - 9 Client-Side Javascript Frameworks**
+* **PART III: Weeks 10 - 14 Server-Side Web + Final Project**
 
 ### Week 1 (01/30) - The Web, APIs, & Data
 
@@ -209,7 +209,7 @@ APIs - Xively & Google Maps
 
 ### Week 8 (03/27): Moving Pictures
 
-##### Video Tools 
+##### Video Tools
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [VideoJS](http://www.videojs.com/) 
 * [PopcornJS](http://popcornjs.org/)
@@ -223,17 +223,17 @@ APIs - Youtube & Vimeo
 
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
-API - CouchDB
+[API - CouchDB](http://couchdb.apache.org/)
 
 ##### Steve Klise - "TBD"
 * References
 
 
-### Week 11 (04/17): Re-Introduce Ourselves - OAuth + Final Project Proposal
+### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
 API - Twitter
 
 
-### Week 12 (04/24): Running Wild - Heroku + Guest Talk by Miguel Bermudez
+### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
 ##### Miguel Bermudez - "TBD" 
 * References
@@ -279,6 +279,3 @@ Helpful Links
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
 * ["A REST Tutorial"](http://rest.elkstein.org/)
-
-
-

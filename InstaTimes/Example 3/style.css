@@ -18,6 +18,7 @@ button{
 	float: left;
 	margin: 0 5px 10px 0;
 	width: 320px;
+	height: 320px;
 }
 
 .articleTitle{
