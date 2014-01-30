@@ -61,6 +61,7 @@ Syllabus
 
 ##### Class Intro
 * [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [ITP Write Once Access Anywhere by Corey Menscher](http://menscher.com/teaching/woaa/)
 * [ITP Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
@@ -71,7 +72,7 @@ Syllabus
 
 ##### Lecture: The Web, APIs, & Data
 
-* Lecture Slides
+* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_TheWebAPIsData_LectureSlides.pdf)
 * References
   * [What's In An HTTP Request](http://rve.org.uk/dumprequest)
   * [Programmable Web](http://programmableweb.com)
@@ -81,6 +82,7 @@ Syllabus
   * [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
   * [OpenWeatherMap API](http://openweathermap.org/API)
   * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
+  * [Data.Nasa.gov API](http://data.nasa.gov/api-info/)
   * [Open-Notify.org](http://open-notify.org/)
   * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
