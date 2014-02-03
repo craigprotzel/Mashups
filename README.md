@@ -5,10 +5,11 @@ NYU ITP Spring 2014
 Class: Thursdays 6:30 - 9pm  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours: Thursdays 10:30am - 2:30pm [SIGN UP HERE](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
+Office Hours: [Thursdays 10:30am - 2:30pm](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
 
 [Class Email List](https://groups.google.com/forum/#!forum/itp-mashups)  
-[Class Blog List](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
+[Class Blog List](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)  
+[Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
 
 Course Description
 ------------------
