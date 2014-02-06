@@ -1,0 +1,69 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#topLeftBox { 
+	position: absolute;
+	background-color: rgb(254, 169, 0);
+	width: 200px; 
+	height: 200px; 
+	top: 0px; 
+	left: 0px; 
+}
+
+#headerBox{
+	position:fixed;
+	background-color: rgba(50,50,50,0.5);
+	width: 100%;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	font-size: 22px;
+}
+
+#innerBox{
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	background-color: red;
+	width: 40px;
+	height: 40px;
+}
+
+#middleBox{
+	background-color: aqua;
+	width: 100%;
+	height: 600px;
+}
+
+.rightSideBox{
+	float: right;
+	background-color: blue;
+	width: 50px;
+	height: 150px;
+	margin: 200px 10px;
+}
+
+#bottomBox{
+	background-color: pink;
+	width: 75%;
+	height: 300px;
+	margin: 10px auto;
+}
+
+.roundBox{
+	float: left;
+	clear: left;
+	background-color: rgb(150,250,150);
+	margin: 20px 0 0 20px;
+	width: 100px;
+	height: 40px;
+	border: 4px solid;
+	border-color: yellow;
+	border-radius:25px;
+}
+
+.roundBox:hover{
+	background-color: blue;
+}
