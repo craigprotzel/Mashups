@@ -129,7 +129,7 @@ Syllabus
 * Review
 
 ##### Discussion - Assignment #1 Due Monday 03/03
-* Create a single web page experience that, upon user input, responds with data from a web api. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). Another approach would be to create a mashup that pulls together data from two different apis. An example of this is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from an API, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
+* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
 
 ##### Homework
