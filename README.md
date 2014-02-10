@@ -155,6 +155,7 @@ Syllabus
 * Loops
 * Selectors
 * Events
+* Timers
 * [PeopleInSpace Example 1](https://github.com/craigprotzel/Mashups/tree/master/PeopleInSpace/Example%201)
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
