@@ -189,10 +189,10 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 5 (03/03): Assignment #1 DUE + Guest Talk by Martin Bravo 
+### Week 5 (TBD 02/28 OR 03/03): Assignment #1 DUE + Guest Talk by Martin Bravo 
 
-###### **NOTE RESCHEDULED CLASS DATE**
-###### **CLASS WILL BE 6:30 - 9:00pm MONDAY NIGHT MARCH 3RD**
+###### **TBD NOTE RESCHEDULED CLASS DATE**
+###### **TBD CLASS WILL BE 6:30 - 9:00pm EITHER FRIDAY FEB 28TH OR MONDAY MARCH 3RD**
 
 ##### Presentations - Assignment #1
 
