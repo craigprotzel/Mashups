@@ -169,8 +169,9 @@ Syllabus
 * Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
-  * Mozilla - Intro to Object-Oriented Javascript
-  * Stewart Smith - Prototypal Inheritance
+  * [Stewart Smith - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
+  * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
 
