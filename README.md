@@ -125,10 +125,8 @@ Syllabus
 * Playing with Data Types
 * The Window and the DOM
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial) Example
-* Pair Programming Exercise
-* Review
 
-##### Discussion - Assignment #1 Due Monday 03/03
+##### Discussion - Assignment #1 Due Week 5 Class Date TBD
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
 
@@ -146,30 +144,40 @@ Syllabus
 
 ### Week 3 (02/13): Making Things Happen On The Page - Javascript + jQuery
 
-##### Exercise - JS Function
-
 ##### Discussion - Week 2 Homework
 
 ##### Workshop - Javascript + jQuery
-* AJAX
+* References
+  * [Events and Listeners in Javascript](http://idratherbewriting.com/2013/02/04/events-and-listeners-javascript/)
+  * [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * Loops
+* Functions
 * Selectors
 * Events
+* [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
+* AJAX with jQuery
+* [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
 * [WikiSearch Example 4](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%204)
+* Multiple API calls
 
 ##### Homework
-* Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
-* Read - [jQuery - Manipulating Elements](]http://learn.jquery.com/using-jquery-core/manipulating-elements/)
-* Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
+* Review - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
+* Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
+* Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M)
-* Create & Upload - a single web page that uses AJAX to load data from a public web api, your work should include a .html file, a .css file, and a .js file
-
+* Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
+* Additional Readings
+  * Mozilla - Intro to Object-Oriented Javascript
+  * Stewart Smith - Prototypal Inheritance
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
 
 ##### Workshop - OOP in JS + Underscore & Client-Side Templates
+* Creating Our Own Objects
+* Understanding the Prototype
+* Using Templates
 
 ##### NY Times + Instagram API Mashup
 * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
@@ -188,10 +196,9 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 5 (TBD 02/28 OR 03/03): Assignment #1 DUE + Guest Talk by Martin Bravo 
+### Week 5 (TBD): Assignment #1 DUE + Guest Talk by Martin Bravo 
 
-###### **TBD NOTE RESCHEDULED CLASS DATE**
-###### **TBD CLASS WILL BE 6:30 - 9:00pm EITHER FRIDAY FEB 28TH OR MONDAY MARCH 3RD**
+###### **NOTE CLASS DATE WILL NEED TO BE RESCHEDULED**
 
 ##### Presentations - Assignment #1
 
@@ -292,6 +299,9 @@ Helpful Links
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [Lear X in Y Minutes - Javascript](http://learnxinyminutes.com/docs/javascript/)
 * [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
+* [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
+* [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
+* [Drag and Drop Tutorial - Native HTML5](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragging-events)
 
 
 #### APIs

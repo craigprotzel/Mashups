@@ -19,8 +19,8 @@ function getSpaceData() {
 	For this class, we will use the 'function nameOfFunction() {' syntax 
 	*/
 
-	//Include thE 'use strict;' statement in your functions in quotes with a trailing semicolon
-	//It will require/encourage more uniform js style
+	//Include the 'use strict;' statement in your functions in quotes with a trailing semicolon
+	//It will require/encourage more uniform js style and help with "this"
 	"use strict";
 
 	/*

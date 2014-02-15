@@ -10,11 +10,9 @@ This example will search Wikipedia for a user submitted entry
 And then populate those results on the page using the jQuery 'append' function
 */
 
-//Create a global app object
-var myApp = {};
 
-//Add a method to the global app object that will execute the Wikipedia AJAX call
-myApp.searchWikipedia = function(currentTerm){
+//Create a function that will execute the Wikipedia AJAX call
+var searchWikipedia = function(currentTerm){
 	var url =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 	$.ajax({
 		url: url + currentTerm,
@@ -67,7 +65,7 @@ $(document).ready(function(){
 		var newSearchTerm = $("#query").val();
 		console.log(newSearchTerm);
 		//Execute the Wikipedia API call with the 'newSearchTerm' string as its argument 
-		myApp.searchWikipedia(newSearchTerm);
+		searchWikipedia(newSearchTerm);
 	});
 
 	//What if someone just wants to click "ENTER"?

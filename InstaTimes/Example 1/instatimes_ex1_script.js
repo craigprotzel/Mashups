@@ -40,6 +40,7 @@ $(document).ready(function(){
 				"<img class='articleImg' src=" + testArticle.img +">" +
 			"</div>"
 		);
+		console.log(testArticle);
 	});
-	console.log(testArticle);
+	
 });

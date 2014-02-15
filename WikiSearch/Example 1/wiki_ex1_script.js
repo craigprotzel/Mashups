@@ -15,12 +15,30 @@ var url = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&searc
 //Define an intial search term
 var currentWord = "dogs";
 
-//Define a funnction to execute the AJAX call
+//Define a function to execute the AJAX call
 //The argument will be the desired search term
 function searchWikipedia(word) {
 	"use strict";
 
-	//Use jQuery to make the AJAX call
+	/*
+	Use jQuery's ajax method to get the data
+
+	The jQuery ajax method can accept an object as its argument
+		$.ajax(objectGoesHere)
+
+	In the example below, we define/pass-in an object that has 5 properties
+		- url
+		- type
+		- dataType
+		- error
+		- success
+	See the jQuery documentation for a full list of acceptable properties
+	http://api.jquery.com/jquery.ajax/
+
+	For even more abstraction, see the jQuery $.getJSON() method
+	http://api.jquery.com/jQuery.getJSON/
+	*/
+
 	$.ajax({
 		url: url + word,
 		type: 'GET',
