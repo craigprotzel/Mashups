@@ -163,13 +163,13 @@ Syllabus
 * Multiple API calls
 
 ##### Homework
-* Review - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
-* Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
-* Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
-* Watch - [The Definitive Guide to Object-Oriented Javascript](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be implementing the "Classical" pattern in class)
+* Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
+* Read - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
+* Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
+* Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9min)](http://www.nyu.edu/its/lynda/)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
-  * Stewart Smith - [Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html) + [Javascript Basics - Objects Section](http://stewd.io/javascript/01-1-javascript.html)
+  * Stewart Smith - [Javascript Basics - Objects Section](http://stewd.io/javascript/01-1-javascript.html) + [Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 
 
@@ -193,6 +193,7 @@ Syllabus
 
 ##### Homework
 * DUE - Assignment #1
+* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be implementing the "Classical" pattern in class)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
@@ -282,6 +283,7 @@ Helpful Links
 * [Wappalyzer](http://wappalyzer.com/) - browser plug-in to quickly identify a site's software
 * [URL Encoding](http://www.blooberry.com/indexdot/html/topics/urlencoding.htm) or 'What are those "%20" codes in URLs'?
 * [Favicon Generator](http://www.favicon.cc/)
+* [Can I Use](http://caniuse.com/)
 
 
 #### HTML
