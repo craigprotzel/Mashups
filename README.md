@@ -163,9 +163,9 @@ Syllabus
 * Multiple API calls
 
 ##### Homework
-* Read - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
-* Read - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
-* Read - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
+* Review - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
+* Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
+* Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9min)](http://www.nyu.edu/its/lynda/)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
