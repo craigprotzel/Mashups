@@ -167,6 +167,7 @@ Syllabus
 * Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9min)](http://www.nyu.edu/its/lynda/)
+* Get API Keys for both the [NY Times API](http://developer.nytimes.com/) and the [Instagram API](http://instagram.com/developer/)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
   * Stewart Smith - [Javascript Basics - Objects Section](http://stewd.io/javascript/01-1-javascript.html) + [Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
@@ -189,7 +190,8 @@ Syllabus
 * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
 * [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
 
-##### Josh Begley - "TBD"
+##### Josh Begley - Guest Speaker
+*  [JoshBegley.com](http://joshbegley.com/)
 
 ##### Homework
 * DUE - Assignment #1
