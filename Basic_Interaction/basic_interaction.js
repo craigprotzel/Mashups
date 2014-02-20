@@ -1,5 +1,4 @@
 //******Homework Exercises******
-
 //----Exercise 1----
 //Define the function
 function hashtagMtn(mtnTop){
@@ -57,12 +56,9 @@ function makeBoard(rows, cols){
 }
 //Call the function
 //makeBoard(6,4);
-
 //var myChessBoard = makeBoard(3, 10);
 
-
 //******Elements & Selectors******
-
 //JS Approach
 /*
 var chessBoard = document.getElementById('chessBoard');
@@ -86,7 +82,6 @@ $('#chessBoard').addClass('chessBoardStyle');
 */
 
 //******Functions******
-
 function notify(){
 	console.log("You clicked me");
 }
