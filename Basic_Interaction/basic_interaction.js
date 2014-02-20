@@ -41,15 +41,15 @@ function makeBoard(rows, cols){
 		var msg = "";
 		if (i%2 === 0){
 			for (var j = 0; j < cols; j++){
-			msg += "#----";
-		}
+				msg += "#----";
+			}
 		msg += "<br>";
-	}
+		}
 		else {
 			for (var k = 0; k < cols; k++){
 				msg += "--#--";
 			}
-			msg += "<br>";
+		msg += "<br>";
 		}
 		wholeBoard += msg;
 	}

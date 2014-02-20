@@ -154,7 +154,6 @@ Syllabus
 * Functions
 * Selectors
 * Events
-* [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
 * [AJAX with jQuery](http://learn.jquery.com/ajax/)
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
@@ -176,19 +175,16 @@ Syllabus
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
 
-##### Workshop - OOP in JS + Underscore & Client-Side Templates
+##### Discussion - Week 3 Homework
+
+##### Workshop - OOP in JS 
 * Creating Our Own Objects
 * Understanding the Prototype
-* Using Templates
-
-##### NY Times + Instagram API Mashup
-* [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
-* [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
-* [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
-
-##### Wikipedia Search API
-* [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
-* [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
+* [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
+* NY Times + Instagram API Mashup
+  * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
+  * [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
+  * [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
 
 ##### Josh Begley - Guest Speaker
 *  [JoshBegley.com](http://joshbegley.com/)
@@ -200,14 +196,19 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 
 
-### Week 5 (TBD): Assignment #1 DUE + Guest Talk by Martin Bravo 
+### Week 5 (03/02): Assignment #1 DUE + Guest Talk by Martin Bravo 
 
-###### **NOTE CLASS DATE WILL NEED TO BE RESCHEDULED**
+###### **NOTE CLASS DATE HAS BEEN RESCHEDULED FOR SUNDAY 03/02 2:30PM**
 
 ##### Presentations - Assignment #1
 
 ##### Martin Bravo - "Going From 0 to 1"
-* References
+* Modularity
+* Underscore
+* Client-Side Templates
+* Additional Examples
+  * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
+  * [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
 
 ##### Homework
 * Read - [Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
