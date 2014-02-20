@@ -194,6 +194,8 @@ Syllabus
 * Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be implementing the "Classical" pattern in class)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
+* Additional Reading
+  * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
 
 
 ### Week 5 (03/02): Assignment #1 DUE + Guest Talk by Martin Bravo 
