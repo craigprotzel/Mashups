@@ -155,7 +155,7 @@ Syllabus
 * Selectors
 * Events
 * [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
-* AJAX with jQuery
+* [AJAX with jQuery](http://learn.jquery.com/ajax/)
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 * [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
 * [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
@@ -312,3 +312,5 @@ Helpful Links
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
 * ["A REST Tutorial"](http://rest.elkstein.org/)
+* [Stack Overflow - What is JSONP ALl About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
+* [CORS - Cross Origin Resource Sharing](http://enable-cors.org/)
