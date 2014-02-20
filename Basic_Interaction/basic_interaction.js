@@ -1,4 +1,5 @@
 //******Homework Exercises******
+
 //----Exercise 1----
 //Define the function
 function hashtagMtn(mtnTop){
@@ -69,7 +70,6 @@ myBoardContainer.innerHTML = myChessBoard;
 chessBoard.appendChild(myBoardContainer);
 
 window.onload = function(){
-
 	console.log("Loaded!!!");
 	$('#chessBoard').html(myChessBoard);
 }
@@ -138,7 +138,7 @@ $(document).ready(function(){
 	}, false);
 	*/
 
-	//JQuery Approach
+	//jQuery Approach
 	$('#chessBoardButton').click(function(){
 		notify();
 
@@ -169,7 +169,6 @@ $(document).ready(function(){
 		else{
 			$(".boxBottom").addClass("extraBox");
 		}
-
 	});
 });
 
