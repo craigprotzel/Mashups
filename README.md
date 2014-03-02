@@ -209,7 +209,7 @@ Syllabus
 * Process
 * Development Tips
   * Underscore Data Manipulation
-  * Underscore Templats
+  * Underscore Templates
 * Additional Examples
   * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
   * [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
