@@ -10,6 +10,7 @@ Developer Keys for BOTH APIs are necessary to execute the final script
 
 Example 2:
 - Add in NY Times API request functionality
+- Create a global array to hold any objects
 - Create InstaTimesArticle objects within the NY Times function
 */
 

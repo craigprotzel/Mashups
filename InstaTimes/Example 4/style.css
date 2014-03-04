@@ -1,0 +1,43 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(240,240,240);
+	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+button{
+	font-size: 16px;
+	width: 260px;
+	height: 50px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.articleBox{
+	float: left;
+	margin: 0 5px 10px 0;
+	width: 320px;
+	height: 320px;
+}
+
+.articleTitle{
+	font-family: georgia;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 22px;
+	margin: 15px 0 2px;
+}
+
+.articleImg{
+	float: left;
+	margin-right: 5px;
+}
+
+.articleText{
+	font-family: 'times new roman';
+}
+
+.bordered{
+	background-color: yellow;
+}

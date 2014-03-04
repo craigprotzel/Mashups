@@ -8,9 +8,8 @@ NY Times API Reference - http://developer.nytimes.com/page
 Instagram API Reference - http://instagram.com/developer/
 Developer Keys for BOTH APIs are necessary to execute the final script
 
-Example 3:
-- Add in Instagram API request functionality
-- Use global array to loop through existing objects and add data to them
+Example 4:
+- Add Events directly to the objects
 */
 
 //Create a constructor function for the main object
@@ -19,10 +18,50 @@ Example 3:
 //Set the img property to an empty string
 function InstaTimesArticle(curHeadline, curSnippet){
 	"use strict";
+	var ITA = this;
+	ITA.title = curHeadline;
+	ITA.text = curSnippet;
+	ITA.img = "";
 
-	this.title = curHeadline;
-	this.text = curSnippet;
-	this.img = "";
+	ITA.createDomElement = function(){
+		//This is one long string of HTML markup broken into multiple lines for readability
+		var htmlString = "<div class='articleBox'>" +
+							"<p class='articleTitle'>" +
+								ITA.title +
+							"</p>" +
+							"<div class='contentBox'>" +
+								"<img class='articleImg' src=" + ITA.img + ">" +
+								"<p class='articleText'>" +
+									ITA.text+
+								"</p>" +
+							"</div>" +
+						"</div>";
+		//using .appendTo returns the (jquery wrapped) element that is created, so you can save it to the object
+		ITA.element = $(htmlString).appendTo("#latestUpdates");
+		//assign events to object functions
+		ITA.element.on('click',ITA.eventAction);
+		ITA.element.on('mouseover',ITA.elementOver);
+		ITA.element.on('mouseout',ITA.elementOut);
+	};
+
+	ITA.eventAction = function(){
+		//show some info in console
+		console.log(ITA.title);
+		//animate the dom element, fade-out and fade-in
+		ITA.element.stop().animate({opacity:0.5},555,'swing',
+			function(){ ITA.element.stop().animate({opacity:1},555,'swing');
+		});
+	};
+
+	ITA.elementOver = function(){
+		//add border (assuming there is a class in css that gives a border)
+		ITA.element.addClass('bordered');
+	};
+
+	ITA.elementOut = function(){
+		//remove border
+		ITA.element.removeClass('bordered');
+	};
 }
 
 //Create a global array to hold all the InstaTimesArticle objects
@@ -104,20 +143,8 @@ function getInstagramData() {
 				instagramData = data.data;
 				for (var i = 0; i < instaTimes.length; i++){
 					instaTimes[i].img = instagramData[i].images.thumbnail.url;
-					$("#latestUpdates").append(
-						//This is one long string of HTML markup broken into multiple lines for readability
-						"<div class='articleBox'>" +
-							"<p class='articleTitle'>" +
-								instaTimes[i].title +
-							"</p>" +
-							"<div class='contentBox'>" +
-								"<img class='articleImg' src=" + instaTimes[i].img + ">" +
-								"<p class='articleText'>" +
-									instaTimes[i].text+
-								"</p>" +
-							"</div>" +
-						"</div>"
-					);
+					//Let the object handle this, that way it can keep track of it's associated components.
+					instaTimes[i].createDomElement();
 				}
 			}
 		}
