@@ -28,7 +28,7 @@ Create a single web page experience that, upon user input, responds with data fr
 * Jeff Ong - [City Tunes](http://www.jffng.com/ITP/Mashups/citytunes/)
   * [EchoNest](http://developer.echonest.com/)
   * [SoundCloud](http://developers.soundcloud.com/docs)
-* Jiwon Yoon - 
+* Jiwon Yoon - [Selfolitics](http://jiwonyoonworks.com/web/selfolitics.html)
   * [USA Today](http://developer.usatoday.com/)
   * [Instagram](http://instagram.com/developer/)
 * Jorge Brake - [NY Times Events Cool Map](http://itp.nyu.edu/~jab680/apis/coolmap/)
