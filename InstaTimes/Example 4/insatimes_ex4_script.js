@@ -10,6 +10,9 @@ Developer Keys for BOTH APIs are necessary to execute the final script
 
 Example 4:
 - Add Events directly to the objects
+
+Code for this example was contributed by Jeremy Scott-Diamond
+https://github.com/JSDiamond
 */
 
 //Create a constructor function for the main object
