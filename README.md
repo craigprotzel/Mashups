@@ -217,10 +217,7 @@ Syllabus
 ##### Homework
 * Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 
-### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott Diamond
-
-##### Discussion - Assignment #2 Due Week 
-* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.). Your completed assignment should include a .html file, a .css file, and a .js file. 
+### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
 
 ##### [Sunlight Foundation API}(http://sunlightfoundation.com/api/)
 
@@ -230,12 +227,16 @@ Syllabus
 * Using Underscore
 * Using Templates
 * Managing Asynchronicity
+* WhatsUpCongress Examples
 
-##### Jeremy Scott Diamond - "Working With D3" 
+##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
 * [D3JS](http://d3js.org/)
 * Additional Tools
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
+
+##### Discussion - Assignment #2 Due Week 9 Class (04/03) 
+* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
 
 ##### Homework
 * Play with D3   
@@ -250,7 +251,7 @@ Syllabus
 
 ##### Homework
 * Play with an Animation Library   
-* Look at the Web Audio API and PopcornJS  
+* Look at the Web Audio API and Video Libraries  
 
 ### Week 8 (03/27): Moving Pictures & Sound
 
