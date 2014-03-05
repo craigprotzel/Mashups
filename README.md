@@ -226,7 +226,7 @@ Syllabus
   * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
   * Regular Expressions
     * [MDN - Regular Expression Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)     
-    * [Rubular](http://rubular.com/) - web-based regular expression editor
+    * [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
     * [Regular Expression Cheat Sheet](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
 * Wotking with Arrays & Objects
 * Using Underscore
@@ -341,5 +341,5 @@ Helpful Links
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
 * ["A REST Tutorial"](http://rest.elkstein.org/)
-* [Stack Overflow - What is JSONP ALl About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
+* [Stack Overflow - What is JSONP All About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
 * [CORS - Cross Origin Resource Sharing](http://enable-cors.org/)
