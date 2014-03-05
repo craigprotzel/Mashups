@@ -126,7 +126,7 @@ Syllabus
 * The Window and the DOM
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial) Example
 
-##### Discussion - Assignment #1 Due Week 5 Class Date TBD
+##### Discussion - Assignment #1 Due Week 5 Class (03/02) 
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
 
@@ -217,43 +217,59 @@ Syllabus
 ##### Homework
 * Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 
-### Week 6 (03/06): Graphs on Graphs on Graphs + Guest Talk by Jeremy Scott Diamond
+### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott Diamond
 
-##### Data Visulaization Tools
-* [Google Charts](https://developers.google.com/chart/)
-* [ChartJS](http://www.chartjs.org/)
-* [D3JS](http://d3js.org/)
+##### Discussion - Assignment #2 Due Week 
+* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
-APIs - Sunlight Labs
+##### [Sunlight Foundation API}(http://sunlightfoundation.com/api/)
+
+##### Managing the Data
+* Manipulating Strings
+* Wotking with Arrays & Objects
+* Using Underscore
+* Using Templates
+* Managing Asynchronicity
 
 ##### Jeremy Scott Diamond - "Working With D3" 
-* References
+* [D3JS](http://d3js.org/)
+* Additional Tools
+  * [Google Charts](https://developers.google.com/chart/)
+  * [ChartJS](http://www.chartjs.org/)
 
+##### Homework
+* Play with D3   
+* Look at the P5js & PaperJS libraries
 
 ### Week 7 (03/13): A Blank Canvas
 
 ##### Animation Tools
+* [P5](https://github.com/lmccart/p5.js)
 * [RafaelJS](http://raphaeljs.com/)
 * [PaperJS](http://paperjs.org/)
-* [P5](https://github.com/lmccart/p5.js)
 
-API - Xively
+##### Homework
+* Play with an Animation Library   
+* Look at the Web Audio API and PopcornJS  
 
+### Week 8 (03/27): Moving Pictures & Sound
 
-### Week 8 (03/27): Moving Pictures
+##### Audio
+* Web Audio API
 
-##### Video Tools
+##### Video
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [VideoJS](http://www.videojs.com/) 
 * [PopcornJS](http://popcornjs.org/)
 
 APIs - Youtube & Vimeo
 
+##### Homework
+* DUE - Assignment #2
 
 ### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
-
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 [API - CouchDB](http://couchdb.apache.org/)
