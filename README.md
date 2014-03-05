@@ -220,7 +220,7 @@ Syllabus
 ### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott Diamond
 
 ##### Discussion - Assignment #2 Due Week 
-* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
+* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.). Your completed assignment should include a .html file, a .css file, and a .js file. 
 
 ##### [Sunlight Foundation API}(http://sunlightfoundation.com/api/)
 
@@ -256,6 +256,8 @@ Syllabus
 
 ##### Audio
 * Web Audio API
+* [HTML5 Rocks: Getting Started With Web AUdio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+* [CreativeJS: Web Audio API - Getting Started](http://creativejs.com/resources/web-audio-api-getting-started/)
 
 ##### Video
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
