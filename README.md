@@ -223,6 +223,11 @@ Syllabus
 
 ##### Managing the Data
 * Manipulating Strings
+  * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
+  * Regular Expressions
+    * [MDN - Regular Expression Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)     
+    * [Rubular](http://rubular.com/) - web-based regular expression editor
+    * [Regular Expression Cheat Sheet](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
 * Wotking with Arrays & Objects
 * Using Underscore
 * Using Templates
