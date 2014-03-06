@@ -232,6 +232,7 @@ Syllabus
 * Wotking with Arrays & Objects
 * Using Underscore
 * Managing Asynchronicity
+  * [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
 * WhatsUpCongress Examples
 
 ##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
