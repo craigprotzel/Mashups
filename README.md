@@ -220,6 +220,7 @@ Syllabus
 ### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
 
 ##### [Sunlight Foundation API](http://sunlightfoundation.com/api/)
+* [WhatsUpCongress](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
 
 ##### Managing the Data
 * Manipulating Strings
