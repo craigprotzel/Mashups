@@ -225,17 +225,18 @@ Syllabus
 * Manipulating Strings
   * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
   * Regular Expressions
-    * [MDN - Regular Expression Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)     
-    * [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
+    * [MDN - Regular Expression Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
     * [Regular Expression Cheat Sheet](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
+    * [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
+    * [Stack Overflow - Don't Parse HTML with RegEx](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags)
 * Wotking with Arrays & Objects
 * Using Underscore
-* Using Templates
 * Managing Asynchronicity
 * WhatsUpCongress Examples
 
 ##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
 * [D3JS](http://d3js.org/)
+* [Sunlight Labs - Congress Example]() Click [HERE](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip) to download the example code)
 * Additional Tools
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
