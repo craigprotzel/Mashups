@@ -236,7 +236,7 @@ Syllabus
 
 ##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
 * [D3JS](http://d3js.org/)
-* [Sunlight Labs - Congress Example]() Click [HERE](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip) to download the example code)
+* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) Click [HERE](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip) to download the example code
 * Additional Tools
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
