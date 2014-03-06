@@ -50,6 +50,10 @@ function InstaTimesArticle(curHeadline, curSnippet){
 	ITA.eventAction = function(){
 		//show some info in console
 		console.log(ITA.title);
+		console.log(ITA.img);
+		//Change the background based on the obj image
+		var imageURL = "url(" + ITA.img + ")";
+		$('body').css('backgroundImage', imageURL );
 		//animate the dom element, fade-out and fade-in
 		ITA.element.stop().animate({opacity:0.5},555,'swing',
 			function(){ ITA.element.stop().animate({opacity:1},555,'swing');
