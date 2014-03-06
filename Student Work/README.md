@@ -24,7 +24,7 @@ Create a single web page experience that, upon user input, responds with data fr
 * Dexter Miranda - [Weather for Mobile](http://lab.dxtr.com/weather/)
   * [Flickr](https://www.flickr.com/services/api/)
   * [Open Weather](http://openweathermap.org/API)
-* Eozin Chae - 
+* Eozin Chae - [Lunchtime News](http://eozinche.com/mashups/project1/lunchnews.html)
   * [New York Times](http://developer.nytimes.com/page)
   * [Instagram](http://instagram.com/developer/)
 * Jeff Ong - [City Tunes](http://www.jffng.com/ITP/Mashups/citytunes/)
