@@ -20,7 +20,9 @@ Create a single web page experience that, upon user input, responds with data fr
 * Caroline Sinders - [What Is This?](http://itp.nyu.edu/~cds313/mashups/mashups1/index.html)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
   * [Wikipedia](http://www.mediawiki.org/wiki/API:Main_page)
-* Christina Carter - 
+* Christina Carter - [Daily Sentiment](http://dailysentiment.herokuapp.com/)
+  * [New York Times]((http://developer.nytimes.com/page))
+  * [Text-Processing](http://dailysentiment.herokuapp.com/)
 * Dexter Miranda - [Weather for Mobile](http://lab.dxtr.com/weather/)
   * [Flickr](https://www.flickr.com/services/api/)
   * [Open Weather](http://openweathermap.org/API)
