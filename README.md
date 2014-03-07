@@ -248,14 +248,21 @@ Syllabus
 
 ##### Homework
 * Play with D3   
-* Look at the P5js & PaperJS libraries
+* Look at the [P5](https://github.com/lmccart/p5.js) & [PaperJS](http://paperjs.org/) libraries
 
 ### Week 7 (03/13): A Blank Canvas
 
+##### Animation in the Browser
+* [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
+* [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
+* [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
+* [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
+
 ##### Animation Tools
 * [P5](https://github.com/lmccart/p5.js)
-* [RafaelJS](http://raphaeljs.com/)
 * [PaperJS](http://paperjs.org/)
+* [RafaelJS](http://raphaeljs.com/)
+
 
 ##### Homework
 * Play with an Animation Library   
