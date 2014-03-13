@@ -253,6 +253,7 @@ Syllabus
 ### Week 7 (03/13): A Blank Canvas
 
 ##### Animation in the Browser
+* [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
 * [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
 * [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
 * [HTML5 Canvas Cheat Sheet](http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf)
