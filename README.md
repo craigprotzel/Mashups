@@ -255,8 +255,8 @@ Syllabus
 ##### Animation in the Browser
 * [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
 * [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
-* [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 * [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
+* [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 
 ##### Animation Tools
 * [P5](https://github.com/lmccart/p5.js)
