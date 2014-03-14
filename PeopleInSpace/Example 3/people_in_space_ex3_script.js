@@ -9,6 +9,7 @@ Open-Notify.org - http://open-notify.org/Open-Notify-API/People-In-Space/
 
 //Define a global object to store the data
 var spaceData = {};
+var dataIsReady = false;
 
 //Define the url for the API call
 var url = "http://api.open-notify.org/astros.json";
@@ -30,6 +31,7 @@ function getSpaceData() {
 			console.log(data);
 			$("#totalPeople").html(data.number);
 			spaceData.number = data.number;
+			dataIsReady = true;
 		}
 	});
 }

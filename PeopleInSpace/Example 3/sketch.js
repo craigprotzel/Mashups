@@ -1,9 +1,9 @@
+// Code taken from:
 // The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
 
 var movers = [];
-
 var attractor;
 
 var canvas;
@@ -13,32 +13,30 @@ function setup() {
   canvas.position(200,200);
   canvas.class("deepBlue");
 
-  for (var i = 0; i < spaceData.number; i++) {
-      movers[i] = new Mover(random(0.1,2),random(width),random(height));
-    }
   attractor = new Attractor();
 }
 
+var startDataAnimation = false;
 function draw() {
   background(255);
 
   attractor.display();
-  attractor.drag();
-  attractor.hover(mouseX, mouseY);
 
-  for (var i = 0; i < movers.length; i++) {
-    var force = attractor.attract(movers[i]);
-    movers[i].applyForce(force);
-
-    movers[i].update();
-    movers[i].display();
+  if (dataIsReady){
+    for (var i = 0; i < spaceData.number; i++) {
+        movers[i] = new Mover(random(0.1,2),random(width),random(height));
+    }
+    dataIsReady = false;
+    startDataAnimation = true;
   }
-}
 
-function mousePressed() {
-  attractor.clicked(mouseX, mouseY);
-}
+  if (startDataAnimation){
+    for (var j = 0; j < movers.length; j++) {
+      var force = attractor.attract(movers[j]);
+      movers[j].applyForce(force);
 
-function mouseReleased() {
-  attractor.stopDragging();
+      movers[j].update();
+      movers[j].display();
+    }
+  }
 }

@@ -7,9 +7,12 @@ function setup() {
 }
 
 function draw() {
-	for (var i = 0; i < spaceData.number; i++){
-		var offset = 60;
-		ellipse(100 + (offset * i), 100, 40, 40);
+	//Check if there is data
+	if (spaceData.number){
+		var centerX = 100;
+		for (var i = 0; i < spaceData.number; i++){
+			ellipse(centerX, 100, 40, 40);
+			centerX += 50;
+		}
 	}
-
 }

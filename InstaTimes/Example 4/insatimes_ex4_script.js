@@ -39,9 +39,9 @@ function InstaTimesArticle(curHeadline, curSnippet){
 								"</p>" +
 							"</div>" +
 						"</div>";
-		//using .appendTo returns the (jquery wrapped) element that is created, so you can save it to the object
+		//Using .appendTo returns the (jquery wrapped) element that is created, so you can save it to the object
 		ITA.element = $(htmlString).appendTo("#latestUpdates");
-		//assign events to object functions
+		//Assign events to object functions
 		ITA.element.on('click',ITA.eventAction);
 		ITA.element.on('mouseover',ITA.elementOver);
 		ITA.element.on('mouseout',ITA.elementOut);
