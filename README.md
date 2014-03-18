@@ -275,7 +275,7 @@ Syllabus
 
 ##### Audio
 * Web Audio API
-* [HTML5 Rocks: Getting Started With Web AUdio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+* [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * [CreativeJS: Web Audio API - Getting Started](http://creativejs.com/resources/web-audio-api-getting-started/)
 
 ##### Video
