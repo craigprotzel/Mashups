@@ -275,13 +275,22 @@ Syllabus
 
 ##### Audio
 * Web Audio API
-* [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-* [CreativeJS: Web Audio API - Getting Started](http://creativejs.com/resources/web-audio-api-getting-started/)
+  * [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+  * [Web Audio API by Boris Smus](http://chimera.labs.oreilly.com/books/1234000001552/index.html) - Ch.1 & 2
+  * [Stack Overflow - What's the Difference Between Web Audio & HTML5 Audio Anyway?](http://stackoverflow.com/questions/13121250/whats-the-difference-between-web-audio-and-html5-audio-anyway)
+* Web Audio API Libraries
+  * [Howler](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) - Basic Web Audio + HTML5 Audio
+  * [Annyang](https://www.talater.com/annyang/) - Speech Recognition
+  * [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
+  * [Buzz](http://buzz.jaysalvat.com/documentation/buzz/) - HTML5 Audio
+
 
 ##### Video
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
-* [VideoJS](http://www.videojs.com/) 
-* [PopcornJS](http://popcornjs.org/)
+* HTML5 Video Libraries
+  * [PopcornJS](http://popcornjs.org/)  
+  * [VideoJS](http://www.videojs.com/) 
+  
 
 APIs - Youtube & Vimeo
 
