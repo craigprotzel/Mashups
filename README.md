@@ -287,6 +287,7 @@ Syllabus
   * [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
   * [Buzz](http://buzz.jaysalvat.com/documentation/buzz/) - HTML5 Audio
 * [FreeSound API](https://www.freesound.org/help/developers/)
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Audio.zip)
 
 ##### Video
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
