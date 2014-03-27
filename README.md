@@ -341,6 +341,7 @@ Helpful Links
 * [Favicon Generator](http://www.favicon.cc/)
 * [Can I Use](http://caniuse.com/)
 * [WebKit for Developers](http://www.paulirish.com/2013/webkit-for-developers/) by Paul Irish
+* [Ars Technica - Does Webkit Face A Troubled Future Now That Google Is Gone](http://arstechnica.com/information-technology/2013/04/does-webkit-face-a-troubled-future-now-that-google-is-gone/)
 
 
 #### HTML
