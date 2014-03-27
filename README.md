@@ -340,6 +340,7 @@ Helpful Links
 * [URL Encoding](http://www.blooberry.com/indexdot/html/topics/urlencoding.htm) or 'What are those "%20" codes in URLs'?
 * [Favicon Generator](http://www.favicon.cc/)
 * [Can I Use](http://caniuse.com/)
+* [WebKit for Developers](http://www.paulirish.com/2013/webkit-for-developers/) by Paul Irish
 
 
 #### HTML
