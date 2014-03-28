@@ -293,6 +293,7 @@ Syllabus
 * [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * HTML5 Video Libraries
   * [PopcornJS](http://popcornjs.org/)  
+  * [Popcorn Starter Code](https://github.com/benrito/popcorn-starter) - [Ben Moskowitz](https://twitter.com/benrito)
   * [VideoJS](http://www.videojs.com/) 
 * [Youtube API](https://developers.google.com/youtube/v3/)  
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Video.zip)
