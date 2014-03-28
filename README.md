@@ -219,9 +219,6 @@ Syllabus
 
 ### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
 
-##### [Sunlight Foundation API](http://sunlightfoundation.com/api/)
-* [WhatsUpCongress](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
-
 ##### Managing the Data
 * Manipulating Strings
   * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -234,11 +231,12 @@ Syllabus
 * Using Underscore
 * Managing Asynchronicity
   * [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
-* WhatsUpCongress Examples
-
+* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
+* WhatsUpCongress Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
+ 
 ##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3" 
 * [D3JS](http://d3js.org/)
-* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) Click [HERE](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip) to download the example code
+* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 * Additional Tools
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
