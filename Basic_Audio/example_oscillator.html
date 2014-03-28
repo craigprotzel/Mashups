@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+     </head>
+
+    <body>
+
+        <h2>Oscillator</h2>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>
+            // Define the AudioContext
+            var AudioContext = AudioContext || webkitAudioContext;
+            // Actually create the context.
+            var context = new AudioContext();
+
+            var oscillator;
+            var currentType = 2;
+
+            var gainNode;
+            var startVolume = 0.5;
+
+            function createSound(curType){
+                oscillator = context.createOscillator();
+                oscillator.type = curType;
+                oscillator.frequency.value = 500;
+
+                // Create a gain node.
+                gainNode = context.createGain();
+                // Connect the source to the gain node.
+                oscillator.connect(gainNode);
+                // Connect the gain node to the destination.
+                gainNode.connect(context.destination);
+
+                gainNode.gain.value = startVolume;
+
+                oscillator.connect(context.destination);
+                oscillator.start(0);
+            }
+
+            $(document).keydown(function(e) {
+                console.log(e);
+                console.log(e.keyCode);
+                var curKey = e.keyCode;
+
+                switch(curKey){
+                    //Enter
+                    case 13:
+                        //Create the sound
+                        createSound(currentType);
+                        break;
+                    //Space
+                    case 32:
+                        oscillator.stop();
+                        break;
+                    //Up
+                    case 38:
+                        oscillator.frequency.value += 5;
+                        break;
+                    //Down
+                    case 40: 
+                        oscillator.frequency.value -= 5;
+                        break;
+                    //Press 1 to lower volume
+                    case 49:
+                        gainNode.gain.value -= 0.05;
+                    //Press 2 to raise volume
+                    case 50:
+                        gainNode.gain.value += 0.05;
+                }
+            });
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
