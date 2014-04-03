@@ -304,6 +304,14 @@ Syllabus
 
 ##### Presentations - Assignment #2
 
+##### Intro to the Server
+* Install [NodeJS](http://nodejs.org/)
+* [Express Framework](http://expressjs.com/)
+
+##### Homework
+* READ - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* CREATE - An Express version of one of your assignments
+
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 [API - CouchDB](http://couchdb.apache.org/)
 
