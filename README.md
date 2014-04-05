@@ -307,6 +307,7 @@ Syllabus
 ##### Intro to the Server
 * Install [NodeJS](http://nodejs.org/)
 * [Express Framework](http://expressjs.com/)
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Homework
 * READ - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
