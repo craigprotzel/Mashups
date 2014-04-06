@@ -3,13 +3,16 @@ var CLOUDANT_PASSWORD="WDACNrPBSj7QMJ00bLBUcQrJ";
 var CLOUDANT_USERNAME="sklise";
 var CLOUDANT_DATABASE="sklisedb";
 
+var hash = btoa(CLOUDANT_KEY+":"+CLOUDANT_PASSWORD)
+
 var saveRecord = function (data) {
-  return $.ajax("https://"+CLOUDANT_USERNAME+".cloudant.com/"+CLOUDANT_DATABASE, {
-    username: CLOUDANT_KEY,
-    password: CLOUDANT_PASSWORD,
-    xhrFields: {withCredentials:true},
+  return $.ajax("https://"+CLOUDANT_KEY+":"+CLOUDANT_PASSWORD+"@"+CLOUDANT_USERNAME+".cloudant.com/"+CLOUDANT_DATABASE, {
+    beforeSend: function (xhr) {
+      xhr.setRequestHeader ("Authorization", "Basic "+hash)
+    },
     contentType: "application/json",
     type: "POST",
+    async: false,
     data: JSON.stringify(data)
   })
 }
