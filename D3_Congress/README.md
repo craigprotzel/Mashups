@@ -5,7 +5,7 @@ Polarized Congress
  
 Using the **Sunlight Foundation Congress API**
 
-<http://sunlightlabs.github.io/congress/>
+<https://sunlightlabs.github.io/congress/>
 
 as well as **D3.js**
 
