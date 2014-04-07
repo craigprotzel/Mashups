@@ -2,10 +2,13 @@
 <head>
   <title>Simple Couch Notepad</title>
   <script charset="utf-8" type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
   <script type="text/javascript" src="simple_notepad.js"></script>
   <style>
     body {
-      width: 600px;
+      font-family: monospace;
+      max-width: 600px;
+      min-width: 300px;
       margin: 1em auto;
     }
 
@@ -18,17 +21,34 @@
     textarea {
       min-height: 150px;
     }
+
+    .note {
+      margin: 1em 0;
+      padding: 1em 0;
+      border-bottom: 1px solid gray;
+    }
   </style>
 </head>
 <body>
   <h1>CouchDB Notepad</h1>
 
+  <h2>New Note</h2>
   <form id="new-note">
     <input type="text" name="title" id="note-title"/>
     <textarea name="note" placeholder="note..." id="note-text"></textarea>
     <input type="submit" value="Save Note"/>
   </form>
 
+  <h2>Old Notes</h2>
   <div id="notes"></div>
+
+  <script id="tmpl-note" type="text/template">
+    <div class="note">
+      <%- new Date(created_at) %>
+      <h3><%- title %></h3>
+      <div><%- text %></div>
+    </div>
+  </script>
+
 </body>
 </html>
