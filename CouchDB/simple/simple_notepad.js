@@ -42,6 +42,7 @@ var loadNotes = function () {
     // Use Underscore's sort method to sort our records by date.
     sorted = _.sortBy(notes.rows, function (row) { return row.doc.created_at})
 
+    // Now that the notes are sorted, render them using underscore templates
     sorted.forEach(function (row) {
       var tmplMarkup = $('#tmpl-note').html();
       var compiledTmpl = _.template(tmplMarkup, row.doc);
@@ -54,24 +55,40 @@ $(function () {
   loadNotes();
 
   $("#new-note").submit(function () {
+    // Get the information we want from the form including creating a new date.
     var noteData = {
       title: $("#note-title").val(),
       text: $("#note-text").val(),
       created_at: new Date()
     }
 
+    // Send the data to our saveRecord function
     var request = saveRecord(noteData);
 
+    // Attach a callback for a successful save to CouchDB. CouchDB doesn't
+    // return the title and text, so we need to use noteData.
     request.done(function (resp) {
-      $("#notes").append("<h3>"+noteData.title+"</h3><div>"+noteData.text+"</div>")
+      // Render the note.
+      var tmplMarkup = $('#tmpl-note').html();
+      var compiledTmpl = _.template(tmplMarkup, noteData);
+      $("#notes").append(compiledTmpl)
+
+      // Empty the form.
       $("#note-title").val("")
       $("#note-text").val("")
+
+      // Deselect the submit button.
+      $("#note-submit").blur()
     });
 
+    // Attach a callback if something goes wrong. Tell the user but don't tell
+    // them that much.
     request.fail(function (resp) {
+      // Add an error message before the new note form.
       $("#new-note").prepend("<p><strong>Something broke.</strong></p>");
     })
 
+    // Finally, return false to prevent the form from submitting itself
     return false;
   });
 });
