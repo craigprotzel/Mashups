@@ -1,3 +1,6 @@
+##### This example created by Jeremy Scott-Diamond: [Github - JSDiamond](https://github.com/JSDiamond)
+
+
 Polarized Congress
 =================================
 
