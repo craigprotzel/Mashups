@@ -1,12 +1,12 @@
 // Required fields for connecting to Cloudant
 
 // The username you use to log in to cloudant.com
-var CLOUDANT_USERNAME="sklise";
+var CLOUDANT_USERNAME="";
 // The name of your database
-var CLOUDANT_DATABASE="sklisedb";
+var CLOUDANT_DATABASE="";
 // These two are generated from your Cloudant dashboard of the above database.
-var CLOUDANT_KEY="plerseendegandevedgedney";
-var CLOUDANT_PASSWORD="oFlKpqgXkbQhdoGNtYAJuQpY";
+var CLOUDANT_KEY="";
+var CLOUDANT_PASSWORD="";
 
 // This function takes your Cloudant key and password and returns a Base64
 // encoded string to authorize your requets. Without this, you'd need to fill
