@@ -2,18 +2,11 @@
 
 ## Getting Started
 
-1. Set up an account with cloudant.com. Set the corresponding variable in `clientside_notepad.js`.
-2. Create a database on cloudant.com. Set the corresponding variable in `clientside_notepad.js`.
+1. Sign in to Cloudant and create a new database, save the name of the new database in `public/clientside_notepad.js` as the value for `CLOUDANT_DATABASE`.
+2. In `public/clientside_notepad.js` at the top, set the values of the Cloudant variables `CLOUDANT_USERNAME`,
 3. Click the "Doc" dropdown when viewing your new database. And choose the Permissions Option
-4. Click "Generate API Key" and take the KEY and PASSWORD values and assign the corresponding variables in `clientside_notepad.js`. And then, from the permissions page in Cloudant, check the **Reader** and **Writer** boxes for the KEY you just created.
-5. Open Terminal and run the following command to enable CORS to your Cloudant Database (replace instances of 'USERNAME' with your username):
-
-    ```
-    curl -i -u USERNAME -X PUT https://USERNAME.cloudant.com/_api/v2/user/config/cors -X PUT -H content-type:application/json -d '{"enable_cors":true,"allow_credentials":true,"origins":["*"]}'
-    ```
-
-    Enter your password for Cloudant when prompted.
-6. Run `python -m SimpleHTTPServer` from the folder where this file is. Visit http://localhost:8000 and this small app should be running.
+4. Click "Generate API Key" and take the KEY and PASSWORD values and save them in `public/clientside_notepad.js` as `CLOUDANT_KEY` and `CLOUDANT_PASSWORD`.. **This is your only chance to see the Password**. And then, from the permissions page in Cloudant, check the **Reader** and **Writer** boxes for the KEY you just created.
+5. In Terminal, `cd` to the "client" folder in this repository and run `npm install`.
 
 ## Things to Note
 

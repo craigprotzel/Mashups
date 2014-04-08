@@ -1,18 +1,28 @@
 // Required fields for connecting to Cloudant
 
 // The username you use to log in to cloudant.com
-var CLOUDANT_USERNAME="";
+var CLOUDANT_USERNAME="sklise";
 // The name of your database
-var CLOUDANT_DATABASE="";
+var CLOUDANT_DATABASE="sklisedb";
 // These two are generated from your Cloudant dashboard of the above database.
-var CLOUDANT_KEY="";
-var CLOUDANT_PASSWORD="";
+var CLOUDANT_KEY="plerseendegandevedgedney";
+var CLOUDANT_PASSWORD="oFlKpqgXkbQhdoGNtYAJuQpY";
 
 // This function takes your Cloudant key and password and returns a Base64
 // encoded string to authorize your requets. Without this, you'd need to fill
 // in a username and password to make requets. Read more about the btoa()
 // function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Base64_encoding_and_decoding
 var hash = btoa(CLOUDANT_KEY+":"+CLOUDANT_PASSWORD)
+
+var noteTemplate = function (data) {
+  template = '<div class="note">'
+  template += new Date(data.created_at)
+  template += '<h3>'+_.escape(data.title)+'</h3>'
+  template += '<div>'+_.escape(data.text)+'</div>'
+  template += '</div>'
+
+  return template;
+}
 
 // A function to accept a JSON object and post it to CouchDB. Returns a jQuery
 // ajax object that you can attach listeners to.
@@ -37,6 +47,7 @@ var loadNotes = function () {
       xhr.setRequestHeader ("Authorization", "Basic "+hash)
     }
   }).done(function (resp) {
+    $("#notes").empty();
     notes = JSON.parse(resp)
 
     // Use Underscore's sort method to sort our records by date.
@@ -45,7 +56,7 @@ var loadNotes = function () {
     // Now that the notes are sorted, render them using underscore templates
     sorted.forEach(function (row) {
       var tmplMarkup = $('#tmpl-note').html();
-      var compiledTmpl = _.template(tmplMarkup, row.doc);
+      var compiledTmpl = noteTemplate(row.doc);
       $('#notes').append(compiledTmpl)
     })
   })
@@ -69,8 +80,7 @@ $(function () {
     // return the title and text, so we need to use noteData.
     request.done(function (resp) {
       // Render the note.
-      var tmplMarkup = $('#tmpl-note').html();
-      var compiledTmpl = _.template(tmplMarkup, noteData);
+      var compiledTmpl = noteTemplate(noteData);
       $("#notes").append(compiledTmpl)
 
       // Empty the form.

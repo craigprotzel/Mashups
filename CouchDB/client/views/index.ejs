@@ -3,7 +3,7 @@
   <title>Simple Couch Notepad</title>
   <script charset="utf-8" type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
   <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
-  <script type="text/javascript" src="simple_notepad.js"></script>
+  <script type="text/javascript" src="clientside_notepad.js"></script>
   <style>
     body {
       font-family: monospace;
@@ -41,14 +41,5 @@
 
   <h2>Old Notes</h2>
   <div id="notes">Loading...</div>
-
-  <script id="tmpl-note" type="text/template">
-    <div class="note">
-      <%- new Date(created_at) %>
-      <h3><%- title %></h3>
-      <div><%- text %></div>
-    </div>
-  </script>
-
 </body>
 </html>
