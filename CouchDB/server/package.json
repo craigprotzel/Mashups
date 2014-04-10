@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "couchdb-server-side",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "3.5.1",
-    "ejs": "*"
+    "ejs": "*",
+    "underscore": "~1.6.0"
   }
 }
