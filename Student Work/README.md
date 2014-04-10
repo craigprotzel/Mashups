@@ -43,6 +43,7 @@ Create a single web page experience that leverages data from at least one public
   * [D3JS](http://d3js.org/)
 * Laura Chen -
   * [WebAudio](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+  * [THREEJS](http://developer.echonest.com/)
 * Neil Solomon -
   * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
   * [D3JS](http://d3js.org/)
