@@ -266,8 +266,8 @@ Syllabus
 
 
 ##### Homework
-* Play with an Animation Library   
-* Look at the Web Audio API and Video Libraries  
+* Play with an Animation Library
+* Look at the Web Audio API and Video Libraries
 
 ### Week 8 (03/27): Moving Pictures & Sound
 
@@ -314,24 +314,31 @@ Syllabus
 * CREATE - An Express version of one of your assignments
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
-[API - CouchDB](http://couchdb.apache.org/)
 
-##### Steve Klise - "TBD"
-* References
+##### Steve Klise - Storage with CouchDB
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
+* [CouchDB](http://couchdb.apache.org/)
+* [Cloudant](https://cloudant.com)
 
+##### Discussion - Final Project Due Week 14 Class (05/08)
+* Create a single web page experience that lives on the web and leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
+  * a public web API as a data source
+  * a client-side js library other than jQuery
+  * server-side code (i.e. Node-Express)
+  * data-storage (i.e. CouchDB on Cloudant)
+
+##### Homework
+* PROPOSAL - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
 API - Twitter
-
 
 ### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
 ##### Miguel Bermudez - "TBD" 
 * References
 
-
 ### Week 13 (05/01): Final Project Workshop & User Testing
-
 
 ### Week 14 (05/08): FINAL DUE
 
