@@ -1,6 +1,7 @@
 var express = require('express');
-var path = require('path');
+// the request library will be used to query CouchDB
 var Request = require('request');
+// Just like on the client side.
 var _ = require('underscore');
 
 var app = express();
@@ -15,12 +16,14 @@ var CLOUDANT_PASSWORD="";
 
 var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE
 
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
-app.use(express.json());
-app.use(app.router);
 // Set up the public directory to serve our Javascript file
 app.use(express.static(__dirname + '/public'));
+// Set EJS as templating language
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+
+app.use(express.json());
+app.use(app.router);
 
 // Set up Express error handling
 app.use(express.errorHandler());
@@ -32,8 +35,6 @@ app.get("/", function(request, response) {
 
 // Post route to create a new note.
 app.post("/save", function (request, response) {
-  console.log(request.body)
-
   Request.post({
     url: CLOUDANT_URL,
     auth: {
@@ -49,7 +50,9 @@ app.post("/save", function (request, response) {
   });
 });
 
+// API route to get the CouchDB after page load.
 app.get("/api/:key", function (request, response) {
+  // Get all docs from Cloudant.
   Request.get({
     url: CLOUDANT_URL+"/_all_docs?include_docs=true",
     auth: {
@@ -57,17 +60,20 @@ app.get("/api/:key", function (request, response) {
       pass: CLOUDANT_PASSWORD
     }
   }, function (err, res, body){
+    // The JSON comes in the body as a string, we need to parse it first.
     var models = JSON.parse(body).rows;
 
+    // And then filter the results to match the desired key.
     var filtered = _.filter(models, function (m) {
       return m.doc.namespace == request.params.key;
     })
 
+    // Now use Express to render the JSON.
     response.json(filtered);
   });
 });
 
-// Route get notes based on a key
+// Route to load the view and client side javascript to display the notes.
 app.get("/:key", function (request, response) {
   response.render('notes',{title: "Notepad", key: request.params.key});
 });
