@@ -19,7 +19,7 @@ Create a single web page experience that leverages data from at least one public
   * [PaperJS](http://paperjs.org/)
 * Dexter Miranda - [Story Tones](http://sp2014itp.tumblr.com/post/81624103998/story-tones)
   * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
-* Eozin Chae - 
+* Eozin Chae - [Exoplanets](http://eozinche.com/itp/mashups/exodata.html)
   * [Exo Open Planet API](http://exoapi.com/)
   * [THREEJS](http://threejs.org/)
 * Jeff Ong - [Subway Stories](http://www.jffng.com/subway-stories/)
