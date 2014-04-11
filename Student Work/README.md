@@ -6,7 +6,7 @@ Create a single web page experience that leverages data from at least one public
 
 * Aaron Arntz - [AudioBus](http://arntzy.github.io/AudioBusMashup/audiobus.html)
   * [AudioBus ReadMe](https://github.com/arntzy/AudioBusMashup)
-  * [NYC - MTA](http://web.mta.info/developers/)
+  * [NYC - MTA API](http://web.mta.info/developers/)
   * [TimbreJS](http://mohayonao.github.io/timbre/)
 * Adarsh Kosuru -
   * [PaperJS](http://paperjs.org/)
@@ -15,41 +15,44 @@ Create a single web page experience that leverages data from at least one public
   * [D3JS](http://d3js.org/)
 * Caroline Sinders -
   * [PopcornJS](http://popcornjs.org/)
-* Christina Carter -
+* Christina Carter - [Restart Motion](http://itp.nyu.edu/~cvc261/mashups/assignment2/)
   * [PaperJS](http://paperjs.org/)
 * Dexter Miranda - [Story Tones](http://sp2014itp.tumblr.com/post/81624103998/story-tones)
-  * [WebAudio](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
 * Eozin Chae - 
   * [Exo Open Planet API](http://exoapi.com/)
   * [THREEJS](http://threejs.org/)
 * Jeff Ong - [Subway Stories](http://www.jffng.com/subway-stories/)
   * [THREEJS](http://developer.echonest.com/)
-  * [WebAudio](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
-* Jiwon Yoon -
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+* Jiwon Yoon -[Boots & Cats](http://jiwonyoonworks.com/web/bootscats/index.html)
+  * [PopcornJS](http://popcornjs.org/)
+  * [Youtube Data API](https://developers.google.com/youtube/v3/)
+  * [Google Maps](https://developers.google.com/maps/)
 * Jorge Brake - [I've Been To A...](http://itp.nyu.edu/~jab680/apis/foursquare_data/)
-  * [Foursquare](https://developer.foursquare.com/)
+  * [Foursquare API](https://developer.foursquare.com/)
   * [PaperJS](http://paperjs.org/)
 * Joy Li - [Paper Instaweather](http://joyliatitp.com/mashups/assign2/paperWeatherMap.html)
-  * [Open Weather](http://openweathermap.org/API)
+  * [Open Weather API](http://openweathermap.org/API)
   * [PaperJS](http://paperjs.org/)
   * [Google Maps](https://developers.google.com/maps/)
 * Karen Peng - [Hacker](http://karenbeta.com/hacker)
   * [Github API](https://developer.github.com/v3/#json-p-callbacks)
 * Kate Sukpisan -
-  * [Open Weather](http://openweathermap.org/API)
+  * [Open Weather API](http://openweathermap.org/API)
   * [D3](http://d3js.org/)
 * Kyle Greenberg - [What's So Fishy At The Cooper-Hewitt](http://kgitp.com/coophew/coophew/index.html)
   * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
   * [D3JS](http://d3js.org/)
 * Laura Chen -
-  * [WebAudio](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
   * [THREEJS](http://developer.echonest.com/)
 * Neil Solomon -
   * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
   * [D3JS](http://d3js.org/)
 * Wajma Mohseni -
   * [RaphaelJS](http://raphaeljs.com/)
-  * [The Guardian](http://www.theguardian.com/open-platform)
+  * [The Guardian API](http://www.theguardian.com/open-platform)
 * Woonyung Choi - [How Many People Are In Space?](http://woonyungchoi.com/mashups/assign2/)
   * [PaperJS](http://paperjs.org/)
   * [Open Notify API](http://open-notify.org/Open-Notify-API/People-In-Space/)

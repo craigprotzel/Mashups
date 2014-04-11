@@ -296,7 +296,6 @@ Syllabus
 * [Youtube API](https://developers.google.com/youtube/v3/)  
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Video.zip)
 
-
 ##### Homework
 * DUE - Assignment #2
 
@@ -318,7 +317,9 @@ Syllabus
 ##### Steve Klise - Storage with CouchDB
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
 * [CouchDB](http://couchdb.apache.org/)
+* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
+
 
 ##### Discussion - Final Project Due Week 14 Class (05/08)
 * Create a single web page experience that lives on the web and leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
@@ -328,7 +329,7 @@ Syllabus
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
-* CREATE - An Express-CouchDB (Cloudant) version of last week's homework assignment
+* CREATE - An Express-CouchDB (Cloudant) version of last week's homework
 * PROPOSAL - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
