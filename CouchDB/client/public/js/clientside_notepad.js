@@ -45,7 +45,8 @@ var loadNotes = function () {
   $.ajax("https://"+CLOUDANT_USERNAME+".cloudant.com/"+CLOUDANT_DATABASE+"/_all_docs?include_docs=true", {
     beforeSend: function (xhr) {
       xhr.setRequestHeader ("Authorization", "Basic "+hash)
-    }
+    },
+    type: "GET"
   }).done(function (resp) {
     $("#notes").empty();
     notes = JSON.parse(resp)
@@ -55,19 +56,19 @@ var loadNotes = function () {
 
     // Now that the notes are sorted, render them using underscore templates
     sorted.forEach(function (row) {
-      var tmplMarkup = $('#tmpl-note').html();
       var compiledTmpl = noteTemplate(row.doc);
       $('#notes').append(compiledTmpl)
     })
   })
 }
 
-$(function () {
+$(document).ready(function () {
   loadNotes();
 
   $("#new-note").submit(function () {
     // Get the information we want from the form including creating a new date.
     var noteData = {
+      somethingElse: "HI EVERYONE",
       title: $("#note-title").val(),
       text: $("#note-text").val(),
       created_at: new Date()
