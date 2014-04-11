@@ -35,8 +35,6 @@ app.get("/", function(request, response) {
 
 // Post route to create a new note.
 app.post("/save", function (request, response) {
-  console.log(request.body)
-
   Request.post({
     url: CLOUDANT_URL,
     auth: {
@@ -62,14 +60,11 @@ app.get("/api/:key", function (request, response) {
       pass: CLOUDANT_PASSWORD
     }
   }, function (err, res, body){
-    // console.log(body);
-
     // The JSON comes in the body as a string, we need to parse it first.
     var models = JSON.parse(body).rows;
 
     // And then filter the results to match the desired key.
     var filtered = _.filter(models, function (m) {
-      console.log(m.doc)
       return m.doc.namespace == request.params.key;
     })
 
