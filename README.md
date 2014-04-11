@@ -328,6 +328,7 @@ Syllabus
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
+* CREATE - An Express-CouchDB (Cloudant) version of last week's homework assignment
 * PROPOSAL - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal

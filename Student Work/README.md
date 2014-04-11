@@ -10,7 +10,7 @@ Create a single web page experience that leverages data from at least one public
   * [TimbreJS](http://mohayonao.github.io/timbre/)
 * Adarsh Kosuru -
   * [PaperJS](http://paperjs.org/)
-* Brian Clifton - [Congressional Forecast](http://briancliftonstudio.com/featured-small/congressional-forecast-vote-to-contributions-prototype/)
+* Brian Clifton - [Congressional Forecast](http://briancliftonstudio.com/itp/Mashups/Assignment2/index.html)
   * [Github Repo - Congress Votes per Contribution](https://github.com/bclifton/Congress--Votes-per-Contribution)
   * [D3JS](http://d3js.org/)
 * Caroline Sinders -
@@ -33,7 +33,7 @@ Create a single web page experience that leverages data from at least one public
   * [Open Weather](http://openweathermap.org/API)
   * [PaperJS](http://paperjs.org/)
   * [Google Maps](https://developers.google.com/maps/)
-* Karen Peng -
+* Karen Peng - [Hacker](http://karenbeta.com/hacker)
   * [Github API](https://developer.github.com/v3/#json-p-callbacks)
 * Kate Sukpisan -
   * [Open Weather](http://openweathermap.org/API)
