@@ -33,7 +33,6 @@ var loadNotes = function () {
 
     // Now that the notes are sorted, render them using underscore templates
     sorted.forEach(function (row) {
-      var tmplMarkup = $('#tmpl-note').html();
       var compiledTmpl = noteTemplate(row.doc);
       $('#notes').append(compiledTmpl)
     })
