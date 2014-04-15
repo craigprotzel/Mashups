@@ -309,8 +309,10 @@ Syllabus
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Homework
-* READ - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
-* CREATE - An Express version of one of your assignments
+* Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* Create - An Express version of one of your assignments
+* Additional Reading
+  * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 
@@ -322,15 +324,15 @@ Syllabus
 
 
 ##### Discussion - Final Project Due Week 14 Class (05/08)
-* Create a single web page experience that lives on the web and leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
+* Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
   * a public web API as a data source
   * a client-side js library other than jQuery
   * server-side code (i.e. Node-Express)
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
-* CREATE - An Express-CouchDB (Cloudant) version of last week's homework
-* PROPOSAL - Present At Least Two Final Project Ideas
+* Create - An Express-CouchDB (Cloudant) version of last week's homework
+* Proposal - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
 API - Twitter
@@ -363,7 +365,7 @@ Helpful Links
 * [Best Practices for Speeding Up Your Web Site - Yahoo Developer Network](http://developer.yahoo.com/performance/rules.html)
 
 #### HTML
-
+* [What Is HTML5?](http://radar.oreilly.com/2011/07/what-is-html5.html)
 
 #### CSS
 * [CSS Tricks - Set Page Background to a Full Image](http://css-tricks.com/perfect-full-page-background-image/)
@@ -372,7 +374,9 @@ Helpful Links
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
+* [SuperheroJS](http://superherojs.com/) - a collection of the best articles, videos, and presentations on javascript
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+* [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)  
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)

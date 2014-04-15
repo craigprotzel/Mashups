@@ -8,7 +8,7 @@ Create a single web page experience that leverages data from at least one public
   * [AudioBus ReadMe](https://github.com/arntzy/AudioBusMashup)
   * [NYC - MTA API](http://web.mta.info/developers/)
   * [TimbreJS](http://mohayonao.github.io/timbre/)
-* Adarsh Kosuru -
+* Adarsh Kosuru - [Storyteller](http://adarshk.com/itp/Mashups-Assignment2/)
   * [PaperJS](http://paperjs.org/)
 * Brian Clifton - [Congressional Forecast](http://briancliftonstudio.com/itp/Mashups/Assignment2/index.html)
   * [Github Repo - Congress Votes per Contribution](https://github.com/bclifton/Congress--Votes-per-Contribution)
