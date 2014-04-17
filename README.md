@@ -335,7 +335,17 @@ Syllabus
 * Proposal - Present At Least Two Final Project Ideas
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
-API - Twitter
+* Open Authentication (OAuth)
+  * [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
+  * [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+  * [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
+  * [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
+  * [PassportJS](http://passportjs.org/) - Authentication for Node
+  * [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
+
+* Additional
+  * Sessions, Cookies, Local Storage, SSL, and HTTPS
+  * [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
 ### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
@@ -368,6 +378,7 @@ Helpful Links
 * [What Is HTML5?](http://radar.oreilly.com/2011/07/what-is-html5.html)
 
 #### CSS
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - scalable customizable icons controlled by CSS
 * [CSS Tricks - Set Page Background to a Full Image](http://css-tricks.com/perfect-full-page-background-image/)
 * [Little CSS Stuff Newcomers Get Confused ABout](http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
 * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
