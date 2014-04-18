@@ -36,15 +36,12 @@ app.use(passport.session());
 var TWITTER_CONSUMER_KEY = 'YOUR-CONSUMER-KEY-GOES-HERE';
 var TWITTER_CONSUMER_SECRET = 'YOUR-CONSUMER-SECRET-GOES-HERE';
 
-var CURRENT_TOKEN = '';
-var CURRENT_SECRET = '';
-
 //Save oAuthData in an object
 var oAuthData = {
 	consumer_key: TWITTER_CONSUMER_KEY,
 	consumer_secret: TWITTER_CONSUMER_SECRET,
-	token: CURRENT_TOKEN,
-	token_secret: CURRENT_SECRET
+	token: '',
+	token_secret: ''
 };
 
 passport.serializeUser(function(user, done) {
@@ -61,8 +58,8 @@ passport.use(new TwitterStrategy({
 	},
 	function(tokenPass, tokenSecretPass, profile, done) {
 		process.nextTick(function () {
-			oAuthData.CURRENT_TOKEN = tokenPass;
-			oAuthData.CURRENT_SECRET = tokenSecretPass;
+			oAuthData.token = tokenPass;
+			oAuthData.token_secret = tokenSecretPass;
 
 			//console.log(profile);
 
@@ -86,7 +83,6 @@ function checkAuthentication(req, res, next) {
 	res.redirect('/login');
 }
 
-
 //ROUTES
 app.get("/", checkAuthentication, function(req, res){
 	res.redirect('/success');
@@ -97,8 +93,9 @@ app.get('/login', function(req,res){
 });
 
 app.get("/success", checkAuthentication, function(req, res){
-
+	console.log("---------------------------");
 	console.log(req.user);
+	console.log("---------------------------");
 	//Make a request to twitter for most recent tweet
 	var userID = req.user.id;
 	var tweetURL = "https://api.twitter.com/1.1/statuses/user_timeline.json?user_id=" + userID + "&count=1";
@@ -111,7 +108,11 @@ app.get("/success", checkAuthentication, function(req, res){
 		function (err, resTwit, body) {
 			console.log("Tweet Response");
 			console.log(body);
-			//res.json(body);
+
+			//Respond with this line to show json on the page
+			// res.json(body);
+
+			//Respond with these lines to show success.html
 			res.render('success',
 				{	user: body[0].user.screen_name,
 					lastTweet: body[0].text
@@ -136,5 +137,3 @@ app.get("/auth/twitter/callback", passport.authenticate('twitter', { failureRedi
 // Start the server
 app.listen(3000);
 console.log('Express started on port 3000');
-
-
