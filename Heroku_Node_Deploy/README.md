@@ -5,7 +5,7 @@ Note: The following steps are for Mac users who have node installed on their mac
 
 #### Step 1 - The App
 * Create a Node-Express App - if you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/Server_Node_Express/express_with_public_folder)
-* Update the `app.listen` method to include an `env.PORT` var  
+* In the app.js file update the `app.listen` method to include an `env.PORT` variable  
   ```
   app.listen(process.env.PORT || 3000)
   ```
