@@ -350,8 +350,19 @@ Syllabus
 
 ### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
-##### Miguel Bermudez - "TBD" 
-* References
+##### How to Deploy
+* Git
+  * [Download & Install Git](http://git-scm.com/downloads)
+  * Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+* Heroku
+  * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
+  * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
+  * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+* [Mashups Sepcific Tutorial]()
+
+##### Miguel Bermudez - IRL
+* [github.com/miguelbermudez](https://github.com/miguelbermudez)
+* [Control Group](http://www.controlgroup.com/)
 
 ### Week 13 (05/01): Final Project Workshop & User Testing
 
