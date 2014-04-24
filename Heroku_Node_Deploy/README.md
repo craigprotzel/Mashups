@@ -19,14 +19,16 @@ Note: These following steps are for Mac users who have node installed on their m
 * Install [git](http://git-scm.com/downloads)
 * In Terminal, set up your git config vars - you only have to do this once
   * ```
-    $ git config --global user.name "YOUR_FULL_NAME"
-    $ git config --global user.email "YOUR_EMAIL_ADDRESS"
+    git config --global user.name "YOUR_FULL_NAME"  
+    git config --global user.email "YOUR_EMAIL_ADDRESS"
     ```
 * Navigate (cd) to your app directory in Terminal
 * Create a git repository and commit your app by executing the following commands
-  1. `git init`
-  2. `git add .`
-  3. `git commit -m"First commit"`
+  ```
+  git init  
+  git add .  
+  git commit -m"First commit"
+  ```
   * At anytime it is helpful to execute `git status -s`
 
 ##### Step 3 - The Heroku Site
