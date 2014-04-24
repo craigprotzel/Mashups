@@ -359,7 +359,7 @@ Syllabus
   * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
   * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-* [Mashups Sepcific Tutorial]()
+* [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 
 ##### Miguel Bermudez - IRL
 * [github.com/miguelbermudez](https://github.com/miguelbermudez)
