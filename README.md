@@ -354,6 +354,7 @@ Syllabus
 * Git
   * [Download & Install Git](http://git-scm.com/downloads)
   * Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+  * [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 * Heroku
   * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
   * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
