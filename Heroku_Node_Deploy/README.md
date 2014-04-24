@@ -45,6 +45,8 @@ Note: The following steps are for Mac users who have node installed on their mac
   git push heroku master
   ```
 * After creating the app, before doing the `push` you can run `git remote` to confirm the app was created and added as a remote repo. You might also want to check your heroku account's "Apps" page to confirm the app was created and added to your account.
+* Once the push is complete, your site should be live at `http://YOUR-APP-NAME.herokuapp.com/`
+This url will also print out to the Terminal after your push is complete
 
 #### Bonus - The Updates
 * To update you app, execute the following commands in Terminal
@@ -61,3 +63,4 @@ Note: The following steps are for Mac users who have node installed on their mac
   ```
   git add file-name
   ```
+
