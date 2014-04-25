@@ -361,7 +361,8 @@ Syllabus
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 
-##### Miguel Bermudez - IRL
+##### Miguel Bermudez - JS IRL
+* [Lecture Slides](https://www.dropbox.com/s/sc399jrtil6zxwz/JS-IRL-042314-Presentation.pdf)
 * [github.com/miguelbermudez](https://github.com/miguelbermudez)
 * [Control Group](http://www.controlgroup.com/)
 
