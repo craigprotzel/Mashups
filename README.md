@@ -58,6 +58,7 @@ Syllabus
 * **PART II: Weeks 6 - 9 Client-Side Javascript Frameworks**
 * **PART III: Weeks 10 - 14 Server-Side Web + Final Project**
 
+
 ### Week 1 (01/30) - The Web, APIs, & Data
 
 ##### Class Intro
@@ -217,6 +218,7 @@ Syllabus
 ##### Homework
 * Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 
+
 ### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
 
 ##### Managing the Data
@@ -248,6 +250,7 @@ Syllabus
 * Play with D3   
 * Look at the [P5](https://github.com/lmccart/p5.js) & [PaperJS](http://paperjs.org/) libraries
 
+
 ### Week 7 (03/13): A Blank Canvas
 
 ##### Animation in the Browser
@@ -264,10 +267,10 @@ Syllabus
 * [PaperJS](http://paperjs.org/)
 * [RafaelJS](http://raphaeljs.com/)
 
-
 ##### Homework
 * Play with an Animation Library
 * Look at the Web Audio API and Video Libraries
+
 
 ### Week 8 (03/27): Moving Pictures & Sound
 
@@ -299,6 +302,7 @@ Syllabus
 ##### Homework
 * DUE - Assignment #2
 
+
 ### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
@@ -314,6 +318,7 @@ Syllabus
 * Additional Reading
   * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 
+
 ### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
 
 ##### Steve Klise - Storage with CouchDB
@@ -321,7 +326,6 @@ Syllabus
 * [CouchDB](http://couchdb.apache.org/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
-
 
 ##### Discussion - Final Project Due Week 14 Class (05/08)
 * Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
@@ -333,6 +337,7 @@ Syllabus
 ##### Homework
 * Create - An Express-CouchDB (Cloudant) version of last week's homework
 * Proposal - Present At Least Two Final Project Ideas
+
 
 ### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
 * Open Authentication (OAuth)
@@ -347,6 +352,7 @@ Syllabus
 * Additional
   * Sessions, Cookies, Local Storage, SSL, and HTTPS
   * [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
+
 
 ### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
 
@@ -365,11 +371,20 @@ Syllabus
 * [github.com/miguelbermudez](https://github.com/miguelbermudez)
 * [Control Group](http://www.controlgroup.com/)
 
+
 ### Week 13 (05/01): Final Project Workshop & User Testing
 
-### Week 14 (05/08): FINAL DUE
+
+### Week 14 (05/08): FINAL PRESENTATIONS
 
 ##### Final Presentations
+* Guest Critics
+  * Gerald Mitchell - [swich.to](http://swich.to)
+  * Justin Dickinson - [vimeo.com](http://vimeo.com)
+  * Mimi Yin - [ponder.co](https://www.ponder.co/welcome/)
+  * Miguel Bermudez - [Control Group](http://www.controlgroup.com/)
+
+##### Course Evaluations
 
 
 Helpful Links
@@ -409,7 +424,6 @@ Helpful Links
 * [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
 * [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [Drag and Drop Tutorial - Native HTML5](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragging-events)
-
 
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)

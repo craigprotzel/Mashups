@@ -1,5 +1,25 @@
 Mashups: Student Work
 ===============================
+
+Final Project - Due 05/08
+-------------------------
+* Aaron Arntz - [Bathroom Code Liberator](http://arntzy.github.io/bathroomCodeLiberator/)
+* Adarsh Kosuru - Dot 2 Dot
+* Brian Clifton - [Congressional Forecast](http://congressionalforecast.herokuapp.com/)
+* Caroline Sinders - [Night Witches](http://itp.nyu.edu/~cds313/mashups/meow)
+* Christina Carter - [Restart Motion](http://www.restartmotion.com/)
+* Dexter Miranda & Karen Peng - 
+* Eozin Chae -
+* Jeff Ong & Laura Chen - [Tune-In-Tune-Out](www.jffng.com/tune-in-tune-out)
+* Jiwon Yoon - 
+* Jorge Brake - [Secret Drones](itp.nyu.edu/~jab680/apis/secretdrones/)
+* Joy Li - 
+* Kate Sukpisan -
+* Kyle Greenberg & Neil Solomon - [Last Nights Game](https://lastnightsgame.herokuapp.com)
+* Wajma Mohseni - Qaramon
+* Woonyung Choi - [Favicon-Drawing](http://favicon-drawing.herokuapp.com/)
+
+
 Assignment #2 - Due 04/03
 -------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
