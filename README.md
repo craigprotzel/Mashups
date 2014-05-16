@@ -365,9 +365,10 @@ Syllabus
   * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
   * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-* [Mashups Sepcific Tutorial]()
+* [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 
-##### Miguel Bermudez - IRL
+##### Miguel Bermudez - JS IRL
+* [Lecture Slides](https://www.dropbox.com/s/sc399jrtil6zxwz/JS-IRL-042314-Presentation.pdf)
 * [github.com/miguelbermudez](https://github.com/miguelbermudez)
 * [Control Group](http://www.controlgroup.com/)
 
@@ -424,6 +425,7 @@ Helpful Links
 * [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
 * [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [Drag and Drop Tutorial - Native HTML5](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragging-events)
+
 
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
