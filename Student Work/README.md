@@ -8,13 +8,13 @@ Final Project - Due 05/08
 * Brian Clifton - [Congressional Forecast](http://congressionalforecast.herokuapp.com/)
 * Caroline Sinders - [Night Witches](http://itp.nyu.edu/~cds313/mashups/meow)
 * Christina Carter - [Restart Motion](http://www.restartmotion.com/)
-* Dexter Miranda & Karen Peng - 
+* Dexter Miranda & Karen Peng - [Pinata Rush](http://play.pinatarush.com)
 * Eozin Chae -
 * Jeff Ong & Laura Chen - [Tune-In-Tune-Out](www.jffng.com/tune-in-tune-out)
-* Jiwon Yoon - 
+* Jiwon Yoon - [Showroom](http://jiwonyoonworks.com/showroom/draggablecubes3.html)
 * Jorge Brake - [Secret Drones](itp.nyu.edu/~jab680/apis/secretdrones/)
-* Joy Li - 
-* Kate Sukpisan -
+* Joy Li - Card Maker
+* Kate Sukpisan - Cooper Hewitt Live Music Video
 * Kyle Greenberg & Neil Solomon - [Last Nights Game](https://lastnightsgame.herokuapp.com)
 * Wajma Mohseni - Qaramon
 * Woonyung Choi - [Favicon-Drawing](http://favicon-drawing.herokuapp.com/)
