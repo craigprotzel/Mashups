@@ -16,7 +16,7 @@ Final Project - Due 05/08
 * Joy Li - Card Maker
 * Kate Sukpisan - Cooper Hewitt Live Music Video
 * Kyle Greenberg & Neil Solomon - [Last Nights Game](https://lastnightsgame.herokuapp.com)
-* Wajma Mohseni - Qaramon
+* Wajma Mohseni - [Qaramon](http://itp.nyu.edu/~wm709/wajmina/2014/05/mashups-final-project/)
 * Woonyung Choi - [Favicon-Drawing](http://favicon-drawing.herokuapp.com/)
 
 
