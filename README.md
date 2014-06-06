@@ -172,6 +172,7 @@ Syllabus
 * Additional Readings
   * Stewart Smith - [Javascript Basics - Objects Section](http://stewd.io/javascript/01-1-javascript.html) + [Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+  * [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
 
 
 ### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley 
