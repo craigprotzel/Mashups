@@ -1,7 +1,7 @@
 Mashups: Creating with Web APIs
 ===============================
 
-NYU ITP Summer 2014
+NYU ITP Spring 2014
 Class: Thursdays 6:30 - 9pm
 Instructor: Craig Protzel
 Email: craig.protzel@nyu.edu
@@ -14,9 +14,9 @@ Office Hours: [Thursdays 10:30am - 2:30pm](https://www.google.com/calendar/selfs
 Course Description
 ------------------
 
-Much data and many services are now accessible through public APIs - Application Programming Interfaces - from sites such as YouTube, Google Maps, Twitter, and Wikipedia. But how can we access these datasets and services? How can we transfer, store, initialize, and display this data on our own pages? And how might we use the data to create unique and creative web experiences of our own?
+Much data and many services are now accessible through public APIs - Application Programming Interfaces - from sites such as YouTube, Google Maps, Twitter, and Xively. But how can we access these datasets and services? How can we transfer, store, initialize, and display this data on our own pages? And how might we use the data to create unique and creative web experiences of our own?
 
-This class is about building interactive single-page web applications that leverage public data from a range of existing web services. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Much of class time will be spent reviewing and writing code, mostly Javascript, for front-end (in-browser) web development. We will use a number of frameworks, including JQuery, Underscore, Paper, Pocporn, D3 and more. Where backend work is required, we will use Node-Express. Students should have some programming experience (ICM) as well as a basic understanding of web development (Comm Lab Web), specifically exposure to HTML & CSS. Experience with Javascript is a plus.
+This class is about building interactive single-page web applications that leverage public data from a range of existing web services. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Much of class time will be spent reviewing and writing code, mostly Javascript, for front-end (in-browser) web development. We will use a number of frameworks, including JQuery, Underscore, PaperJs, and D3. Where backend work is required, we will use Node-Express. Students should have some programming experience (ICM) as well as a basic understanding of web development (Comm Lab Web). Experience with Javascript is a plus.
 
 
 Course Goals
