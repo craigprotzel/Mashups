@@ -2,13 +2,12 @@ Mashups: Creating with Web APIs
 ===============================
 
 NYU ITP Summer 2014  
-Class: Thursdays 6:30 - 9pm  
+Class: Tuesdays & Thursdays 6:30 - 9:25pm  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours: [Thursdays 10:30am - 2:30pm](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)  
+Office Hours:  
 
-[Class Email List](https://groups.google.com/forum/#!forum/itp-mashups)  
-[Class Blog List](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)  
+[Class Info List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)  
 [Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
 
 Course Description
@@ -22,25 +21,25 @@ This class is about building interactive single-page web applications that lever
 Course Goals
 ------------
 
-* Develop an understanding of front-end web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
-* Develop a basic understanding of Javascript and the world of open source (client-side) Javascript libraries
+* Develop an understanding of client-side (front-end) web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
+* Develop a basic understanding of Javascript along with the ecosystem of open source client-side Javascript libraries
 * Learn how to work with a variety of data-serving public web APIs
-* Learn how to create web pages in modern browsers that leverage data from web services via public web APIs
-* Gain exposure to server-side web development
-* Be empowered to produce compelling single page web experiences
+* Learn how to create web pages in modern browsers that leverage data and services from public web APIs
+* Gain exposure to server-side (back-end) web development and data storage
+* Become empowered to produce compelling well-designed single page web experiences
 
 
 Course Requirements
 -------------------
 
-* Sign up for class email list - [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
 * Attend all classes, no more than 2 absences allowed
 * Arrive on time to the start of class or office hour appointment
 * Complete all homework exercises and assignments on time
 * Post homework exercises and assignments to your blog at least one hour prior to class
 * Participate in class through presentations, discussion, questions, and feedback
 * Respect fellow students' work, questions, and comments
-* Communicate with me if you need to miss class, would like extra help, or schedule additional office hours
+* Communicate with me if you have any questions, would like extra help, or need additional office hours
+* Email **in advance** if you need to miss class or (re)schedule office hours
 
 
 Grading
@@ -54,12 +53,11 @@ Grading
 Syllabus
 --------
 
-* **PART I: Weeks 1 - 5 Client-Side Web + API Fundamentals**
-* **PART II: Weeks 6 - 9 Client-Side Javascript Frameworks**
-* **PART III: Weeks 10 - 14 Server-Side Web + Final Project**
+* **PART I: Weeks 1 & 2 Client-Side Web + API Fundamentals**
+* **PART II: Weeks 3 & 4 Client-Side Javascript Frameworks**
+* **PART III: Weeks 5 & 6 Server-Side Web + Final Project**
 
-
-### Week 1 (01/30) - The Web, APIs, & Data
+### CLASS 1 (07/08) - The Web, APIs, & Data
 
 ##### Class Intro
 * [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
@@ -90,14 +88,13 @@ Syllabus
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
 
 ##### Homework
-* Sign Up - for class email list [ITP Mashups Google Group](https://groups.google.com/forum/#!forum/itp-mashups)
-* Add -  your blog URL to the [class blog list](https://docs.google.com/spreadsheet/ccc?key=0AhUAnC0yr2QRdFp6alNMeVJleTZERnlYX2VDTGVjVkE&usp=sharing)
+* Add -  your info to the [class info list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on Javascript
 * Download - a text editor
 * Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Create & Upload - a single web page that displays (some of) the data you found with some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, no need to programatically connect your page to the data
+* Create & Upload - a single web page that displays (some of) the data you found with some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you DO NOT need to programatically connect your page to the data
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -107,10 +104,9 @@ Syllabus
   * [API 101](http://apievangelist.com/index.html)
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
+### CLASS 2 (07/10) -  Web Dev 101 - HTML, CSS, & Javascript
 
-### Week 2 (02/06) -  Web Dev 101 - HTML, CSS, & Javascript
-
-##### Discussion - Week 1 Homework
+##### Discussion - Class 1 Homework
 
 ##### Mashup of the Day - [Spell with Flickr](http://metaatem.net/words/)
 
@@ -118,7 +114,6 @@ Syllabus
 * Setting up your page(s)
 * Adding Elements
 * Basic Styling
-* Pair Programming Exercise
 * Review
 
 ##### Workshop - Intro to Javascript
@@ -127,9 +122,8 @@ Syllabus
 * The Window and the DOM
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial) Example
 
-##### Discussion - Assignment #1 Due Week 5 Class (03/02)
-* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
-
+##### Discussion - Assignment #1 Due CLASS 5 (07/22)
+* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
 
 ##### Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
@@ -137,15 +131,14 @@ Syllabus
 * Complete & Upload - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html)
 * Think & Post - idea(s) for Assignment #1
 * Additional Readings
-  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
   * [JS For Cats](http://jsforcats.com/)
+  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
   * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
+### CLASS 3 (07/15): Making Things Happen On The Page - Javascript + jQuery
 
-### Week 3 (02/13): Making Things Happen On The Page - Javascript + jQuery
-
-##### Discussion - Week 2 Homework
+##### Discussion - Class 2 Homework
 
 ##### Workshop - Javascript + jQuery
 * References
@@ -174,10 +167,9 @@ Syllabus
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
   * [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
 
+### CLASS 4 (07/17): Structuring Your App
 
-### Week 4 (02/20): Structuring Your App + Guest Talk by Josh Begley
-
-##### Discussion - Week 3 Homework
+##### Discussion - Class 3 Homework
 
 ##### Workshop - OOP in JS
 * Creating Our Own Objects
@@ -188,12 +180,9 @@ Syllabus
   * [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
   * [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
 
-##### Josh Begley - Guest Speaker
-*  [JoshBegley.com](http://joshbegley.com/)
-
 ##### Homework
 * DUE - Assignment #1
-* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be implementing the "Classical" pattern in class)
+* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be subscribe to the "Classical" pattern in class)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 * Additional Reading
@@ -201,8 +190,6 @@ Syllabus
 
 
 ### Week 5 (03/02): Assignment #1 DUE + Guest Talk by Martin Bravo
-
-###### **NOTE CLASS DATE HAS BEEN RESCHEDULED FOR SUNDAY 03/02 2:30PM**
 
 ##### Presentations - Assignment #1
 
@@ -394,6 +381,7 @@ Helpful Links
 
 #### General Web
 * [Mozilla Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+* [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code
 * [JS Bin](http://jsbin.com/) - another web-based tool to share code
 * [11 Phases of a Web Developer's Career](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
@@ -416,6 +404,7 @@ Helpful Links
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)
+* [SugarJS](http://sugarjs.com/) - javascript sweetened
 * [SuperheroJS](http://superherojs.com/) - a collection of the best articles, videos, and presentations on javascript
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 * [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
@@ -425,7 +414,6 @@ Helpful Links
 * [Lear X in Y Minutes - Javascript](http://learnxinyminutes.com/docs/javascript/)
 * [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
 * [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
-* [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [Drag and Drop Tutorial - Native HTML5](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragging-events)
 
 
