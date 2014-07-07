@@ -117,7 +117,7 @@ Syllabus
 
 ##### Workshop - Intro to Javascript
 * Using the Browser Console
-* Playing with Data Types
+* Data Types 
 * The Window and the DOM
 
 ##### Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
