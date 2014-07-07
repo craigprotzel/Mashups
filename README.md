@@ -159,7 +159,6 @@ Syllabus
 * Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9min)](http://www.nyu.edu/its/lynda/)
-* Read - [Introduction to Git](http://skli.se/2012/09/22/introduction-to-git/)
 * Get API Keys for both the [NY Times API](http://developer.nytimes.com/) and the [Instagram API](http://instagram.com/developer/)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
@@ -170,11 +169,6 @@ Syllabus
 ### CLASS 4 (07/17): Structuring Your App
 
 ##### Discussion - Class 3 Homework
-
-##### Working with Git
-* [Download & Install Git](http://git-scm.com/downloads)
-* Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
-* [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 ##### Workshop - Objects and Arrays in JS
 * Understanding Objects and their Prototype
@@ -188,7 +182,7 @@ Syllabus
 
 ##### Homework
 * DUE - Assignment #1
-* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will be subscribe to the "Classical" pattern in class)
+* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
 * Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 * Additional Reading
@@ -207,49 +201,49 @@ Syllabus
     * [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
     * [Stack Overflow - Don't Parse HTML with RegEx](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags)
 * [Basic Underscore](https://github.com/craigprotzel/Mashups/tree/master/Basic_Underscore)
+* Templates with Underscore
 * [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 * WhatsUpCongress Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
 * Managing Asynchronicity
   * [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
 
-### CLASS 6 (07/24): Graphs on Graphs on Graphs
+##### Discussion - Assignment #2 Due Week 8 Class (07/31)
+* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, Paper, Popcorn, etc.)
 
-##### "Working With D3"
+##### Homework
+* Play - with Underscore Templates, add a tempalte to Assignment #1
+* Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+* Review - [PaperJS](http://paperjs.org/) library
+
+### CLASS 6 (07/24): Drawing on the Page
+
+##### Graphs on Graphs on Graphs
 * [D3JS](http://d3js.org/)
 * [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
-* Additional Tools
+
+##### Other Graph Libraries
   * [Google Charts](https://developers.google.com/chart/)
   * [ChartJS](http://www.chartjs.org/)
 
-##### Discussion - Assignment #2 Due Week 9 Class (04/03)
-* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
-
-##### Homework
-* Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-* Play with D3
-* Look at the [P5](https://github.com/lmccart/p5.js) & [PaperJS](http://paperjs.org/) libraries
-
-### CLASS 7 (07/29): A Blank Canvas
-
-##### Animation in the Browser
+##### A Blank Canvas 
 * [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
 * [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
 * [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
 * [HTML5 Canvas Cheat Sheet](http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf)
 * [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
+
+##### Other Animation Libraries
+* [RafaelJS](http://raphaeljs.com/)
+* [P5](https://github.com/lmccart/p5.js)
 * [PaperJS vs ProcessingJS vs RafaelJS](http://coding.smashingmagazine.com/2012/02/22/web-drawing-throwdown-paper-processing-raphael/) + [Comparison Examples](http://zgrossbart.github.io/3gears/)
 
-##### Animation Tools
-* [P5](https://github.com/lmccart/p5.js)
-* [PaperJS](http://paperjs.org/)
-* [RafaelJS](http://raphaeljs.com/)
-
 ##### Homework
-* Play with an Animation Library
-* Look at the Web Audio API and Video Libraries
+* Play - with an Animation Library
+* Review - the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) and [PopcornJS](http://popcornjs.org/) Video Library
+* Work on Assignnment #2
 
-### CLASS 8 (07/31): Moving Pictures & Sound
+### CLASS 7 (07/29): Moving Pictures & Sound
 
 ##### Audio
 * Web Audio API
@@ -279,7 +273,7 @@ Syllabus
 ##### Homework
 * DUE - Assignment #2
 
-### Class 9 (08/05): Assignment #2 DUE + Intro to the Server
+### Class 8 (07/31): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
 
@@ -289,7 +283,7 @@ Syllabus
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Discussion - Final Project Due Class 12 (08/14)
-* Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate each of the following elements:
+* Create a single web page experience that combines data from at least one public web API and data stored in your own databse. Your final project MUST be uploaded to the web before class and it MUST incorporate each of the following elements:
   * a public web API as a data source
   * a client-side js library other than jQuery
   * server-side code (i.e. Node-Express)
@@ -297,14 +291,18 @@ Syllabus
 
 ##### Homework
 * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
-* Create - An Express version of one of your assignments
+* Create - a basic Express app to use for your final
 * Additional Reading
   * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
+* Prepare - 2 Final Project Proposals to share with the class
 
-### Class 10 (08/07): The Server & Storage 
+### Class 9 (08/05): The Server & Storage 
+
+##### Final Project Proposals
 
 ##### Creating your own API
 * Dynamic Routes    
+* Main Page, Input Page, Data Page
 
 ##### Storage with CouchDB
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
@@ -313,24 +311,39 @@ Syllabus
 * [Cloudant](https://cloudant.com)
 
 ##### Homework
-* Create - An Express-CouchDB (Cloudant) version of last week's homework
-* Proposal - Present At Least Two Final Project Ideas
+* Work - on Final Project
+* Create - an Express-CouchDB (Cloudant) version of last week's homework
 
-### Class 11 (08/12): Re-Introduce Ourselves with OAuth 
-* Open Authentication (OAuth)
-  * [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
-  * [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
-  * [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
-  * [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
-  * [PassportJS](http://passportjs.org/) - Authentication for Node
-  * [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
-  * Code Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/OAuth_Twitter.zip)
+### Class 10 (08/07): The Server & Storage Continued
+
+##### Final Project Updates
+
+##### More Storage
+
+##### Optional: Open Authentication (OAuth)
+* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
+* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+* [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
+* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
+* [PassportJS](http://passportjs.org/) - Authentication for Node
+* [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
+* Code Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/OAuth_Twitter.zip)
 
 * Additional
   * Sessions, Cookies, Local Storage, SSL, and HTTPS
   * [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
-### Class 12 (08/14): Running Wild on Heroku + Final Presentations
+##### Homework
+* Work - on Final Project
+* Download & Install - [Git](http://git-scm.com/downloads)
+* Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise 
+* Additional
+  * Read - [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+  * Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
+
+### Class 11 (08/12): 
+
+##### Working with Git
 
 ##### How to Deploy
 * Heroku
@@ -339,10 +352,18 @@ Syllabus
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 
+##### Final Project Workshop
+
+##### Homework
+* DUE - Final Project
+
+### Class 12 (08/14): Final Presentations
+
 ##### Final Presentations
 
 ##### Course Evaluations
 
+##### Course Review
 
 Helpful Links
 ------------------
