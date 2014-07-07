@@ -17,7 +17,6 @@ Much data and many services are now accessible through public APIs - Application
 
 This class is about building interactive single-page web applications that leverage public data from a range of existing web services. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Much of class time will be spent reviewing and writing code, mostly Javascript, for front-end (in-browser) web development. We will use a number of frameworks, including JQuery, Underscore, Paper, Pocporn, D3 and more. Where backend work is required, we will use Node-Express. Students should have some programming experience (ICM) as well as a basic understanding of web development (Comm Lab Web), specifically exposure to HTML & CSS. Experience with Javascript is a plus.
 
-
 Course Goals
 ------------
 
@@ -28,7 +27,6 @@ Course Goals
 * Gain exposure to server-side (back-end) web development and data storage
 * Become empowered to produce compelling well-designed single page web experiences
 
-
 Course Requirements
 -------------------
 
@@ -38,9 +36,8 @@ Course Requirements
 * Post homework exercises and assignments to your blog at least one hour prior to class
 * Participate in class through presentations, discussion, questions, and feedback
 * Respect fellow students' work, questions, and comments
-* Communicate with me if you have any questions, would like extra help, or need additional office hours
-* Email **in advance** if you need to miss class or (re)schedule office hours
-
+* Communicate with the professor if you have any questions, would like extra help, or need additional office hours
+* Email the professor **in advance** if you need to miss class or (re)schedule office hours
 
 Grading
 --------
@@ -87,14 +84,18 @@ Syllabus
   * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
 
+##### Exercise: Super Simple Page
+* Setting up your page
+* Adding elements
+
 ##### Homework
 * Add -  your info to the [class info list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on Javascript
-* Download - a text editor
+* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 * Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Explore - [ProgrammableWeb](http://programmableweb.com)
 * Find, Post, & Describe - a url that returns JSON data from an Open API
-* Create & Upload - a single web page that displays (some of) the data you found with some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you DO NOT need to programatically connect your page to the data
+* Create & Upload - a single web page that displays (some of) the data you found. Your page must have some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you DO NOT need to programatically connect your page to the data
 * Additional Readings
   * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
   * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
@@ -108,19 +109,18 @@ Syllabus
 
 ##### Discussion - Class 1 Homework
 
-##### Mashup of the Day - [Spell with Flickr](http://metaatem.net/words/)
-
 ##### Workshop - HTML & CSS
-* Setting up your page(s)
-* Adding Elements
 * Basic Styling
-* Review
+* Classes & IDs
+* Position
+* [HTML5 Boilerplate](http://html5boilerplate.com/)
 
 ##### Workshop - Intro to Javascript
 * Using the Browser Console
 * Playing with Data Types
 * The Window and the DOM
-* [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial) Example
+
+##### Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ##### Discussion - Assignment #1 Due CLASS 5 (07/22)
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
@@ -141,25 +141,25 @@ Syllabus
 ##### Discussion - Class 2 Homework
 
 ##### Workshop - Javascript + jQuery
-* References
-  * [Events and Listeners in Javascript](http://idratherbewriting.com/2013/02/04/events-and-listeners-javascript/)
-  * [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * Loops
 * Functions
 * Selectors
 * Events
 * [AJAX with jQuery](http://learn.jquery.com/ajax/)
+* References
+  * [Events and Listeners in Javascript](http://idratherbewriting.com/2013/02/04/events-and-listeners-javascript/)
+  * [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
+
+##### Exercise - WikiSearch
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
-* [WikiSearch Example 1](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%201)
-* [WikiSearch Example 2](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%202)
-* [WikiSearch Example 4](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%204)
-* Multiple API calls
+* [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch)
 
 ##### Homework
 * Review - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
 * Review - [jQuery - Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/)
 * Review - [JQuery - Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
 * Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9min)](http://www.nyu.edu/its/lynda/)
+* Read - [Introduction to Git](http://skli.se/2012/09/22/introduction-to-git/)
 * Get API Keys for both the [NY Times API](http://developer.nytimes.com/) and the [Instagram API](http://instagram.com/developer/)
 * Create & Upload - a single web page that uses AJAX to load and display data from a public web api, your work should include a .html file, a .css file, and a .js file
 * Additional Readings
@@ -171,9 +171,15 @@ Syllabus
 
 ##### Discussion - Class 3 Homework
 
-##### Workshop - OOP in JS
+##### Working with Git
+* [Download & Install Git](http://git-scm.com/downloads)
+* Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+* [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
+
+##### Workshop - Objects and Arrays in JS
+* Understanding Objects and their Prototype
 * Creating Our Own Objects
-* Understanding the Prototype
+* Using Arrays to store data
 * [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
 * NY Times + Instagram API Mashup
   * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
@@ -188,28 +194,11 @@ Syllabus
 * Additional Reading
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
 
-
-### Week 5 (03/02): Assignment #1 DUE + Guest Talk by Martin Bravo
+### CLASS 5 (07/22): Assignment #1 DUE + Dealing with Data
 
 ##### Presentations - Assignment #1
 
-##### Martin Bravo - "Going From 0 to 1"
-* [Friend Forecast - A Facebook Weather Mashup](https://github.com/bravomartin/friend-forecast)
-* Process
-* Development Tips
-  * Underscore Data Manipulation
-  * Underscore Templates
-* Additional Examples
-  * [WikiSearch Example 3](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%203)
-  * [WikiSearch Example 5](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch/Example%205)
-
-##### Homework
-* Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-
-
-### Week 6 (03/06): Data Organization & Management + Guest Talk by Jeremy Scott-Diamond
-
-##### Managing the Data
+##### Data Organization & Management
 * Manipulating Strings
   * [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
   * Regular Expressions
@@ -217,14 +206,15 @@ Syllabus
     * [Regular Expression Cheat Sheet](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
     * [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
     * [Stack Overflow - Don't Parse HTML with RegEx](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags)
-* Wotking with Arrays & Objects
-* Using Underscore
+* [Basic Underscore](https://github.com/craigprotzel/Mashups/tree/master/Basic_Underscore)
+* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
+* WhatsUpCongress Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
 * Managing Asynchronicity
   * [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
-* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
-* WhatsUpCongress Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/WhatsUpCongress.zip)
 
-##### [Jeremy Scott Diamond](http://jeremyscottdiamond.com/#projects) - "Working With D3"
+### CLASS 6 (07/24): Graphs on Graphs on Graphs
+
+##### "Working With D3"
 * [D3JS](http://d3js.org/)
 * [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 * Additional Tools
@@ -235,11 +225,11 @@ Syllabus
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
 
 ##### Homework
+* Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 * Play with D3
 * Look at the [P5](https://github.com/lmccart/p5.js) & [PaperJS](http://paperjs.org/) libraries
 
-
-### Week 7 (03/13): A Blank Canvas
+### CLASS 7 (07/29): A Blank Canvas
 
 ##### Animation in the Browser
 * [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
@@ -259,8 +249,7 @@ Syllabus
 * Play with an Animation Library
 * Look at the Web Audio API and Video Libraries
 
-
-### Week 8 (03/27): Moving Pictures & Sound
+### CLASS 8 (07/31): Moving Pictures & Sound
 
 ##### Audio
 * Web Audio API
@@ -290,8 +279,7 @@ Syllabus
 ##### Homework
 * DUE - Assignment #2
 
-
-### Week 9 (04/03): Assignment #2 DUE + Intro to the Server
+### Class 9 (08/05): Assignment #2 DUE + Intro to the Server
 
 ##### Presentations - Assignment #2
 
@@ -300,34 +288,35 @@ Syllabus
 * [Express Framework](http://expressjs.com/)
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
-##### Homework
-* Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
-* Create - An Express version of one of your assignments
-* Additional Reading
-  * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
-
-
-### Week 10 (04/10): The Server & Storage + Guest Talk by Steve Klise
-
-##### Steve Klise - Storage with CouchDB
-* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
-* [CouchDB](http://couchdb.apache.org/)
-* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
-* [Cloudant](https://cloudant.com)
-
-##### Discussion - Final Project Due Week 14 Class (05/08)
-* Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate at least ONE of the following elements:
+##### Discussion - Final Project Due Class 12 (08/14)
+* Create a single web page experience that leverages the skills and technologies learned in this course. Your final project MUST be uploaded to the web before class and it MUST incorporate each of the following elements:
   * a public web API as a data source
   * a client-side js library other than jQuery
   * server-side code (i.e. Node-Express)
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
+* Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* Create - An Express version of one of your assignments
+* Additional Reading
+  * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
+
+### Class 10 (08/07): The Server & Storage 
+
+##### Creating your own API
+* Dynamic Routes    
+
+##### Storage with CouchDB
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
+* [CouchDB](http://couchdb.apache.org/)
+* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
+* [Cloudant](https://cloudant.com)
+
+##### Homework
 * Create - An Express-CouchDB (Cloudant) version of last week's homework
 * Proposal - Present At Least Two Final Project Ideas
 
-
-### Week 11 (04/17): Re-Introduce Ourselves with OAuth + Final Project Proposal
+### Class 11 (08/12): Re-Introduce Ourselves with OAuth 
 * Open Authentication (OAuth)
   * [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
   * [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
@@ -341,37 +330,16 @@ Syllabus
   * Sessions, Cookies, Local Storage, SSL, and HTTPS
   * [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
-
-### Week 12 (04/24): Running Wild on Heroku + Guest Talk by Miguel Bermudez
+### Class 12 (08/14): Running Wild on Heroku + Final Presentations
 
 ##### How to Deploy
-* Git
-  * [Download & Install Git](http://git-scm.com/downloads)
-  * Steve Klise - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) + [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
-  * [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 * Heroku
   * [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
   * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 
-##### Miguel Bermudez - JS IRL
-* [Lecture Slides](https://www.dropbox.com/s/sc399jrtil6zxwz/JS-IRL-042314-Presentation.pdf)
-* [github.com/miguelbermudez](https://github.com/miguelbermudez)
-* [Control Group](http://www.controlgroup.com/)
-
-
-### Week 13 (05/01): Final Project Workshop & User Testing
-
-
-### Week 14 (05/08): FINAL PRESENTATIONS
-
 ##### Final Presentations
-* Guest Critics
-  * Gerald Mitchell - [swich.to](http://swich.to)
-  * Justin Dickinson - [vimeo.com](http://vimeo.com)
-  * Mimi Yin - [ponder.co](https://www.ponder.co/welcome/)
-  * Miguel Bermudez - [Control Group](http://www.controlgroup.com/)
 
 ##### Course Evaluations
 
