@@ -36,7 +36,7 @@ Course Requirements
 * Post homework exercises and assignments to your blog at least one hour prior to class
 * Participate in class through presentations, discussion, questions, and feedback
 * Respect fellow students' work, questions, and comments
-* Communicate with the professor if you have any questions, would like extra help, or need additional office hours
+* Communicate with the professor if you have any questions, would like extra help, or need further instruction
 * Email the professor **in advance** if you need to miss class or (re)schedule office hours
 
 Grading
