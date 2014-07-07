@@ -5,7 +5,7 @@ NYU ITP Summer 2014
 Class: Tuesdays & Thursdays 6:30 - 9:25pm  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours:  
+Office Hours:  TBD
 
 [Class Info List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)  
 [Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
@@ -54,7 +54,7 @@ Syllabus
 * **PART II: Classes 5 - 9 Client-Side Javascript Frameworks**
 * **PART III: Classes 9 - 12  Server-Side Web + Final Project**
 
-### CLASS 1 (07/08) - The Web, APIs, & Data
+### CLASS 1 (07/08): The Web, APIs, & Data
 
 ##### Class Intro
 * [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
@@ -105,7 +105,7 @@ Syllabus
   * [API 101](http://apievangelist.com/index.html)
   * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
 
-### CLASS 2 (07/10) -  Web Dev 101 - HTML, CSS, & Javascript
+### CLASS 2 (07/10): Web Dev 101
 
 ##### Discussion - Class 1 Homework
 
@@ -136,7 +136,7 @@ Syllabus
   * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
   * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
-### CLASS 3 (07/15): Making Things Happen On The Page - Javascript + jQuery
+### CLASS 3 (07/15): Making Things Happen On The Page
 
 ##### Discussion - Class 2 Homework
 
@@ -170,7 +170,7 @@ Syllabus
 
 ##### Discussion - Class 3 Homework
 
-##### Workshop - Objects and Arrays in JS
+##### Workshop - Objects and Arrays in Javascript
 * Understanding Objects and their Prototype
 * Creating Our Own Objects
 * Using Arrays to store data
