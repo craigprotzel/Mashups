@@ -14,7 +14,7 @@ var CLOUDANT_DATABASE="";
 var CLOUDANT_KEY="";
 var CLOUDANT_PASSWORD="";
 
-var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE
+var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE;
 
 // Set up the public directory to serve our Javascript file
 app.use(express.static(__dirname + '/public'));
@@ -30,52 +30,52 @@ app.use(express.errorHandler());
 
 //ROUTES
 app.get("/", function(request, response) {
-  response.render('index', {title: "Notepad"});
+	response.render('index', {title: "Notepad"});
 });
 
 // Post route to create a new note.
 app.post("/save", function (request, response) {
-  Request.post({
-    url: CLOUDANT_URL,
-    auth: {
-      user: CLOUDANT_KEY,
-      pass: CLOUDANT_PASSWORD
-    },
-    headers: {
-      "Content-Type": "application/json; charset=utf-8"
-    },
-    body: JSON.stringify(request.body)
-  }, function (err, res, body) {
-    response.json(JSON.parse(body))
-  });
+	Request.post({
+		url: CLOUDANT_URL,
+		auth: {
+			user: CLOUDANT_KEY,
+			pass: CLOUDANT_PASSWORD
+		},
+		headers: {
+			"Content-Type": "application/json; charset=utf-8"
+		},
+		body: JSON.stringify(request.body)
+	}, function (err, res, body) {
+		response.json(JSON.parse(body));
+	});
 });
 
 // API route to get the CouchDB after page load.
 app.get("/api/:key", function (request, response) {
-  // Get all docs from Cloudant.
-  Request.get({
-    url: CLOUDANT_URL+"/_all_docs?include_docs=true",
-    auth: {
-      user: CLOUDANT_KEY,
-      pass: CLOUDANT_PASSWORD
-    }
-  }, function (err, res, body){
-    // The JSON comes in the body as a string, we need to parse it first.
-    var models = JSON.parse(body).rows;
+	// Get all docs from Cloudant.
+	Request.get({
+		url: CLOUDANT_URL+"/_all_docs?include_docs=true",
+		auth: {
+			user: CLOUDANT_KEY,
+			pass: CLOUDANT_PASSWORD
+		}
+	}, function (err, res, body){
+		// The JSON comes in the body as a string, we need to parse it first.
+		var models = JSON.parse(body).rows;
 
-    // And then filter the results to match the desired key.
-    var filtered = _.filter(models, function (m) {
-      return m.doc.namespace == request.params.key;
-    })
+		// And then filter the results to match the desired key.
+		var filtered = _.filter(models, function (m) {
+			return m.doc.namespace == request.params.key;
+		});
 
-    // Now use Express to render the JSON.
-    response.json(filtered);
-  });
+		// Now use Express to render the JSON.
+		response.json(filtered);
+	});
 });
 
 // Route to load the view and client side javascript to display the notes.
 app.get("/:key", function (request, response) {
-  response.render('notes',{title: "Notepad", key: request.params.key});
+	response.render('notes',{title: "Notepad", key: request.params.key});
 });
 
 app.listen(3000);

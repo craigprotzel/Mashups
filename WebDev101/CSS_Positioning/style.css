@@ -2,7 +2,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-
 #topLeftBox { 
 	position: absolute;
 	background-color: rgb(254, 169, 0);
@@ -11,7 +10,6 @@ body {
 	top: 0px; 
 	left: 0px; 
 }
-
 #headerBox{
 	position:fixed;
 	background-color: rgba(50,50,50,0.5);
@@ -21,7 +19,6 @@ body {
 	left: 0px;
 	font-size: 22px;
 }
-
 #innerBox{
 	position: absolute;
 	left: 40%;
@@ -30,13 +27,11 @@ body {
 	width: 40px;
 	height: 40px;
 }
-
 #middleBox{
 	background-color: aqua;
 	width: 100%;
 	height: 600px;
 }
-
 .rightSideBox{
 	float: right;
 	background-color: blue;
@@ -44,14 +39,12 @@ body {
 	height: 150px;
 	margin: 200px 10px;
 }
-
 #bottomBox{
 	background-color: pink;
 	width: 75%;
 	height: 300px;
 	margin: 10px auto;
 }
-
 .roundBox{
 	float: left;
 	clear: left;
@@ -63,7 +56,6 @@ body {
 	border-color: yellow;
 	border-radius:25px;
 }
-
 .roundBox:hover{
 	background-color: blue;
 }

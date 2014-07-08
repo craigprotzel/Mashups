@@ -71,11 +71,3 @@ var happyPeople = _.map(arrayOfFriends, function(obj){
 						return tempObj;
 					});
 console.log(happyPeople);
-
-
-
-
-
-
-
-

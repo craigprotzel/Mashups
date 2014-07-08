@@ -15,7 +15,6 @@ function drawCircles(num){
 }
 
 var startAnimation = false;
-
 function onFrame(){
 	//This is only called ONCE - when the data is ready
 	if (dataIsReady){
@@ -23,7 +22,6 @@ function onFrame(){
 		dataIsReady = false;
 		startAnimation = true;
 	}
-
 
 	//Animation logic goes in here
 	if (startAnimation){

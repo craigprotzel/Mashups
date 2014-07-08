@@ -21,8 +21,8 @@ app.use(express.errorHandler());
 
 // ROUTES
 app.get("/", function(request, response) {
-  // render the index with no variables.
-  response.render('index');
+	// render the index with no variables.
+	response.render('index');
 });
 
 // Start the server

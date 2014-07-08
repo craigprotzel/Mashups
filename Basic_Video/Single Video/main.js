@@ -54,7 +54,6 @@ function makeYoutubeRequest(){
 			theVideo.on('play', function(){
 				changeBG();
 			});
-
 			theVideo.on('pause',function(){
 				clearInterval(bgAnimation);
 			});
@@ -65,16 +64,12 @@ function makeYoutubeRequest(){
 makeYoutubeRequest();
 
 $(document).ready(function(){
-
 	theVideo.on('pause',function(){
 		clearInterval(bgAnimation);
 	});
-
 	theVideo.on('play', function(){
 		changeBG();
 	});
-
-
 });
 
 function changeBG(){
@@ -84,7 +79,6 @@ function changeBG(){
 	}, 1000);
 }
 
-
 function generateRandomColor(){
 	var r = Math.floor(Math.random() * 125);
 	var g = Math.floor(Math.random() * 155);
@@ -93,4 +87,3 @@ function generateRandomColor(){
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
 	return randomColor;
 }
-

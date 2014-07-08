@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="content-type" content="charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
 		<title>Wikipedia Example 3</title>
-
-		<!-- Loading the js libraries at the top. -->
-		<!-- They can also be loaded at the bottom, but they NEED to be loaded before the app's js file -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 
 	<body>
 		<h1 id="searchTerm"></h1>
 		<div id="resultsTarget"></div>
 
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
 		<!-- Create a script tag that will contain the Underscore Template -->
 		<script id="tmpl-results" type="text/template">
 			<% /*Standard for loop*/ %> 
@@ -24,7 +22,6 @@
 				</p>
 			<% } %>
 		</script>
+		<script src="wiki_ex3_script.js"></script>
 	</body>
-
-	<script type="text/javascript" src="wiki_ex3_script.js"></script>
 </html>

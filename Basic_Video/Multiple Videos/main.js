@@ -62,5 +62,3 @@ function makeYoutubeRequest(terms){
 }
 
 makeYoutubeRequest('sxsw 2014 ASAP Rocky');
-
-

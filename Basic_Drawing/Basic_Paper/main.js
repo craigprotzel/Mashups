@@ -1,4 +1,4 @@
-//Create some global vars to pass into our paperscript file
+//Create some global vars to use in our paperscript file
 var dataIsReady = false;
 var spaceData = {};
 
@@ -27,26 +27,3 @@ function getSpaceData() {
 $('document').ready(function(){
 	getSpaceData();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

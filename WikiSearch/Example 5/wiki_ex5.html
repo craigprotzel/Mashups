@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="content-type" content="charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
 		<title>Wikipedia Example 5</title>
-
-		<!-- Loading the js libraries at the top. -->
-		<!-- They can also be loaded at the bottom, but they NEED to be loaded before the app's js file -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 
 	<body>
@@ -19,6 +15,8 @@
 		<h1 id="searchTerm"></h1>
 		<div id="resultsTarget"></div>
 
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
 		<script id="tmpl-results" type="text/template">
 			<% for (var i = 0; i < 5; i++) { %>
 				<% /* Use 'replace' and a regular expression to substitue white space with '_' character */ %>
@@ -31,7 +29,7 @@
 				</p>
 			<% } %>
 		</script>
-	</body>
+		<script src="wiki_ex5_script.js"></script>
 
-	<script type="text/javascript" src="wiki_ex5_script.js"></script>
+	</body>
 </html>

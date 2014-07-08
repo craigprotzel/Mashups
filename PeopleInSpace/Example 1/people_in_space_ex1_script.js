@@ -67,4 +67,3 @@ function getSpaceData() {
 //Execute the function to make the AJAX call 
 //Remember, we've only defined the function above, we haven't actually called it 
 getSpaceData();
-

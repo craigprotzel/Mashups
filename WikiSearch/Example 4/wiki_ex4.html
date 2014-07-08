@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="content-type" content="charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
 		<title>Wikipedia Example 4</title>
-
-		<!-- Loading the js libraries at the top. -->
-		<!-- They can also be loaded at the bottom, but they NEED to be loaded before the app's js file -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 
 	<body>
 		<h2>Wikipedia Search</h2>
 		<input id="query" type="text"></input>
 		<button id="search">ENTER</button>
-
 		<h1 id="searchTerm"></h1>
 		<div id="resultsTarget"></div>
-	</body>
 
-	<script type="text/javascript" src="wiki_ex4_script.js"></script>
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
+		<script src="wiki_ex4_script.js"></script>
+	</body>
 </html>
