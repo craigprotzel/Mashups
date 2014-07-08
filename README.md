@@ -69,7 +69,7 @@ Syllabus
 
 ##### Lecture: The Web, APIs, & Data
 
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_TheWebAPIsData_LectureSlides.pdf)
+* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Summer2014_Lecture_Upload.pdf)
 * References
   * [What's In An HTTP Request](http://rve.org.uk/dumprequest)
   * [Programmable Web](http://programmableweb.com)
