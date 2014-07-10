@@ -110,15 +110,18 @@ Syllabus
 ##### Discussion - Class 1 Homework
 
 ##### Workshop - HTML & CSS
+* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
+* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
 * Basic Styling
 * Classes & IDs
-* Position
+* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
+* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
 
 ##### Workshop - Intro to Javascript
 * Using the Browser Console
 * Data Types 
-* The Window and the DOM
+* The Window and The DOM
 
 ##### Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
