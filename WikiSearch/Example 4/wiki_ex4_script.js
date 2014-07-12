@@ -10,12 +10,13 @@ This example will search Wikipedia for a user submitted entry
 And then populate those results on the page using the jQuery 'append' function
 */
 
+//Define the url for the wikipedia API call
+var wikiURL =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 
 //Create a function that will execute the Wikipedia AJAX call
 var searchWikipedia = function(currentTerm){
-	var url =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 	$.ajax({
-		url: url + currentTerm,
+		url: wikiURL + currentTerm,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
@@ -39,15 +40,11 @@ var searchWikipedia = function(currentTerm){
 				//Use 'replace' and a regular expression to substitue white space with '_' character
 				var resultTerms = searchResults[i].replace(/\s/g, '_');
 				var curURL = 'http://en.wikipedia.org/wiki/' + resultTerms;
+				var htmlString =	"<p class='wikiResults'>" +
+														"<a href=" + curURL + ">" + searchResults[i] + "</a>" +
+													"</p>";
 				//Use jQuery's append() function to add the searchResults to the DOM
-				//The argument for the append function will be a string of HTML
-				$("#resultsTarget").append(
-					"<p class='wikiResults'>" +
-						"<a href=" + curURL + ">" +
-							searchResults[i] +
-						"</a>" +
-					"</p>"
-				);
+				$("#resultsTarget").append(htmlString);
 			}
 		}
 	});
@@ -55,7 +52,6 @@ var searchWikipedia = function(currentTerm){
 
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
-	"use strict";
 	console.log("LOADED!!!!");
 
 	//Use jQuery to assign a callback function when the 'search' button is clicked

@@ -6,18 +6,19 @@ gihtub.com/craigprotzel/Mashups
 WIKIPEDIA SEARCH - EXAMPLE #5
 Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 
-This example will search Wikipedia for a user submitted entry
+This example creates an object that will search Wikipedia for a user submitted entry
 And then populate those results on the page as hyperlinks using an UNDESRSCORE TEMPLATE
 */
 
 //Create a global app object
-var myApp = {};
+var myApp = {
+	wikiURL : "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search="
+};
 
 //Add a method to the global app object that will execute the Wikipedia AJAX call
 myApp.searchWikipedia = function(currentTerm){
-	var url =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 	$.ajax({
-		url: url + currentTerm,
+		url: this.wikiURL + currentTerm,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
