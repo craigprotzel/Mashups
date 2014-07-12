@@ -175,13 +175,15 @@ Syllabus
 
 ##### Workshop - Objects and Arrays in Javascript
 * Understanding Objects and their Prototype
+* Built-in Objects - Math & Date
 * Creating Our Own Objects
 * Using Arrays to store data
 * [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
-* NY Times + Instagram API Mashup
-  * [InstaTimes Example 1](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%201)
-  * [InstaTimes Example 2](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%202)
-  * [InstaTimes Example 3](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes/Example%203)
+
+##### Exercise - InstaTimes
+* [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes)
+* [NY Times API](http://developer.nytimes.com/) 
+* [Instagram API](http://instagram.com/developer/)
 
 ##### Homework
 * DUE - Assignment #1

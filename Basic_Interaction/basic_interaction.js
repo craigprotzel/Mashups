@@ -1,3 +1,23 @@
+function make(rows,cols){
+	var wholeBoard = "";
+	for (var i = 0; i < rows; i++){
+		var text = "";
+		if (i % 2 === 0){
+			for (var j = 0; j < cols; j++){
+				text = text + '# ';
+			}
+		}
+		else{
+			for (var k = 0; k < cols; k++){
+				text = text + ' #';
+			}
+		}
+		wholeBoard += text + '\n';
+	}
+	console.log(wholeBoard);
+}
+
+
 //******Homework Exercises******
 
 //----Exercise 1----
@@ -69,12 +89,6 @@ var myBoardContainer = document.createElement('div');
 myBoardContainer.innerHTML = myChessBoard;
 chessBoard.appendChild(myBoardContainer);
 
-window.onload = function(){
-	console.log("Loaded!!!");
-	$('#chessBoard').html(myChessBoard);
-}
-*/
-
 //jQuery Approach
 /*
 $('#chessBoard').html(myChessBoard);
@@ -125,6 +139,13 @@ function getData(curSearchTerm){
 }
 
 //******Events******
+/*
+window.onload = function(){
+	console.log("Loaded!!!");
+	$('#chessBoard').html(myChessBoard);
+}
+*/
+
 $(document).ready(function(){
 	console.log("Loaded!!!");
 
