@@ -7,8 +7,8 @@ Instructor: Craig Protzel
 Email: craig.protzel@nyu.edu  
 Office Hours:  Mondays 6-8pm
 
-[Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
-[Class Info List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)  
+[Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)  
+[Class Info List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
 
 Course Description
 ------------------
@@ -154,8 +154,8 @@ Syllabus
   * [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 
 ##### Exercise - WikiSearch
-* [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 * [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch)
+* [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 
 ##### Homework
 * Review - [jQuery - Selecting Elements](http://learn.jquery.com/using-jquery-core/selecting-elements/)
