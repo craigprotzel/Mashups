@@ -192,6 +192,7 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 * Additional Reading
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
+  * [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)
 
 ### CLASS 5 (07/22): Assignment #1 DUE + Dealing with Data
 
