@@ -6,24 +6,24 @@
 
 3. After clicking enter, you can type the command pwd to see exactly where you are in terms of your directory structure
 
-4. Next, check your version number of python (python comes preloaded on Macs) by typing the following command into the Terminal window and then hitting enter:  
-```
-python --version
-```
+4. Next, check your version number of python (python comes preloaded on Macs) by typing the following command into the Terminal window and then hitting enter:    
+  ```
+  python --version
+  ```
 If you are running version 2 (i.e Python 2.x.x) type the following command and then hit enter: 
-```
-python -m SimpleHTTPServer 8000
-```
+  ```
+  python -m SimpleHTTPServer 8000
+  ```
 If you are running version 3 (i.e. Python 3.x.x) type the following command and then hit enter: 
-```
-python -m http.server 8000
-```
+  ```
+  python -m http.server 8000
+  ```
 
 5. You may (or may not) see this in the Terminal
-```
-Serving HTTP on 0.0.0.0 port 8000 ...
-```
-Eiter way, open up your web browser and navigate to the following url: `http://localhost:8000`
+  ```
+  Serving HTTP on 0.0.0.0 port 8000 ...
+  ```
+Either way, open up your web browser and navigate to the following url: `http://localhost:8000`
 
 6. You should see links to all the files in your folder. Click on the html file and your application should load. (Note, if you name your html file `index.html`, the application will load when you navigate to `http://localhost:8000`
 
