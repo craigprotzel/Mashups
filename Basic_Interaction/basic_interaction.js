@@ -89,15 +89,17 @@ var myBoardContainer = document.createElement('div');
 myBoardContainer.innerHTML = myChessBoard;
 chessBoard.appendChild(myBoardContainer);
 
-//jQuery Approach
-/*
-$('#chessBoard').html(myChessBoard);
-$('#chessBoard').addClass('chessBoardStyle');
 */
+//jQuery Approach
+
+// $('#chessBoard').html(myChessBoard);
+// $('#chessBoard').addClass('chessBoardStyle');
+
 
 //******Functions******
 function notify(){
-	console.log("You clicked me");
+	console.log("You clicked me : " + nums);
+	nums++;
 }
 
 function generateRandomColor(){
@@ -109,16 +111,18 @@ function generateRandomColor(){
 	return randomColor;
 }
 
+
+
 function getData(curSearchTerm){
 	//Write AJAX code
 	var myURL = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
-	var searchTerm = curSearchTerm;
-	
+
 	$.ajax({
-		url: myURL + searchTerm,
+		url: myURL + curSearchTerm,
 		type: 'GET',
 		dataType: 'jsonp',
-		error: function(msg){
+		error: function(){
+			console.log("Shit...");
 			console.log(msg);
 		},
 		success: function(data){
@@ -132,65 +136,78 @@ function getData(curSearchTerm){
 			console.log(data[1]);
 			var searchResults = data[1];
 			for (var i = 0; i < searchResults.length; i++){
-				$('#searchResults').append("<p>" + searchResults[i] + "</p>");
+					var htmlString = "<p>" + searchResults[i] + "</p>";
+					$('#searchResults').append(htmlString);
 			}
 		}
 	});
 }
 
 //******Events******
-/*
-window.onload = function(){
-	console.log("Loaded!!!");
-	$('#chessBoard').html(myChessBoard);
-}
-*/
+
+// window.onload = function(){
+// 	console.log("Loaded!!!");
+// 	$('#chessBoard').html(myChessBoard);
+// };
+
+
+
+
+
+var nums = 0;
 
 $(document).ready(function(){
 	console.log("Loaded!!!");
 
+/*
 	//JS Approach
-	/*
-	var chessButton = document.getElementById('chessBoardButton');
+		var chessButton = document.getElementById('chessBoardButton');
 	chessButton.addEventListener('click', function(){
 		notify();
 		$('#chessBoard').append(myChessBoard);
 		$('#chessBoard').addClass('chessBoardStyle');
 	}, false);
-	*/
+*/	
+
+
 
 	//jQuery Approach
 	$('#chessBoardButton').click(function(){
-		notify();
+		//notify();
 
 		//Add the chess board to the page
 		//$('#chessBoard').append(myChessBoard);
 		//$('#chessBoard').addClass('chessBoardStyle');
 
-		//Clear the elements on the page
-		$('#searchTerm').html('');
-		$('#searchResults').html('');
-		//Get the input box value
+		// //Clear the elements on the page
+		// $('#searchTerm').html('');
+		// $('#searchResults').html('');
+		// //Get the input box value
+		
 		var inputTerm = $('#inputBox').val();
+		// console.log(inputTerm);
+
 		//Call the function to execute
 		getData(inputTerm);
 	});
 
-	//Extra event manipulating elements via a class
-	$('#doMoreButton').click(function(){
-		//Change the background color of the page
-		var newBGColor = generateRandomColor();
-		$('body').css("background-color", newBGColor);
+	// //Extra event manipulating elements via a class
+	// $('#doMoreButton').click(function(){
+	// 	//Change the background color of the page
+	// 	var newBGColor = generateRandomColor();
+	// 	$('body').css("background-color", newBGColor);
 
-		//Change the styling of multiple divs via a class
-		if ($(".boxBottom").hasClass("extraBox")){
-			$(".boxBottom").removeClass("extraBox");
-			$(".boxBottom").css("background-color", "green");
-		}
-		else{
-			$(".boxBottom").addClass("extraBox");
-		}
-	});
+	// 	//Change the styling of multiple divs via a class
+	// 	if ($(".boxBottom").hasClass("extraBox")){
+	// 		$(".boxBottom").removeClass("extraBox");
+	// 		$(".boxBottom").css("background-color", "green");
+	// 	}
+	// 	else{
+	// 		$(".boxBottom").addClass("extraBox");
+	// 	}
+	// });
 });
+
+
 
 console.log("Not loaded yet!!!");

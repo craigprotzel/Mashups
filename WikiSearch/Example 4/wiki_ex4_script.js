@@ -32,7 +32,7 @@ var searchWikipedia = function(currentTerm){
 			//The data we want is the first item in the returned JSON, hence value "0"
 			$("#searchTerm").html(data[0]);
 
-			//The data we want is the second item in the returned JSON, hence value "1"
+			//The results data we want is the second item in the returned JSON, hence value "1"
 			//Create a var to save the array of search results 
 			var searchResults = data[1];
 			//Loop through the array of results

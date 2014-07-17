@@ -192,6 +192,7 @@ Syllabus
 * Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
 * Additional Reading
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
+  * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
 
 ### CLASS 5 (07/22): Assignment #1 DUE + Dealing with Data
 
@@ -417,3 +418,4 @@ Helpful Links
 * [Stack Overflow - What is JSONP All About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
 * [CORS - Cross Origin Resource Sharing](http://enable-cors.org/)
 * [HEX Codes for URLs](http://www.obkb.com/dcljr/charstxt.html)
+* [Why Am I Seeing 'Access Control Origin Error'](http://stackoverflow.com/questions/9310112/why-am-i-seeing-an-origin-is-not-allowed-by-access-control-allow-origin-error)
