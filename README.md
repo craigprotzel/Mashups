@@ -193,6 +193,7 @@ Syllabus
 * Additional Reading
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
   * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
+  * [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)
 
 ### CLASS 5 (07/22): Assignment #1 DUE + Dealing with Data
 
