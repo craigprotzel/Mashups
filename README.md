@@ -219,9 +219,10 @@ Syllabus
 
 ##### Homework
 * Play - with Underscore Templates, add a tempalte to Assignment #1
-* Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-* Review - [PaperJS](http://paperjs.org/) library
-
+* Explore [D3](http://d3js.org/) library
+  * Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+* Explore - [PaperJS](http://paperjs.org/) library
+  * Read [Paper JS Tutorials](http://paperjs.org/tutorials/) - specifically "Geometry", "Paths", and "Projects & Items"
 ### CLASS 6 (07/24): Drawing on the Page
 
 ##### Graphs on Graphs on Graphs
