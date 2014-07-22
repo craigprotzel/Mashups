@@ -1,16 +1,14 @@
 var WUC = {};
-WUC.asyncCount = 0;
-WUC.returnCount = 0;
 
-var myKey =	'YOUR-KEY-GOES-HERE';
+var myKey =	'2481dc6ebf4f42918aaed25bb22c50fd';
 
 function getCongressData(){
-	console.log("Yup!");
+	//console.log("Yup!");
 
 	//Create necessary date structure for AJAX request
 	var today = new Date();
 	//Convert it into the YYYY-MM-DD format
-	var dd = today.getDate() - 1;
+	var dd = today.getDate();
 	if (dd < 10){
 		dd = 0 + dd.toString();
 	}
@@ -21,7 +19,7 @@ function getCongressData(){
 	var yyyy = today.getFullYear();
 	//Construct string
 	var queryDay = yyyy + '-' + mm + '-' + dd;
-	console.log(queryDay);
+	//console.log(queryDay);
 
 	var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=';
 
@@ -37,6 +35,8 @@ function getCongressData(){
 		success: function(data){
 			//console.log("WooHoo!");
 			console.log(data);
+			//return;
+
 			WUC.today = data.results;
 			//console.log(WUC.today);
 
@@ -70,9 +70,12 @@ function parseData(){
 	var updates = _.pluck(WUC.today, 'update');
 	//console.log(updates);
 	//Add the updates to the page
-	_.each(updates, function(el){
-		$('#congressData').append("<p>" + el + "</p>");
-	});
+	// _.each(updates, function(el){
+	// 	$('#congressData').append("<p>" + el + "</p>");
+	// });
+
+	//Or
+	//addToPage(updates);
 
 	//Underscore FILTER
 	//Which updates had vote?
@@ -92,18 +95,23 @@ function parseData(){
 		return el.chamber == "senate";
 	});
 	//console.log("Senate: " + senateEvents.length);
+	//console.log(senateEvents);
+
+	// _.each(senateEvents, function(el){
+	// 	console.log(el.update);
+	// });
 
 	//Underscore MAP
 	//Samuel L. Jackson-ify the Updates
 	var sljUpdates = _.map(updates, function(el){
 		//return  el + " Godammit";
 		//return el.replace(".", " Godammit! ");
-		// return el.replace(/./, " Godammit! ");
+		//return el.replace(/./, " Godammit! ");
 		//return el.replace(/\./, " Godammit! ");
 		return el.replace(/\.$/, " GODDAMIT!");
 	});
-	//console.log(sljUpdates);
-
+	console.log(sljUpdates);
+	addToPage(sljUpdates);
 	// _.each(sljUpdates, function(el){
 	// 	$('#congressData').append("<p>" + el + "</p>");
 	// });
@@ -116,7 +124,7 @@ function parseData(){
 	});
 	//console.log(allWords);
 
-	//Use MAP
+	//Use map
 	var updateWords = _.map(updates, function(el){
 		return el.split(" ");
 	});
@@ -158,17 +166,22 @@ function parseData(){
 	//console.log(justTheIDs);
 }
 
+function addToPage(pageData){
+	_.each(pageData, function(el){
+		$('#congressData').append("<p>" + el + "</p>");
+	});
+}
+
 
 function parseForID(){
-	var searchIDs = [];
+	//var searchIDs = [];
 	_.each(WUC.today, function(obj){
-		var curObj = obj;
 		if (obj.legislator_ids.length !== 0){
 			_.each(obj.legislator_ids, function(el){
-				WUC.asyncCount++;
-				searchIDs.push(el);
+				//WUC.asyncCount++;
+				//searchIDs.push(el);
 				//Make request for personal info
-				makeInfoRequest(el, curObj);
+				makeInfoRequest(el, obj);
 			});
 		}
 	});
@@ -180,6 +193,8 @@ function makeInfoRequest(personID, theObj){
 	var personURL = 'http://congress.api.sunlightfoundation.com/legislators?bioguide_id=' + personID + '&apikey=';
 	var myKey = '2481dc6ebf4f42918aaed25bb22c50fd';
 
+	theObj.returnCount = 0;
+
 	$.ajax({
 		url: personURL + myKey,
 		type: 'GET',
@@ -188,19 +203,21 @@ function makeInfoRequest(personID, theObj){
 			console.log(data);
 		},
 		success: function(data){
+			console.log("Individual Request");
+			console.log(data);
 			console.log(data.results[0].twitter_id);
 			theObj.twitter_id = [];
 			theObj.twitter_id.push(data.results[0].twitter_id);
 
-			WUC.returnCount++;
+			theObj.returnCount++;
 
-			if (WUC.returnCount == WUC.asyncCount){
+			if (theObj.returnCount == theObj.legislator_ids.length ){
 				console.log('Everyone is here!!!');
-				//Put the all of the data on the page!!!!!
+				//Put all of the data on the page!!!!!
 				createDomElements(WUC.today);
 			}
 			else{
-				var remaining = WUC.asyncCount - WUC.returnCount;
+				var remaining = theObj.legislator_ids.length - theObj.returnCount;
 				console.log('Almost, waiting on ' + remaining + ' more...');
 			}
 		}
