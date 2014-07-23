@@ -1,9 +1,8 @@
 var WUC = {};
-
-var myKey =	'2481dc6ebf4f42918aaed25bb22c50fd';
+WUC.asyncCount = 0;
+WUC.returnCount = 0;
 
 function getCongressData(){
-	//console.log("Yup!");
 
 	//Create necessary date structure for AJAX request
 	var today = new Date();
@@ -21,11 +20,12 @@ function getCongressData(){
 	var queryDay = yyyy + '-' + mm + '-' + dd;
 	//console.log(queryDay);
 
-	var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=';
+	var myKey =	'YOUR-KEY-GOES-HERE';
+	var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + myKey;
 
 	//Make AJAX request
 	$.ajax({
-		url: congressURL + myKey,
+		url: congressURL,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
@@ -41,14 +41,17 @@ function getCongressData(){
 			//console.log(WUC.today);
 
 			//Run Data Parsing Function
-			parseData();
+			//parseData();
 
 			//Run Data ID Parsing + Second Request
-			//parseForID();
+			parseForID();
 		}
 	});
 }
 
+
+/********************************************************/
+/* Code for parseData() */
 
 //LOTS OF UNDERSCORE CODE
 //This function is just for example purposes
@@ -68,7 +71,7 @@ function parseData(){
 
 	//Alt method using Underscore PLUCK
 	var updates = _.pluck(WUC.today, 'update');
-	//console.log(updates);
+	console.log(updates);
 	//Add the updates to the page
 	// _.each(updates, function(el){
 	// 	$('#congressData').append("<p>" + el + "</p>");
@@ -82,7 +85,7 @@ function parseData(){
 	var voteEvents = _.filter(updates, function(el){
 		return el.match('vote');
 	});
-	//console.log(voteEvents);
+	console.log(voteEvents);
 
 	//House Events
 	var houseEvents = _.filter(WUC.today, function(el){
@@ -110,8 +113,8 @@ function parseData(){
 		//return el.replace(/\./, " Godammit! ");
 		return el.replace(/\.$/, " GODDAMIT!");
 	});
-	console.log(sljUpdates);
-	addToPage(sljUpdates);
+	//console.log(sljUpdates);
+	//addToPage(sljUpdates);
 	// _.each(sljUpdates, function(el){
 	// 	$('#congressData').append("<p>" + el + "</p>");
 	// });
@@ -173,13 +176,22 @@ function addToPage(pageData){
 }
 
 
+/********************************************************/
+/* Code for parseID() */
+
 function parseForID(){
-	//var searchIDs = [];
+	//First determine how many there are
+	_.each(WUC.today, function(obj){
+		if (obj.legislator_ids.length !== 0){
+			WUC.asyncCount++;
+		}
+	});
+	console.log(WUC.asyncCount);
+	
+	//Then make requests for each one
 	_.each(WUC.today, function(obj){
 		if (obj.legislator_ids.length !== 0){
 			_.each(obj.legislator_ids, function(el){
-				//WUC.asyncCount++;
-				//searchIDs.push(el);
 				//Make request for personal info
 				makeInfoRequest(el, obj);
 			});
@@ -193,8 +205,6 @@ function makeInfoRequest(personID, theObj){
 	var personURL = 'http://congress.api.sunlightfoundation.com/legislators?bioguide_id=' + personID + '&apikey=';
 	var myKey = '2481dc6ebf4f42918aaed25bb22c50fd';
 
-	theObj.returnCount = 0;
-
 	$.ajax({
 		url: personURL + myKey,
 		type: 'GET',
@@ -206,18 +216,21 @@ function makeInfoRequest(personID, theObj){
 			console.log("Individual Request");
 			console.log(data);
 			console.log(data.results[0].twitter_id);
-			theObj.twitter_id = [];
+			if (!theObj.twitter_id){
+				theObj.twitter_id = [];
+			}
 			theObj.twitter_id.push(data.results[0].twitter_id);
 
-			theObj.returnCount++;
+			WUC.returnCount++;
 
-			if (theObj.returnCount == theObj.legislator_ids.length ){
+			//Check to see if we have data for everyone
+			if (WUC.returnCount == WUC.asyncCount ){
 				console.log('Everyone is here!!!');
 				//Put all of the data on the page!!!!!
 				createDomElements(WUC.today);
 			}
 			else{
-				var remaining = theObj.legislator_ids.length - theObj.returnCount;
+				var remaining = WUC.asyncCount - WUC.returnCount;
 				console.log('Almost, waiting on ' + remaining + ' more...');
 			}
 		}
