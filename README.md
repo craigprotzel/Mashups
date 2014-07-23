@@ -223,10 +223,12 @@ Syllabus
   * Read - [Ch.3 SVGs + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
 * Explore - [PaperJS](http://paperjs.org/) library
   * Read [Paper JS Tutorials](http://paperjs.org/tutorials/) - specifically "Geometry", "Paths", and "Projects & Items"
+
 ### CLASS 6 (07/24): Drawing on the Page
 
 ##### Graphs on Graphs on Graphs
 * [D3JS](http://d3js.org/)
+* SVGs
 * [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 
 ##### Other Graph Libraries
@@ -248,10 +250,16 @@ Syllabus
 
 ##### Homework
 * Play - with an Animation Library
-* Review - the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) and [PopcornJS](http://popcornjs.org/) Video Library
+* Explore - [ThreeJS](http://threejs.org/)
+  * Read Ch.10 & Ch. 11 of Canvas Deep Dive 
+* Explore - the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) and [PopcornJS](http://popcornjs.org/) Video Library
 * Work on Assignnment #2
 
 ### CLASS 7 (07/29): Moving Pictures & Sound
+
+##### ThreeJS
+* [ThreeJS Github Repo](https://github.com/mrdoob/three.js)
+* [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 ##### Audio
 * Web Audio API
