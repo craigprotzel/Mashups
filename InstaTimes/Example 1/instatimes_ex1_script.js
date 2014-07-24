@@ -20,7 +20,7 @@ function InstaTimesArticle(){
 	"use strict";
 	//Create two properties - Title & Image - both with hardcoded values for now
 	this.title = "Top News";
-	this.img = "http://www.warmaal.com/wp-content/uploads/2013/12/breaking-news-logo.jpg";
+	this.img = "http://www.manhattanlsat.com/blog/wp-content/uploads/2013/07/iStock_000006518705XSmall.jpg";
 }
 
 //Code to be executed once the page has fully loaded

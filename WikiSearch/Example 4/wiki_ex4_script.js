@@ -14,20 +14,20 @@ And then populate those results on the page using the jQuery 'append' function
 var wikiURL =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 
 //Create a function that will execute the Wikipedia AJAX call
-var searchWikipedia = function(currentTerm){
+var searchWikipedia = function(searchTerm){
 	$.ajax({
-		url: wikiURL + currentTerm,
+//		url: flickrURL,
+		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
 			console.log("We got problems");
-			console.log(data.status);
+			//console.log(data.status);
 		},
 		success: function(data){
 			console.log("WooHoo!");
 			//Check the browser console to see the returned data
 			console.log(data);
-
 			//Use jQuery to insert the search term into the appropriate DOM element
 			//The data we want is the first item in the returned JSON, hence value "0"
 			$("#searchTerm").html(data[0]);
@@ -53,6 +53,13 @@ var searchWikipedia = function(currentTerm){
 //Code to be executed once the page has fully loaded
 $(document).ready(function(){
 	console.log("LOADED!!!!");
+
+	var terms = ['hello', 'seven', 'craig', 'mashups'];
+	var randomNum = Math.floor( Math.random() * 4);
+	console.log(randomNum);
+	searchWikipedia(terms[randomNum]);
+
+
 
 	//Use jQuery to assign a callback function when the 'search' button is clicked
 	$("#search").click(function(){

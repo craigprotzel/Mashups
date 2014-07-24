@@ -44,7 +44,7 @@ function getNYTimesData() {
 		},
 		success: function(data){
 			console.log("WooHoo!");
-			//console.log(data);
+			console.log(data);
 
 			var nyTimesArticles;
 			//Check to make sure the data is correct
@@ -62,7 +62,10 @@ function getNYTimesData() {
 			for(var i = 0; i < nyTimesArticles.length; i++){
 				tempArticleObj = new InstaTimesArticle(nyTimesArticles[i].headline.main, nyTimesArticles[i].snippet);
 				instaTimes.push(tempArticleObj);
+				//console.log(tempArticleObj);
 			}
+			//console.log(instaTimes);
+			//return;
 			//*****************************//
 			//Execute the Instagram API Call
 			getInstagramData();

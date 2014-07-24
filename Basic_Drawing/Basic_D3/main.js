@@ -22,14 +22,14 @@ function getSpaceData() {
 function drawD3Astros(totalNum){
 	console.log("D3!");
 	var d3SVG = d3.select('#mySVG');
-	var centerX = 100;
+	var centerX = 50;
 	for (var i = 0; i <totalNum; i++){
 		d3SVG.append('circle')
 		.attr({
 			"class": "mainCircle",
 			"cx" : centerX,
 			"cy" : 200,
-			"r" : 50
+			"r" : 40
 		});
 
 		d3SVG.append('circle')
@@ -44,7 +44,7 @@ function drawD3Astros(totalNum){
 		.duration(3000)
 		.delay(500);
 
-		centerX += 200;
+		centerX += 100;
 	}
 }
 
