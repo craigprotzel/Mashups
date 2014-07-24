@@ -251,6 +251,7 @@ Syllabus
 ##### Homework
 * Play - with an Animation Library
 * Explore - [ThreeJS](http://threejs.org/)
+  * Read - [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene) 
   * Read [Ch.10 & Ch. 11 of Canvas Deep Dive](http://joshondesign.com/p/books/canvasdeepdive/toc.html)
 * Explore - the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) and [PopcornJS](http://popcornjs.org/) Video Library
 * Work on Assignnment #2
