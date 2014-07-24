@@ -227,8 +227,8 @@ Syllabus
 ### CLASS 6 (07/24): Drawing on the Page
 
 ##### Graphs on Graphs on Graphs
+* [SVGs - MDN Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
 * [D3JS](http://d3js.org/)
-* SVGs
 * [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 
 ##### Other Graph Libraries
@@ -244,8 +244,8 @@ Syllabus
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 
 ##### Other Animation Libraries
-* [RafaelJS](http://raphaeljs.com/)
-* [P5](https://github.com/lmccart/p5.js)
+* [RafaelJS](http://raphaeljs.com/) - SVG
+* [P5](https://github.com/lmccart/p5.js) - Canvas
 * [PaperJS vs ProcessingJS vs RafaelJS](http://coding.smashingmagazine.com/2012/02/22/web-drawing-throwdown-paper-processing-raphael/) + [Comparison Examples](http://zgrossbart.github.io/3gears/)
 
 ##### Homework
