@@ -226,10 +226,11 @@ Syllabus
 
 ### CLASS 6 (07/24): Drawing on the Page
 
+##### [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Code_Class6.zip)
+
 ##### Graphs on Graphs on Graphs
 * [SVGs - MDN Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
 * [D3JS](http://d3js.org/)
-* [Sunlight Labs - Congress Example](https://github.com/craigprotzel/Mashups/tree/master/D3_Congress) - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/D3_Congress_jsd.zip)
 
 ##### Other Graph Libraries
   * [Google Charts](https://developers.google.com/chart/)
