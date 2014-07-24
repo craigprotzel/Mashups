@@ -1,6 +1,6 @@
 //Create some global vars to use in our paperscript file
-var dataIsReady = false;
 var spaceData = {};
+spaceData.isReady = false;
 
 //Function to make AJAX call
 function getSpaceData() {
@@ -19,7 +19,7 @@ function getSpaceData() {
 			$('#totalPeople').html(data.number);
 
 			spaceData.total = data.number;
-			dataIsReady = true;
+			spaceData.isReady = true;
 		}
 	});
 }
