@@ -179,6 +179,7 @@ Syllabus
 * Creating Our Own Objects
 * Using Arrays to store data
 * [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
+  * Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) 
 
 ##### Exercise - InstaTimes
 * [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes)
