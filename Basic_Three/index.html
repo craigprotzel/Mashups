@@ -1,36 +1,61 @@
 <!--
-CODE TAKEN FROM Three.JS "Getting Started"
+CODE TAKEN/ADAPTED FROM Three.JS "Getting Started"
 http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene
 -->
 
 <html>
   <head>
-    <title>My first Three.js app</title>
-    <style>canvas { width: 100%; height: 100% }</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic Three JS</title>
+    
+    <style>
+      canvas { 
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
-  <body>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
-    <script>
-      var scene = new THREE.Scene();
-      var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
 
+  <body>
+
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>-->
+    <script src="three.min.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script>
+      //Create a scene
+      var scene = new THREE.Scene();
+      //Create a camera
+      var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+      //Create a renderer
       var renderer = new THREE.WebGLRenderer();
       renderer.setSize(window.innerWidth, window.innerHeight);
+      //Add the renderer to the DOM
       document.body.appendChild(renderer.domElement);
 
-      var geometry = new THREE.BoxGeometry(1,1,1);
-      var material = new THREE.MeshBasicMaterial({color: 0x00ff00, wireframe: true});
+      //Create cool stuff
+      var geometry = new THREE.BoxGeometry(2,2,2);
+
+      var material = new THREE.MeshBasicMaterial({color: 'blue', wireframe: true});
+
+      // var imageLink = 'einstein.jpg';
+      // var texture = THREE.ImageUtils.loadTexture(imageLink);
+      // var material = new THREE.MeshBasicMaterial( { map: texture} );
+
       var cube = new THREE.Mesh(geometry, material);
       scene.add(cube);
 
-      camera.position.z = 5;
+      // Add OrbitControls so that we can pan around with the mouse.
+      var controls = new THREE.OrbitControls(camera, renderer.domElement);
+      camera.position.z = 10;
 
-      var render = function () {
+      function render() {
         requestAnimationFrame(render);
 
         cube.rotation.x += 0.01;
         cube.rotation.y += 0.01;
 
+        controls.update();
         renderer.render(scene, camera);
       };
 

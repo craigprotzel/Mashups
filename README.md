@@ -262,6 +262,9 @@ Syllabus
 
 ##### ThreeJS
 * [ThreeJS Github Repo](https://github.com/mrdoob/three.js)
+  * [ThreeJS Examples](http://threejs.org/examples/)
+  * [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
+  * [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
 * [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 ##### Audio
