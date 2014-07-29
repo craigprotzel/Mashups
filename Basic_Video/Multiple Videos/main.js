@@ -1,13 +1,14 @@
-var allPopcorns = [];
 var allPopcornObjects = [];
 
 function makeYoutubeRequest(terms){
 
-	var url = 'https://www.googleapis.com/youtube/v3/search?';
-	var myParams = 'part=snippet&type=video&q=';
-	var myKey = '&key=YOUR-KEY-GOES-HERE';
+	$('#videos').html('');
+	allPopcornObjects = [];
 
-	var myURL = url + myParams + terms + myKey;
+	var url = 'https://www.googleapis.com/youtube/v3/search?';
+	var myParams = 'part=snippet&type=video&q=' + terms + '&key=';
+	var myKey = 'YOUR-KEY-GOES-HERE';
+	var myURL = url + myParams + myKey;
 
 	$.ajax({
 		url: myURL,
@@ -23,42 +24,38 @@ function makeYoutubeRequest(terms){
 
 			for (var i = 0; i < 3; i++){
 				var curVideoId = data.items[i].id.videoId;
+				var popVideoId = "pop" + curVideoId;
 				var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId;
-				allPopcorns.push({"id" : curVideoId , "link" : curVideoLink});
 				//Create a div
-				$('#videos').append('<div class="video" id=' + allPopcorns[i].id + '></div>');
-				var tempPopcorn = Popcorn.youtube(curVideoId, curVideoLink);
+				$('#videos').append('<div class="video" id=' + popVideoId + '></div>');
+				console.log(curVideoId);
+				var tempWrapper = Popcorn.HTMLYouTubeVideoElement('#' + popVideoId);
+				tempWrapper.src = curVideoLink;
+				var tempPopcorn = Popcorn(tempWrapper);
 				allPopcornObjects.push(tempPopcorn);
 			}
 
 			// When the video is ready...
 			allPopcornObjects[0].on("canplayall", function() {
-				this.volume(1);
 				this.currentTime(10);
 			});
-
 			allPopcornObjects[0].cue(10, function(){
 				console.log("Playing 0");
 				this.play();
-
 				this.cue(15, function(){
 					this.pause();
-					allPopcornObjects[1].volume(1);
-					allPopcornObjects[1].play(0);
+					allPopcornObjects[1].play(20);
 				});
 			});
-
-			allPopcornObjects[1].cue(6, function(){
+			allPopcornObjects[1].cue(24, function(){
 				allPopcornObjects[1].pause();
-				allPopcornObjects[2].volume(1);
-				allPopcornObjects[2].currentTime(60);
+				allPopcornObjects[2].currentTime(6);
 			});
-
-			allPopcornObjects[2].cue(60, function(){
+			allPopcornObjects[2].cue(6, function(){
 				this.play();
 			});
 		}
 	});
 }
 
-makeYoutubeRequest('sxsw 2014 ASAP Rocky');
+makeYoutubeRequest('world cup 2014');

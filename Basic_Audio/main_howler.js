@@ -1,10 +1,9 @@
 var freeData, sound;
 
 function getFreeSound(term){
-
-	var url = 'http://www.freesound.org/api/sounds/search/?q=';
-	var myKey = '&api_key=' + YOUR APIKEY;
-	var myURL = url + term + myKey;
+	var url = 'http://www.freesound.org/api/sounds/search/?q=' + term + '&api_key=';
+	var myKey = 'YOUR-KEY-GOES-HERE';
+	var myURL = url + myKey;
 
 	$.ajax({
 		url: myURL,

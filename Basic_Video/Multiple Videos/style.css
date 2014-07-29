@@ -1,7 +1,6 @@
 #videos{
 	width: 95%;
 }
-
 .video{
 	float: left;
 	margin: 10px;
@@ -9,16 +8,3 @@
 	height: 240px;
 }
 
-.redBox{
-	float: left;
-	background-color: red;
-	width: 10px;
-	height: 10px;
-}
-
-.greenBox{
-	float: left;
-	background-color: green;
-	width: 50px;
-	height: 10px;
-}

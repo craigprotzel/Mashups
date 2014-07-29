@@ -12,6 +12,13 @@
 		<script>
 			// Define the AudioContext
 			var AudioContext = AudioContext || webkitAudioContext;
+			//Confirm Web Audio API is available
+			if (AudioContext) {
+				context = new AudioContext();
+			}
+			else {
+				alert("Web Audio API is not available. Please use a supported browser.");
+			}
 			// Actually create the context.
 			var context = new AudioContext();
 

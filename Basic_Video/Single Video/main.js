@@ -1,12 +1,8 @@
-var theVideo;
-var bgAnimation;
 
-function makeYoutubeRequest(){
-
+function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
-	var myParams = 'part=snippet&q=soccer&type=video&order=viewCount';
-	var myKey = '&key=YOUR-KEY-GOES-HERE';
-
+	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
+	var myKey = 'YOUR-KEY-GOES-HERE';
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -21,10 +17,18 @@ function makeYoutubeRequest(){
 			console.log("WooHoo!");
 			console.log(data);
 
-			var curVideoId = data.items[0].id.videoId;
-			console.log(curVideoId);
-			var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId;
-			theVideo = Popcorn.youtube('videos', curVideoLink);
+			//Get the video id
+			var theVideoId = data.items[0].id.videoId;
+			console.log(theVideoId);
+			//Create the youtube video link
+			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId;
+			//Init the Popcorn object
+			var wrapper = Popcorn.HTMLYouTubeVideoElement('#videos');
+			wrapper.src = theVideoLink;
+			var popcornVideo = Popcorn(wrapper);
+
+			//Register events on the video
+			setVideoEvents(popcornVideo);
 
 			//*************************************************************//
 			// If you wanted to add multiple videos...
@@ -34,49 +38,66 @@ function makeYoutubeRequest(){
 			// 	var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId;
 			// 	//Create a div
 			// 	$('#videos').append('<div class="video" id=' + curVideoId + '></div>');
-			// 	var tempPopcorn = Popcorn.youtube(curVideoId, curVideoLink);
+			// 	var tempWrapper = Popcorn.HTMLYouTubeVideoElement('#' + curVideoId);
+			// 	tempWrapper.src = curVideoLink;
+			// 	var tempPopcorn = Popcorn(tempWrapper);
 			// 	allPopcorns.push(tempPopcorn);
 			// }
 			//*************************************************************//
-
-			console.log("HERE!");
-			theVideo.on('timeupdate', function(){
-				if (this.paused()){
-					console.log("TIME UPDATE - PAUSED");
-					$('#animation').append("<div class='redBox'></div>");
-					//clearInterval(bgAnimation);
-				}
-				else{
-					$('#animation').append("<div class='greenBox'></div>");
-				}
-			});
-
-			theVideo.on('play', function(){
-				changeBG();
-			});
-			theVideo.on('pause',function(){
-				clearInterval(bgAnimation);
-			});
 		}
 	});
 }
 
-makeYoutubeRequest();
+var bgAnimation;
 
-$(document).ready(function(){
-	theVideo.on('pause',function(){
-		clearInterval(bgAnimation);
+function setVideoEvents(video){
+	video.autoplay(true);
+
+	//Media Methods
+	video.on('timeupdate', function(){
+		$('#animation').append("<div class='greenBox'></div>");
 	});
-	theVideo.on('play', function(){
+	video.on('play', function(){
 		changeBG();
 	});
-});
+	video.on('pause',function(){
+		console.log("Paused!");
+		$('#animation').append("<div class='redBox'></div>");
+		clearInterval(bgAnimation);
+	});
+
+	//Plugins
+	video.footnote({
+		start: 1,
+		end: 5,
+		text: 'This text will appear in "infoBox"!!!',
+		target: "infoBox"
+	});
+
+	video.code({
+		start: 8,
+		end: 12,
+		onStart: function( options ) {
+			console.log(options);
+			$('#infoBox').css({'color':'white', 'background-color': 'blue'});
+			$('#infoBox').html("More text!!!");
+		},
+		onEnd: function( options ) {
+			$('#infoBox').html();
+		}
+	});
+
+	video.cue( 15, function() {
+		clearInterval(bgAnimation);
+	});
+
+}
 
 function changeBG(){
 	bgAnimation = setInterval(function(){
 		var newBGColor = generateRandomColor();
 		$('body').css("background-color", newBGColor);
-	}, 1000);
+	}, 2000);
 }
 
 function generateRandomColor(){
@@ -87,3 +108,10 @@ function generateRandomColor(){
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
 	return randomColor;
 }
+
+$(document).ready(function(){
+	makeYoutubeRequest("world cup soccer");
+});
+
+
+

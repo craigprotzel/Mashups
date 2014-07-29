@@ -1,24 +1,24 @@
 #videos{
-	width: 95%;
-}
-
-.video{
-	float: left;
-	margin: 10px;
 	width: 320px;
 	height: 240px;
+	margin: 10px auto;
 }
-
+.greenBox{
+	float: left;
+	background-color: green;
+	width: 50px;
+	height: 10px;
+}
 .redBox{
 	float: left;
 	background-color: red;
 	width: 10px;
 	height: 10px;
 }
-
-.greenBox{
-	float: left;
-	background-color: green;
-	width: 50px;
-	height: 10px;
+#infoBox{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
 }
