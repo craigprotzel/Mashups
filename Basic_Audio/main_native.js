@@ -1,4 +1,5 @@
 function getFreeSound(term){
+	//This is for the Freesound v1 api, which is now deprecated for v2...
 	var url = 'http://www.freesound.org/api/sounds/search/?q=' + term + '&api_key=';
 	var myKey = 'YOUR-KEY-GOES-HERE';
 	var myURL = url + myKey;

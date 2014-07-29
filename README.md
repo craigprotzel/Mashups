@@ -260,11 +260,14 @@ Syllabus
 
 ### CLASS 7 (07/29): Moving Pictures & Sound
 
+##### [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Class7_Code.zip)
+
 ##### ThreeJS
 * [ThreeJS Github Repo](https://github.com/mrdoob/three.js)
   * [ThreeJS Examples](http://threejs.org/examples/)
   * [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
   * [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
+* [HTML5 Tocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/)
 * [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 ##### Audio
