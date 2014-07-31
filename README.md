@@ -300,11 +300,12 @@ Syllabus
 
 ##### Presentations - Assignment #2
 
+##### [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
+
 ##### Intro to the Server
 * Install [NodeJS](http://nodejs.org/)
 * [Express Framework](http://expressjs.com/)
 * [NPM - Dependencies](https://www.npmjs.org/doc/files/package.json.html#dependencies)
-* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Discussion - Final Project Due Class 12 (08/14)
 * Create a single web page experience that combines data from at least one public web API and data stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:
