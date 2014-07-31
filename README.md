@@ -252,9 +252,9 @@ Syllabus
 
 ##### Homework
 * Play - with an Animation Library
-* Explore - [ThreeJS](http://threejs.org/)
-  * Read - [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene) 
-  * Read [Ch.10 & Ch. 11 of Canvas Deep Dive](http://joshondesign.com/p/books/canvasdeepdive/toc.html)
+* Explore - [ThreeJS](http://threejs.org/) & [ThreeJS Examples](http://threejs.org/examples/)
+  * Read - [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
+  * [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
 * Explore - the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) and [PopcornJS](http://popcornjs.org/) Video Library
 * Work on Assignnment #2
 
@@ -263,11 +263,9 @@ Syllabus
 ##### [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Class7_Code.zip)
 
 ##### ThreeJS
-* [ThreeJS Github Repo](https://github.com/mrdoob/three.js)
-  * [ThreeJS Examples](http://threejs.org/examples/)
-  * [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
-  * [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
-* [HTML5 Tocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/)
+* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
+* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
+* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html)
 * [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 ##### Audio
@@ -305,20 +303,20 @@ Syllabus
 ##### Intro to the Server
 * Install [NodeJS](http://nodejs.org/)
 * [Express Framework](http://expressjs.com/)
+* [NPM - Dependencies](https://www.npmjs.org/doc/files/package.json.html#dependencies)
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Server_Node_Express.zip)
 
 ##### Discussion - Final Project Due Class 12 (08/14)
-* Create a single web page experience that combines data from at least one public web API and data stored in your own databse. Your final project MUST be uploaded to the web before class and it MUST incorporate each of the following elements:
+* Create a single web page experience that combines data from at least one public web API and data stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:
   * a public web API as a data source
-  * a client-side js library other than jQuery
+  * a client-side js library other than jQuery and/or Underscore
   * server-side code (i.e. Node-Express)
   * data-storage (i.e. CouchDB on Cloudant)
 
 ##### Homework
 * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
+* Read - [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 * Create - a basic Express app to use for your final
-* Additional Reading
-  * [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 * Prepare - 2 Final Project Proposals to share with the class
 
 ### Class 9 (08/05): The Server & Storage 
