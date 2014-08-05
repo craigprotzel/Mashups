@@ -1,5 +1,4 @@
 // Required fields for connecting to Cloudant
-
 // The username you use to log in to cloudant.com
 var CLOUDANT_USERNAME="";
 // The name of your database
@@ -7,6 +6,8 @@ var CLOUDANT_DATABASE="";
 // These two are generated from your Cloudant dashboard of the above database.
 var CLOUDANT_KEY="";
 var CLOUDANT_PASSWORD="";
+
+var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE;
 
 // This function takes your Cloudant key and password and returns a Base64
 // encoded string to authorize your requets. Without this, you'd need to fill
@@ -24,10 +25,10 @@ var noteTemplate = function (data) {
 	return template;
 };
 
-// A function to accept a JSON object and post it to CouchDB.
+// A function to accept a JSON object and POST it to CouchDB.
 function saveRecord (theNote) {
 	$.ajax({
-		url: "https://"+CLOUDANT_USERNAME+".cloudant.com/"+CLOUDANT_DATABASE,
+		url: CLOUDANT_URL,
 		beforeSend: function (xhr) {
 			// This function is used to pass authentication data to Cloudant before
 			// sending the data
@@ -40,7 +41,8 @@ function saveRecord (theNote) {
 			$("#new-note").prepend("<p><strong>Something broke.</strong></p>");
 		},
 		success: function(resp){
-			//console.log(resp);
+			console.log("Saved to our CouchDB!");
+			console.log(resp);
 			// Render the note.
 			var compiledTmpl = noteTemplate(theNote);
 			$("#notes").append(compiledTmpl);
@@ -70,11 +72,13 @@ function loadNotes() {
 		},
 		success: function(resp){
 			$("#notes").empty();
-			notes = JSON.parse(resp);
+			console.log("Loading notes!");
+			//Need to parse the resp string
+			var notes = JSON.parse(resp);
 			console.log(notes);
 
 			// Use Underscore's sort method to sort our records by date.
-			sorted = _.sortBy(notes.rows, function (row) { return row.doc.created_at;});
+			var sorted = _.sortBy(notes.rows, function (row) { return row.doc.created_at;});
 
 			// Now that the notes are sorted, render them using the template
 			sorted.forEach(function (row) {

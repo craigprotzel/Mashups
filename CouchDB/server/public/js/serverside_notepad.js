@@ -32,7 +32,6 @@ function saveRecord (theData) {
       // Empty the form.
       $("#note-title").val("");
       $("#note-text").val("");
-
       // Deselect the submit button.
       $("#note-submit").blur();
     }
@@ -50,11 +49,11 @@ function loadNotes() {
       console.log(resp);
     },
     success: function (resp) {
+      console.log(resp);
       $("#notes").empty();
-      notes = resp;
 
       // Use Underscore's sort method to sort our records by date.
-      sorted = _.sortBy(notes, function (row) { return row.doc.created_at;});
+      var sorted = _.sortBy(resp, function (row) { return row.doc.created_at;});
 
       // Now that the notes are sorted, render them using underscore templates
       sorted.forEach(function (row) {
@@ -67,7 +66,7 @@ function loadNotes() {
 
 $(document).ready(function(){
   console.log("Loaded!");
-  loadNotes();
+  //loadNotes();
 
   $("#new-note").submit(function () {
     // Get the information we want from the form including creating a new date.
@@ -77,10 +76,9 @@ $(document).ready(function(){
       created_at: new Date()
     };
 
-    console.log("Before saveRecord");
     //Send the data to our saveRecord function
     saveRecord(noteData);
-    console.log("After saveRecord");
+
     //Return false to prevent the form from submitting itself
     return false;
   });

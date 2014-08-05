@@ -1,5 +1,4 @@
 // Required fields for connecting to Cloudant
-
 // The username you use to log in to cloudant.com
 var CLOUDANT_USERNAME="";
 // The name of your database
