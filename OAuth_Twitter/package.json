@@ -6,11 +6,15 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.5.1",
+    "body-parser": "^1.5.2",
+    "cookie-parser": "^1.3.2",
     "ejs": "*",
-    "underscore": "~1.6.0",
-    "request": "^2.34.0",
+    "errorhandler": "^1.1.1",
+    "express": "4.x",
+    "express-session": "^1.7.2",
     "passport": "*",
-    "passport-twitter": "*"
+    "passport-twitter": "*",
+    "request": "^2.34.0",
+    "underscore": "~1.6.0"
   }
 }

@@ -7,9 +7,12 @@ https://github.com/jaredhanson/passport-twitter/blob/master/examples/signin/app.
 
 // Decalre Requirements
 var express = require("express"),
-	path = require('path'),
+	bodyParser = require('body-parser'),
+	errorHandler = require('errorhandler'),
 	Request = require('request'),
 	_ = require('underscore'),
+	session = require ('express-session'),
+	cookieParser = require('cookie-parser'),
 	passport = require('passport'),
 	TwitterStrategy = require('passport-twitter').Strategy;
 
@@ -22,14 +25,14 @@ app.set("views", __dirname + '/views');
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 //Add connection to public folder for css & js files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname + '/public'));
 
-app.use(express.json());
-app.use(express.errorHandler());
+app.use(bodyParser.json());
 
 //Cookies must be turned on for sessions
-app.use(express.cookieParser('sessionSecret'));
-app.use(express.session());
+app.use(cookieParser('sessionSecret'));
+app.use(session({secret: 'sessionSecret',cookie: { maxAge: 100000 }}));
+
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -94,7 +97,7 @@ app.get('/login', function(req,res){
 
 app.get("/success", checkAuthentication, function(req, res){
 	console.log("---------------------------");
-	console.log(req.user);
+	//console.log(req.user);
 	console.log("---------------------------");
 	//Make a request to twitter for most recent tweet
 	var userID = req.user.id;
@@ -107,7 +110,7 @@ app.get("/success", checkAuthentication, function(req, res){
 		},
 		function (err, resTwit, body) {
 			console.log("Tweet Response");
-			console.log(body);
+			//console.log(body);
 
 			//Respond with this line to show json on the page
 			// res.json(body);
@@ -133,6 +136,9 @@ app.get("/auth/twitter/callback", passport.authenticate('twitter', { failureRedi
 		res.redirect('/success');
 	});
 //****************************************//
+
+// Set up Express error handling
+app.use(errorHandler());
 
 // Start the server
 app.listen(3000);
