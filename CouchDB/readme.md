@@ -1,3 +1,6 @@
+CouchDB code examples and documentation written by Steve Klise 
+[github.com/sklise](https://github.com/sklise)
+  
 # CouchDB with Cloudant, jQuery and Express
 
 ## Sign up for Cloudant
@@ -9,12 +12,11 @@
     ```
     curl -i -u USERNAME -X PUT https://USERNAME.cloudant.com/_api/v2/user/config/cors -X PUT -H content-type:application/json -d '{"enable_cors":true,"allow_credentials":true,"origins":["*"]}'
     ```
-
     Enter your password for Cloudant when prompted.
 
 ## jQuery Documentation
 
-In these examples we use `$.ajax()` which is a great function with tons of parameters and options. The documentation for this function is [here](http://api.jquery.com/jQuery.ajax/). And the notation used with the `.done()` function calls is describe in [this section](http://api.jquery.com/jQuery.ajax/#jqXHR).
+In these examples we use `$.ajax()` which is a great function with tons of parameters and options. The documentation for this function is [here](http://api.jquery.com/jQuery.ajax/). In the _alt.js files, the notation used with the `.done()` function calls is described in [this section](http://api.jquery.com/jQuery.ajax/#jqXHR).
 
 In order to submit the form, we are using [`.submit()`](http://api.jquery.com/submit/).
 

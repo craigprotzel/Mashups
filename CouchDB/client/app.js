@@ -1,5 +1,6 @@
 // Declare Requirements, load packages and set the package to a variable name
-var express = require("express");
+var express = require("express"),
+		errorHandler = require('errorhandler');
 
 // Create the app.
 // `express` is a function, we need to call this function to create the web
@@ -16,14 +17,14 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-// Set up Express error handling, because.
-app.use(express.errorHandler());
-
 // ROUTES
 app.get("/", function(request, response) {
 	// render the index with no variables.
 	response.render('index');
 });
+
+// Set up Express error handling
+app.use(errorHandler());
 
 // Start the server
 app.listen(3000);

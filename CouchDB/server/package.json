@@ -1,14 +1,16 @@
 {
-	"name": "couchdb-server-side",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "3.5.1",
-		"ejs": "*",
-		"underscore": "~1.6.0",
-		"request": "~2.34.0"
-	}
+  "name": "couchdb-server-side",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "ejs": "*",
+    "errorhandler": "^1.1.1",
+    "express": "4.x",
+    "request": "~2.34.0",
+    "underscore": "~1.6.0"
+  }
 }

@@ -1,8 +1,10 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 // the request library will be used to query CouchDB
 var Request = require('request');
 // Just like on the client side.
 var _ = require('underscore');
+var errorHandler = require('errorhandler');
 
 var app = express();
 
@@ -22,19 +24,17 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.use(express.json());
-app.use(app.router);
-
-// Set up Express error handling
-app.use(express.errorHandler());
+app.use(bodyParser());
 
 //ROUTES
 app.get("/", function(request, response) {
+	console.log("In main route");
 	response.render('index', {title: "Notepad"});
 });
 
 // Post route to create a new note.
 app.post("/save", function (request, response) {
+	console.log("trying to post");
 	Request.post({
 		url: CLOUDANT_URL,
 		auth: {
@@ -46,7 +46,10 @@ app.post("/save", function (request, response) {
 		},
 		body: JSON.stringify(request.body)
 	}, function (err, res, body) {
-		response.json(JSON.parse(body));
+		//console.log(body);
+		//var parsed = JSON.parse(body);
+		//console.log(parsed);
+		response.json(body);
 	});
 });
 
@@ -75,8 +78,12 @@ app.get("/api/:key", function (request, response) {
 
 // Route to load the view and client side javascript to display the notes.
 app.get("/:key", function (request, response) {
+	console.log("In key...");
 	response.render('notes',{title: "Notepad", key: request.params.key});
 });
+
+// Set up Express error handling
+app.use(errorHandler());
 
 app.listen(3000);
 console.log('Express started on port 3000');
