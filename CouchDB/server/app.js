@@ -59,7 +59,7 @@ app.post("/save", function (request, response) {
 			response.json(parsed);
 		}
 		else{
-			console.log('Error: '+ response.statusCode);
+			console.log('Error: '+ res.statusCode);
 			console.log(body);
 		}
 	});

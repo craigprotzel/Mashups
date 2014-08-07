@@ -66,7 +66,7 @@ function loadNotes() {
 
 $(document).ready(function(){
   console.log("Loaded!");
-  //loadNotes();
+  loadNotes();
 
   $("#new-note").submit(function () {
     // Get the information we want from the form including creating a new date.

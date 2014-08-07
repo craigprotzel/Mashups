@@ -11,8 +11,8 @@ var express = require("express"),
 	errorHandler = require('errorhandler'),
 	Request = require('request'),
 	_ = require('underscore'),
-	session = require ('express-session'),
 	cookieParser = require('cookie-parser'),
+	session = require ('express-session'),
 	passport = require('passport'),
 	TwitterStrategy = require('passport-twitter').Strategy;
 
@@ -30,8 +30,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
 //Cookies must be turned on for sessions
-app.use(cookieParser('sessionSecret'));
-app.use(session({secret: 'sessionSecret',cookie: { maxAge: 100000 }}));
+app.use(cookieParser());
+app.use(session({secret: 'sessionSecret', cookie: { maxAge: 100000 }}));
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -79,10 +79,9 @@ function checkAuthentication(req, res, next) {
 	// If user is authenticated in the session, carry on
 	if (req.isAuthenticated()){
 		console.log("Good to go!!!");
-		//console.log(req);
 		return next();
 	}
-	// If they aren't redirect them to the home page
+	// If they aren't redirect them to the login page
 	res.redirect('/login');
 }
 
@@ -96,9 +95,12 @@ app.get('/login', function(req,res){
 });
 
 app.get("/success", checkAuthentication, function(req, res){
-	console.log("---------------------------");
+	console.log("In success route");
+
+	//console.log("---------------------------");
 	//console.log(req.user);
-	console.log("---------------------------");
+	//console.log("---------------------------");
+	
 	//Make a request to twitter for most recent tweet
 	var userID = req.user.id;
 	var tweetURL = "https://api.twitter.com/1.1/statuses/user_timeline.json?user_id=" + userID + "&count=1";
@@ -109,6 +111,7 @@ app.get("/success", checkAuthentication, function(req, res){
 			json: true
 		},
 		function (err, resTwit, body) {
+			//console.log(body);
 			console.log("Tweet Response");
 			//console.log(body);
 
@@ -123,15 +126,18 @@ app.get("/success", checkAuthentication, function(req, res){
 		});
 });
 
+app.get('/logout', function(req, res){
+  req.logout();
+  res.redirect('/login');
+});
+
 //********** Twitter Auth Routes **********//
-app.get("/auth/twitter", passport.authenticate('twitter'),
-	function(req, res){
+app.get("/auth/twitter", passport.authenticate('twitter'), function(req, res){
 		// The request will be redirected to Twitter for authentication
 		// so this function will not be called.
 	});
 
-app.get("/auth/twitter/callback", passport.authenticate('twitter', { failureRedirect: '/' }),
-	function(req, res) {
+app.get("/auth/twitter/callback", passport.authenticate('twitter', { failureRedirect: '/' }), function(req, res) {
 		//Successful Auth
 		res.redirect('/success');
 	});
