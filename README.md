@@ -351,7 +351,7 @@ Syllabus
 * [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node
 * [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
-* Code Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/OAuth_Twitter.zip)
+* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Mashups_Auth_Code_Examples.zip
 
 * Additional
   * Sessions, Cookies, Local Storage, SSL, and HTTPS
