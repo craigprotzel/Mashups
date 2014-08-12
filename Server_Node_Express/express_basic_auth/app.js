@@ -13,13 +13,14 @@ app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 
 // Set up some super simple basic authentication middleware
-var authConfig = {user: 'nyu', password: 'mashups'};
+var authConfig = {user: 'itp', password: 'mashups'};
 
 //Call a function on specific routes
 function superSimpleAuth(req, res, next){
 	var user = auth(req);
 	if (user === undefined || user['name'] !== authConfig.user || user['pass'] !== authConfig.password) {
 		res.statusCode = 401;
+		res.setHeader('WWW-Authenticate', 'Basic realm="Please enter info below"');
 		res.send('Unauthorized');
 	}
 	else {
