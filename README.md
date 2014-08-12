@@ -375,7 +375,8 @@ Syllabus
   * Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
-* [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
+* Github - [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
+* Heroku - [Managing Your SSH Keys](https://devcenter.heroku.com/articles/keys)
 * [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
 ##### Final Project Workshop
