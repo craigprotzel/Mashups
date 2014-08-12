@@ -376,7 +376,7 @@ Syllabus
   * [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 * [Mashups Sepcific Tutorial](https://github.com/craigprotzel/Mashups/tree/master/Heroku_Node_Deploy)
 * [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
-* [Error: Permission DEnied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
+* [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
 ##### Final Project Workshop
 
