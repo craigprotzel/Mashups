@@ -378,7 +378,7 @@ Syllabus
 * SSH Keys
   * Heroku - [Managing Your SSH Keys](https://devcenter.heroku.com/articles/keys)
   * Github - [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
-  * Common Problem - [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
+  * Github Common Problem - [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
 ##### Final Project Workshop
 

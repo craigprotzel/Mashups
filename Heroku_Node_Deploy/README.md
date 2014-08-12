@@ -9,12 +9,16 @@ Note: The following steps are spcifically for Mac users who have node installed 
 	```
 	app.listen(process.env.PORT || 3000);
 	```
-* Create a file named `Procfile` in the app directory
-	* Add this line of code to the file `web: node app.js`
+* Create a file named `Procfile` in the app directory. Add this line of code to the file
+	```
+	web: node app.js
+	```
 * Check the `package.json` to make sure it is complete
-* Create a file named `.gitignore` in the app directory
-	* Add this line of code to the file `node_modules`
-	* The .gitgnore file will not appear in your directory
+* Create a file named `.gitignore` in the app directory and add this line of code to the file
+	```
+	node_modules
+	```
+	* Note, the `.gitgnore` file will not appear in your directory
 
 #### Step 2 - The Git Repo
 * Install [git](http://git-scm.com/downloads)
@@ -44,8 +48,10 @@ Note: The following steps are spcifically for Mac users who have node installed 
 	```
 	heroku login
 	```
-  * Assuming you have never used Heroku before, you will be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. If you already have one, feel free to use that one. If you don't have an SSH key, then you should generate a new one.
+  * Assuming you have never used Heroku before, you should be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. If you already have one, feel free to use that one. If you don't have an SSH key, then you should generate a new one.
   * Note, at any time you can create a new key on your machine, add a new key to Heroku, remove an existing key from Heroku, and/or clear all of your existing keys on Heokru. For reference, Heroku's ["Manage Your SSH Keys"](https://devcenter.heroku.com/articles/keys) page provides helpful information and the Heroku specific command line prompts to deal with Heroku SSH key issues 
+  * Extra tip - to check for existing SSH keys on your computer, type `ls -al ~/.ssh`. If you have files named either `id_rsa.pub` or `id_dsa.pub`, then you do have a key.
+
 * Once you are logged in and you have an SSH key added to your heroku account, you are ready to create an empty Heroku app repo by typing
 
   ```
