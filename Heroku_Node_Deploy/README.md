@@ -1,7 +1,7 @@
 How to Deploy to Heroku for Mashups Class
 ------------------
 
-Note: The following steps are for Mac users who have node installed on their machines.
+Note: The following steps are spcifically for Mac users who have node installed on their machines.
 
 #### Step 1 - The App
 * Create a Node-Express App - if you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/Server_Node_Express/express_with_public_folder)
@@ -32,20 +32,25 @@ Note: The following steps are for Mac users who have node installed on their mac
 	git add .  
 	git commit -m "First commit"
 	```
-* At anytime it is helpful to execute `git status -s`
+* At anytime it is helpful to execute `git status` or `git status -s` for a "short" version
 
 #### Step 3 - The Heroku Site
 * Create an account on [Heroku](https://heroku.com)
 * Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
-* In Terminal in your app's directory, set up a heroku app. 
+* In Terminal in your app's directory, first login to Heroku by typing 
 
 	```
 	heroku login
+	```
+  * Assuming you have never used Heroku before, you will be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. If you already have one, feel free to use that one. If you don't have an SSH key, then you should generate a new one.
+  * Note, at any time you can create a new key on your machine, add a new key to Heroku, remove an existing key from Heroku, and/or clear all of your existing keys on Heokru. For reference, Heroku's ["Manage Your SSH Keys"](https://devcenter.heroku.com/articles/keys) page provides helpful information and the Heroku specific command line prompts to deal with Heroku SSH key issues 
+* Once you are logged in and you have an SSH key added to your heroku account, you are ready to create an empty Heroku app repo by typing
+  ```
 	heroku create MY-APP-NAME
 	```
+	* Note, what you enter for `MY-APP-NAME` will be part of your app's url. So, if I enter `heroku create mysuperawesomeapp`, the url Heroku assigns to my app will be `http://mysuperawesomeapp.herokuapp.com`
 * After creating the app, type `git remote` to confirm the app was created and added as a remote repo. It should list `heroku` as a remote. You can also check your heroku account's "Apps" page to confirm the app was created and added to your account.
-* Send (i.e "push") the app files to the heroku server's by executing the following command
-before doing the `push`
+* The last step here is to push (i.e send) the app files to heroku by executing the following command
 
 	```
 	git push heroku master
@@ -54,7 +59,7 @@ before doing the `push`
 This url will also print out to the Terminal after your push is complete
 
 #### Step 4 - The Updates
-* To update you app, execute the following commands in Terminal in your app's directory
+* To update you app at any time, you will need to update your local git repository and then push the updated files to Heroku. This can be done by executing the following commands in Terminal in your app's directory
 
 	```
 	git status -s 
