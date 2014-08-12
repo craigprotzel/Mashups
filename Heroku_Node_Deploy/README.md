@@ -7,7 +7,7 @@ Note: The following steps are spcifically for Mac users who have node installed 
 * Create a Node-Express App - if you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/Server_Node_Express/express_with_public_folder)
 * In the app.js file update the `app.listen` method to include an `env.PORT` variable  
 	```
-	app.listen(process.env.PORT || 3000)
+	app.listen(process.env.PORT || 3000);
 	```
 * Create a file named `Procfile` in the app directory
 	* Add this line of code to the file `web: node app.js`
@@ -32,7 +32,9 @@ Note: The following steps are spcifically for Mac users who have node installed 
 	git add .  
 	git commit -m "First commit"
 	```
-* At anytime it is helpful to execute `git status` or `git status -s` for a "short" version
+* At anytime it is helpful to execute `git status` or `git status -s` for a "short" version of what the state of the git repository is.
+* If you are unsure of what is going to be added to the git repository when you run `git add .`, you can always type `git add -n .` to do a test run of what will occur. 
+* If you are only interested in adding a specific file to the repository you can type `git add file-name` to add only a specific file
 
 #### Step 3 - The Heroku Site
 * Create an account on [Heroku](https://heroku.com)
@@ -45,6 +47,7 @@ Note: The following steps are spcifically for Mac users who have node installed 
   * Assuming you have never used Heroku before, you will be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. If you already have one, feel free to use that one. If you don't have an SSH key, then you should generate a new one.
   * Note, at any time you can create a new key on your machine, add a new key to Heroku, remove an existing key from Heroku, and/or clear all of your existing keys on Heokru. For reference, Heroku's ["Manage Your SSH Keys"](https://devcenter.heroku.com/articles/keys) page provides helpful information and the Heroku specific command line prompts to deal with Heroku SSH key issues 
 * Once you are logged in and you have an SSH key added to your heroku account, you are ready to create an empty Heroku app repo by typing
+
   ```
 	heroku create MY-APP-NAME
 	```
