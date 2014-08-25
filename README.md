@@ -1,11 +1,12 @@
 Mashups: Creating with Web APIs
 ===============================
 
-NYU ITP Summer 2014  
-Class: Tuesdays & Thursdays 6:30 - 9:25pm  
+NYUAD - Interactive Media Dept. 
+Semester: Fall 2014  
+Class: Tuesdays 9:15am - 11:55am & Thursdays  9:15am - 10:30am  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours:  Mondays 6-8pm
+Office Hours:  TBD
 
 [Office Hours Sign-Ups](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)  
 [Class Info List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
@@ -13,133 +14,108 @@ Office Hours:  Mondays 6-8pm
 Course Description
 ------------------
 
-Much data and many services are now accessible through public APIs - Application Programming Interfaces - from sites such as YouTube, Google Maps, Twitter, and Wikipedia. But how can we access these datasets and services? How can we transfer, store, initialize, and display this data on our own pages? And how might we use the data to create unique and creative web experiences of our own?
+As the World Wide Web continues to grow and pervade our everyday lives, an ever-increasing amount of data and digital services are becoming accessible to us through public web APIs - Application Programming Interfaces. Common to many web sites, including YouTube, Twitter, Google Maps, Wikipedia and more, web APIs offer a means to programmatically request and re-purpose endless troves of information. But how exactly do we access these datasets and services? How can we write code to transfer, store, and display this content on our own web sites? And how might we use these available resources to design unique, creative, and compelling web experiences of our own.
 
-This class is about building interactive single-page web applications that leverage public data from a range of existing web services. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Much of class time will be spent reviewing and writing code, mostly Javascript, for client-side (front-end) web development. We will use a number of frameworks, including JQuery, Underscore, Paper, Pocporn, D3 and more. Where server-side (back-end) work is required, we will use Node-Express. Students should have some programming experience (ICM) as well as a basic understanding of web development (Comm Lab Web), specifically exposure to HTML & CSS. Experience with Javascript is a plus.
+This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Subscribing to a process-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, Paper, Popcorn, D3 and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as a basic understanding of web development, specifically exposure to HTML and CSS. Experience with Javascript is a plus.
 
-Course Goals
-------------
-
-* Develop an understanding of client-side (front-end) web development and the roles of client-side technologies, specifically HTML, CSS, Javascript, and public web APIs.
-* Develop a basic understanding of Javascript along with the ecosystem of open source client-side Javascript libraries
+Learning Outcomes
+-----------------
+* Develop a clear understanding of client-side (front-end) web development and the roles of client-side web technologies, specifically HTML, CSS, Javascript, and public web APIs
+* Develop a basic understanding of the Javascript language as well as the ecosystem of open source client-side Javascript libraries
 * Learn how to work with a variety of data-serving public web APIs
-* Learn how to create web pages in modern browsers that leverage data and services from public web APIs
+* Learn how to create web pages for modern browsers that leverage data and services from public web APIs
 * Gain exposure to server-side (back-end) web development and data storage
 * Become empowered to produce compelling well-designed single page web experiences
 
-Course Requirements
--------------------
+Teaching Methodology
+--------------------
+This is a production-based course that involves programming work both inside and outside of the classroom. During class, code examples will be presented, written, and reviewed. Examples will iteratively build off lessons learned in preceding classes and students will be encouraged to write code, ask questions, and engage in both creative and technical discussion. The course embraces a process-oriented philosophy believing that programming, design, and web development are best learned by doing. Thus, much of class time will be spent doing hands-on workshop-style lessons and exercises.
 
-* Attend all classes, no more than 2 absences allowed
-* Arrive on time to the start of class or office hour appointment
-* Complete all homework exercises and assignments on time
-* Post homework exercises and assignments to your blog at least one hour prior to class
-* Participate in class through presentations, discussion, questions, and feedback
-* Respect fellow students' work, questions, and comments
-* Communicate with the professor if you have any questions, would like extra help, or need further instruction
-* Email the professor **in advance** if you need to miss class or (re)schedule office hours
+Course Mission: L.E.G.S.
+------------------------
+* Learn - skills, tools, processes, techniques, resources
+* Explore - challenges, risks, failures, adventures, dreams 
+* Grow - advance, empower, progress, reflect, repeat
+* Share - describe, document, communicate, contribute, participate
 
 Grading
 --------
+**20%** Attendance & Participation
+**25%** Weekly Homework Assignments + Online Journal
+**30%** Projects #1 & #2
+**25%** Final Project
 
-**25%**  Attendance & Class Participation  
-**25%**  Homework  
-**25%**  Assignments #1 & #2  
-**25%**  Final Project  
+Weekly Homework
+---------------
+Each week there will be a homework assignment. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignments, but everyone must submit their own individual work.  
 
-Syllabus
+Class time will be spent each week going over the homework assignments. Expect to be asked to show your work every week. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your weekly work must be completed on time prior to class, **uploaded to the web**, and documented on your online journal (see below for details).
+
+Online Journal
+---------------
+You are expected to keep some form of an online journal or web blog. For each assignment, you must:
+
+* provide a direct hyperlink to the work
+* describe the assignment
+* discuss what you chose to do and why
+* document any resources/research/inspiration
+* explain your process
+* highlight both successes and failures
+
+The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
+
+Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the weekly assignments. The writing is expected to be well reasoned, grammatically correct, and written as if it were a paper being turned in. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, or a static HTML page does not matter. What does matter is that it is online and publicly accessible.
+
+Projects 1 & 2
+--------------
+These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as Paper, D3, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your process for creating it.
+
+Final Project
+-------------
+Your final project will require developing a comprehensive single page web experience that includes: 
+
+* client-side and server-side web development
+* at least one public web API as a data source
+* at least one javascript “interaction” library
+* database storage
+* a public web API to access stored data
+
+
+Attendance & Participation
+--------------------------
+
+* Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
+* Showing up on time, engaging in the class discussion, and offering advice and input during class is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
+* Please turn in all assignments on time.
+* You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn. 
+* Ask questions. If you do not ask questions, I can only assume you understand the material completely.
+
+Laptops
+-------
+Laptop use will be expected in class, but should be focused on class-specific material, applications, and research. Whenever classmates are presenting please keep your laptop closed. The quality of the class depends in large part on your attention and active participation, so please respect your fellow classmates and close your lid.
+
+Mobile Phones
+-------------
+ Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call.
+
+Communicate
+-----------
+If you have any questions, would like extra help, or need further instruction, please reach out to me. You can communicate with me via e-mail, sign up for ofice hours, speak with me before class, after class or during break, but please let me know if you have any concerns pertaining to the course.
+
+Schedule
 --------
 
+#### Overview
 * **PART I: Classes 1 - 5 Client-Side Web + API Fundamentals**
 * **PART II: Classes 5 - 9 Client-Side Javascript Frameworks**
 * **PART III: Classes 9 - 12  Server-Side Web + Final Project**
 
-### CLASS 1 (07/08): The Web, APIs, & Data
 
-##### Class Intro
-* [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
-* [ITP Write Once Access Anywhere by Corey Menscher](http://menscher.com/teaching/woaa/)
-* [ITP Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
-* [StoryScramble](http://storyscramble.com)
-* [VimeoLabs](http://vimeolabs.com)
+#### WEEK 1 (09/02 + 09/04): Introduction to the Web, APIs, & Data
 
-##### Review Course Info & Syllabus
+#### WEEK 2 (09/09 + 09/11): Web Dev 101
 
-##### Student Intros
-
-##### Lecture: The Web, APIs, & Data
-
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Summer2014_Lecture_Upload.pdf)
-* References
-  * [What's In An HTTP Request](http://rve.org.uk/dumprequest)
-  * [Programmable Web](http://programmableweb.com)
-  * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
-  * [Temboo](https://www.temboo.com/)
-  * [IFTT Recipes](https://ifttt.com/recipes)
-  * [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
-  * [OpenWeatherMap API](http://openweathermap.org/API)
-  * [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
-  * [Data.Nasa.gov API](http://data.nasa.gov/api-info/)
-  * [Open-Notify.org](http://open-notify.org/)
-  * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
-  * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
-
-##### Exercise: Super Simple Page
-* Setting up your page
-* Adding elements
-
-##### Homework
-* Add -  yourself to the [class info list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on Javascript
-* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
-* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
-* Explore - [ProgrammableWeb](http://programmableweb.com)
-* Find, Post, & Describe - a url that returns JSON data from an Open API
-* Create & Upload - a single web page that displays (some of) the data you found. Your page must have some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you DO NOT need to programatically connect your page to the data
-* Additional Readings
-  * [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work )
-  * [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-  * [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
-  * [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
-  * [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
-  * [API 101](http://apievangelist.com/index.html)
-  * [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
-
-### CLASS 2 (07/10): Web Dev 101
-
-##### Discussion - Class 1 Homework
-
-##### Workshop - HTML & CSS
-* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
-* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
-* Basic Styling
-* Classes & IDs
-* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
-* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
-* [HTML5 Boilerplate](http://html5boilerplate.com/)
-
-##### Workshop - Intro to Javascript
-* Using the Browser Console
-* Data Types 
-* The Window and The DOM
-
-##### Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
-
-##### Discussion - Assignment #1 Due CLASS 5 (07/22)
-* Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
-
-##### Homework
-* Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
-* Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions
-* Complete & Upload - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html)
-* Think & Post - idea(s) for Assignment #1
-* Additional Readings
-  * [JS For Cats](http://jsforcats.com/)
-  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
-  * [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
-  * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-
-### CLASS 3 (07/15): Making Things Happen On The Page
+### WEEK 3 (07/15): Making Things Happen On The Page
 
 ##### Discussion - Class 2 Homework
 
