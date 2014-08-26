@@ -17,7 +17,6 @@ function make(rows,cols){
 	console.log(wholeBoard);
 }
 
-
 //******Homework Exercises******
 
 //----Exercise 1----
@@ -122,7 +121,7 @@ function getData(curSearchTerm){
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(){
-			console.log("Shit...");
+			console.log("Uh oh...");
 			console.log(msg);
 		},
 		success: function(data){
@@ -150,10 +149,6 @@ function getData(curSearchTerm){
 // 	$('#chessBoard').html(myChessBoard);
 // };
 
-
-
-
-
 var nums = 0;
 
 $(document).ready(function(){
@@ -168,8 +163,6 @@ $(document).ready(function(){
 		$('#chessBoard').addClass('chessBoardStyle');
 	}, false);
 */	
-
-
 
 	//jQuery Approach
 	$('#chessBoardButton').click(function(){
@@ -207,7 +200,5 @@ $(document).ready(function(){
 	// 	}
 	// });
 });
-
-
 
 console.log("Not loaded yet!!!");

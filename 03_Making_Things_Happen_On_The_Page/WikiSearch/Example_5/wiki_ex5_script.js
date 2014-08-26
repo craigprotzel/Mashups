@@ -1,6 +1,5 @@
 /*
-NYU - ITP - MASHUPS CLASS
-SPRING 2014
+NYU - MASHUPS CLASS
 gihtub.com/craigprotzel/Mashups
 
 WIKIPEDIA SEARCH - EXAMPLE #5

@@ -1,3 +1,5 @@
+### The Web, APIs, & Data
+
 ##### Course Background
 * [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 * [ITP Write Once Access Anywhere by Corey Menscher](http://menscher.com/teaching/woaa/)
@@ -21,6 +23,7 @@
   * [Open-Notify.org](http://open-notify.org/)
   * [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
   * [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
+  * [Into the Okavango](http://intotheokavango.org/)
 
 ##### Exercise: Super Simple Page
 * Setting up your page
