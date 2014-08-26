@@ -1,6 +1,5 @@
 Open APIs
 ---------
-
 * Art & History
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
@@ -42,7 +41,6 @@ Open APIs
   * [Youtube Data](https://developers.google.com/youtube/v3/)
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
-
 
 Helpful Links
 ------------------

@@ -18,6 +18,44 @@ As the World Wide Web continues to grow and pervade our everyday lives, an ever-
 
 This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Subscribing to a process-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, Paper, Popcorn, D3 and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as a basic understanding of web development, specifically exposure to HTML and CSS. Experience with Javascript is a plus.
 
+Schedule
+--------
+
+#### Overview
+* **PART I: Classes 1 - 5 Client-Side Web + API Fundamentals**
+* **PART II: Classes 5 - 9 Client-Side Javascript Frameworks**
+* **PART III: Classes 9 - 12  Server-Side Web + Final Project**
+
+#### Week 1 (09/02 + **09/04**): Introduction to the Web, APIs, & Data
+
+#### Week 2 (09/09 + 09/11): Web Dev 101
+
+#### Week 3 (09/16 + 09/18): Making Things Happen On The Page
+
+#### Week 4 (09/23 + 09/25): Structuring Your App
+
+### Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data
+
+### HOLIDAY - NO CLASS (10/7 + 10/9)
+
+### Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs
+
+### Week 7 (10/21 + 10/28): Animation Buffet
+
+### Week 8 (11/4 + 11/6): Moving Pictures & Sound
+
+### Week 9 (11/11 + 11/13): Project #2 DUE + Back to the Server
+
+### Week 10 (11/18 + 11/20): The Server Plus Storage 
+
+### Week 11 (11/25 + 11/27): Re-Introduce Ourselves with OAuth + Final Project Proposals
+
+### Week 12 (12/2 + 12/4): Running Wild with Git and Heroku
+
+### Week 13 (12/9 + 12/11) Final Project Workshop & User Testing
+
+### Week 14 (12/16): Final Project Presentations
+
 Learning Outcomes
 -----------------
 * Develop a clear understanding of client-side (front-end) web development and the roles of client-side web technologies, specifically HTML, CSS, Javascript, and public web APIs
@@ -80,7 +118,6 @@ Your final project will require developing a comprehensive single page web exper
 * database storage
 * a public web API to access stored data
 
-
 Attendance & Participation
 --------------------------
 
@@ -101,41 +138,3 @@ Mobile Phones
 Communicate
 -----------
 If you have any questions, would like extra help, or need further instruction, please reach out to me. You can communicate with me via e-mail, sign up for ofice hours, speak with me before class, after class or during break, but please let me know if you have any concerns pertaining to the course.
-
-Schedule
---------
-
-#### Overview
-* **PART I: Classes 1 - 5 Client-Side Web + API Fundamentals**
-* **PART II: Classes 5 - 9 Client-Side Javascript Frameworks**
-* **PART III: Classes 9 - 12  Server-Side Web + Final Project**
-
-#### Week 1 (09/02 + **09/04**): Introduction to the Web, APIs, & Data
-
-#### Week 2 (09/09 + 09/11): Web Dev 101
-
-#### Week 3 (09/16 + 09/18): Making Things Happen On The Page
-
-#### Week 4 (09/23 + 09/25): Structuring Your App
-
-### Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data
-
-### HOLIDAY - NO CLASS (10/7 + 10/9)
-
-### Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs
-
-### Week 7 (10/21 + 10/28): Animation Buffet
-
-### Week 8 (11/4 + 11/6): Moving Pictures & Sound
-
-### Week 9 (11/11 + 11/13): Project #2 DUE + Back to the Server
-
-### Week 10 (11/18 + 11/20): The Server Plus Storage 
-
-### Week 11 (11/25 + 11/27): Re-Introduce Ourselves with OAuth + Final Project Proposals
-
-### Week 12 (12/2 + 12/4): Running Wild with Git and Heroku
-
-### Week 13 (12/9 + 12/11) Final Project Workshop & User Testing
-
-### Week 14 (12/16): Final Project Presentations
