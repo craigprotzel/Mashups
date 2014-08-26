@@ -265,7 +265,7 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 20px 10px;
+  padding: 5px 10px 40px;
   margin: 0 auto;
 }
 
@@ -278,39 +278,39 @@ Full-Width Styles
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
+  background: #FFFFFF;
+/*  background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 60px 10px 10px 10px;
 }
 
 #project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
+  margin: 15px 0 25px;
+  color: black;
+  font-size: 38px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+/*  text-shadow: #111 0px 0px 10px;*/
 }
 
 #project_tagline {
-  color: #fff;
-  font-size: 24px;
+  color: black;
+  font-size: 36px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+/*  text-shadow: #111 0px 0px 10px;*/
 }
 
 #downloads {
@@ -353,13 +353,13 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
+  background: #FFFFFF;
+/*  border-top: 1px solid #111;*/
   border-bottom: 1px solid #111;
 }
 
 #main_content {
-  padding-top: 40px;
+/*  padding-top: 40px;*/
 }
 
 #footer_wrap {
