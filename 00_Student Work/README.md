@@ -13,3 +13,10 @@ Create a single web page experience that leverages data from at least one public
 
 Final Project - Due 
 -------------------------
+Your final project will require developing a comprehensive single page web experience that includes: 
+
+* client-side and server-side web development
+* at least one public web API as a data source
+* at least one javascript “interaction” library
+* database storage
+* a public web API to access stored data
