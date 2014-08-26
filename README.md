@@ -34,27 +34,27 @@ Schedule
 
 #### Week 4 (09/23 + 09/25): Structuring Your App
 
-### Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data
+#### Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data
 
-### HOLIDAY - NO CLASS (10/7 + 10/9)
+#### Holiday - No Class (10/7 + 10/9)
 
-### Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs
+#### Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs
 
-### Week 7 (10/21 + 10/28): Animation Buffet
+#### Week 7 (10/21 + 10/28): Animation Buffet
 
-### Week 8 (11/4 + 11/6): Moving Pictures & Sound
+#### Week 8 (11/4 + 11/6): Moving Pictures & Sound
 
-### Week 9 (11/11 + 11/13): Project #2 DUE + Back to the Server
+#### Week 9 (11/11 + 11/13): Project #2 DUE + Back to the Server
 
-### Week 10 (11/18 + 11/20): The Server Plus Storage 
+#### Week 10 (11/18 + 11/20): The Server Plus Storage 
 
-### Week 11 (11/25 + 11/27): Re-Introduce Ourselves with OAuth + Final Project Proposals
+#### Week 11 (11/25 + 11/27): Re-Introduce Ourselves with OAuth + Final Project Proposals
 
-### Week 12 (12/2 + 12/4): Running Wild with Git and Heroku
+#### Week 12 (12/2 + 12/4): Running Wild with Git and Heroku
 
-### Week 13 (12/9 + 12/11) Final Project Workshop & User Testing
+#### Week 13 (12/9 + 12/11) Final Project Workshop & User Testing
 
-### Week 14 (12/16): Final Project Presentations
+#### Week 14 (12/16): Final Project Presentations
 
 Learning Outcomes
 -----------------
