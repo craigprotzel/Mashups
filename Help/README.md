@@ -1,3 +1,11 @@
+Learning Resources
+------------------
+* [Lynday NYU - Introducing the Javascript Language](http://www.nyu.edu/lynda)
+* [Lynday NYU - Javascript Essential Training](http://www.nyu.edu/lynda)
+* [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+* [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [Codecademy - Javascript](http://www.codecademy.com/)
+
 Open APIs
 ---------
 * Art & History
@@ -5,6 +13,8 @@ Open APIs
   * [OpenLibrary](https://openlibrary.org/developers/api)
 * Education & Code
   * [Github API](https://developer.github.com/v3/#json-p-callbacks)
+* Environment
+  * [Into the Okavango](http://intotheokavango.org/api)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
@@ -12,7 +22,6 @@ Open APIs
 * Location
   * [Foursquare](https://developer.foursquare.com/)
   * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
-  * [Into the Okavango](http://intotheokavango.org/api)
 * Live Events
   * [Bandsintown](https://www.bandsintown.com/api/overview)
   * [SeatGeek](http://platform.seatgeek.com/)
@@ -42,11 +51,10 @@ Open APIs
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
 
-Helpful Links
-------------------
+Links
+-----
 
 #### General Web
-* [Mozilla Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
 * [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code
 * [JS Bin](http://jsbin.com/) - another web-based tool to share code
@@ -76,7 +84,6 @@ Helpful Links
 * [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)
-* [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 * [Lear X in Y Minutes - Javascript](http://learnxinyminutes.com/docs/javascript/)
 * [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
 * [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
