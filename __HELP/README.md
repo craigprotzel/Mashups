@@ -11,6 +11,8 @@ Open APIs
 * Art & History
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
+* Commerce
+  * [Etsy](https://www.etsy.com/developers/documentation)
 * Education & Code
   * [Github API](https://developer.github.com/v3/#json-p-callbacks)
 * Environment
