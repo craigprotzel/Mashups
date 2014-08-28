@@ -11,13 +11,13 @@ Create a single web page experience that combines data from at least one public 
   * data-storage (i.e. CouchDB on Cloudant)
 
 * Gladys Chan
-  * Site -
+  * Site - Wind/oh!
   * Site API -
 * Jonathan Sparks
-  * Site -
+  * Site - VJenerate Final
   * Site API -
 * Lauren Rakusin
-  * Site - [SelfieWorld](http://selfieworld.herokuapp.com/)
+  * Site - [SelfieWorld Final](http://selfieworld.herokuapp.com/)
   * Site API -
 * Louis-Charles Tiar 
   * Site -
@@ -33,7 +33,7 @@ Assignment #2 - Due 07/31
 -------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
 
-* Gladys Chan - 
+* Gladys Chan - Wind/oh!
   * API - [Open Weather](http://openweathermap.org/api) 
   * Lib - [PaperJS](http://paperjs.org/)
 * Jonathan Sparks - [VJenerate](http://jonathansparks.com/VJenerate/)
