@@ -55,7 +55,6 @@ Open APIs
 
 Links
 -----
-
 #### General Web
 * [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code

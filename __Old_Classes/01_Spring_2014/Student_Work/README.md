@@ -1,82 +1,6 @@
 Mashups: Student Work
 ===============================
 
-Final Project - Due 05/08
--------------------------
-* Aaron Arntz - [Bathroom Code Liberator](http://arntzy.github.io/bathroomCodeLiberator/)
-* Adarsh Kosuru - Dot 2 Dot
-* Brian Clifton - [Congressional Forecast](http://congressionalforecast.herokuapp.com/)
-* Caroline Sinders - [Night Witches](http://itp.nyu.edu/~cds313/mashups/meow)
-* Christina Carter - [Restart Motion](http://www.restartmotion.com/)
-* Dexter Miranda & Karen Peng - [Pinata Rush](http://play.pinatarush.com)
-* Eozin Chae -
-* Jeff Ong & Laura Chen - [Tune-In-Tune-Out](www.jffng.com/tune-in-tune-out)
-* Jiwon Yoon - [Showroom](http://jiwonyoonworks.com/showroom/draggablecubes3.html)
-* Jorge Brake - [Secret Drones](itp.nyu.edu/~jab680/apis/secretdrones/)
-* Joy Li - Card Maker
-* Kate Sukpisan - Cooper Hewitt Live Music Video
-* Kyle Greenberg & Neil Solomon - [Last Nights Game](https://lastnightsgame.herokuapp.com)
-* Wajma Mohseni - [Qaramon](http://itp.nyu.edu/~wm709/wajmina/2014/05/mashups-final-project/)
-* Woonyung Choi - [Favicon-Drawing](http://favicon-drawing.herokuapp.com/)
-
-
-Assignment #2 - Due 04/03
--------------------------
-Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
-
-* Aaron Arntz - [AudioBus](http://arntzy.github.io/AudioBusMashup/audiobus.html)
-  * [AudioBus ReadMe](https://github.com/arntzy/AudioBusMashup)
-  * [NYC - MTA API](http://web.mta.info/developers/)
-  * [TimbreJS](http://mohayonao.github.io/timbre/)
-* Adarsh Kosuru - [Storyteller](http://adarshk.com/itp/Mashups-Assignment2/)
-  * [PaperJS](http://paperjs.org/)
-* Brian Clifton - [Congressional Forecast](http://briancliftonstudio.com/itp/Mashups/Assignment2/index.html)
-  * [Github Repo - Congress Votes per Contribution](https://github.com/bclifton/Congress--Votes-per-Contribution)
-  * [D3JS](http://d3js.org/)
-* Caroline Sinders -
-  * [PopcornJS](http://popcornjs.org/)
-* Christina Carter - [Restart Motion](http://itp.nyu.edu/~cvc261/mashups/assignment2/)
-  * [PaperJS](http://paperjs.org/)
-* Dexter Miranda - [Story Tones](http://sp2014itp.tumblr.com/post/81624103998/story-tones)
-  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
-* Eozin Chae - [Exoplanets](http://eozinche.com/itp/mashups/exodata.html)
-  * [Exo Open Planet API](http://exoapi.com/)
-  * [THREEJS](http://threejs.org/)
-* Jeff Ong - [Subway Stories](http://www.jffng.com/subway-stories/)
-  * [THREEJS](http://developer.echonest.com/)
-  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
-* Jiwon Yoon -[Boots & Cats](http://jiwonyoonworks.com/web/bootscats/index.html)
-  * [PopcornJS](http://popcornjs.org/)
-  * [Youtube Data API](https://developers.google.com/youtube/v3/)
-  * [Google Maps](https://developers.google.com/maps/)
-* Jorge Brake - [I've Been To A...](http://itp.nyu.edu/~jab680/apis/foursquare_data/)
-  * [Foursquare API](https://developer.foursquare.com/)
-  * [PaperJS](http://paperjs.org/)
-* Joy Li - [Paper Instaweather](http://joyliatitp.com/mashups/assign2/paperWeatherMap.html)
-  * [Open Weather API](http://openweathermap.org/API)
-  * [PaperJS](http://paperjs.org/)
-  * [Google Maps](https://developers.google.com/maps/)
-* Karen Peng - [Hacker](http://karenbeta.com/hacker)
-  * [Github API](https://developer.github.com/v3/#json-p-callbacks)
-* Kate Sukpisan -
-  * [Open Weather API](http://openweathermap.org/API)
-  * [D3](http://d3js.org/)
-* Kyle Greenberg - [What's So Fishy At The Cooper-Hewitt](http://kgitp.com/coophew/coophew/index.html)
-  * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
-  * [D3JS](http://d3js.org/)
-* Laura Chen -
-  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
-  * [THREEJS](http://developer.echonest.com/)
-* Neil Solomon -
-  * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
-  * [D3JS](http://d3js.org/)
-* Wajma Mohseni -
-  * [RaphaelJS](http://raphaeljs.com/)
-  * [The Guardian API](http://www.theguardian.com/open-platform)
-* Woonyung Choi - [How Many People Are In Space?](http://woonyungchoi.com/mashups/assign2/)
-  * [PaperJS](http://paperjs.org/)
-  * [Open Notify API](http://open-notify.org/Open-Notify-API/People-In-Space/)
-
 Assignment #1 - Due 03/02
 -------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, **(3)** and the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
@@ -135,3 +59,78 @@ Create a single web page experience that, upon user input, responds with data fr
 * Woonyung Choi - [What Are You Looking For?](http://woonyungchoi.com/mashups/assign1/)
   * [Yelp](http://www.yelp.com/developers/getting_started)
   * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
+
+Assignment #2 - Due 04/03
+-------------------------
+Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
+
+* Aaron Arntz - [AudioBus](http://arntzy.github.io/AudioBusMashup/audiobus.html)
+  * [AudioBus ReadMe](https://github.com/arntzy/AudioBusMashup)
+  * [NYC - MTA API](http://web.mta.info/developers/)
+  * [TimbreJS](http://mohayonao.github.io/timbre/)
+* Adarsh Kosuru - [Storyteller](http://adarshk.com/itp/Mashups-Assignment2/)
+  * [PaperJS](http://paperjs.org/)
+* Brian Clifton - [Congressional Forecast](http://briancliftonstudio.com/itp/Mashups/Assignment2/index.html)
+  * [Github Repo - Congress Votes per Contribution](https://github.com/bclifton/Congress--Votes-per-Contribution)
+  * [D3JS](http://d3js.org/)
+* Caroline Sinders -
+  * [PopcornJS](http://popcornjs.org/)
+* Christina Carter - [Restart Motion](http://itp.nyu.edu/~cvc261/mashups/assignment2/)
+  * [PaperJS](http://paperjs.org/)
+* Dexter Miranda - [Story Tones](http://sp2014itp.tumblr.com/post/81624103998/story-tones)
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+* Eozin Chae - [Exoplanets](http://eozinche.com/itp/mashups/exodata.html)
+  * [Exo Open Planet API](http://exoapi.com/)
+  * [THREEJS](http://threejs.org/)
+* Jeff Ong - [Subway Stories](http://www.jffng.com/subway-stories/)
+  * [THREEJS](http://developer.echonest.com/)
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+* Jiwon Yoon -[Boots & Cats](http://jiwonyoonworks.com/web/bootscats/index.html)
+  * [PopcornJS](http://popcornjs.org/)
+  * [Youtube Data API](https://developers.google.com/youtube/v3/)
+  * [Google Maps](https://developers.google.com/maps/)
+* Jorge Brake - [I've Been To A...](http://itp.nyu.edu/~jab680/apis/foursquare_data/)
+  * [Foursquare API](https://developer.foursquare.com/)
+  * [PaperJS](http://paperjs.org/)
+* Joy Li - [Paper Instaweather](http://joyliatitp.com/mashups/assign2/paperWeatherMap.html)
+  * [Open Weather API](http://openweathermap.org/API)
+  * [PaperJS](http://paperjs.org/)
+  * [Google Maps](https://developers.google.com/maps/)
+* Karen Peng - [Hacker](http://karenbeta.com/hacker)
+  * [Github API](https://developer.github.com/v3/#json-p-callbacks)
+* Kate Sukpisan -
+  * [Open Weather API](http://openweathermap.org/API)
+  * [D3](http://d3js.org/)
+* Kyle Greenberg - [What's So Fishy At The Cooper-Hewitt](http://kgitp.com/coophew/coophew/index.html)
+  * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
+  * [D3JS](http://d3js.org/)
+* Laura Chen -
+  * [WebAudio API](https://developer.mozilla.org/en-US/docs/Web_Audio_API)
+  * [THREEJS](http://developer.echonest.com/)
+* Neil Solomon -
+  * [Cooper-Hewitt Museum API](https://collection.cooperhewitt.org/api/)
+  * [D3JS](http://d3js.org/)
+* Wajma Mohseni -
+  * [RaphaelJS](http://raphaeljs.com/)
+  * [The Guardian API](http://www.theguardian.com/open-platform)
+* Woonyung Choi - [How Many People Are In Space?](http://woonyungchoi.com/mashups/assign2/)
+  * [PaperJS](http://paperjs.org/)
+  * [Open Notify API](http://open-notify.org/Open-Notify-API/People-In-Space/)
+
+Final Project - Due 05/08
+-------------------------
+* Aaron Arntz - [Bathroom Code Liberator](http://arntzy.github.io/bathroomCodeLiberator/)
+* Adarsh Kosuru - Dot 2 Dot
+* Brian Clifton - [Congressional Forecast](http://congressionalforecast.herokuapp.com/)
+* Caroline Sinders - [Night Witches](http://itp.nyu.edu/~cds313/mashups/meow)
+* Christina Carter - [Restart Motion](http://www.restartmotion.com/)
+* Dexter Miranda & Karen Peng - [Pinata Rush](http://play.pinatarush.com)
+* Eozin Chae -
+* Jeff Ong & Laura Chen - [Tune-In-Tune-Out](www.jffng.com/tune-in-tune-out)
+* Jiwon Yoon - [Showroom](http://jiwonyoonworks.com/showroom/draggablecubes3.html)
+* Jorge Brake - [Secret Drones](itp.nyu.edu/~jab680/apis/secretdrones/)
+* Joy Li - Card Maker
+* Kate Sukpisan - Cooper Hewitt Live Music Video
+* Kyle Greenberg & Neil Solomon - [Last Nights Game](https://lastnightsgame.herokuapp.com)
+* Wajma Mohseni - [Qaramon](http://itp.nyu.edu/~wm709/wajmina/2014/05/mashups-final-project/)
+* Woonyung Choi - [Favicon-Drawing](http://favicon-drawing.herokuapp.com/)
