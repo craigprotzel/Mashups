@@ -1,13 +1,15 @@
 Learning Resources
 ------------------
-* [Lynday NYU - Introducing the Javascript Language](http://www.nyu.edu/lynda)
-* [Lynday NYU - Javascript Essential Training](http://www.nyu.edu/lynda)
 * [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [WebPlatform.org](http://docs.webplatform.org)
+* [Stack Overflow](http://stackoverflow.com/)
+* [Lynda.com - Introducing the Javascript Language](http://www.nyu.edu/lynda)
+* [Lynda.com - Javascript Essential Training](http://www.nyu.edu/lynda)
 * [Codecademy - Javascript](http://www.codecademy.com/)
 
-Open APIs
----------
+Open(ish) APIs
+--------------
 * Art & History
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
@@ -17,6 +19,11 @@ Open APIs
   * [Github API](https://developer.github.com/v3/#json-p-callbacks)
 * Environment
   * [Into the Okavango](http://intotheokavango.org/api)
+* Governemnt & Politics
+  * [Dronestream](http://dronestre.am/)
+  * [HealthCare.gov](https://www.healthcare.gov/developers/)
+  * [OpenSpending](http://community.openspending.org/help/api/)
+  * [Sunlight Foundation](http://sunlightfoundation.com/api/)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
@@ -40,11 +47,6 @@ Open APIs
   * [Exo Open Planet](http://exoapi.com/)
   * [NASA](http://data.nasa.gov/api-info/)
   * [People In Space](http://open-notify.org/Open-Notify-API/People-In-Space/)
-* Politics & Governemnt
-  * [Dronestream](http://dronestre.am/)
-  * [HealthCare.gov](https://www.healthcare.gov/developers/)
-  * [OpenSpending](http://community.openspending.org/help/api/)
-  * [Sunlight Foundation](http://sunlightfoundation.com/api/)
 * Transportation
   * [NYC - MTA](http://web.mta.info/developers/)
 * Video

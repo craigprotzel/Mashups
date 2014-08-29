@@ -1,5 +1,7 @@
 ### Final Project Presentations
 
-##### Final Presentations
+##### I. Final Presentations
 
-##### Bonus - Course Review
+##### II. Course Review
+
+##### III. Course Evaluations

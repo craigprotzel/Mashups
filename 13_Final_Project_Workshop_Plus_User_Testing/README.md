@@ -1,10 +1,12 @@
 ### Final Project Workshop & User Testing
 
-##### Final Project Workshop
+##### I. Final Project Workshop
+* Mock Presentation
+* Class Feedback
 * Peer Feedback
 * One-on-One Sessions
 
-##### User Testing
+##### II. User Testing
 
-##### Homework
+##### III. Homework
 * DUE - Final Project
