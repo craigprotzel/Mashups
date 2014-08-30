@@ -21,13 +21,11 @@
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
 	* [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
 	* [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
-	* [Into the Okavango](http://intotheokavango.org/)
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
 	* [Open-Notify.org](http://open-notify.org/)
+	* [Into the Okavango](http://intotheokavango.org/)
 	* [Programmable Web](http://programmableweb.com)
-	* [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
 	* [Temboo](https://www.temboo.com/)
-	* [IFTT Recipes](https://ifttt.com/recipes)
 
 ##### V. Exercise: Super Simple Page
 * Setting up your page

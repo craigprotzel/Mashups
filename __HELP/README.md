@@ -9,6 +9,7 @@ Learning Resources
 * [WebPlatform.org](http://docs.webplatform.org)
 * [Stack Overflow](http://stackoverflow.com/)
 * [Codecademy - Javascript](http://www.codecademy.com/)
+* [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
 
 Open(ish) APIs
 --------------
