@@ -7,7 +7,7 @@ Class: Tuesdays 9:15am - 11:55am & Thursdays  9:15am - 10:30am
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
 Office Hours:  [TBD](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)  
-Students: [Web Site List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
+Students: [Web Site List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit#gid=0)
 
 Course Description
 ------------------

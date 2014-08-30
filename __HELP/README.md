@@ -2,10 +2,12 @@ Learning Resources
 ------------------
 * [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
 * [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-* [WebPlatform.org](http://docs.webplatform.org)
-* [Stack Overflow](http://stackoverflow.com/)
 * [Lynda.com - Introducing the Javascript Language](http://www.nyu.edu/lynda)
 * [Lynda.com - Javascript Essential Training](http://www.nyu.edu/lynda)
+* [Eloquent Javascript 2nd Edition](http://eloquentjavascript.net/)
+* [jQuery Learning Center](http://learn.jquery.com/)
+* [WebPlatform.org](http://docs.webplatform.org)
+* [Stack Overflow](http://stackoverflow.com/)
 * [Codecademy - Javascript](http://www.codecademy.com/)
 
 Open(ish) APIs
@@ -84,6 +86,7 @@ Links
 * [SugarJS](http://sugarjs.com/) - javascript sweetened
 * [SuperheroJS](http://superherojs.com/) - a collection of the best articles, videos, and presentations on javascript
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
+* [Google Javascript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)

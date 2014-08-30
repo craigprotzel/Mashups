@@ -18,11 +18,12 @@
 * [Instagram API](http://instagram.com/developer/)
 
 ##### V. Homework
-* DUE - Project #1
-* Watch - [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
-* Read - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
-* Read - [An Undesrcore Templates Primer](http://headspringlabs.com/blog/an-underscore-templates-primer/)
-* Additional Reading
+* [Lynda.com - Introducing the Javascript Language Sectios 3 - 6 (Approx 2h:15m)](http://www.nyu.edu/lynda) - 
+* Watch - [Lynda.com: Javascript Essential Training - Ch.13 Advanced Javascript Features - Working With Objects and Prototypes (9 min)](http://www.nyu.edu/its/lynda/)
+* DUE - Project #1 
+* Additional Recommendations
+  * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
+  * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
+  * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 	* [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
 	* [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)
-  * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)

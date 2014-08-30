@@ -14,7 +14,8 @@
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console
 * Data Types 
-* The Window and The DOM
+* [The Window](https://developer.mozilla.org/en/docs/Web/API/Window), [The Document](https://developer.mozilla.org/en-US/docs/Web/API/document), and [The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+* Running Code
 
 ##### IV. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
@@ -24,10 +25,12 @@
 ##### VI. Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
 * Read - [Javascript 101](http://learn.jquery.com/javascript-101/) up through the section on Functions
-* Complete & Upload - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html)
+* Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
+* Complete & Upload - answers to the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). The upload should include a .html file and a .js file. Your javascript code answers should be written (as functions) in your .js file and executable in the browser console. In your .html file, you only need to write some basic markup stating the names of the 3 functions to run in the console. 
 * Think & Post - idea(s) for Assignment #1
-* Additional Readings
-	* [JS For Cats](http://jsforcats.com/)
-	* [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/2nd_edition/preview/)
-	* [Mozilla - JS Guide - Values, Variables, & Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals)
-	* [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* Additional Recommendations
+  * [JS For Cats](http://jsforcats.com/)
+  * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/)
+
+
