@@ -9,7 +9,7 @@
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
-###### III. Student Introductions
+##### III. Student Introductions
 
 ##### IV. Lecture: The Web, APIs, & Data
 
