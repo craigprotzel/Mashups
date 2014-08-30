@@ -18,7 +18,7 @@ Open(ish) APIs
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
 * Education & Code
-  * [Github API](https://developer.github.com/v3/#json-p-callbacks)
+  * [Github](https://developer.github.com/v3/#json-p-callbacks)
 * Environment
   * [Into the Okavango](http://intotheokavango.org/api)
 * Governemnt & Politics
@@ -37,7 +37,7 @@ Open(ish) APIs
   * [Bandsintown](https://www.bandsintown.com/api/overview)
   * [SeatGeek](http://platform.seatgeek.com/)
 * Music & Sounds
-  * [FreeSound API](https://www.freesound.org/help/developers/)
+  * [FreeSound](https://www.freesound.org/help/developers/)
   * [LastFM](http://www.last.fm/api)
   * [SoundCloud](http://developers.soundcloud.com/docs)
   * [Spotify](https://developer.spotify.com/)
