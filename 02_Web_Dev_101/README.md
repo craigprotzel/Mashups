@@ -3,13 +3,17 @@
 ##### I. Discussion - Week 1 Homework
 
 ##### II. Workshop - HTML & CSS Fly-By
-* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
-* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
+* Setting up your page
+  * Adding elements
+  * [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
+  * [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
 * Basic Styling
-* Classes & IDs
-* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
-* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
+  * Classes & IDs
+  * [CSS Box Model](http://css-tricks.com/the-css-box-model/)
+  * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)  
+* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
+
 
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console

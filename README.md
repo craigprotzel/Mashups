@@ -1,5 +1,6 @@
 Mashups: Creating with Web APIs
-===============================
+================================
+(subject to change)
 
 NYUAD - Interactive Media Dept.  
 Semester: Fall 2014    

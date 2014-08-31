@@ -27,18 +27,14 @@
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
 
-##### V. Exercise: Super Simple Page
-* Setting up your page
-* Adding elements
-
-##### VI. Homework 
+##### V. Homework 
 * Setup
-	* Add -  yourself to the [class info list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
+	* Add -  yourself to the [class web site list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 	* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on Javascript**
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-* Explore - [Programmable Web](http://programmableweb.com)
+* Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Find, Post, & Describe - a **url** that returns JSON data from an Open API
 * Create & Upload - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!)
