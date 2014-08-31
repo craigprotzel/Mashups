@@ -419,5 +419,12 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+}
 
+/*************************/
+/*Personal Style Elements*/
+/*************************/
+
+.addendum{
+  margin: -30px 0 30px 0
 }
