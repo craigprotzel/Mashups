@@ -3,9 +3,10 @@
 ##### I. Introduction
 
 ##### II. Course Background
-* [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
+* [ITP](http://itp.nyu.edu/)
 * [ITP Write Once Access Anywhere by Corey Menscher](http://menscher.com/teaching/woaa/)
 * [ITP Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
+* [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
