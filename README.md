@@ -25,7 +25,8 @@ Schedule
 * **PART II: Weeks 5 - 9 Client-Side Javascript Frameworks**
 * **PART III: Weeks 9 - 12  Server-Side Web + Final Project**
 
-##### [Week 1 (09/02 + 09/04): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+##### [Week 1 (09/02): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+**No Class 09/04 - Reschedule Date TBD**
 
 ##### [Week 2 (09/09 + 09/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
