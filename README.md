@@ -26,7 +26,8 @@ Schedule
 * **PART III: Weeks 9 - 12  Server-Side Web + Final Project**
 
 ##### [Week 1 (09/02): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
-**No Class 09/04 - Reschedule Date TBD**
+
+##### No Class 09/04 - Reschedule Date TBD**
 
 ##### [Week 2 (09/09 + 09/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
@@ -36,7 +37,7 @@ Schedule
 
 ##### [Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-##### Holiday - No Class (10/7 + 10/9)
+##### No Class 10/7 + 10/9 - Holiday
 
 ##### [Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_On_Graphs_On_Graphs)
 
@@ -85,7 +86,7 @@ Grading
 
 Weekly Homework
 ---------------
-Each week there will be a homework assignment. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignments, but everyone must submit their own individual work.  
+Each week there will be a homework assignment. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must submit their own individual work.  
 
 Class time will be spent each week going over the homework assignments. Expect to be asked to show your work every week. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your weekly work must be completed on time prior to class, **uploaded to the web**, and documented on your online journal (see below for details).
 
@@ -102,7 +103,7 @@ You are expected to keep some form of an online journal or web blog. For each as
 
 The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
 
-Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the weekly assignments. The writing is expected to be well reasoned, grammatically correct, and written as if it were a paper being turned in. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, or a static HTML page does not matter. What does matter is that it is online and publicly accessible.
+Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the weekly assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
 
 Projects 1 & 2
 --------------
