@@ -14,7 +14,7 @@
 
 ##### IV. Lecture: The Web, APIs, & Data
 
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Summer2014_Lecture_Upload.pdf)
+* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Fall2014_Week1_Lecture_Upload.pdf)
 * References
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)

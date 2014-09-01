@@ -7,9 +7,9 @@ Learning Resources
 * [Eloquent Javascript 2nd Edition](http://eloquentjavascript.net/)
 * [jQuery Learning Center](http://learn.jquery.com/)
 * [WebPlatform.org](http://docs.webplatform.org)
-* [Stack Overflow](http://stackoverflow.com/)
 * [Codecademy - Javascript](http://www.codecademy.com/)
 * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
+* **[Stack Overflow](http://stackoverflow.com/)**
 
 Open(ish) APIs
 --------------
