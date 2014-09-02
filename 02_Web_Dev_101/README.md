@@ -4,16 +4,15 @@
 
 ##### II. Workshop - HTML & CSS Fly-By
 * Setting up your page
-  * Adding elements
-  * [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
-  * [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
+	* Adding elements
+	* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
+	* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
 * Basic Styling
-  * Classes & IDs
-  * [CSS Box Model](http://css-tricks.com/the-css-box-model/)
-  * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)  
+	* Classes & IDs
+	* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
+	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)  
 * [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
-
 
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console
@@ -32,10 +31,10 @@
 * Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
 * Install - A JS Linter for your Text Editor (I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/) for Submlime)
 * Complete & Upload - answers to the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). The upload should include a .html file and a .js file. Your javascript code answers should be written (as functions) in your .js file and executable in the browser console. In your .html file, you only need to write some basic markup stating the names of the 3 functions to run in the console. 
-* Think & Post - idea(s) for Assignment #1
+* Think & Post - idea(s) for Assignment #1, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, and what the experience of a user visiting the site would be like
 * Additional Recommendations
-  * [JS For Cats](http://jsforcats.com/)
-  * [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-  * [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/)
+	* [JS For Cats](http://jsforcats.com/)
+	* [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+	* [Eloquent Javascript 2nd Edition Preview - Intro, Ch.1, & Ch.2](http://eloquentjavascript.net/)
 
 

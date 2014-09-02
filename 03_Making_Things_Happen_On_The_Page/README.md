@@ -20,7 +20,7 @@
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 
 ##### IV. Homework
-* Read - Steve Krug "Don't Make Me Think" pp.1 - 49
+* Read - [Steve Krug "Don't Make Me Think" pp.1 - 49](http://itp.nyu.edu/~kd49/ux/wp-content/uploads/2011/12/Dont_Make_Me_Think-chptr1-5.pdf)
 * Watch - [Lynda.com: Javascript Essential Training Section 3 Types & Objects + Section 4 - Understanding the Document Object Model (45 mins)](http://www.nyu.edu/lynda)
 * Read - [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * Read - [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
