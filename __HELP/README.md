@@ -96,6 +96,7 @@ Links
 * [Javascript Garden](http://bonsaiden.github.io/JavaScript-Garden/) - a collection of documentation about the most quirky parts of JS
 * [Javascript - Function Declaration Ambiguity](http://www.dustindiaz.com/javascript-function-declaration-ambiguity/)
 * [Drag and Drop Tutorial - Native HTML5](http://www.html5rocks.com/en/tutorials/dnd/basics/#toc-dragging-events)
+* [What's Next for ECMAScript 6 - Axel Rauschmayer, August 2014](https://speakerdeck.com/rauschma/ecmascript-6-whats-next-for-javascript-august-2014)
 
 #### APIs
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)

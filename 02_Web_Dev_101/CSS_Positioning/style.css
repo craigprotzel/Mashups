@@ -52,8 +52,8 @@ body {
 	margin: 10px auto;
 }
 .roundBox{
-	float: left;
-	clear: left;
+	position: relative;
+	top: 20px;
 	background-color: rgb(150,250,150);
 	margin: 20px 0 0 20px;
 	width: 100px;
