@@ -10,6 +10,7 @@ Learning Resources
 * [Codecademy - Javascript](http://www.codecademy.com/)
 * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
 * **[Stack Overflow](http://stackoverflow.com/)**
+* [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
 
 Open(ish) APIs
 --------------
@@ -76,6 +77,7 @@ Links
 
 #### HTML
 * [What Is HTML5?](http://radar.oreilly.com/2011/07/what-is-html5.html)
+* [UTF-8 Encoding Table](http://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=oct&unicodeinhtml=dec&htmlent=1)
 
 #### CSS
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - scalable customizable icons controlled by CSS
