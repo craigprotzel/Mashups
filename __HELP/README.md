@@ -11,6 +11,7 @@ Learning Resources
 * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
 * **[Stack Overflow](http://stackoverflow.com/)**
 * [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
+* [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
 
 Open(ish) APIs
 --------------
@@ -48,7 +49,6 @@ Open(ish) APIs
   * [The New York Times](http://developer.nytimes.com/page)
   * [USA Today](http://developer.usatoday.com/)
 * Outer Space
-  * [Exo Open Planet](http://exoapi.com/)
   * [NASA](http://data.nasa.gov/api-info/)
   * [People In Space](http://open-notify.org/Open-Notify-API/People-In-Space/)
 * Transportation
