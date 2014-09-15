@@ -60,18 +60,18 @@ function make(rows,cols){
 function makeBoard(rows, cols){
 	var wholeBoard = "";
 	for (var i = 0; i < rows; i++){
-		var msg = "";
+		var text = "";
 		if (i%2 === 0){
 			for (var j = 0; j < cols; j++){
-				msg += "#----";
+				text += "#----";
 			}
 		}
 		else {
 			for (var k = 0; k < cols; k++){
-				msg += "--#--";
+				text += "--#--";
 			}
 		}
-		wholeBoard += msg + "<br>";
+		wholeBoard += text + "<br>";
 	}
 	return wholeBoard;
 }
