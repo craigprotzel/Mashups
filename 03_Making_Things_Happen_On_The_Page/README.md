@@ -16,7 +16,7 @@
 	* [Events and Listeners in Javascript](http://idratherbewriting.com/2013/02/04/events-and-listeners-javascript/)
 
 ##### III. Exercise - WikiSearch
-* [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/WikiSearch)
+* [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page/WikiSearch)
 * [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 
 ##### IV. Homework
@@ -34,3 +34,4 @@
     * [Manipulating Elements](http://learn.jquery.com/using-jquery-core/manipulating-elements/) 
     * [Introducing Events](http://learn.jquery.com/events/introduction-to-events/)
   * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
+  * [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)

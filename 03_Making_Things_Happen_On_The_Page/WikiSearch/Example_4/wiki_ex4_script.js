@@ -53,16 +53,18 @@ var searchWikipedia = function(searchTerm){
 $(document).ready(function(){
 	console.log("LOADED!!!!");
 
+	/*
 	var terms = ['hello', 'seven', 'craig', 'mashups'];
 	var randomNum = Math.floor( Math.random() * 4);
 	console.log(randomNum);
 	searchWikipedia(terms[randomNum]);
-
-
+	*/
 
 	//Use jQuery to assign a callback function when the 'search' button is clicked
 	$("#search").click(function(){
 		console.log("Clicked search");
+		//Clear the div
+		$("#resultsTarget").html("");
 		//Use jQuery to get the value of the 'query' input box
 		var newSearchTerm = $("#query").val();
 		console.log(newSearchTerm);

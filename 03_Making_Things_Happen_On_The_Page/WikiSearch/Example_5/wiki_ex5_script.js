@@ -16,8 +16,9 @@ var myApp = {
 
 //Add a method to the global app object that will execute the Wikipedia AJAX call
 myApp.searchWikipedia = function(currentTerm){
+	var self = this;
 	$.ajax({
-		url: this.wikiURL + currentTerm,
+		url: self.wikiURL + currentTerm,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){

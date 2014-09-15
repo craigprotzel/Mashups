@@ -1,22 +1,3 @@
-function make(rows,cols){
-	var wholeBoard = "";
-	for (var i = 0; i < rows; i++){
-		var text = "";
-		if (i % 2 === 0){
-			for (var j = 0; j < cols; j++){
-				text = text + '# ';
-			}
-		}
-		else{
-			for (var k = 0; k < cols; k++){
-				text = text + ' #';
-			}
-		}
-		wholeBoard += text + '\n';
-	}
-	console.log(wholeBoard);
-}
-
 //******Homework Exercises******
 
 //----Exercise 1----
@@ -53,7 +34,29 @@ function fizzBuzz(totalNums){
 //fizzBuzz(100);
 
 //----Exercise 3----
-//Define the function
+
+//In the console
+function make(rows,cols){
+	var wholeBoard = "";
+	for (var i = 0; i < rows; i++){
+		var text = "";
+		if (i % 2 === 0){
+			for (var j = 0; j < cols; j++){
+				text = text + '# ';
+			}
+		}
+		else{
+			for (var k = 0; k < cols; k++){
+				text = text + ' #';
+			}
+		}
+		wholeBoard += text + '\n';
+	}
+	console.log(wholeBoard);
+}
+
+
+//On the page
 function makeBoard(rows, cols){
 	var wholeBoard = "";
 	for (var i = 0; i < rows; i++){
@@ -62,21 +65,19 @@ function makeBoard(rows, cols){
 			for (var j = 0; j < cols; j++){
 				msg += "#----";
 			}
-		msg += "<br>";
 		}
 		else {
 			for (var k = 0; k < cols; k++){
 				msg += "--#--";
 			}
-		msg += "<br>";
 		}
-		wholeBoard += msg;
+		wholeBoard += msg + "<br>";
 	}
 	return wholeBoard;
 }
 //Call the function
 //makeBoard(6,4);
-//var myChessBoard = makeBoard(3, 10);
+var myChessBoard = makeBoard(3, 10);
 
 //******Elements & Selectors******
 //JS Approach
@@ -87,8 +88,8 @@ chessBoard.innerHTML = myChessBoard;
 var myBoardContainer = document.createElement('div');
 myBoardContainer.innerHTML = myChessBoard;
 chessBoard.appendChild(myBoardContainer);
-
 */
+
 //jQuery Approach
 
 // $('#chessBoard').html(myChessBoard);
