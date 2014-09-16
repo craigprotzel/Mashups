@@ -9,6 +9,7 @@ Learning Resources
 * [WebPlatform.org](http://docs.webplatform.org)
 * [Codecademy - Javascript](http://www.codecademy.com/)
 * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
+* [Khan Academy](https://www.khanacademy.org/)
 * **[Stack Overflow](http://stackoverflow.com/)**
 * [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
 * [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)

@@ -91,12 +91,12 @@ chessBoard.appendChild(myBoardContainer);
 */
 
 //jQuery Approach
-
 // $('#chessBoard').html(myChessBoard);
 // $('#chessBoard').addClass('chessBoardStyle');
 
 
 //******Functions******
+var nums = 0;
 function notify(){
 	console.log("You clicked me : " + nums);
 	nums++;
@@ -110,7 +110,6 @@ function generateRandomColor(){
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
 	return randomColor;
 }
-
 
 
 function getData(curSearchTerm){
@@ -149,8 +148,6 @@ function getData(curSearchTerm){
 // 	console.log("Loaded!!!");
 // 	$('#chessBoard').html(myChessBoard);
 // };
-
-var nums = 0;
 
 $(document).ready(function(){
 	console.log("Loaded!!!");
