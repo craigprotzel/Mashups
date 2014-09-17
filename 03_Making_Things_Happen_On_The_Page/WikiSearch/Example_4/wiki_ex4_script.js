@@ -15,7 +15,6 @@ var wikiURL =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&
 //Create a function that will execute the Wikipedia AJAX call
 var searchWikipedia = function(searchTerm){
 	$.ajax({
-//		url: flickrURL,
 		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp',
@@ -37,8 +36,8 @@ var searchWikipedia = function(searchTerm){
 			//Loop through the array of results
 			for (var i = 0; i < searchResults.length; i++){
 				//Use 'replace' and a regular expression to substitue white space with '_' character
-				var resultTerms = searchResults[i].replace(/\s/g, '_');
-				var curURL = 'http://en.wikipedia.org/wiki/' + resultTerms;
+				var result = searchResults[i].replace(/\s/g, '_');
+				var curURL = 'http://en.wikipedia.org/wiki/' + result;
 				var htmlString =	"<p class='wikiResults'>" +
 														"<a href=" + curURL + ">" + searchResults[i] + "</a>" +
 													"</p>";
