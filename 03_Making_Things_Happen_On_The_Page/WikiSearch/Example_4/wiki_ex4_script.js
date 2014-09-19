@@ -75,10 +75,12 @@ $(document).ready(function(){
 	//Use jQuery to assign a callback function when enter is pressed 
 	//This will ONLY work when the 'query' input box is active
 	$("#query").keypress(function(e){
+		//console.log(e);
 		//If enter key is pressed
 		if (e.which == 13){
 			//Use jQuery's trigger() function to execute the click event
 			$("#search").trigger('click');
 		}
 	});
+
 });

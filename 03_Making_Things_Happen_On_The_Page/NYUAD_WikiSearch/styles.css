@@ -1,0 +1,21 @@
+body{
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+}
+
+h2{
+/*	text-align: center;*/
+}
+
+input{
+	width: 300px;
+	height: 40px;
+	margin: 20px auto;
+	font-size: 24px;
+}
+
+button{
+	width: 80px;
+	height: 40px;
+	margin-left: 20px;
+}

@@ -13,7 +13,7 @@
 	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) 
 
 ##### IV. Exercise - InstaTimes
-* [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/InstaTimes)
+* [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/InstaTimes)
 * [NY Times API](http://developer.nytimes.com/) 
 * [Instagram API](http://instagram.com/developer/)
 
@@ -29,4 +29,4 @@
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
-  * [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Understanding Variable Scope (5:30 mins))](http://www.nyu.edu/lynda)
+  * [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Understanding Variable Scope (5:30 mins)](http://www.nyu.edu/lynda)
