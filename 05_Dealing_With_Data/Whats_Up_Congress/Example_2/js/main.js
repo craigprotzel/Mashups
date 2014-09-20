@@ -203,7 +203,7 @@ function parseForID(){
 function makeInfoRequest(personID, theObj){
 	console.log("Making Request For: " + personID);
 	var personURL = 'http://congress.api.sunlightfoundation.com/legislators?bioguide_id=' + personID + '&apikey=';
-	var myKey = '2481dc6ebf4f42918aaed25bb22c50fd';
+	var myKey = 'YOUR-API-KEY-GOES-HERE';
 
 	$.ajax({
 		url: personURL + myKey,

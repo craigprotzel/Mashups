@@ -1,5 +1,3 @@
 ### InstaTimes Example Index
-* Example 1 - On click event, initialize and append an InstaTimesArticle object 
-* Example 2 - On click event, search NY Times API for reecent articles. Initialize InstaTimesArticle objects with returned data and append to page
-* **Example 3 - Same as Example 2 with an additional request made to the Instagram API. InstaTimesArticle objects are assigned data from both APIs and appended to the page**
-* Example 4 - Same as Example 3 with events binded to the InstaTimesArticle objects through their constructor function
+* Example 1 - On page load, grab data from the NY Times and then from Instagram. Then append data from both requests to the page.
+* Example 2 - On page load, grab data from the NY Times and initialize InstaTimes objects. Then make individual requests to Instagram for each InstaTimes object. Use a method of the InstaTimes object to append the data to the page and bind click events.

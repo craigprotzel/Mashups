@@ -78,7 +78,8 @@ var instaTimes = [];
 function getNYTimesData() {
 	"use strict";
 	var nyTimesSearchURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=1&sort=newest&api-key=';
-	var myNYKey = 'YOUR-DEVELOPER-KEY-GOES-HERE';
+//	var myNYKey = 'YOUR-DEVELOPER-KEY-GOES-HERE';
+	var myNYKey = '76b60b9d626e071aae40240aade2f237:13:64998407';
 
 	$.ajax({
 		url: nyTimesSearchURL + myNYKey,
@@ -90,7 +91,7 @@ function getNYTimesData() {
 		},
 		success: function(data){
 			console.log("WooHoo!");
-			//console.log(data);
+			console.log(data);
 
 			var nyTimesArticles;
 			//Check to make sure the data is correct
@@ -121,7 +122,8 @@ function getNYTimesData() {
 function getInstagramData() {
 	"use strict";
 	var curTag = 'news';
-	var myInstaKey = 'YOUR-DEVELOPER-KEY-GOES-HERE';
+//	var myInstaKey = 'YOUR-DEVELOPER-KEY-GOES-HERE';
+	var myInstaKey = '9474e8cecf094d94b0cf366097977931';
 	var instagramTagSearchURL = 'https://api.instagram.com/v1/tags/' + curTag + '/media/recent?client_id=' + myInstaKey;
 	//Alt Instagram API Endpoint
 	var instagramPopularSearchURL = 'https://api.instagram.com/v1/media/popular?client_id=' + myInstaKey;
