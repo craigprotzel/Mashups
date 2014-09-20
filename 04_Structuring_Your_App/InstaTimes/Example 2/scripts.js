@@ -2,7 +2,7 @@
 var instaTimesData = [];
 
 //Constructor function for IT objects
-function InstaTimeObj(nyObj){
+function InstaTimesObj(nyObj){
 
 	this.nyTimesObj = nyObj;
 	this.instagramObj = {};
@@ -19,11 +19,16 @@ function InstaTimeObj(nyObj){
 		htmlString += '<p>' + this.snippet + '</p>';
 		htmlString += '</div>';
 
-		//$('#thePaper').append(htmlString);
+		//Note: Helpful to set 'this' equal to a var when working with jQuery
 		var theITA = this;
+		//Using jQuery's '.appendTo' returns the (jquery wrapped) element that is created, 
+		//Which you can save to the parent object and attach event listeners to
 		theITA.element = $(htmlString).appendTo('#thePaper');
-		theITA.element.hover(function(){
+		theITA.element.mouseover(function(){
 			$('h1').html(theITA.headline);
+		});
+		theITA.element.mouseout(function(){
+			$('h1').html('The InstaTimes');
 		});
 		theITA.element.click(function(){
 			//alert(theITA.headline);
@@ -79,7 +84,7 @@ function getNYTimesData(){
 
 			//Make InstaTimes objects
 			for(var i = 0; i < nyTimesData.length; i++){
-				var itObj = new InstaTimeObj(nyTimesData[i]);
+				var itObj = new InstaTimesObj(nyTimesData[i]);
 				instaTimesData.push(itObj);
 			}
 			//Make Instagram API requests for each InstaTimes object
