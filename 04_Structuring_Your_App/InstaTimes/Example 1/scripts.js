@@ -2,10 +2,26 @@
 var nyTimesData = [];
 var instagramData = [];
 
+function createHTML(){
+	//Figure out the length of the shorter array
+	var dataLength = Math.min(nyTimesData.length, instagramData.length);
+
+	var htmlString = '';
+	for (var i = 0; i < dataLength; i++){
+		htmlString += '<div class="container">';
+		htmlString += '<h3>' + nyTimesData[i].headline.main + '</h3>';
+		htmlString += '<img src=' + instagramData[i].images.low_resolution.url + ' />';
+		htmlString += '<p>' + nyTimesData[i].snippet + '</p>';
+		htmlString += '</div>';
+	}
+	$('#loading').hide();
+	$('#thePaper').append(htmlString);
+}
+
 //Instagram API Request
 function getInstagramData(){
 	var myInstaKey = 'YOUR-API-KEY-GOES-HERE';
-	var instagramURL = 'https://api.instagram.com/v1/media/popular?client_id=' + myInstaKey;
+	var instagramURL = 'https://api.instagram.com/v1/tags/news/media/recent?client_id=' + myInstaKey;
 
 	$.ajax({
 		url: instagramURL,
@@ -21,16 +37,8 @@ function getInstagramData(){
 			instagramData = data.data;
 			console.log(instagramData);
 
-			var htmlString = '';
-			for (var i = 0; i < 10; i++){
-				htmlString += '<div class="container">';
-				htmlString += '<h3>' + nyTimesData[i].headline.main + '</h3>';
-				htmlString += '<img src=' + instagramData[i].images.low_resolution.url + ' />';
-				htmlString += '<p>' + nyTimesData[i].snippet + '</p>';
-				htmlString += '</div>';
-			}
-			$('#loading').hide();
-			$('#thePaper').append(htmlString);
+			//Genereate HTML
+			createHTML();
 		}
 	});
 }

@@ -1,103 +1,76 @@
-//Array to store the data
-var instaTimesData = [];
+var nyTimesData = [];
 
-//Constructor function for IT objects
-function InstaTimesObj(nyObj){
+function createHTML(nyObj, igObj){
+	console.log('Calling create HTML');
 
-	this.nyTimesObj = nyObj;
-	this.instagramObj = {};
-	this.headline = nyObj.headline.main;
-	this.snippet = nyObj.snippet;
-	this.img = '';
-	this.subject = nyObj.news_desk;
-
-	this.createDomElement = function(){
-		var htmlString = '';
-		htmlString += '<div class="container">';
-		htmlString += '<h3>' + this.headline + '</h3>';
-		htmlString += '<img src=' + this.img + ' />';
-		htmlString += '<p>' + this.snippet + '</p>';
-		htmlString += '</div>';
-
-		//Note: Helpful to set 'this' equal to a var when working with jQuery
-		var theITA = this;
-		//Using jQuery's '.appendTo' returns the (jquery wrapped) element that is created, 
-		//Which you can save to the parent object and attach event listeners to
-		theITA.element = $(htmlString).appendTo('#thePaper');
-		theITA.element.mouseover(function(){
-			$('h1').html(theITA.headline);
-		});
-		theITA.element.mouseout(function(){
-			$('h1').html('The InstaTimes');
-		});
-		theITA.element.click(function(){
-			//alert(theITA.headline);
-			window.open(theITA.nyTimesObj.web_url, '_blank');
-		});
-	};
+	var htmlString = '';
+	htmlString +='<div class="box">';
+	htmlString +='<h3>' + nyObj.headline.main + '</h3>';
+	htmlString +='<img src=' + igObj.images.low_resolution.url + ' />';
+	htmlString +='<p>' +  nyObj.snippet + '</p>';
+	htmlString +='</div>';
+	$('#container').append(htmlString);
 }
 
-//Instagram API Request
 function getInstagramData(theObj){
-	var myInstaKey = 'YOUR-API-KEY-GOES-HERE';
-	var curTag = theObj.subject;
-	//var instagramURL = 'https://api.instagram.com/v1/media/popular?client_id=' + myInstaKey;
-	var instagramTagSearchURL = 'https://api.instagram.com/v1/tags/' + curTag + '/media/recent?client_id=' + myInstaKey;
+	console.log("Getting Instagram Data");
 
+	var searchTerm = theObj.new_desk || theObj.subsection || theObj.type_of_material || 'news';
+	console.log(searchTerm);
+
+	var myInstaKey = 'YOUR-API-KEY-GOES-HERE';
+	var instagramURL = 'https://api.instagram.com/v1/tags/' + searchTerm + '/media/recent?client_id=' + myInstaKey;
+
+	//Make AJAX Request
 	$.ajax({
-		url: instagramTagSearchURL,
+		url: instagramURL,
 		type: 'GET',
 		dataType: 'jsonp',
-		error: function(data){
-			console.log("Oh no");
+		error: function(error){
+			console.log(error);
 		},
 		success: function(data){
-			console.log("WooHoo Instagram");
-			console.log(data);
+			console.log('WooHoo');
+			//console.log(data);
 
-			$("#loading").hide();
-
-			theObj.instagramObj = data.data[0];
-			theObj.img = data.data[0].images.low_resolution.url;
-			theObj.createDomElement();
+			var theFirstInstaObj = data.data[0];
+			//Generate HTML
+			createHTML(theObj,theFirstInstaObj);
 		}
 	});
 }
 
-//NY Times API Request
 function getNYTimesData(){
+	console.log("Getting NY Times");
 
 	var myNYTimesKey = 'YOUR-API-KEY-GOES-HERE';
-	var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=1&sort=newest&api-key=' + myNYTimesKey;
+	var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=0&sort=newest&api-key=' + myNYTimesKey;
 
+	//Make AJAX request
 	$.ajax({
 		url: nyTimesURL,
 		type: 'GET',
 		dataType: 'json',
 		error: function(data){
-			console.log("Oh no...");
+			console.log("We got problems");
 		},
 		success: function(data){
-			console.log("WooHoo NY Times");
-			console.log(data);
-			var nyTimesData = data.response.docs;
+			console.log("Success");
+			//console.log(data);
+			nyTimesData = data.response.docs;
+			console.log(nyTimesData);
 
-			//Make InstaTimes objects
-			for(var i = 0; i < nyTimesData.length; i++){
-				var itObj = new InstaTimesObj(nyTimesData[i]);
-				instaTimesData.push(itObj);
-			}
-			//Make Instagram API requests for each InstaTimes object
-			for (var j = 0; j < instaTimesData.length; j++){
-				getInstagramData(instaTimesData[j]);
+			for (var i = 0; i < nyTimesData.length; i++){
+				//get data for each item in the NY Times data array
+				getInstagramData(nyTimesData[i]);
 			}
 		}
 	});
 }
 
-
 $(document).ready(function(){
 	console.log("We are ready!");
-	//Make request to NY Times API (on page load)
+	$('#container').html('');
+	//Make a request to the NY Times API
 	getNYTimesData();
 });
