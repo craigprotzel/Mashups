@@ -10,7 +10,7 @@ function InstaTimesObj(nyObj){
 	this.headline = nyObj.headline.main;
 	this.snippet = nyObj.snippet;
 	this.img = '';
-	this.subject = nyObj.news_desk;
+	this.subject = nyObj.news_desk || nyObj.subsection || nyObj.type_of_material || 'news';
 
 	//A method to call on the object to generate HTML and bind event handlers
 	this.createDomElement = function(){
@@ -23,18 +23,20 @@ function InstaTimesObj(nyObj){
 
 		//Note: Helpful to set 'this' equal to a var when working with jQuery
 		var theITA = this;
-		//Using jQuery's '.appendTo' returns the (jquery wrapped) element that is created, 
-		//Which you can save to the parent object and attach event listeners to
+		//Using jQuery's '.appendTo' method returns the (jquery wrapped) element that is created, 
+		//You can save this return values as a property of the parent object
+		//Here we're calling it 'element' 
+		//We can then attach jquery-style event listeners to this jquery element
 		theITA.element = $(htmlString).appendTo('#thePaper');
+		theITA.element.click(function(){
+			//alert(theITA.headline);
+			window.open(theITA.nyTimesObj.web_url, '_blank');
+		});
 		theITA.element.mouseover(function(){
 			$('h1').html(theITA.headline);
 		});
 		theITA.element.mouseout(function(){
 			$('h1').html('The InstaTimes');
-		});
-		theITA.element.click(function(){
-			//alert(theITA.headline);
-			window.open(theITA.nyTimesObj.web_url, '_blank');
 		});
 	};
 }
@@ -94,7 +96,6 @@ function getNYTimesData(){
 		}
 	});
 }
-
 
 $(document).ready(function(){
 	console.log("We are ready!");
