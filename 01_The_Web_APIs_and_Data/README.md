@@ -28,7 +28,7 @@
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
 
-##### V. Homework 
+##### V. Homework
 * Setup
 	* Add -  yourself to the [class web site list](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit?usp=sharing)
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
@@ -46,5 +46,5 @@
 	* [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
 	* [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
 	* [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
-  * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
+	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 	* [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
