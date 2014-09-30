@@ -5,6 +5,21 @@ Assignment #1 - Due 9/30
 -------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ulitmately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
+* James - [WikiMaps](http://jameshosken.com/mashups/projects/wikiMaps)
+* Fah - 
+* Joe - [San Francisco Graffitis](http://joejean.github.io/SF_Graffiti/)
+* Chuksy - [Hanno][http://hanno.pancakeapps.com]
+* Rock - [Food Collective](http://rockzou.github.io/FoodCollective/)
+* Dasha - [Stuck-Dot-Com](http://sorok-a.github.io/stuck-dot-com)
+* Mick - [Met Scrap Book](https://dl.dropboxusercontent.com/u/87400079/MetScrapBook/index.html)
+* Mac - [Tagnificent](http://tagnificent.herokuapp.com/)
+* Batu - [Look Beyond](http://batu.github.io/look_beyond)
+* Patrick - [NYU Today](http://nyutoday.pancakeapps.com/source.html)
+* Kai - []()
+* Julia - [Soul Firefly](http://soulfirefly.github.io/mashups/)
+* Asryque - []
+* Witold - []
+
 
 Assignment #2 - Due 11/4
 -------------------------
