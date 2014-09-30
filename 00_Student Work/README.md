@@ -8,7 +8,7 @@ Create a single web page experience that, upon user input, responds with data fr
 * James - [WikiMaps](http://jameshosken.com/mashups/projects/wikiMaps)
 * Fah - 
 * Joe - [San Francisco Graffitis](http://joejean.github.io/SF_Graffiti/)
-* Chuksy - [Hanno][http://hanno.pancakeapps.com]
+* Chuksy - [Hanno](http://hanno.pancakeapps.com)
 * Rock - [Food Collective](http://rockzou.github.io/FoodCollective/)
 * Dasha - [Stuck-Dot-Com](http://sorok-a.github.io/stuck-dot-com)
 * Mick - [Met Scrap Book](https://dl.dropboxusercontent.com/u/87400079/MetScrapBook/index.html)
