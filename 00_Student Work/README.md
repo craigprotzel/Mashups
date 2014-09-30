@@ -15,11 +15,10 @@ Create a single web page experience that, upon user input, responds with data fr
 * Mac - [Tagnificent](http://tagnificent.herokuapp.com/)
 * Batu - [Look Beyond](http://batu.github.io/look_beyond)
 * Patrick - [NYU Today](http://nyutoday.pancakeapps.com/source.html)
-* Kai - []()
+* Kai - [Consumer Reports](http://chenkai44.github.io/ConsumerReports/)
 * Julia - [Soul Firefly](http://soulfirefly.github.io/mashups/)
-* Asryque - []
-* Witold - []
-
+* Asryque - 
+* Witold - [Whats Up Under The ISS](http://whatsupundertheiss.comoj.com/)
 
 Assignment #2 - Due 11/4
 -------------------------
