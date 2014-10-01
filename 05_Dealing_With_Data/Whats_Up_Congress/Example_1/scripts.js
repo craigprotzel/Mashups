@@ -20,11 +20,11 @@ function getCongressData(){
 	console.log(queryDay);
 	
 	var myKey =	'YOUR-KEY-GOES-HERE';
-	var myURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=';
+	var myURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + myKey;
 
 	//Make AJAX request
 	$.ajax({
-		url: myURL + myKey,
+		url: myURL,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
