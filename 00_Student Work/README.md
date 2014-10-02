@@ -14,10 +14,10 @@ Create a single web page experience that, upon user input, responds with data fr
 * Mick - [Met Scrap Book](https://dl.dropboxusercontent.com/u/87400079/MetScrapBook/index.html)
 * Mac - [Tagnificent](http://tagnificent.herokuapp.com/)
 * Batu - [Look Beyond](http://batu.github.io/look_beyond)
-* Patrick - [NYU Today](http://nyutoday.pancakeapps.com/source.html)
+* Patrick - [NYU Today](http://nyutoday.pancakeapps.com/)
 * Kai - [Consumer Reports](http://chenkai44.github.io/ConsumerReports/)
 * Julia - [Soul Firefly](http://soulfirefly.github.io/mashups/)
-* Asryque - 
+* Asryque - [Gitsume](asyriqueat.github.io/gitsume)
 * Witold - [Whats Up Under The ISS](http://whatsupundertheiss.comoj.com/)
 
 Assignment #2 - Due 11/4
