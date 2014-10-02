@@ -1,4 +1,5 @@
-### Setting Up A Local Server (for Macs)
+Setting Up A Local Server (for Macs)
+------------------------------------
 
 1. Open up a Terminal Window. (If you've never used the Terminal before, hit command-space and start typing "Terminal". Click on Terminal and a Terminal window should open.) 
 

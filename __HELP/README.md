@@ -14,6 +14,12 @@ Learning Resources
 * [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
 * [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
 
+MASHUPS HOW TO'S
+----------------
+* [Run A Local Host]
+* [Deploy To Github Pages]
+* [Deploy To Heroku]
+
 Open(ish) APIs
 --------------
 * Art & History

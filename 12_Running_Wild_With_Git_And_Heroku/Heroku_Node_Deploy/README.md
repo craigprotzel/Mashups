@@ -1,5 +1,5 @@
 How to Deploy to Heroku for Mashups Class
-------------------
+-----------------------------------------
 
 Note: The following steps are spcifically for Mac users who have node installed on their machines.
 
