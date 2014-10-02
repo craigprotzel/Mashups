@@ -27,7 +27,7 @@ This is a quick step-by-step guide on how to deploy to Github Pages for Mashups 
 
 ### Step 4: Create A Github Repository
 * You will need an account on [Github](https://github.com/)
-* Follow the ['Create A New Repository on Github'](https://help.github.com/articles/create-a-repo) steps provided by Github's Help pages. Note, **DO NOT MAKE a README.md** file when making a new repository. We can do this ourselves at a later time.
+* Follow the ['Create A New Repository on Github'](https://help.github.com/articles/create-a-repo) steps provided by Github's Help pages. Note, **DO NOT MAKE A README.md** file when making a new repository. We can do this ourselves at a later time.
 * Once you create a repository, you want to follow the second set of instructions that says **'...or push an existing repository from the command line'**. And enter the provided commands
 
 	```
