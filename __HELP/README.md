@@ -25,6 +25,7 @@ Open(ish) APIs
 * Art & History
   * [Artsy](https://developers.artsy.net/)
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
+  * [Metropolitan Museum of Art](http://scrapi.org/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
