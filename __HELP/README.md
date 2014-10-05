@@ -23,6 +23,7 @@ Learning Resources
 Open(ish) APIs
 --------------
 * Art & History
+  * [Artsy](https://developers.artsy.net/)
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
 * Commerce
