@@ -1,5 +1,3 @@
-var weatherData = [];
-
 function makeD3Chart(dataset){
 	//Clear the container each time a new chart is made
 	$('#container').html('');

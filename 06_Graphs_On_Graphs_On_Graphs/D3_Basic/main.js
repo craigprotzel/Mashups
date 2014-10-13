@@ -20,7 +20,7 @@ function drawD3Astros(totalNum){
 			"r" : 20
 		})
 		.transition()
-		.attr("cx",500)
+		.attr("cy",500)
 		.duration(3000)
 		.delay(500);
 
