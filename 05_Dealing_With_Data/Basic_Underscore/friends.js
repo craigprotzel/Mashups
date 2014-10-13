@@ -31,31 +31,30 @@ for (var i = 0; i < arrayOfFriends.length; i++){
 console.log(maleFriends);
 
 //Some Examples of Underscore
-//Undescore EACH + Array.push
+//Undescore EACH
+var maleFriendsEach = [];
 _.each(arrayOfFriends, function(obj){
 	if (obj.gender === 'm'){
-		maleFriends.push(obj);
+		maleFriendsEach.push(obj);
 	}
 });
-console.log(maleFriends);
+console.log(maleFriendsEach);
+
+//Underscore MAP
+var maleFriendsUpper = _.map(arrayOfFriends, function(obj){
+	return obj.name.toUpperCase();
+});
+console.log(maleFriendsUpper);
 
 //Underscore FILTER
 var filterMaleArray = _.filter(arrayOfFriends, function(obj){
-						return obj.gender === 'm';
+	return obj.gender === 'm';
 });
 console.log(filterMaleArray);
 
 //Underscore PLUCK
 var names = _.pluck(arrayOfFriends, 'name');
 console.log(names);
-
-//Underscore MAP
-//Be careful, this will change all of the object instances!!!
-// _.map(arrayOfFriends, function(obj){
-// 	obj.name = obj.name + "!!!!!";
-// 	return obj;
-// });
-// console.log(arrayOfFriends);
 
 //Object Constructor Function
 function Friends(n,g){
@@ -67,7 +66,6 @@ function Friends(n,g){
 var happyPeople = _.map(arrayOfFriends, function(obj){
 						var tempName = obj.name + "!!!";
 						var tempObj = new Friends(tempName, obj.gender);
-						//obj.name = obj.name + "!!!!!";
 						return tempObj;
 					});
 console.log(happyPeople);

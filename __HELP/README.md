@@ -1,3 +1,9 @@
+MASHUPS HOW TO'S
+----------------
+* [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
+* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/Github_Pages)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku/Heroku_Node_Deploy)
+
 Learning Resources
 ------------------
 * [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
@@ -17,7 +23,9 @@ Learning Resources
 Open(ish) APIs
 --------------
 * Art & History
+  * [Artsy](https://developers.artsy.net/)
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
+  * [Metropolitan Museum of Art](http://scrapi.org/)
   * [OpenLibrary](https://openlibrary.org/developers/api)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)

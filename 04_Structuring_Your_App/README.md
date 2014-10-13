@@ -8,16 +8,12 @@
 * Creating Our Own Objects
 * Using Arrays to store data
 
-##### III. Running A Local Web Server
-* [Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
-	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) 
-
-##### IV. Exercise - InstaTimes
+##### III. Exercise - InstaTimes
 * [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/InstaTimes)
 * [NY Times API](http://developer.nytimes.com/) 
 * [Instagram API](http://instagram.com/developer/)
 
-##### V. **SPECIAL - Git & Github**
+##### IV. **SPECIAL - Git & Github**
 * Download & Install - [Git](http://git-scm.com/downloads)
 * Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise
 * Sign up for [Github](https://github.com/)
@@ -25,7 +21,7 @@
 	* Read - [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
 	* Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
-##### VI. Homework
+##### V. Homework
 * Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 3 Objects, Arrays, and More - Manipulating Arrays (7 mins)](http://www.nyu.edu/lynda)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 5 Iterating with Loops - For loops: Enumerative (5 mins))](http://www.nyu.edu/lynda)

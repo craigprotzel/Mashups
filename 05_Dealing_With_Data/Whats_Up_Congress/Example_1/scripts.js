@@ -1,5 +1,4 @@
 var WUC = {};
-var myKey =	'YOUR-KEY-GOES-HERE';
 
 function getCongressData(){
 	console.log("Yup!");
@@ -16,15 +15,16 @@ function getCongressData(){
 		mm = 0 + mm.toString();
 	}
 	var yyyy = today.getFullYear();
+	//Construct string	
 	var queryDay = yyyy + '-' + mm + '-' + dd;
 	console.log(queryDay);
 	
-
-	var myURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=';
+	var myKey =	'YOUR-KEY-GOES-HERE';
+	var myURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + myKey;
 
 	//Make AJAX request
 	$.ajax({
-		url: myURL + myKey,
+		url: myURL,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){

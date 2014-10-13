@@ -1,0 +1,33 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+	font-size: 24px;
+}
+
+input{
+	font-size: 24px;
+	line-height: 30px;
+	height: 30px;
+}
+
+button{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	height: 40px;
+	width: 120px;
+	margin-top: 10px;
+	border: 2px none;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: rgb(76, 126, 242);
+	color: white;
+}
+
+p{
+	font-size: 0.75em;
+}

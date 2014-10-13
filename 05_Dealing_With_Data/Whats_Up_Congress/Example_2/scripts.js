@@ -1,6 +1,7 @@
-var WUC = {};
-WUC.asyncCount = 0;
-WUC.returnCount = 0;
+var WUC = {
+	asyncCount : 0,
+	returnCount : 0
+};
 
 function getCongressData(){
 
@@ -18,7 +19,6 @@ function getCongressData(){
 	var yyyy = today.getFullYear();
 	//Construct string
 	var queryDay = yyyy + '-' + mm + '-' + dd;
-	//console.log(queryDay);
 
 	var myKey =	'YOUR-KEY-GOES-HERE';
 	var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + myKey;
@@ -35,7 +35,6 @@ function getCongressData(){
 		success: function(data){
 			//console.log("WooHoo!");
 			console.log(data);
-			//return;
 
 			WUC.today = data.results;
 			//console.log(WUC.today);
@@ -48,7 +47,6 @@ function getCongressData(){
 		}
 	});
 }
-
 
 /********************************************************/
 /* Code for parseData() */
@@ -183,20 +181,17 @@ function parseForID(){
 	//First determine how many there are
 	_.each(WUC.today, function(obj){
 		if (obj.legislator_ids.length !== 0){
-			WUC.asyncCount++;
-		}
-	});
-	console.log(WUC.asyncCount);
-	
-	//Then make requests for each one
-	_.each(WUC.today, function(obj){
-		if (obj.legislator_ids.length !== 0){
+			console.log("Found one!");
+			//Add the total number of ids to the async counter
+			WUC.asyncCount += obj.legislator_ids.length;
+			//For wach id, request info
 			_.each(obj.legislator_ids, function(el){
 				//Make request for personal info
 				makeInfoRequest(el, obj);
 			});
 		}
 	});
+	console.log(WUC.asyncCount);
 }
 
 //Example for handling asynchronous requests
@@ -252,9 +247,9 @@ function createDomElements(obj){
 		}
 		if (obj[i].twitter_id){
 			for (var j = 0; j < obj[i].twitter_id.length; j++){
-			HTMLString += '<a class="twitter" target="_blank" href="http://twitter.com/' + obj[i].twitter_id[j] + '">' +
-							obj[i].twitter_id[j] +
-							'</a>';
+				HTMLString += '<a class="twitter" target="_blank" href="http://twitter.com/' + obj[i].twitter_id[j] + '">' +
+				obj[i].twitter_id[j] +
+				'</a>';
 			}
 		}
 	}
@@ -262,7 +257,6 @@ function createDomElements(obj){
 	//Add HTML to the page
 	$('#congressData').html(HTMLString);
 }
-
 
 $(document).ready(function(){
 	//Make request to Sunlight Congress API

@@ -60,9 +60,9 @@
 					var h = 300;
 					var barPadding = 2;		
 
-					// var yScale = d3.scale.linear()
-					// 	.domain([d3.min(dataset, function(d) { return d.day; }), d3.max(dataset, function(d) { return d.day; })])
-					// 	.range([100,h - 100]);
+					var yScale = d3.scale.linear()
+						.domain([d3.min(dataset, function(d) { return d.day; }), d3.max(dataset, function(d) { return d.day; })])
+						.range([100,h - 100]);
 
 					//Create SVG element
 					var svg = d3.select("body")
@@ -78,26 +78,26 @@
 							return i * (w / dataset.length);
 						})
 						.attr("y", function(d) {
-							return h - d.day;
-							//return h - (yScale(d.day));
+							//return h - d.day;
+							return h - (yScale(d.day));
 						})
 						.attr("width", w / dataset.length - barPadding)
 						.attr("height", function(d) {
-							return d.day;
-							//return yScale(d.day);
+							//return d.day;
+							return yScale(d.day);
 						})
 				 	  .attr("fill", function(d){
-				 	  	var r = Math.round(d.day) * 2;
+				 	  	var r = Math.min(Math.round(d.day) * 3, 255);
 				 	  	console.log(r);
 				 	  	var color = 'rgb(' + r + ',20,80)';
 				 	  	return color;
 				 	  })
-						// .attr("class", "rects");
+						// .attr("class", "rects")
 						// .transition()
-						// 	.attr("y", function(d){
-						// 		return h - d.day;
-						// 	})
-						// 	.duration(2000);
+						// .attr("y", function(d){
+						// 	return h - d.day;
+						// })
+						// .duration(5000);
 
 
 					svg.selectAll("text")
