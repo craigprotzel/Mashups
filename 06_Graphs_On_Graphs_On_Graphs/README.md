@@ -2,6 +2,9 @@
 
 ##### I. Discussion - Week 5 Homework
 
+##### II. SVGs
+* [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
+
 ##### II. Intro to D3
 * [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Code_Class6.zip)
 * [SVGs - MDN Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
@@ -19,4 +22,3 @@
 	* Watch [hello p5](http://hello.p5js.org/)
 * Explore - [RaphaelJS](http://raphaeljs.com/)
 * Explore - [PaperJS](http://paperjs.org/) library
-	* Review [Paper JS Tutorials](http://paperjs.org/tutorials/) - specifically "Geometry", "Paths", and "Projects & Items"
