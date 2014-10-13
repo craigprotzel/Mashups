@@ -1,23 +1,3 @@
-//Function to make AJAX call
-function getSpaceData() {
-	var myURL = "http://api.open-notify.org/astros.json";
-	$.ajax({
-		url: myURL,
-		type: 'GET',
-		dataType: 'jsonp',
-		error: function(data){
-			console.log("We got problems");
-			console.log(data.status);
-		},
-		success: function(data){
-			console.log("WooHoo!");
-			console.log(data);
-			$('#totalPeople').html(data.number);
-			drawD3Astros(data.number);
-		}
-	});
-}
-
 //Function to draw SVGs using D3
 function drawD3Astros(totalNum){
 	console.log("D3!");
@@ -46,6 +26,26 @@ function drawD3Astros(totalNum){
 
 		centerX += 100;
 	}
+}
+
+//Function to make AJAX call
+function getSpaceData() {
+	var myURL = "http://api.open-notify.org/astros.json";
+	$.ajax({
+		url: myURL,
+		type: 'GET',
+		dataType: 'jsonp',
+		error: function(data){
+			console.log("We got problems");
+			console.log(data.status);
+		},
+		success: function(data){
+			console.log("WooHoo!");
+			console.log(data);
+			$('#totalPeople').html(data.number);
+			drawD3Astros(data.number);
+		}
+	});
 }
 
 $('document').ready(function(){

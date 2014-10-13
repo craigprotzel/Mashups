@@ -1,5 +1,7 @@
 #mySVG{
+		display: block;
     background-color: pink;
+    margin: 10px auto;
 }
 svg .mainCircle{
     fill: yellow;
