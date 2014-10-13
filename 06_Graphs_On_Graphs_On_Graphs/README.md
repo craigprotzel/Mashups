@@ -12,7 +12,8 @@
 * [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/SVG_D3.zip)
 * [D3JS](http://d3js.org/)
 
-##### IV. Other Graph Libraries
+##### IV. Other Libraries
+* [RaphaelJS](http://raphaeljs.com/)
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
@@ -26,4 +27,3 @@
 	* Watch [hello p5](http://hello.p5js.org/)
 * Additional Recommendations
 	* Explore - [PaperJS](http://paperjs.org/) library
-	* Explore - [RaphaelJS](http://raphaeljs.com/)
