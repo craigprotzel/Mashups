@@ -87,6 +87,8 @@ Links
 * [Little CSS Stuff Newcomers Get Confused ABout](http://css-tricks.com/little-css-stuff-newcomers-get-confused-about/)
 * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * [Bootstrap Tutorial](http://www.sitepoint.com/twitter-bootstrap-tutorial-handling-complex-designs/)
+* [The Holy Grail of CSS Centering](http://webdesign.tutsplus.com/tutorials/the-holy-grail-of-css-centering--cms-22114)
+* [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/)
 
 #### JS
 * ["If Hemingway Wrote Javascript" by Angus Croll](http://byfat.xxx/if-hemingway-wrote-javascript)

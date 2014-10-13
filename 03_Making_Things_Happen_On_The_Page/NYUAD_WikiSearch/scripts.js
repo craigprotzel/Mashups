@@ -37,10 +37,6 @@ function searchWikipedia(word){
 	});
 }
 
-
-
-
-
 $(document).ready(function(){
 	console.log("We are ready!");
 
