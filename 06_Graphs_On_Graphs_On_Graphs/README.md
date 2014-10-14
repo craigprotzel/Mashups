@@ -6,6 +6,9 @@
 * [SVGs - MDN Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
+* Reponsive SVGs  
+	* [Making An SVG Responsive](http://demosthenes.info/blog/744/Make-SVG-Responsive)
+	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
 * [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
 
 ##### III. Intro to D3
