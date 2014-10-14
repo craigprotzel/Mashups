@@ -6,6 +6,7 @@
 * [SVGs - MDN Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
+* [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
 * Reponsive SVGs  
 	* [Making An SVG Responsive](http://demosthenes.info/blog/744/Make-SVG-Responsive)
 	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
