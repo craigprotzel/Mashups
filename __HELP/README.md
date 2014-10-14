@@ -29,6 +29,8 @@ Open(ish) APIs
   * [OpenLibrary](https://openlibrary.org/developers/api)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
+* Communities
+  * [Reddit](http://www.reddit.com/dev/api) 
 * Education & Code
   * [Github](https://developer.github.com/v3/#json-p-callbacks)
 * Environment
