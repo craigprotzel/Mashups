@@ -1,6 +1,3 @@
-var weatherData = [];
-
-//D3 Code
 function makeD3Chart(dataset){
 	//Clear the page each time a new chart is made
 	$('body').html('');
