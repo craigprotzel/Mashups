@@ -27,7 +27,9 @@
 ##### VI. Homework
 * Sign Up - for a [One-On-One Appointment](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)
 * Think & Post - idea(s) for Assignment #2, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, which js library (or libraries) you want to work with, and what the experience of a user visiting the site would be like. Be prepared to present your idea(s) in class.
+* Create - an application that successfully requests data from an API for Assignment #2 
 * Explore - [p5JS](http://p5js.org/)
 	* Watch [hello p5](http://hello.p5js.org/)
 * Additional Recommendations
+	* Play - with D3JS
 	* Explore - [PaperJS](http://paperjs.org/) library
