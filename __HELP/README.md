@@ -22,17 +22,23 @@ Learning Resources
 
 Open(ish) APIs
 --------------
-* Art & History
+* Art & Design
   * [Artsy](https://developers.artsy.net/)
+  * [Behance](https://www.behance.net/dev)
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [Metropolitan Museum of Art](http://scrapi.org/)
-  * [OpenLibrary](https://openlibrary.org/developers/api)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
+  * [Fixer Exchange Rates](http://fixer.io/)
+  * [Gifts](http://developer.gifts.com/)
 * Communities
+  * [Facebook](https://developers.facebook.com/docs/javascript) 
   * [Reddit](http://www.reddit.com/dev/api) 
 * Education & Code
   * [Github](https://developer.github.com/v3/#json-p-callbacks)
+  * [Numbers](http://numbersapi.com/#42)
+  * [OpenLibrary](https://openlibrary.org/developers/api)
+  * [Encyclopedia of Life](http://eol.org/api)
 * Environment
   * [Into the Okavango](http://intotheokavango.org/api)
 * Governemnt & Politics
@@ -46,6 +52,7 @@ Open(ish) APIs
   * [Flickr](https://www.flickr.com/services/api/)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
   * [Instagram](http://instagram.com/developer/)
+  * [Marvel Comics](http://developer.marvel.com/)
 * Location
   * [Foursquare](https://developer.foursquare.com/)
   * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
@@ -65,10 +72,13 @@ Open(ish) APIs
 * Outer Space
   * [NASA](http://data.nasa.gov/api-info/)
   * [People In Space](http://open-notify.org/Open-Notify-API/People-In-Space/)
+* Search
+  * [Duck Duck Go](https://api.duckduckgo.com/api) 
 * Transportation
   * [NYC - MTA](http://web.mta.info/developers/)
 * Video
   * [The Movie Database](http://docs.themoviedb.apiary.io/)
+  * [Open IMDB](http://www.omdbapi.com/)
   * [Youtube Data](https://developers.google.com/youtube/v3/)
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
