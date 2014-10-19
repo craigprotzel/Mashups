@@ -57,6 +57,7 @@ Open(ish) APIs
   * [LastFM](http://www.last.fm/api)
   * [SoundCloud](http://developers.soundcloud.com/docs)
   * [Spotify](https://developer.spotify.com/)
+  * [NPR](http://dev.npr.org/)
 * News
   * [The Guardian](http://www.theguardian.com/open-platform)
   * [The New York Times](http://developer.nytimes.com/page)
