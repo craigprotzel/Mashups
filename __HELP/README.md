@@ -41,6 +41,7 @@ Open(ish) APIs
   * [OpenSpending](http://community.openspending.org/help/api/)
   * [Sunlight Foundation](http://sunlightfoundation.com/api/)
   * [Data.gov](https://www.data.gov/developers/apis)
+  * [USA.gov](http://www.usa.gov/About/developer-resources/developers.shtml#APIs)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
