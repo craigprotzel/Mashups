@@ -14,6 +14,7 @@
 * Canvas Libraries
 	* [PaperJS](http://paperjs.org/) - similarish to Adobe Illustrator
 	* [p5](https://github.com/lmccart/p5.js) - similarish to Processing
+		* [p5 Overview](https://github.com/lmccart/p5.js/wiki/p5.js-overview)
 		* [Processing to p5](https://github.com/lmccart/p5.js/wiki/Processing-transition) 
 
 ##### IV. Homework
