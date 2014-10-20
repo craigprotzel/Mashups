@@ -13,8 +13,8 @@
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 * Canvas Libraries
 	* [PaperJS](http://paperjs.org/) - similarish to Adobe Illustrator
-	* [P5](https://github.com/lmccart/p5.js) - similarish to Processing
-* [PaperJS vs ProcessingJS vs RafaelJS](http://coding.smashingmagazine.com/2012/02/22/web-drawing-throwdown-paper-processing-raphael/) + [Comparison Examples](http://zgrossbart.github.io/3gears/)
+	* [p5](https://github.com/lmccart/p5.js) - similarish to Processing
+		* [Processing to p5](https://github.com/lmccart/p5.js/wiki/Processing-transition) 
 
 ##### IV. Homework
 * Play - with an Animation Library
