@@ -89,6 +89,7 @@ Links
 * [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/)
 * [JS Fiddle](http://jsfiddle.net/) - web-based tool to share code
 * [JS Bin](http://jsbin.com/) - another web-based tool to share code
+* [CodePen](http://codepen.io/) - one more web-based tool to share code
 * [11 Phases of a Web Developer's Career](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 * [Wappalyzer](http://wappalyzer.com/) - browser plug-in to quickly identify a site's software
 * [URL Encoding](http://www.blooberry.com/indexdot/html/topics/urlencoding.htm) or 'What are those "%20" codes in URLs'?
