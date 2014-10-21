@@ -18,6 +18,7 @@
 		* [ITP Class - Createive JS](https://github.com/lmccart/itp-creative-js)
 	* [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator
 		* [PaperJS Tutorials](http://paperjs.org/tutorials/)
+* Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)		
 
 ##### IV. Homework
 * Coding + Design Exercise
