@@ -16,9 +16,10 @@
 		* [p5 Learn](http://p5js.org/learn/)
 		* [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
 		* [ITP Class - Createive JS](https://github.com/lmccart/itp-creative-js)
+		* [Nature of Code - p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 	* [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator
 		* [PaperJS Tutorials](http://paperjs.org/tutorials/)
-* Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)		
+* Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)	
 
 ##### IV. Homework
 * Coding + Design Exercise
