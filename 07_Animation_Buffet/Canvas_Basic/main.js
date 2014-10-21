@@ -1,4 +1,3 @@
-var x = 100;
 function drawCanvas(){
 	//Get the canvas
 	var canvas = document.getElementById('myCanvas');
@@ -6,7 +5,7 @@ function drawCanvas(){
 	var ctx = canvas.getContext('2d');
 
 	ctx.fillStyle = "pink";
-	ctx.fillRect(0,0,canvas.width, canvas.height);
+	ctx.fillRect(0,0, canvas.width, canvas.height);
 
 	ctx.fillStyle = 'aqua';
 	ctx.fillRect(100, 50, 50, 50);

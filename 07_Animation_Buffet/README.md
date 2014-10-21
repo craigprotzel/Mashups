@@ -12,13 +12,15 @@
 * [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 * Canvas Libraries
-	* [PaperJS](http://paperjs.org/) - similarish to Adobe Illustrator
-	* [p5](https://github.com/lmccart/p5.js) - similarish to Processing
-		* [p5 Overview](https://github.com/lmccart/p5.js/wiki/p5.js-overview)
-		* [Processing to p5](https://github.com/lmccart/p5.js/wiki/Processing-transition) 
+	* [p5](https://github.com/lmccart/p5.js) - similar(ish) to Processing
+		* [p5 Learn](http://p5js.org/learn/)
+		* [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
+		* [ITP Class - Createive JS](https://github.com/lmccart/itp-creative-js)
+	* [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator
+		* [PaperJS Tutorials](http://paperjs.org/tutorials/)
 
 ##### IV. Homework
-* Play - with an Animation Library
+* Coding + Design Exercise
+* Create - A working prototype for Assignment #2
 * Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * Explore the [PopcornJS](http://popcornjs.org/) Video Library
-* Work on Project #2
