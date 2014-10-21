@@ -5,12 +5,13 @@ var p5Data = {
 };
 
 //Lat-Lon for Los Angeles
-//var losAngeles = [ 34.063855, -118.403135];
+var losAngeles = [ 34.063855, -118.403135];
 
 //Function to make traffic request
+//Uses the MapQuest API - http://developer.mapquest.com/
 function makeTrafficRequest(theBox){
 	console.log("Getting traffic data");
-	var key = 'Fmjtd%7Cluurnu07nq%2C8x%3Do5-9wrguw';
+	var key = 'YOUR-API-KEY-GOES-HERE';
 	var theBoxString = theBox[0] + ',' + theBox[1] + ',' + theBox[2] + ',' + theBox[3];
 	var url = 'http://www.mapquestapi.com/traffic/v2/incidents?boundingBox=';
 	url += theBoxString;
@@ -42,7 +43,7 @@ function askForLocation(){
 		console.log(data);
 		var position = [data.coords.latitude, data.coords.longitude];
 		var distance = 10;
-		var boundingBox =	getBoundingBox(position,distance);
+		var boundingBox =	getBoundingBox(losAngeles,distance);
 		console.log(boundingBox);
 		makeTrafficRequest(boundingBox);
 	}
