@@ -29,23 +29,41 @@ function getSpaceData() {
 //Execute the function to make the AJAX call
 getSpaceData();
 
-
 /*---------------------------------------------
 p5 Code
 ----------------------------------------------*/
 //Array to store the objects
 var astros = [];
 var msg = '';
+
 function setup() {
 	console.log("Setup");
 	msg = createDiv('Getting Space Data...');
 	createCanvas(windowWidth, windowHeight);
 	msg.addClass('msg');
+	
+	/*
+	//ALT APPROACH - use loadJSON
+	loadJSON('http://api.open-notify.org/astros.json', loaded);
+	*/
 }
+
+/*
+//Use with ALT setup approach
+function loaded(data){
+	console.log("Got the data!");
+	console.log(data);
+	spaceData.apiData = data;
+	spaceData.ready = true;
+}
+*/
 
 function draw() {
 	background(20,40,90);
 
+	if (frameCount < 2){
+		console.log("Drawing");
+	}
 	//Check if the data is ready
 	if (spaceData.ready){
 		console.log("Data is ready!");
