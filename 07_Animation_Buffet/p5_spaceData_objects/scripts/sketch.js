@@ -12,7 +12,7 @@ function getSpaceData() {
 	$.ajax({
 		url: url,
 		type: 'GET',
-		dataType: 'jsonp',
+		// dataType: 'jsonp',
 		error: function(data){
 			console.log("We got problems");
 			spaceData.apiData = {number: 0};
@@ -41,7 +41,7 @@ function setup() {
 	msg = createDiv('Getting Space Data...');
 	createCanvas(windowWidth, windowHeight);
 	msg.addClass('msg');
-	
+
 	/*
 	//ALT APPROACH - use loadJSON
 	loadJSON('http://api.open-notify.org/astros.json', loaded);
@@ -61,19 +61,14 @@ function loaded(data){
 function draw() {
 	background(20,40,90);
 
-	if (frameCount < 2){
-		console.log("Drawing");
-	}
 	//Check if the data is ready
 	if (spaceData.ready){
 		console.log("Data is ready!");
 		//Create Astronauts
 		if (spaceData.apiData.number === 0){
-			//No astronoauts - draw a Sun
-			fill(200,175,50);
-			ellipse(width/2, height/2, 200,200);
 			//Update msg div
 			msg.html('No one is in space right now');
+			spaceData.ready = false;
 		}
 		else{
 			for (var i=0; i<spaceData.apiData.number; i++) {
