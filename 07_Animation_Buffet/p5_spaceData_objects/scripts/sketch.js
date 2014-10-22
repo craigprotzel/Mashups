@@ -36,14 +36,16 @@ p5 Code
 ----------------------------------------------*/
 //Array to store the objects
 var astros = [];
-
+var msg = '';
 function setup() {
 	console.log("Setup");
+	msg = createDiv('Getting Space Data...');
 	createCanvas(windowWidth, windowHeight);
+	msg.addClass('msg');
 }
 
 function draw() {
-	background(0,50,125);
+	background(20,40,90);
 
 	//Check if the data is ready
 	if (spaceData.ready){
@@ -53,16 +55,17 @@ function draw() {
 			//No astronoauts - draw a Sun
 			fill(200,175,50);
 			ellipse(width/2, height/2, 200,200);
-			//Add text to the page
-			var msg = createDiv('No One Is In Space Right Now');
-			msg.position(100,100);
+			//Update msg div
+			msg.html('No one is in space right now');
 		}
 		else{
 			for (var i=0; i<spaceData.apiData.number; i++) {
-				astros[i] = new Astronaut(random(width), random(height), random(20,50), random(60,100), random(), random());
+				astros[i] = new Astronaut(random(width), random(height), random(20,50), random(60,100), random(-2,2), random(-2,2));
 			}
 			spaceData.ready = false;
 			spaceData.animate = true;
+			//Update msg div
+			msg.html("There are <span class='big'>" + spaceData.apiData.number + "</span> people in space right now!");
 		}
 	}
 	
@@ -90,59 +93,72 @@ function Astronaut(xPos, yPos, xWidth, yHeight, xSpeed, ySpeed){
 	this.xSpeed = xSpeed;
 	this.ySpeed = ySpeed;
 
-	//Define color
-	this.r = Math.round(random(100));
-	this.g = Math.round(random(255));
+	//Define colors
+	this.r = Math.round(random(120));
+	this.g = Math.round(random(200));
 	this.b = Math.round(random(200));
 	this.c_random = color(this.r, this.g, this.b);
+	this.c_hover = color(255,100,100);
+	//Set starting color
 	this.c = this.c_random;
 }
 
 Astronaut.prototype.display = function(){
-	rectMode(CENTER);
+	//Draw body
 	fill(this.c);
+	rectMode(CENTER);
 	rect(this.x, this.y, this.xWidth, this.yHeight);
-	ellipse(this.x, this.y - this.yHeight, this.xWidth * 2, this.yHeight);
+	//Draw eyes
+	fill(255);
+	ellipse(this.x - this.xWidth/4, this.y - this.yHeight/4, this.xWidth/8, this.yHeight/8);
+	ellipse(this.x + this.xWidth/4, this.y - this.yHeight/4, this.xWidth/8, this.yHeight/8);
+
 };
 
 Astronaut.prototype.update = function(){
 	this.x += this.xSpeed;
 	this.y += this.ySpeed;
 	this.checkEdges();
-	this.checkHover();
+	this.checkHoverState();
 };
 
 Astronaut.prototype.checkEdges = function(){
+	var widthBoundsLow = -(this.xWidth/2);
+	var widthBoundsHigh = windowWidth + (this.xWidth/2);
+	var heightBoundsLow = -(this.yHeight/2);
+	var heightBoundsHigh = windowHeight + (this.yHeight/2);
+
 	if (this.xSpeed > 0){
-		if (this.x > width){
-			this.x = 0;
+		if (this.x > widthBoundsHigh){
+			this.x = widthBoundsLow;
 		}
 	}
-	else{
-		if (this.x < 0){
-			this.x = width;
+	else {
+		if (this.x < widthBoundsLow){
+			this.x = widthBoundsHigh;
 		}
 	}
 
 	if (this.ySpeed > 0){
-		if (this.y > height){
-			this.y = 0;
+		if (this.y > heightBoundsHigh){
+			this.y = heightBoundsLow;
 		}
 	}
 	else {
-		if (this.y < 0){
+		if (this.y < heightBoundsLow){
 			this.y = height;
 		}
 	}
 };
 
-Astronaut.prototype.checkHover = function(){
-	if (mouseX > this.x - this.xWidth/2 && mouseX < this.x + this.xWidth/2 && mouseY > this.y - this.yHeight/2 && mouseY < this.y + this.yHeight/2){
-		this.c = color(255,100,100);
+Astronaut.prototype.checkHoverState = function(){
+	if (mouseX > (this.x - this.xWidth/2 - 10) && mouseX < (this.x + this.xWidth/2 + 10) &&
+	mouseY > (this.y - this.yHeight/2 -10) && mouseY < (this.y + this.yHeight/2 + 10)){
+		this.c = this.c_hover;
 		if(mouseIsPressed){
 			console.log(this);
-			this.xSpeed *= -1;
-			this.ySpeed *= -1;
+			//Trigger a click event
+			this.clicked();
 		}
 	}
 	else{
@@ -150,13 +166,18 @@ Astronaut.prototype.checkHover = function(){
 	}
 
 	/*
-	//Alt approach - use dist()
+	//Alt approach - use the dist() method
 	var mouseDist = dist(mouseX, mouseY, this.x, this.y);
 	if (mouseDist < 100){
-		this.c = color(255,100,100);
+		this.c = this.c_hover;
 	}
 	else{
 		this.c = this.c_random;
 	}
 	*/
+};
+
+Astronaut.prototype.clicked = function(){
+	this.xSpeed *= -1;
+	this.ySpeed *= -1;
 };
