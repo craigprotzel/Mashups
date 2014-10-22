@@ -12,7 +12,7 @@ function getSpaceData() {
 	$.ajax({
 		url: url,
 		type: 'GET',
-		// dataType: 'jsonp',
+		dataType: 'jsonp',
 		error: function(data){
 			console.log("We got problems");
 			spaceData.apiData = {number: 0};
