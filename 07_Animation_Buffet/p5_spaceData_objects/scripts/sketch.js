@@ -15,7 +15,6 @@ function getSpaceData() {
 		dataType: 'jsonp',
 		error: function(data){
 			console.log("We got problems");
-			//console.log(data.status);
 			spaceData.apiData = {number: 0};
 			spaceData.ready = true;
 		},
@@ -156,7 +155,6 @@ Astronaut.prototype.checkHoverState = function(){
 	mouseY > (this.y - this.yHeight/2 -10) && mouseY < (this.y + this.yHeight/2 + 10)){
 		this.c = this.c_hover;
 		if(mouseIsPressed){
-			console.log(this);
 			//Trigger a click event
 			this.clicked();
 		}
