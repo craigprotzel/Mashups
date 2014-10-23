@@ -48,11 +48,14 @@ function makeYoutubeRequest(terms){
 				});
 			});
 			allPopcornObjects[1].cue(24, function(){
-				allPopcornObjects[1].pause();
+				this.pause();
 				allPopcornObjects[2].currentTime(6);
 			});
 			allPopcornObjects[2].cue(6, function(){
 				this.play();
+				this.cue(30, function(){
+					this.pause();
+				});
 			});
 		}
 	});

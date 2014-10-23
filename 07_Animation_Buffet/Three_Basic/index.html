@@ -35,13 +35,17 @@ http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene
 
       //Create cool stuff
       var geometry = new THREE.BoxGeometry(2,2,2);
-
+     
+      //Set mesh to be a color
       var material = new THREE.MeshBasicMaterial({color: 'blue', wireframe: true});
 
-      // var imageLink = 'einstein.jpg';
-      // var texture = THREE.ImageUtils.loadTexture(imageLink);
-      // var material = new THREE.MeshBasicMaterial( { map: texture} );
-
+      /*
+      //Set mesh to be an image
+      var imageLink = 'einstein.jpg';
+      var texture = THREE.ImageUtils.loadTexture(imageLink);
+      var material = new THREE.MeshBasicMaterial( { map: texture} );
+      */
+      
       var cube = new THREE.Mesh(geometry, material);
       scene.add(cube);
 

@@ -2,7 +2,7 @@
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
-	var myKey = 'YOUR-KEY-GOES-HERE';
+	var myKey = 'YOUR-KEY-GOES-HERE';	
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -101,8 +101,8 @@ function changeBG(){
 }
 
 function generateRandomColor(){
-	var r = Math.floor(Math.random() * 125);
-	var g = Math.floor(Math.random() * 155);
+	var r = Math.floor(Math.random() * 200);
+	var g = Math.floor(Math.random() * 225);
 	var b = Math.floor(Math.random() * 255);
 
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
