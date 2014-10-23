@@ -25,6 +25,7 @@ function drawCircles(num){
 }
 
 var startAnimation = false;
+
 //Paper's onFrame function is similar to Processing's draw function
 function onFrame(){
 	//We only want this to run once, when the data is ready
@@ -38,7 +39,7 @@ function onFrame(){
 	//Animation logic goes in here
 	if (startAnimation){
 		var height = project.view.viewSize.height;
-		var theCircle = project.activeLayer.children[1];
+		var theCircle = project.activeLayer.children[1].children[3];
 		var theCircleHeight = theCircle.bounds.height;
 		if (theCircle.position.y > height){
 			theCircle.position.y = -1 * theCircleHeight;
@@ -56,8 +57,8 @@ function onMouseDown(event) {
 
 	if (hitResult){
 		var theItem = hitResult.item;
-		console.log(theItem);
-		if (theItem.parent.name == 'groupOne'){
+		console.log(theItem.parent.id);
+		if (theItem.parent.id === 2){
 			console.log('Hit a group one item');
 			//do something
 		}
@@ -65,6 +66,8 @@ function onMouseDown(event) {
 			console.log('Hit a group two item');
 			//do something
 		}
+		
 	}
+
 	
 }

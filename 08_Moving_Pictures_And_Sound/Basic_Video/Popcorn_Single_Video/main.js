@@ -57,8 +57,16 @@ function setVideoEvents(video){
 	video.on('timeupdate', function(){
 		$('#animation').append("<div class='greenBox'></div>");
 	});
+	
+	video.wikipedia({
+      start: 0,
+       end: 10,
+       src: "http://en.wikipedia.org/wiki/Cape_Town",
+       title: "this is an article",
+       target: "#wiki"
+   });
 	video.on('play', function(){
-		changeBG();
+		//changeBG();
 	});
 	video.on('pause',function(){
 		console.log("Paused!");

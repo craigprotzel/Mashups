@@ -3,7 +3,8 @@ var freeData, sound;
 function getFreeSound(term){
 	//This is for the Freesound v1 api, which is now deprecated for v2...
 	var url = 'http://www.freesound.org/api/sounds/search/?q=' + term + '&api_key=';
-	var myKey = 'YOUR-KEY-GOES-HERE';
+	//var myKey = 'YOUR-KEY-GOES-HERE';
+	var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
 	var myURL = url + myKey;
 
 	$.ajax({
@@ -18,7 +19,7 @@ function getFreeSound(term){
 			console.log("WooHoo!");
 			console.log(data);
 			freeData = data;
-			var audioLink = freeData.sounds[0]['preview-hq-mp3'];
+			var audioLink = freeData.sounds[1]['preview-hq-mp3'];
 			console.log(audioLink);
 
 			//HowlerJS

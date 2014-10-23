@@ -21,7 +21,15 @@
 		* [PaperJS Tutorials](http://paperjs.org/tutorials/)
 * Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)	
 
-##### IV. Homework
+##### IV. ThreeJS
+* [ThreeJS](http://threejs.org/) & [ThreeJS Examples](http://threejs.org/examples/)
+  * [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
+  * [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
+	* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
+	* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
+	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
+
+##### V. Homework
 * Coding + Design Exercise - using any js library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images or add images locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
 * Create - A working prototype for Assignment #2. This includes data coming in and some visual representation on the pag using the interaction library (or libraries) of your choosing. Be prepared to demo your work. We will be doing group user-testing in class.
 * Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)

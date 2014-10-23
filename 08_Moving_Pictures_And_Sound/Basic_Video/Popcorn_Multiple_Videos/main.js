@@ -61,4 +61,4 @@ function makeYoutubeRequest(terms){
 	});
 }
 
-makeYoutubeRequest('world cup 2014');
+makeYoutubeRequest('nyu abu dhabi');

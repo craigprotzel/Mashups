@@ -13,13 +13,15 @@
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.12/paper.js"></script>
 
 		<!-- For PaperJS, make sure to set the type attribute to paperscript -->
-		<script type="text/paperscript" canvas="myCanvas">
+		<!--<script type="text/paperscript" canvas="myCanvas">
+
 			var centerX = 100;
 			//Use a for loop to create some circles
 			for (var i = 0; i < 3; i++){			
+				//Make circles
 				var myCircle = new Path.Circle(centerX, 150, 60);
 				myCircle.fillColor = 'yellow';
-				//myCircle.extra = 'hello';
+				myCircle.extra = 'hello';
 
 				//Alt way to create a circle
 				var circObj = new Path.Circle({
@@ -34,7 +36,7 @@
 			//The animation loop
 			function onFrame(){
 				var height = project.view.viewSize.height;
-				var theCircle = project.activeLayer.children[1];
+				var theCircle = project.activeLayer.children[4];
 				var theCircleHeight = theCircle.bounds.height;
 				if (theCircle.position.y > height){
 					theCircle.position.y = -1 * theCircleHeight;
@@ -43,8 +45,9 @@
 					theCircle.position.y += 3;
 				}
 			}	
-		</script>
-		<!--<script src="main.js"></script>  
+
+		</script>-->
+		<script src="main.js"></script>  
 		<script type="text/paperscript" canvas="myCanvas" src="myPaperScript.js"></script>-->
 	</body>
 </html>

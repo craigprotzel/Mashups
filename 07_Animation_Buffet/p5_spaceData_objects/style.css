@@ -5,16 +5,14 @@ body{
 	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
 	font-size: 16px;
 }
-
 .msg{
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	font-size: 24px;
 	color: white;
 	text-align: center;
-	margin: 50px 20px 0;
+	margin: 50px 10% 0;
 }
-
 .big{
 	font-size: 64px;
 }

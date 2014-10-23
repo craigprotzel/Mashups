@@ -2,7 +2,7 @@
 
 ##### I. Discussion - Week 7 Homework
 
-##### II. [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Class7_Code.zip)
+##### II. Download Code Examples
 
 ##### III. Audio
 * Web Audio API
@@ -27,7 +27,6 @@
 	* [Popcorn Starter Code](https://github.com/benrito/popcorn-starter) - [Ben Moskowitz](https://twitter.com/benrito)
 	* [VideoJS](http://www.videojs.com/)
 * [Youtube API](https://developers.google.com/youtube/v3/)
-* Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Video.zip)
 
 ##### V. Homework
 * DUE - Project #2
