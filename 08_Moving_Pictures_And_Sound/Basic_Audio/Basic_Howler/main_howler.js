@@ -1,16 +1,13 @@
 var freeData, sound;
-
+var myKey = 'YOUR-KEY-GOES-HERE';
 function getFreeSound(term){
-	//This is for the Freesound v1 api, which is now deprecated for v2...
-	var url = 'http://www.freesound.org/api/sounds/search/?q=' + term + '&api_key=';
-	//var myKey = 'YOUR-KEY-GOES-HERE';
-	var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
+	//This is for Freesound API v2
+	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
 	var myURL = url + myKey;
-
 	$.ajax({
 		url: myURL,
 		type: 'GET',
-		dataType: 'jsonp',
+		dataType: 'json',
 		error: function(data){
 			console.log("We got problems");
 			console.log(data.status);
@@ -18,14 +15,33 @@ function getFreeSound(term){
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
-			freeData = data;
-			var audioLink = freeData.sounds[1]['preview-hq-mp3'];
+			getSoundContent(data.results[0].id);
+		}
+	});
+}
+
+function getSoundContent(soundID){
+	var url = 'http://www.freesound.org/apiv2/sounds/' + soundID + '/?token=';
+	var myURL = url + myKey;
+	$.ajax({
+		url: myURL,
+		type: 'GET',
+		dataType: 'json',
+		error: function(data){
+			console.log("We got problems");
+			console.log(data.status);
+		},
+		success: function(data){
+			console.log("WooHoo 2!");
+			console.log(data);
+			var audioLink = data.previews['preview-hq-mp3'];
 			console.log(audioLink);
 
 			//HowlerJS
 			sound = new Howl({
 				urls: [audioLink]
 			});
+			$("button#play").css('background-color', 'green');
 		}
 	});
 }

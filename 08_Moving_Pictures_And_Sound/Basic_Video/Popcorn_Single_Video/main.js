@@ -1,8 +1,7 @@
-
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
-	var myKey = 'YOUR-KEY-GOES-HERE';	
+	var myKey = 'YOUR-KEY-GOES-HERE';
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -22,28 +21,22 @@ function makeYoutubeRequest(term){
 			console.log(theVideoId);
 			//Create the youtube video link
 			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId;
-			//Init the Popcorn object
+
+			//Initialize a Popcorn object with the video link
+			//(1) Set a 'Media Wrapper' for the Popcorn object
 			var wrapper = Popcorn.HTMLYouTubeVideoElement('#videos');
+			//(2) Set the url for the video
 			wrapper.src = theVideoLink;
+			//(3) Initialize the Popcorn object with the wrapper
 			var popcornVideo = Popcorn(wrapper);
+			
+			/*
+			ALT METHOD - use the smart() method
+			var popcornVideo = Popcorn.smart( "#videos", theVideoLink );
+			*/
 
 			//Register events on the video
 			setVideoEvents(popcornVideo);
-
-			//*************************************************************//
-			// If you wanted to add multiple videos...
-			// var allPopcorns = [];
-			// for (var i = 0; i < 5; i++){
-			// 	var curVideoId = data.items[i].id.videoId;
-			// 	var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId;
-			// 	//Create a div
-			// 	$('#videos').append('<div class="video" id=' + curVideoId + '></div>');
-			// 	var tempWrapper = Popcorn.HTMLYouTubeVideoElement('#' + curVideoId);
-			// 	tempWrapper.src = curVideoLink;
-			// 	var tempPopcorn = Popcorn(tempWrapper);
-			// 	allPopcorns.push(tempPopcorn);
-			// }
-			//*************************************************************//
 		}
 	});
 }
@@ -57,33 +50,34 @@ function setVideoEvents(video){
 	video.on('timeupdate', function(){
 		$('#animation').append("<div class='greenBox'></div>");
 	});
-	
-	video.wikipedia({
-      start: 0,
-       end: 10,
-       src: "http://en.wikipedia.org/wiki/Cape_Town",
-       title: "this is an article",
-       target: "#wiki"
-   });
+
 	video.on('play', function(){
+		console.log('Playing at: ' + video.currentTime());
+
 		//changeBG();
 	});
+
 	video.on('pause',function(){
-		console.log("Paused!");
+		console.log("Paused at: " + video.currentTime());
 		$('#animation').append("<div class='redBox'></div>");
-		clearInterval(bgAnimation);
+		//clearInterval(bgAnimation);
+	});
+
+	video.cue(18, function() {
+		//Do somethinge at time :18
+		console.log("We reached second 18!");
 	});
 
 	//Plugins
 	video.footnote({
 		start: 1,
 		end: 5,
-		text: 'This text will appear in "infoBox"!!!',
+		text: 'The video is playing!!',
 		target: "infoBox"
 	});
 
 	video.code({
-		start: 8,
+		start: 5,
 		end: 12,
 		onStart: function( options ) {
 			console.log(options);
@@ -95,10 +89,13 @@ function setVideoEvents(video){
 		}
 	});
 
-	video.cue( 15, function() {
-		clearInterval(bgAnimation);
+	video.wikipedia({
+		start: 12,
+		end: 18,
+		src: "http://en.wikipedia.org/wiki/New_York_University_Abu_Dhabi",
+		title: "NYU AD",
+		target: "wiki"
 	});
-
 }
 
 function changeBG(){

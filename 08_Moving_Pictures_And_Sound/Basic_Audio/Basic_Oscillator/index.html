@@ -19,7 +19,8 @@
 			else {
 				alert("Web Audio API is not available. Please use a supported browser.");
 			}
-			// Actually create the context.
+			// Create an the audio context
+			// The audio context is for managing and playing all sounds
 			var context = new AudioContext();
 
 			var oscillator;
@@ -71,10 +72,10 @@
 									break;
 							//Press 1 to lower volume
 							case 49:
-									gainNode.gain.value -= 0.05;
+									gainNode.gain.value -= 0.1;
 							//Press 2 to raise volume
 							case 50:
-									gainNode.gain.value += 0.05;
+									gainNode.gain.value += 0.1;
 					}
 			});
 		</script>

@@ -2,7 +2,7 @@
 
 ##### I. Discussion - Week 7 Homework
 
-##### II. Download Code Examples
+##### II. Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Week_08_Code.zip)
 
 ##### III. Audio
 * Web Audio API
