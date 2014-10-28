@@ -35,11 +35,13 @@ p5 Code
 //Array to store the objects
 var astros = [];
 var msg = '';
-
+var canvasElement;
 function setup() {
 	console.log("Setup");
 	msg = createDiv('Getting Space Data...');
-	createCanvas(windowWidth, windowHeight);
+	var canvas = createCanvas(windowWidth, windowHeight);
+	canvasElement = canvas.elt;
+	console.log(canvasElement);
 	msg.addClass('msg');
 
 	/*
@@ -94,6 +96,18 @@ function mousePressed(){
 		if (astros[i].hovered){
 			astros[i].clicked();
 		}
+	}
+}
+
+function keyPressed(){
+	console.log("The Key Code: " + keyCode);
+	//Grab Canvas Image if SpaceBar is pressed
+	if (keyCode == 32){
+		console.log('SpaceBar was pressed. Grab canvas image');
+		var dataURL = canvasElement.toDataURL('image/jpeg');
+		console.log(dataURL);
+		//Open the image in a new window
+		window.open(dataURL, "Canvas Image");
 	}
 }
 
