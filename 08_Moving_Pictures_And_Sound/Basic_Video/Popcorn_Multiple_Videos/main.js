@@ -1,3 +1,8 @@
+/*
+You will need a YouTube Data API KEY to run this example
+https://developers.google.com/youtube/v3/getting-started
+*/
+
 var allPopcornObjects = [];
 
 function makeYoutubeRequest(terms){

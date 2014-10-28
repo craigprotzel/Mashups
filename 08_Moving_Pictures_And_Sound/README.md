@@ -29,4 +29,4 @@
 * [Youtube API](https://developers.google.com/youtube/v3/)
 
 ##### V. Homework
-* DUE - Project #2
+* DUE - Project #2. Your project must be running on the web. A blog post for this assignment is also required.

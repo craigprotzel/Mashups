@@ -1,3 +1,8 @@
+/*
+You will need a YouTube Data API KEY to run this example
+https://developers.google.com/youtube/v3/getting-started
+*/
+
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
@@ -50,19 +55,17 @@ function setVideoEvents(video){
 	video.on('timeupdate', function(){
 		$('#animation').append("<div class='greenBox'></div>");
 	});
-
 	video.on('play', function(){
 		console.log('Playing at: ' + video.currentTime());
-
 		//changeBG();
 	});
-
 	video.on('pause',function(){
 		console.log("Paused at: " + video.currentTime());
 		$('#animation').append("<div class='redBox'></div>");
 		//clearInterval(bgAnimation);
 	});
 
+	//Use the 'cue' to trigger an event at a specific time
 	video.cue(18, function() {
 		//Do somethinge at time :18
 		console.log("We reached second 18!");
