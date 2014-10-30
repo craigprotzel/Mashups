@@ -2,11 +2,12 @@
 You will need a YouTube Data API KEY to run this example
 https://developers.google.com/youtube/v3/getting-started
 */
-
+	
+var myKey = 'YOUR-KEY-GOES-HERE';
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
-	var myKey = 'YOUR-KEY-GOES-HERE';
+
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -20,6 +21,7 @@ function makeYoutubeRequest(term){
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
+			//return;
 
 			//Get the video id
 			var theVideoId = data.items[0].id.videoId;
@@ -27,6 +29,7 @@ function makeYoutubeRequest(term){
 			//Create the youtube video link
 			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId;
 
+			
 			//Initialize a Popcorn object with the video link
 			//(1) Set a 'Media Wrapper' for the Popcorn object
 			var wrapper = Popcorn.HTMLYouTubeVideoElement('#videos');
@@ -36,12 +39,28 @@ function makeYoutubeRequest(term){
 			var popcornVideo = Popcorn(wrapper);
 			
 			/*
-			ALT METHOD - use the smart() method
+			//ALT APPROACH - use the smart() method
 			var popcornVideo = Popcorn.smart( "#videos", theVideoLink );
 			*/
 
-			//Register events on the video
+			//Call a function to register event listeners on the video
 			setVideoEvents(popcornVideo);
+
+
+			/*
+			//ALT APPROACH - Check Duration
+			var minLength = 60;
+			//Wait for the entire video to be ready
+			popcornVideo.on('canplayall', function(){
+				console.log('Duration: ' + video.duration());
+				if (video.duration() > minLength){
+					setVideoEvents(popcornVideo);
+				}
+				else{
+					alert("The video is not long enough...");
+				}
+			});
+			*/
 		}
 	});
 }
@@ -53,8 +72,10 @@ function setVideoEvents(video){
 
 	//Media Methods
 	video.on('timeupdate', function(){
+		//console.log(video.currentTime());
 		$('#animation').append("<div class='greenBox'></div>");
 	});
+
 	video.on('play', function(){
 		console.log('Playing at: ' + video.currentTime());
 		//changeBG();
@@ -66,16 +87,16 @@ function setVideoEvents(video){
 	});
 
 	//Use the 'cue' to trigger an event at a specific time
-	video.cue(18, function() {
-		//Do somethinge at time :18
-		console.log("We reached second 18!");
+	video.cue(5, function() {
+		//Do somethinge at time :5
+		console.log("We reached second 5");
 	});
 
 	//Plugins
 	video.footnote({
 		start: 1,
 		end: 5,
-		text: 'The video is playing!!',
+		text: 'This is NYUAD!!',
 		target: "infoBox"
 	});
 
@@ -84,11 +105,11 @@ function setVideoEvents(video){
 		end: 12,
 		onStart: function( options ) {
 			console.log(options);
-			$('#infoBox').css({'color':'white', 'background-color': 'blue'});
-			$('#infoBox').html("More text!!!");
+			$('#infoBox').css({'color':'white', 'background-color': 'purple'});
+			$('#infoBox').html("Want to know more?");
 		},
 		onEnd: function( options ) {
-			$('#infoBox').html();
+			$('#infoBox').html("Read about NYUAD below!");
 		}
 	});
 
@@ -118,8 +139,5 @@ function generateRandomColor(){
 }
 
 $(document).ready(function(){
-	makeYoutubeRequest("world cup soccer");
+	makeYoutubeRequest("NYU Shanghai");
 });
-
-
-

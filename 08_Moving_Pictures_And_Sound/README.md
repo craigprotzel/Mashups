@@ -21,7 +21,8 @@
 * Code Examples - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Basic_Audio.zip)
 
 ##### IV. Video
-* [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
+* [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
+* [HTML5 Video Events & API](http://www.w3.org/2010/05/video/mediaevents.html)
 * HTML5 Video Libraries
 	* [PopcornJS](http://popcornjs.org/)
 	* [Popcorn Starter Code](https://github.com/benrito/popcorn-starter) - [Ben Moskowitz](https://twitter.com/benrito)

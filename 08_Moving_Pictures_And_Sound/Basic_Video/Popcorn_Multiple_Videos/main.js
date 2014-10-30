@@ -3,15 +3,14 @@ You will need a YouTube Data API KEY to run this example
 https://developers.google.com/youtube/v3/getting-started
 */
 
+var myKey = 'YOUR-KEY-GOES-HERE';
 var allPopcornObjects = [];
-
 function makeYoutubeRequest(terms){
 	$('#videos').html('');
 	allPopcornObjects = [];
 
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&type=video&q=' + terms + '&key=';
-	var myKey = 'YOUR-KEY-GOES-HERE';
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
