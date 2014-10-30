@@ -1,19 +1,18 @@
-// Decalre Requirements
+//Set up requirements
 var express = require("express");
 var logger = require('morgan');
 
-//Create the app
+//Create an 'express' object
 var app = express();
 
-// Log requests
+//Some Middleware - log requests to the terminal console
 app.use(logger('dev'));
 
-// Set up the view directory
+//Set up the views directory
 app.set("views", __dirname);
-// Set EJS as templating language
+//Set EJS as templating language WITH html as an extension
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
-
 //Add connection to the public folder for css & js files
 app.use(express.static(__dirname + '/public'));
 

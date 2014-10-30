@@ -13,7 +13,7 @@ app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 
 // Set up some super simple basic authentication middleware
-var authConfig = {user: 'itp', password: 'mashups'};
+var authConfig = {user: 'nyuad', password: 'mashups'};
 
 //Call a function on specific routes
 function superSimpleAuth(req, res, next){

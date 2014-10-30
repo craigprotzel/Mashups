@@ -1,13 +1,12 @@
-//SETUP
-// Decalre Requirements
+//Set up requirements
 var express = require("express");
-//Create the app
+//Create an 'express' object
 var app = express();
 
-// Set up the view directory
+//Set up the view directory
 app.set("views", __dirname);
 
-// Set EJS as templating language WITH html as an extension)
+//Set EJS as templating language WITH html as an extension
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 
