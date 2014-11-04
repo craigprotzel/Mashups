@@ -26,7 +26,7 @@ Create a single web page experience that leverages data from at least one public
 * Joe - [Internet Cellphone Use](http://joejean.github.io/internet-cellphone-use/)  
 * James - [Survival](http://jameshosken.com/mashups/projects/survival/)
 * Mac - [Something Noisy](http://somethingnoisy.herokuapp.com/)
-* Witold - [GDP-Planet])http://wit221.github.io/GDP-Planet/)
+* Witold - [GDP-Planet](http://wit221.github.io/GDP-Planet/)
 * Julia - [UAE Politics](http://soulfirefly.github.io/uae-politics)
 * Mick - [Course Planning](http://jj1192.github.io/CoursePlanning/)
 
