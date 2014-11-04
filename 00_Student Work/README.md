@@ -23,7 +23,9 @@ Create a single web page experience that, upon user input, responds with data fr
 Assignment #2 - Due 11/4
 -------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
-* Joe - [Internet Cellphone Use](http://joejean.github.io/internet-cellphone-use/) 
+* Joe - [Internet Cellphone Use](http://joejean.github.io/internet-cellphone-use/)  
+* James - [Survival](http://jameshosken.com/mashups/projects/survival/)
+* Mac - [Something Noisy](http://somethingnoisy.herokuapp.com/)
 
 Final Project - Due 12/9
 -------------------------
