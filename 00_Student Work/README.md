@@ -27,15 +27,15 @@ Create a single web page experience that leverages data from at least one public
 * James - [Survival](http://jameshosken.com/mashups/projects/survival/)
 * Mac - [Something Noisy](http://somethingnoisy.herokuapp.com/)
 * Witold - [GDP-Planet](http://wit221.github.io/GDP-Planet/)
-* Julia - [UAE Politics](http://soulfirefly.github.io/uae-politics)
+* Julia - UAE Politics
 * Mick - [Course Planning](http://jj1192.github.io/CoursePlanning/)
 * Batu - [Zebra](http://batu.github.io/zebra/)
 * Patrick - [I Will Survive](http://pkw228.github.io/IWillSurvive/)
-* Fah -
-* Darya -
-* Chuksy -
+* Darya - [Quick Brown Fox](http://quick-brown-fox.pancakeapps.com/)
+* Fah - 
+* Chuksy - [Mbe](http://tortoise.pancakeapps.com/)
 * Rock -
-* Kai -
+* Kai - 
 * Asryque - 
 
 Final Project - Due 12/9
