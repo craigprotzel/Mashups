@@ -29,6 +29,7 @@ Create a single web page experience that leverages data from at least one public
 * Witold - [GDP-Planet](http://wit221.github.io/GDP-Planet/)
 * Julia - [UAE Politics](http://soulfirefly.github.io/uae-politics)
 * Mick - [Course Planning](http://jj1192.github.io/CoursePlanning/)
+* Batu - [Zebra]](http://batu.github.io/zebra/)
 
 Final Project - Due 12/9
 -------------------------
