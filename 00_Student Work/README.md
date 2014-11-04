@@ -30,7 +30,7 @@ Create a single web page experience that leverages data from at least one public
 * Julia - [UAE Politics](http://soulfirefly.github.io/uae-politics)
 * Mick - [Course Planning](http://jj1192.github.io/CoursePlanning/)
 * Batu - [Zebra](http://batu.github.io/zebra/)
-* Patrick - [I Will Survive](]http://pkw228.github.io/IWillSurvive/)
+* Patrick - [I Will Survive](http://pkw228.github.io/IWillSurvive/)
 * Fah -
 * Darya -
 * Chuksy -
