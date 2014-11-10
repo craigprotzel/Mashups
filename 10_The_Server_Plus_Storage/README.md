@@ -9,16 +9,27 @@
 	* server-side code (i.e. Node-Express)
 	* data-storage (i.e. CouchDB on Cloudant)
 
-##### III. Creating your own API
-* Dynamic Routes    
-* Main Page, Input Page, Data Page
+##### III. Node-Express Intro Redux
+* Review Express Basic Examples  
+	* [Understanding Module.exports & exports in NodeJS](http://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+	* [Exports vs Module.exports in NodeJS](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html)
+	* [EJS for Node](https://github.com/tj/ejs)
+	* [Embedded Javascript](http://www.embeddedjs.com/)
+* Dynamic Routes  
+* API Calls on the Server    
+	* [Request Library](https://www.npmjs.org/package/request) 
+	* [Request Library Documentation](https://github.com/request/request)
+	* [JSON Parse](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) & [JSON Stringify](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
-##### IV. Storage with CouchDB
-* [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/CouchDB.zip)
+##### IV. Creating your own API
+ * Main Page, Input Page, Data Page
+
+##### V. Storage with CouchDB
+* Download Code Examples
 * [CouchDB](http://couchdb.apache.org/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
 
-##### V. Homework
-* Create - an Express-CouchDB (Cloudant) version of last week's homework
+##### VI. Homework
+* Create - an Express-CouchDB (Cloudant) app that takes input from a user and stores it in your database
 * Prepare - 2 Final Project Proposals to share with the class

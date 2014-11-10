@@ -18,9 +18,5 @@
 	* [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
 ##### IV. Homework
+* Coding Exercise
 * Work - on Final Project
-* Download & Install - [Git](http://git-scm.com/downloads)
-* Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise 
-* Additional
-	* Read - [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
-	* Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)

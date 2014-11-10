@@ -16,5 +16,6 @@
 	* Github Common Problem - [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
 ##### IV. Homework
+* Coding exercise
 * Complete working version of Final
 * Prepare questions for class feedback 
