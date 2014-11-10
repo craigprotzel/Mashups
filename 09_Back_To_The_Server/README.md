@@ -19,3 +19,4 @@
 * Create - A basic Express app from one of your existing projects. Bonus - try to include a "dynamic" route where the url affects the page content. The app should run locally on your computer. You do not need to push it up to the web.
 * Additional Readings
 	* [The Node Beginner Book](http://www.nodebeginner.org/)
+	* [Understanding NodeJS](http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb)
