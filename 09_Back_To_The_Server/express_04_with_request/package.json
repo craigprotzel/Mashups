@@ -1,0 +1,17 @@
+{
+  "name": "your-application-name",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "4.x",
+    "morgan": "~1.0.0",
+    "request": "^2.47.0"
+  }
+}

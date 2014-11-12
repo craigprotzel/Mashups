@@ -8,6 +8,7 @@
 * Install [NodeJS](http://nodejs.org/)
 * [Express Framework](http://expressjs.com/)
 * [NPM - Dependencies](https://www.npmjs.org/doc/files/package.json.html#dependencies)
+	* [NPM - Tilde vs Caret](http://stackoverflow.com/questions/22343224/difference-between-tilde-and-caret-in-package-json)
 * [Nodemon Package](http://nodemon.io/)
 
 ##### III. Homework
