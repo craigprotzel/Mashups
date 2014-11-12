@@ -31,5 +31,9 @@
 	* data-storage (i.e. CouchDB on Cloudant)
 
 ##### VI. Homework
-* Create - an Express-CouchDB (Cloudant) app that takes input from a user and stores it in your database
+* Create - a  Node-Express app that runs locally on your computer that has **4 routes**
+	* '/' - the landing page
+	* '/:term' - a page with an api request based on the url  
+	* '/api/:term' - a page that shows json data based on the url
+	* '*' - a catch all page
 * Prepare - 2 Final Project Proposals to share with the class
