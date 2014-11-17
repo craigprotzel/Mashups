@@ -16,6 +16,7 @@
 
 ##### III. Creating your own API
  * Main Page, Input Page, Data Page
+ * [CORS Enabled Routes](http://enable-cors.org/server.html)
 
 ##### IV. Storage with CouchDB
 * Download Code Examples - HERE

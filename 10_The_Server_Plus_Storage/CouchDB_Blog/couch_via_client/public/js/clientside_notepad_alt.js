@@ -53,7 +53,7 @@ var loadNotes = function () {
 		// Use Underscore's sort method to sort our records by date.
 		sorted = _.sortBy(notes.rows, function (row) { return row.doc.created_at;});
 
-		// Now that the notes are sorted, render them using underscore templates
+		// Now that the notes are sorted, render them usng the template
 		sorted.forEach(function (row) {
 			var compiledTmpl = noteTemplate(row.doc);
 			$('#notes').append(compiledTmpl);

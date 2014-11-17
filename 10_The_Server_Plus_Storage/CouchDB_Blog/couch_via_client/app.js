@@ -15,7 +15,8 @@ app.use(express.static(__dirname + '/public'));
 // Set EJS as templating language and say that the views will be in a folder
 // named 'views'
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+app.engine('.html', require('ejs').__express);
+app.set('view engine', 'html');
 
 // ROUTES
 app.get("/", function(request, response) {

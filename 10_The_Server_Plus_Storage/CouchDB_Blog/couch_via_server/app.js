@@ -1,10 +1,6 @@
 var express = require('express');
-var bodyParser = require('body-parser');
-// the request library will be used to query CouchDB
 var Request = require('request');
-// Just like on the client side.
-var _ = require('underscore');
-var errorHandler = require('errorhandler');
+var bodyParser = require('body-parser');
 
 var app = express();
 
@@ -12,10 +8,10 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 // Set EJS as templating language
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+app.engine('.html', require('ejs').__express);
+app.set('view engine', 'html');
 // Enable json body parsing of application/json
 app.use(bodyParser.json());
-
 
 //******* DATABASE Configuration *******
 // The username you use to log in to cloudant.com
@@ -28,10 +24,9 @@ var CLOUDANT_PASSWORD="";
 
 var CLOUDANT_URL = "https://" + CLOUDANT_USERNAME + ".cloudant.com/" + CLOUDANT_DATABASE;
 
-
-//******* ROUTES ******* 
+//******* ROUTES *******
 // GET - route to load the main page
-app.get("/", function(request, response) {
+app.get("/", function (request, response) {
 	console.log("In main route");
 	response.render('index', {title: "Notepad"});
 });
@@ -82,7 +77,7 @@ app.get("/api/:key", function (request, response) {
 		var theData = theBody.rows;
 
 		// And then filter the results to match the desired key.
-		var filteredData = _.filter(theData, function (d) {
+		var filteredData = theData.filter(function (d) {
 			return d.doc.namespace == request.params.key;
 		});
 		// Now use Express to render the JSON.
@@ -96,8 +91,10 @@ app.get("/:key", function (request, response) {
 	response.render('notes',{title: "Notepad", key: request.params.key});
 });
 
-// Set up Express error handling
-app.use(errorHandler());
+// GET - Catch All route
+app.get("*", function(request,response){
+	response.send("Sorry, nothing to see here.");
+});
 
 app.listen(3000);
 console.log('Express started on port 3000');
