@@ -18,8 +18,8 @@
  * Main Page, Input Page, Data Page
 
 ##### IV. Storage with CouchDB
-* Download Code Examples
-* [CouchDB](http://couchdb.apache.org/)
+* Download Code Examples - HERE
+* [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
 
