@@ -8,7 +8,7 @@ var noteTemplate = function (data) {
   return template;
 };
 
-// A function to accept a JSON object and post it to CouchDB
+// A function to accept an object and POST it to the server as JSON
 function saveRecord (theData) {
   // Set the namespace for this note
   theData.namespace = window.key;

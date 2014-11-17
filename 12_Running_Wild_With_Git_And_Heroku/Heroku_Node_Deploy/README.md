@@ -4,31 +4,31 @@ How to Deploy to Heroku for Mashups Class
 Note: The following steps are spcifically for Mac users who have node installed on their machines.
 
 #### Step 1 - The App
-* Create a Node-Express App - if you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/Server_Node_Express/express_with_public_folder)
+* Create a Node-Express App - if you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server/express_03_with_public_folder)
 * In the app.js file update the `app.listen` method to include an `env.PORT` variable  
 	```
 	app.listen(process.env.PORT || 3000);
 	```
-* Create a file named `Procfile` in the app directory. Add this line of code to the file
+* Create a file named `Procfile` in the app's main directory. Add this line of code to the file
 	```
 	web: node app.js
 	```
 * Check the `package.json` to make sure it is complete
-* Create a file named `.gitignore` in the app directory and add this line of code to the file
+* Create a file named `.gitignore` in the app's main directory and add this line of code to the file
 	```
 	node_modules
 	```
-	* Note, the `.gitgnore` file will not appear in your directory
+	* Note, the `.gitgnore` file will not appear in your finder directory
 
 #### Step 2 - The Git Repo
-* Install [git](http://git-scm.com/downloads)
-* In Terminal, set up your `git config vars` - you only have to do this once
+* Install [git](http://git-scm.com/downloads) (skip if already installed)
+* In Terminal, set up your `git config vars` - you only have to do this once (skip if already set up)
 
 	```
 	git config --global user.name "YOUR_FULL_NAME"  
 	git config --global user.email "YOUR_EMAIL_ADDRESS"
 	```
-* Navigate (`cd`) to your app directory in Terminal
+* Navigate (`cd`) to your app's main directory in Terminal
 * Create a git repository and commit your app by executing the following commands in Terminal
 
 	```
@@ -37,13 +37,13 @@ Note: The following steps are spcifically for Mac users who have node installed 
 	git commit -m "First commit"
 	```
 * At anytime it is helpful to execute `git status` or `git status -s` for a "short" version of what the state of the git repository is.
-* If you are unsure of what is going to be added to the git repository when you run `git add .`, you can always type `git add -n .` to do a test run of what will occur. 
+* If you are unsure of what is going to be added to the git repository when you run `git add -A`, you can always type `git add -n .` to do a test run of what will occur. 
 * If you are only interested in adding a specific file to the repository you can type `git add file-name` to add only a specific file
 
 #### Step 3 - The Heroku Site
 * Create an account on [Heroku](https://heroku.com)
 * Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
-* In Terminal in your app's directory, first login to Heroku by typing 
+* In Terminal in your app's main directory, first login to Heroku by typing 
 
 	```
 	heroku login
