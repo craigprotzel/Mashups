@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Favorite Words</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<h3 id='mainTitle'>Favorite Words!</h3>
+		<div id="container">
+			<div>
+				Name:<input type='text' id='userName'/>
+			</div>
+			<div>
+				Favorite Word:<input type='text' id="favWord"/>
+			</div>
+			<button id="enterButton">Enter</button>
+		</div>
+		
+		<script>
+			//Grab the response object var
+			var page = '<%=page%>';
+		</script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
