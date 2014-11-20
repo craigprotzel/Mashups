@@ -1,8 +1,8 @@
 var noteTemplate = function (data) {
 	template = '<div class="note">';
 	template += new Date(data.created_at);
-	template += '<h3>'+_.escape(data.title)+'</h3>';
-	template += '<div>'+_.escape(data.text)+'</div>';
+	template += '<h3>'+ data.title +'</h3>';
+	template += '<div>'+ data.text +'</div>';
 	template += '</div>';
 
 	return template;

@@ -9,7 +9,7 @@ function makeHTML(theData){
 
 function getWord(term){
 	$.ajax({
-		url: '/api/' + term,
+		url: '/api/word/' + term,
 		type: 'GET',
 		dataType: 'json',
 		error: function(data){

@@ -93,7 +93,7 @@ app.get("/api/all", function(req,res){
 });
 
 //JSON Serving route - Single Word
-app.get("/api/:word", function(req, res){
+app.get("/api/word/:word", function(req, res){
 	var currentWord = req.params.word;
 	console.log('Making a db request for: ' + currentWord);
 	// Use the Request lib to GET the data in the CouchDB on Cloudant
@@ -118,7 +118,7 @@ app.get("/api/:word", function(req, res){
 
 //Catch All Route
 app.get("*", function(req, res){
-	response.send('Sorry, nothing doing here.');
+	res.send('Sorry, nothing doing here.');
 });
 
 // Start the server

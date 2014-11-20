@@ -50,7 +50,7 @@ app.get("/api/:word", function(req, res){
 
 //Catch All Route
 app.get("*", function(req, res){
-	response.send('Sorry, nothing doing here.');
+	res.send('Sorry, nothing doing here.');
 });
 
 // Start the server

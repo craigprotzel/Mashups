@@ -22,5 +22,8 @@
 	* [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
 ##### IV. Homework
-* Coding Exercise
+* Create - a  Node-Express app that runs locally on your coputer and saves data to a CouchDB on Cloudant. Your app should include the following:
+	* The ability for user input to be saved in your database
+	* The presentation of data from your database on a page
+	* At least one route that serves data from your database to a page as json
 * Work - on Final Project
