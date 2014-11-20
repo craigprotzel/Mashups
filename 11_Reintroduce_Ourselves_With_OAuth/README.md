@@ -4,7 +4,7 @@
 * Final Project Proposals
 
 ##### II. More Storage  
-* Download Code Examples - [HERE](https://www.dropbox.com/s/3tyceuxmnyiqjw7/CouchDB_Examples.zip?dl=0)
+* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/CouchDB_Examples.zip)
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/contents.html)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
@@ -22,8 +22,9 @@
 	* [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 
 ##### IV. Homework
-* Create - a  Node-Express app that runs locally on your coputer and saves data to a CouchDB on Cloudant. Your app should include the following:
+* Create - a  Node-Express app that runs locally on your computer and saves data to a CouchDB on Cloudant. Your app should include the following:
 	* The ability for user input to be saved in your database
 	* The presentation of data from your database on a page
 	* At least one route that serves data from your database to a page as json
+	* **BONUS** - include a query paramater in your api route
 * Work - on Final Project

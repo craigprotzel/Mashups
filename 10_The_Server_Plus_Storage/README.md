@@ -22,7 +22,7 @@
  * [BodyParser Library](https://github.com/expressjs/body-parser)
 
 ##### IV. Storage with CouchDB
-* Download Code Examples - [HERE](https://www.dropbox.com/s/3tyceuxmnyiqjw7/CouchDB_Examples.zip?dl=0)
+* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/CouchDB_Examples.zip)
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
