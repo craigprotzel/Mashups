@@ -74,7 +74,7 @@ passport.use(new TwitterStrategy({
 	}
 ));
 
-//Route middleware to make sure a user is authenitcated
+//Route middleware to make sure a user is authenticated
 function checkAuthentication(req, res, next) {
 	// If user is authenticated in the session, carry on
 	if (req.isAuthenticated()){

@@ -20,6 +20,7 @@
 * Additional
 	* Sessions, Cookies, Local Storage, SSL, and HTTPS
 	* [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
+	* ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
 ##### IV. Homework
 * Create - a  Node-Express app that runs locally on your computer and saves data to a CouchDB on Cloudant. Your app should include the following:

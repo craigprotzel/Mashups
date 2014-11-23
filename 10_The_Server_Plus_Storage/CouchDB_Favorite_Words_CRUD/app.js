@@ -31,6 +31,7 @@ ROUTES
 
 //Main Page Route - Show ALL data via Clientside Request
 app.get("/", function(req, res){
+	console.log(req.params);
 	res.render('index', {page: 'get all data'});
 });
 
@@ -72,18 +73,68 @@ app.post("/save", function(req,res){
  });
 });
 
+//DELETE an object from the database
+app.post("/delete", function(req,res){
+	console.log("Deleting an object");
+	var theObj = req.body;
+	//URL must include the obj ID and REV values
+	var theURL = cloudant_URL + '/' + theObj._id + '?rev=' + theObj._rev;
+	Request.del({
+		url: theURL,
+		auth: {
+			user: cloudant_KEY,
+			pass: cloudant_PASSWORD
+		}
+	}, function (error, response, body){
+		var theBody = JSON.parse(body);
+		console.log(theBody);
+		res.json(theBody);
+	});
+});
+
+//UPDATE an object in the database
+app.post('/update', function(req,res){
+	console.log("Updating an object");
+	var theObj = req.body;
+	//Send the data to the db
+	Request.post({
+		url: cloudant_URL,
+		auth: {
+			user: cloudant_KEY,
+			pass: cloudant_PASSWORD
+		},
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify(theObj)
+	},
+	function (error, response, body){
+		if (response.statusCode == 201){
+			console.log("Saved!");
+			var msg = JSON.parse(body);
+			res.json(msg);
+		}
+		else{
+			console.log("Uh oh...");
+			console.log("Error: " + res.statusCode);
+			res.send("Something went wrong...");
+		}
+	});
+});
+
 //GET objects from the database
 //Also a JSON Serving route (ALL Data)
 app.get("/api/all", function(req,res){
 	console.log('Making a db request for all entries');
 	// Use the Request lib to GET the data in the CouchDB on Cloudant
 	Request.get({
-		url: cloudant_URL+"/_all_docs?include_docs=true",
+		url: cloudant_URL + "/_all_docs?include_docs=true",
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
 		}
-	}, function (error, response, body){
+	},
+	function (error, response, body){
 		// Need to parse the body string
 		var theBody = JSON.parse(body);
 		var theRows = theBody.rows;
@@ -92,9 +143,12 @@ app.get("/api/all", function(req,res){
 	});
 });
 
-//JSON Serving route - Single Word
+//GET objects from the database
+//Also a JSON Serving route (Filtered Data)
 app.get("/api/word/:word", function(req, res){
 	var currentWord = req.params.word;
+	console.log(req.query);
+	var nums = req.query.nums;
 	console.log('Making a db request for: ' + currentWord);
 	// Use the Request lib to GET the data in the CouchDB on Cloudant
 	Request.get({
