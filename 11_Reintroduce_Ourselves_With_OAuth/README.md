@@ -10,23 +10,27 @@
 * [Cloudant](https://cloudant.com)
 
 ##### III. Web Security & Authentication
+* Download Authentication Examples - HERE
 * Mozilla - [How Do I Tell If  My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
 	* [Base64 Decode](https://www.base64decode.org/)
-* [HTTPS](https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security)) & SSL
+* [HTTPS & SSL](http://searchsoftwarequality.techtarget.com/definition/HTTPS)
 	* Hack Sparrow - [Express.js HTTPS Example](http://www.hacksparrow.com/express-js-https-server-client-example.html) 
 	* [Creating An SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self#generate-private-key-and-certificate-signing-request)
 *	Sessions, Cookies, Local Storage
 
 ##### IV. Open Authentication (OAuth)  
-* Download Code Examples - HERE
-* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
-* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
-* [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
-* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
+* OAuth Exaplained
+	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
+	* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+	* [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
+	* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node
-* [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
+	* [PassportJS - User Profiles](http://passportjs.org/guide/profile/)
+	* [Twitter OAuth Example](http://passportjs.org/guide/twitter/)
+		* [Twitter API](https://dev.twitter.com/overview/documentation)
+		* [Twiiter Apps Account](https://apps.twitter.com/)
 * Additional
 	* ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 

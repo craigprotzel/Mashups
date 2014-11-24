@@ -7,14 +7,14 @@ https://github.com/jaredhanson/passport-twitter/blob/master/examples/signin/app.
 
 // Decalre Requirements
 var express = require("express"),
-	bodyParser = require('body-parser'),
-	errorHandler = require('errorhandler'),
-	Request = require('request'),
-	_ = require('underscore'),
-	cookieParser = require('cookie-parser'),
-	session = require ('express-session'),
-	passport = require('passport'),
-	TwitterStrategy = require('passport-twitter').Strategy;
+bodyParser = require('body-parser'),
+errorHandler = require('errorhandler'),
+Request = require('request'),
+_ = require('underscore'),
+cookieParser = require('cookie-parser'),
+session = require ('express-session'),
+passport = require('passport'),
+TwitterStrategy = require('passport-twitter').Strategy;
 
 //Create the app
 var app = express();
@@ -31,13 +31,13 @@ app.use(bodyParser.json());
 
 //Cookies must be turned on for sessions
 app.use(cookieParser());
-app.use(session({secret: 'sessionSecret', cookie: { maxAge: 100000 }}));
+app.use(session({secret: 'sessionSecret', cookie: { maxAge: 100000 }, resave: true, saveUninitialized: true}));
 
 app.use(passport.initialize());
 app.use(passport.session());
 
-var TWITTER_CONSUMER_KEY = 'YOUR-CONSUMER-KEY-GOES-HERE';
-var TWITTER_CONSUMER_SECRET = 'YOUR-CONSUMER-SECRET-GOES-HERE';
+var TWITTER_CONSUMER_KEY = 'pgDrTLVtkErr1urK823O1vw6g';
+var TWITTER_CONSUMER_SECRET = 'cN4ktPpfuY0Q2zXINOEFZcfN9nSCZmOIr5K8yfxfMz7fp9tDKV';
 
 //Save oAuthData in an object
 var oAuthData = {
@@ -48,9 +48,11 @@ var oAuthData = {
 };
 
 passport.serializeUser(function(user, done) {
+	console.log("SERIALIZE!!!");
 	done(null, user);
 });
 passport.deserializeUser(function(obj, done) {
+	console.log("-----DESERIALIZE-----");
 	done(null, obj);
 });
 
@@ -69,6 +71,7 @@ passport.use(new TwitterStrategy({
 			//Typically you would check for the user in our database
 			//But we aren't storing any users
 			//So just going to return the current user
+
 			return done(null, profile);
 		});
 	}
@@ -111,10 +114,8 @@ app.get("/success", checkAuthentication, function(req, res){
 			json: true
 		},
 		function (err, resTwit, body) {
-			//console.log(body);
 			console.log("Tweet Response");
-			//console.log(body);
-
+			console.log(body);
 			//Respond with this line to show json on the page
 			// res.json(body);
 
@@ -142,6 +143,10 @@ app.get("/auth/twitter/callback", passport.authenticate('twitter', { failureRedi
 		res.redirect('/success');
 	});
 //****************************************//
+
+app.get("*", function(req,res){
+	res.redirect("/");
+});
 
 // Set up Express error handling
 app.use(errorHandler());
