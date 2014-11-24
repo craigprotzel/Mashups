@@ -9,7 +9,17 @@
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
 
-##### III. Open Authentication (OAuth)  
+##### III. Web Security & Authentication
+* Mozilla - [How Do I Tell If  My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
+* [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
+	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
+	* [Base64 Decode](https://www.base64decode.org/)
+* [HTTPS](https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security)) & SSL
+	* Hack Sparrow - [Express.js HTTPS Example](http://www.hacksparrow.com/express-js-https-server-client-example.html) 
+	* [Creating An SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self#generate-private-key-and-certificate-signing-request)
+*	Sessions, Cookies, Local Storage
+
+##### IV. Open Authentication (OAuth)  
 * Download Code Examples - HERE
 * [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
 * [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
@@ -18,11 +28,9 @@
 * [PassportJS](http://passportjs.org/) - Authentication for Node
 * [Twitter REST API v.1.1](https://dev.twitter.com/docs/api/1.1)
 * Additional
-	* Sessions, Cookies, Local Storage, SSL, and HTTPS
-	* [XKCD - How The Heartbleed Bug Works](http://xkcd.com/1354/)
 	* ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
-##### IV. Homework
+##### V. Homework
 * Create - a  Node-Express app that runs locally on your computer and saves data to a CouchDB on Cloudant. Your app should include the following:
 	* The ability for user input to be saved in your database
 	* The presentation of data from your database on a page
