@@ -2,6 +2,4 @@
 
 ##### I. Final Presentations
 
-##### II. Course Review
-
-##### III. Course Evaluations
+##### II. IM SHOW - Thursday Dec.11

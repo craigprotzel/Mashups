@@ -80,7 +80,6 @@ function saveData(obj){
 }
 
 $(document).ready(function(){
-
 	if (page === 'get all data'){
 		$('#container').show();
 		getAllData();

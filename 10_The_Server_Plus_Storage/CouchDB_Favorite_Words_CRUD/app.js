@@ -103,6 +103,7 @@ app.post("/delete", function(req,res){
 	var theObj = req.body;
 	//The URL must include the obj ID and the obj REV values
 	var theURL = cloudant_URL + '/' + theObj._id + '?rev=' + theObj._rev;
+	//Need to make a DELETE Request
 	Request.del({
 		url: theURL,
 		auth: {

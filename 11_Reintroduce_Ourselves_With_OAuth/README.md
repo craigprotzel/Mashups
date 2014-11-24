@@ -8,6 +8,9 @@
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/contents.html)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
+* CRUD
+	* [Favorite Words CRUD Example](https://dl.dropboxusercontent.com/u/9648298/CouchDB_Favorite_Words_CRUD.zip)
+	* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
 
 ##### III. Web Security & Authentication
 * Download Authentication Examples - HERE
