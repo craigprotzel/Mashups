@@ -36,8 +36,8 @@ app.use(session({secret: 'sessionSecret', cookie: { maxAge: 100000 }, resave: tr
 app.use(passport.initialize());
 app.use(passport.session());
 
-var TWITTER_CONSUMER_KEY = 'pgDrTLVtkErr1urK823O1vw6g';
-var TWITTER_CONSUMER_SECRET = 'cN4ktPpfuY0Q2zXINOEFZcfN9nSCZmOIr5K8yfxfMz7fp9tDKV';
+var TWITTER_CONSUMER_KEY = 'YOUR-CONSUMER-KEY-GOES-HERE';
+var TWITTER_CONSUMER_SECRET = 'YOUR-CONSUMER-SECRET-GOES-HERE';
 
 //Save oAuthData in an object
 var oAuthData = {
