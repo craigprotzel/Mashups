@@ -42,51 +42,47 @@ app.get("/:word", function(req, res){
 
 //SAVE an object to the db
 app.post("/save", function(req,res){
- console.log("A POST!!!!");
- //Get the data from the body
- var data = req.body;
- console.log(data);
- //Send the data to the db
- Request.post({
-	url: cloudant_URL,
-	auth: {
-		user: cloudant_KEY,
-		pass: cloudant_PASSWORD
+	console.log("A POST!!!!");
+	//Get the data from the body
+	var data = req.body;
+	console.log(data);
+	//Send the data to the db
+	Request.post({
+		url: cloudant_URL,
+		auth: {
+			user: cloudant_KEY,
+			pass: cloudant_PASSWORD
+		},
+		json: true,
+		body: data
 	},
-	headers: {
-		"Content-Type": "application/json"
-	},
-	body: JSON.stringify(data)
- },
- function (error, response, body){
-	if (response.statusCode == 201){
-		console.log("Saved!");
-		var msg = JSON.parse(body);
-		res.json(msg);
-	}
-	else{
-		console.log("Uh oh...");
-		console.log("Error: " + res.statusCode);
-		res.send("Something went wrong...");
-	}
- });
+	function (error, response, body){
+		if (response.statusCode == 201){
+			console.log("Saved!");
+			res.json(body);
+		}
+		else{
+			console.log("Uh oh...");
+			console.log("Error: " + res.statusCode);
+			res.send("Something went wrong...");
+		}
+	});
 });
 
-//GET objects from the database
-//Also a JSON Serving route (ALL Data)
+//JSON Serving route - ALL Data
 app.get("/api/all", function(req,res){
 	console.log('Making a db request for all entries');
-	// Use the Request lib to GET the data in the CouchDB on Cloudant
+	//Use the Request lib to GET the data in the CouchDB on Cloudant
 	Request.get({
 		url: cloudant_URL+"/_all_docs?include_docs=true",
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
-		}
-	}, function (error, response, body){
-		// Need to parse the body string
-		var theBody = JSON.parse(body);
-		var theRows = theBody.rows;
+		},
+		json: true
+	},
+	function (error, response, body){
+		var theRows = body.rows;
 		//Send the data
 		res.json(theRows);
 	});
@@ -96,19 +92,18 @@ app.get("/api/all", function(req,res){
 app.get("/api/word/:word", function(req, res){
 	var currentWord = req.params.word;
 	console.log('Making a db request for: ' + currentWord);
-	// Use the Request lib to GET the data in the CouchDB on Cloudant
+	//Use the Request lib to GET the data in the CouchDB on Cloudant
 	Request.get({
 		url: cloudant_URL+"/_all_docs?include_docs=true",
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
-		}
-	}, function (error, response, body){
-		//Need to parse the body string
-		var theBody = JSON.parse(body);
-		var theRows = theBody.rows;
-
-		// Then filter the results to match the current word
+		},
+		json: true
+	},
+	function (error, response, body){
+		var theRows = body.rows;
+		//Filter the results to match the current word
 		var filteredRows = theRows.filter(function (d) {
 			return d.doc.word == currentWord;
 		});

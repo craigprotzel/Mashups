@@ -43,53 +43,31 @@ app.get("/:word", function(req, res){
 
 //SAVE an object to the db
 app.post("/save", function(req,res){
- console.log("A POST!!!!");
- //Get the data from the body
- var data = req.body;
- console.log(data);
- //Send the data to the db
- Request.post({
-	url: cloudant_URL,
-	auth: {
-		user: cloudant_KEY,
-		pass: cloudant_PASSWORD
-	},
-	headers: {
-		"Content-Type": "application/json"
-	},
-	body: JSON.stringify(data)
- },
- function (error, response, body){
-	if (response.statusCode == 201){
-		console.log("Saved!");
-		var msg = JSON.parse(body);
-		res.json(msg);
-	}
-	else{
-		console.log("Uh oh...");
-		console.log("Error: " + res.statusCode);
-		res.send("Something went wrong...");
-	}
- });
-});
-
-//DELETE an object from the database
-app.post("/delete", function(req,res){
-	console.log("Deleting an object");
-	var theObj = req.body;
-	//URL must include the obj ID and REV values
-	var theURL = cloudant_URL + '/' + theObj._id + '?rev=' + theObj._rev;
-	Request.del({
-		url: theURL,
+	console.log("A POST!!!!");
+	//Get the data from the body
+	var data = req.body;
+	console.log(data);
+	//Send the data to the db
+	Request.post({
+		url: cloudant_URL,
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
+		},
+		json: true,
+		body: data
+	},
+	function (error, response, body){
+		if (response.statusCode == 201){
+			console.log("Saved!");
+			res.json(body);
 		}
-	}, function (error, response, body){
-		var theBody = JSON.parse(body);
-		console.log(theBody);
-		res.json(theBody);
-	});
+		else{
+			console.log("Uh oh...");
+			console.log("Error: " + res.statusCode);
+			res.send("Something went wrong...");
+		}
+ });
 });
 
 //UPDATE an object in the database
@@ -103,22 +81,39 @@ app.post('/update', function(req,res){
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
 		},
-		headers: {
-			"Content-Type": "application/json"
-		},
-		body: JSON.stringify(theObj)
+		json: true,
+		body: theObj
 	},
 	function (error, response, body){
 		if (response.statusCode == 201){
-			console.log("Saved!");
-			var msg = JSON.parse(body);
-			res.json(msg);
+			console.log("Updated!");
+			res.json(body);
 		}
 		else{
 			console.log("Uh oh...");
 			console.log("Error: " + res.statusCode);
 			res.send("Something went wrong...");
 		}
+	});
+});
+
+//DELETE an object from the database
+app.post("/delete", function(req,res){
+	console.log("Deleting an object");
+	var theObj = req.body;
+	//The URL must include the obj ID and the obj REV values
+	var theURL = cloudant_URL + '/' + theObj._id + '?rev=' + theObj._rev;
+	Request.del({
+		url: theURL,
+		auth: {
+			user: cloudant_KEY,
+			pass: cloudant_PASSWORD
+		},
+		json: true
+	},
+	function (error, response, body){
+		console.log(body);
+		res.json(body);
 	});
 });
 
@@ -132,12 +127,11 @@ app.get("/api/all", function(req,res){
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
-		}
+		},
+		json: true
 	},
 	function (error, response, body){
-		// Need to parse the body string
-		var theBody = JSON.parse(body);
-		var theRows = theBody.rows;
+		var theRows = body.rows;
 		//Send the data
 		res.json(theRows);
 	});
@@ -156,13 +150,12 @@ app.get("/api/word/:word", function(req, res){
 		auth: {
 			user: cloudant_KEY,
 			pass: cloudant_PASSWORD
-		}
-	}, function (error, response, body){
-		//Need to parse the body string
-		var theBody = JSON.parse(body);
-		var theRows = theBody.rows;
-
-		// Then filter the results to match the current word
+		},
+		json: true
+	},
+	function (error, response, body){
+		var theRows = body.rows;
+		// Filter the results to match the current word
 		var filteredRows = theRows.filter(function (d) {
 			return d.doc.word == currentWord;
 		});

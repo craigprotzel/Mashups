@@ -86,7 +86,7 @@ $(document).ready(function(){
 		getAllData();
 	}
 	else{
-		$('#container').hide();		
+		$('#container').hide();
 		getWord(page);
 	}
 
