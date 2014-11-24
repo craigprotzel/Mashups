@@ -2,9 +2,7 @@
 
 ##### I. Final Project Updates
 
-##### II. Working with Git
-
-##### III. How to Deploy
+##### II. How to Deploy
 * Heroku
 	* [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
 	* Corey Forsyth - [Deploying Node App to Heroku](https://vimeo.com/91210794)
@@ -16,6 +14,5 @@
 	* Github Common Problem - [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
 ##### IV. Homework
-* Coding exercise
 * Complete working version of Final
 * Prepare questions for class feedback 
