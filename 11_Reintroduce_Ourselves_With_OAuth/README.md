@@ -13,7 +13,7 @@
 	* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
 
 ##### III. Web Security & Authentication
-* Download Authentication Examples - HERE
+* Download Basic Authentication Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/express_basic_auth.zip)
 * Mozilla - [How Do I Tell If  My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
