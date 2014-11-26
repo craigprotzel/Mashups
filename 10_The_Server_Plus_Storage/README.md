@@ -28,7 +28,7 @@
 * [Cloudant](https://cloudant.com)
 
 ##### V. Discussion - Final Project
-*	Create a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own databse. Your final project should be uploaded to the web before class and should ideally incorporate the following elements:
+*	Create a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:
 	* a public web API as a data source
 	* a client-side js library other than jQuery and/or Underscore
 	* server-side code (i.e. Node-Express)
