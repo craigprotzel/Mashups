@@ -31,7 +31,7 @@
 	* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node
 	* [PassportJS - User Profiles](http://passportjs.org/guide/profile/)
-	* [Twitter OAuth Example](http://passportjs.org/guide/twitter/)
+	* Download Twitter OAuth Example - [HERE](http://passportjs.org/guide/twitter/)
 		* [Twitter API](https://dev.twitter.com/overview/documentation)
 		* [Twiiter Apps Account](https://apps.twitter.com/)
 * Additional
