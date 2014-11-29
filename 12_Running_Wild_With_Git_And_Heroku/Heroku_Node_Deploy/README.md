@@ -6,14 +6,15 @@ Mashups: How to Deploy to Heroku
 * Make sure your application runs locally without any errors. Check all the routes, check all the clicks, check all the console statements. If there are issues locally, there will be issues when your application tries to run on Heroku.
 
 #### Step 1 - The App Config
-* In the app.js file add an "environment" variable called `port`:
+* In the app.js file add an "environment" variable called `port`    
 	```
 	var port = process.env.PORT || 3000;
-	```
-	This will allow Heroku to set their own port value. For our application, if no port value is set by the environment, the default port value will be 3000.  Next, update the `app.listen` method to have `port` as its argument.  
+	```  
+	This will allow Heroku to set their own port value. For our application, if no port value is set by the environment, the default port value will be 3000.  
+* Next, update the `app.listen` method to have `port` as its argument.  
 	```
 	app.listen(process.env.PORT || 3000);
-	```
+	```  
 	Also, if you have a console statement that explicitly prints out the port number, you should update that as well to use the new port variable.
 	```
 	console.log('Express started on port ' + port);
