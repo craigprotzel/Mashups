@@ -24,7 +24,7 @@ Mashups: How to Deploy to Heroku
 	web: node app.js
 	```  
 	Again, this is basically the command we type in the Terminal to run our application and this will instruct Heroku how to properly run our application. 
-* Check the `package.json` to make sure it is complete and accurate. Be careful, the `name` value in the package.json should not have any spaces!
+* Check the `package.json` to make sure it is complete and accurate. Be careful, the `name` value in the `package.json` should not have any spaces!
 * Create a file named `.gitignore` in the app's main directory and add this line of code to the file
 	```
 	node_modules
