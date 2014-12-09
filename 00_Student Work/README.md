@@ -67,6 +67,7 @@ Final Projects
 	* Web Therapy / Journal website to record your thoughts or ideas and have them bounce back to you in the future.  
 * Chuksy - [Hanno](https://thehanno.herokuapp.com/)
 	* Hanno is a geo-locator web app. It takes either place name as a text or geocodes and searches for it, returning information containing its address, current weather, a map of the place, news relating that place and pictures from around that area. Furthermore, users can favorite places they love, which all appear on a map in the favorite places page.
+	* BONUS - [Write-Text](http://write-text.herokuapp.com/) & [Write-Anything](http://write-anything.herokuapp.com/)  
 * MacDavel - [Vina Vina](http://vinavina.herokuapp.com/)
 	* Vina vina is a dance platform built using NodeJS and the Arduino Uno.The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
 * Rock - [Lets Chip In](https://letschipin.herokuapp.com)
