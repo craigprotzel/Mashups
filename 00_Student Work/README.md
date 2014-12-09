@@ -69,7 +69,7 @@ Final Projects
 	* Hanno is a geo-locator web app. It takes either place name as a text or geocodes and searches for it, returning information containing its address, current weather, a map of the place, news relating that place and pictures from around that area. Furthermore, users can favorite places they love, which all appear on a map in the favorite places page.
 	* BONUS - [Write-Text](http://write-text.herokuapp.com/) & [Write-Anything](http://write-anything.herokuapp.com/)  
 * MacDavel - [Vina Vina](http://vinavina.herokuapp.com/)
-	* Vina vina is a dance platform built using NodeJS and the Arduino Uno.The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
+	* Vina Vina is a dance platform built using NodeJS and the Arduino Uno. The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
 * Rock - [Lets Chip In](http://letschipin.herokuapp.com)
 	* A food ordering service for groups of people on Saadiyat Island.
 * James - [Desotry All Yolos](http://destroyallyolos.com)  
@@ -78,7 +78,8 @@ Final Projects
 	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
 * Julia - [Foosie](https://foosie.herokuapp.com)
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
-* Dasha - 
+* Dasha - []
+	* 
 * Kai -
 * Asryque - 
 
