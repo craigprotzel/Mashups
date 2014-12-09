@@ -61,7 +61,7 @@ Final Projects
 	* Planning classes and their pre-requisites to fit 4-year schedule can be a painful task. NYUAD Course Planner populates pre-requisites of specified classes and allows interactive class sequencing  
 * Joe - [Pump Me Up!](http://pumpmeup.herokuapp.com)
 	*  A website where people get encouraged and inspired (pumped up) by the inspirational words of those that have had tremendous success during their time on earth. :)  
-* Witold - [Dot Dot Connect](http://testdotdotconnect.herokuapp.com/)
+* Witold - [Dot Dot Connect](http://dotdotconnect.herokuapp.com/)
 	* Dot Dot Connect is a browser game which tests players' agility skills by randomly generating dots around a board that the user has to connect. The game features leaderboards and player statistics.  
 * Fah - [Do You Wanna Talk About It? (DYWTAI)](https://letstalk456.herokuapp.com/)
 	* Web Therapy / Journal website to record your thoughts or ideas and have them bounce back to you in the future.  
@@ -71,8 +71,10 @@ Final Projects
 	* Vina vina is a dance platform built using NodeJS and the Arduino Uno.The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
 * Rock - [Lets Chip In](https://letschipin.herokuapp.com)
 	* A food ordering service for groups of people on Saadiyat Island.
+* James - [Desotry All Yolos](http://destroyallyolos.com)  
+	* A game in which we collectively rid the world of tweets containing yolo.  
 * Patrick - Yalla	
-	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!  
+	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
 * Julia - Foosie
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
 * Dasha - 
