@@ -73,7 +73,7 @@ Final Projects
 	* A food ordering service for groups of people on Saadiyat Island.
 * James - [Desotry All Yolos](http://destroyallyolos.com)  
 	* A game in which we collectively rid the world of tweets containing yolo.  
-* Patrick - Yalla	
+* Patrick - [Yalla](https://tmoe.herokuapp.com)	
 	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
 * Julia - Foosie
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
