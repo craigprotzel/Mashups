@@ -72,7 +72,7 @@ Final Projects
 	* Vina Vina is a dance platform built using NodeJS and the Arduino Uno. The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
 * Rock - [Lets Chip In](http://letschipin.herokuapp.com)
 	* A food ordering service for groups of people on Saadiyat Island.
-* James - [Desotry All Yolos](http://destroyallyolos.com)  
+* James - [Destroy All Yolos](http://destroyallyolos.com)  
 	* A game in which we collectively rid the world of tweets containing yolo.  
 * Patrick - [Yalla](http://tmoe.herokuapp.com)	
 	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
