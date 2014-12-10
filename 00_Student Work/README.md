@@ -70,8 +70,8 @@ Final Projects
 	* BONUS - [Write-Text](http://write-text.herokuapp.com/) & [Write-Anything](http://write-anything.herokuapp.com/)  
 * MacDavel - [Vina Vina](http://vinavina.herokuapp.com/)
 	* Vina Vina is a dance platform built using NodeJS and the Arduino Uno. The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
-* Rock - [Lets Chip In](http://letschipin.herokuapp.com)
-	* A food ordering service for groups of people on Saadiyat Island.
+* Rock - [Stay Hungry, Stay Foolish](http://letschipin.herokuapp.com)
+	* This is mostly a backend framework for a collective order site. However, have fun with the current story setting and good luck clicking things forever.
 * James - [Destroy All Yolos](http://destroyallyolos.com)  
 	* A game in which we collectively rid the world of tweets containing yolo.  
 * Patrick - [Yalla](http://tmoe.herokuapp.com)	
