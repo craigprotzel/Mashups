@@ -61,9 +61,9 @@ Final Projects
 	* Planning classes and their pre-requisites to fit 4-year schedule can be a painful task. NYUAD Course Planner populates pre-requisites of specified classes and allows interactive class sequencing  
 * Joe - [Pump Me Up!](http://pumpmeup.herokuapp.com)
 	*  A website where people get encouraged and inspired (pumped up) by the inspirational words of those that have had tremendous success during their time on earth. :)  
-* Witold - [Dot Dot Connect](http://dotdotconnect.herokuapp.com/)
+* Witold - [Dot Dot Connect](http://dotconnect.herokuapp.com/)
 	* Dot Dot Connect is a browser game which tests players' agility skills by randomly generating dots around a board that the user has to connect. The game features leaderboards and player statistics.  
-* Fah - [Do You Wanna Talk About It? (DYWTAI)](https://letstalk456.herokuapp.com/)
+* Fah - [Do You Wanna Talk About It? (DYWTAI)](http://letstalk456.herokuapp.com/)
 	* Web Therapy / Journal website to record your thoughts or ideas and have them bounce back to you in the future.  
 * Chuksy - [Hanno](http://thehanno.herokuapp.com/)
 	* Hanno is a geo-locator web app. It takes either place name as a text or geocodes and searches for it, returning information containing its address, current weather, a map of the place, news relating that place and pictures from around that area. Furthermore, users can favorite places they love, which all appear on a map in the favorite places page.
