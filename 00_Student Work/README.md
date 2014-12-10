@@ -78,7 +78,7 @@ Final Projects
 	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
 * Julia - [Foosie](https://foosie.herokuapp.com)
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
-* Dasha - Quick Brown Fox
+* Dasha - [Quick Brown Fox](http://brown-fox.herokuapp.com/)
 	* Quick Brown Fox is a place for anyone interested in typography. Use it to search, learn more about, and play with type.
 * Kai -
 * Asryque - 
