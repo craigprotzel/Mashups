@@ -54,7 +54,7 @@ Here are some links for inspiration:
   * [ThisIsSand](http://thisissand.com/)  
   * [Wordnik](https://www.wordnik.com/)
 
-Final Projects
+**FINAL PROJECTS**
 * James - [Destroy All Yolos](http://destroyallyolos.com)  
 	* A game in which we collectively rid the world of tweets containing yolo.  
 * Batu - [Game Recommend](http://gamerecommend.herokuapp.com/) 
