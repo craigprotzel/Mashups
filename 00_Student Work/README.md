@@ -55,6 +55,8 @@ Here are some links for inspiration:
   * [Wordnik](https://www.wordnik.com/)
 
 Final Projects
+* James - [Destroy All Yolos](http://destroyallyolos.com)  
+	* A game in which we collectively rid the world of tweets containing yolo.  
 * Batu - [Game Recommend](http://gamerecommend.herokuapp.com/) 
 	* Game Recommend, as the name suggests, helps you find similar games to your favourites! All you have to do is type in the name of your favourite game and start exploring games of the same tone until you find one that you are willing try out. When you do, you can save the path you took from your old favorite game to your new one. Everyone else sharing your desire for your old favourite can see your path as an example.
 * Mick - [NYUAD Course Planner](http://course-planning.herokuapp.com/)
@@ -72,14 +74,9 @@ Final Projects
 	* Vina Vina is a dance platform built using NodeJS and the Arduino Uno. The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
 * Rock - [Stay Hungry, Stay Foolish](http://letschipin.herokuapp.com)
 	* This is mostly a backend framework for a collective order site. However, have fun with the current story setting and good luck clicking things forever.
-* James - [Destroy All Yolos](http://destroyallyolos.com)  
-	* A game in which we collectively rid the world of tweets containing yolo.  
 * Patrick - [Yalla](http://tmoe.herokuapp.com)	
 	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
 * Julia - [Foosie](https://foosie.herokuapp.com)
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
 * Dasha - [Quick Brown Fox](http://brown-fox.herokuapp.com/)
 	* Quick Brown Fox is a place for anyone interested in typography. Use it to search, learn more about, and play with type.
-* Kai -
-* Asryque - 
-
