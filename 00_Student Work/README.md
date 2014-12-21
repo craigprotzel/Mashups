@@ -34,7 +34,7 @@ Create a single web page experience that leverages data from at least one public
 * Darya - [Quick Brown Fox](http://quick-brown-fox.pancakeapps.com/)
 * Fah - [Fireflies] (http://fahdaengdej.github.io/Fireflies)
 * Chuksy - [Mbe](http://tortoise.pancakeapps.com/)
-* Rock - [Earth Rotate](http://rockzau.github.io/earth_rotate)
+* Rock - [Earth Rotate](http://rockzou.github.io/earth_rotate)
 
 Final Project - Due 12/9
 -------------------------
