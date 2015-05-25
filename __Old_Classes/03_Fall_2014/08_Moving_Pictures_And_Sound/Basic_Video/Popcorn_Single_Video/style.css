@@ -1,0 +1,33 @@
+#videos{
+	width: 320px;
+	height: 240px;
+	margin: 10px auto;
+}
+
+.greenBox{
+	float: left;
+	background-color: rgb(125,190,125);
+	width: 30px;
+	height: 20px;
+}
+.redBox{
+	float: left;
+	background-color: rgb(210,125,125);
+	width: 100px;
+	height: 20px;
+}
+#infoBox{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: Helvetica;
+	font-size: 32px;
+}
+#wiki{
+	color: white;
+	background-color: purple;
+	font-size: 16px;
+}
+a{
+	color: white;
+}

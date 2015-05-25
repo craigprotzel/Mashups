@@ -1,0 +1,13 @@
+{
+	"name": "client-side-couchdb-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"ejs": "*",
+		"errorhandler": "^1.1.1",
+		"express": "4.x"
+	}
+}

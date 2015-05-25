@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  font-size: 18px;
+  color:  white;
+  font-family: Helvetica, Arial;
+}
+input{
+	margin: 5px;
+}
+button{
+	padding: 5px 10px;
+} 
+#container{
+	display: none;
+}
+#mainTitle{
+	text-align: center;
+}
+

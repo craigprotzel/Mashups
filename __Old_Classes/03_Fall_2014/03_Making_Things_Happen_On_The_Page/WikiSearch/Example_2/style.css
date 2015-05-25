@@ -1,0 +1,19 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+	font-size: 12pt;
+}
+
+.wikiResults{
+	background-color: rgb(255, 100, 127);
+	text-align: center;
+	padding: 30px;
+	margin: 5px auto;
+	width: 30%;
+}
+
+.wikiResults:hover{
+	background-color: rgb(107, 255, 124);
+}

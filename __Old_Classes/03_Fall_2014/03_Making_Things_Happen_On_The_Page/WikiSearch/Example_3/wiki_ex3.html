@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>Wikipedia Example 3</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body>
+		<h1 id="searchTerm"></h1>
+		<div id="resultsTarget"></div>
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
+		<!-- Create a script tag that will contain the Underscore Template -->
+		<script id="tmpl-results" type="text/template">
+			<% /*Standard for loop*/%>
+			<% for (var i = 0; i < results.length; i++) { %>
+				<p class="wikiResults">
+					<%= results[i] %>
+				</p>
+			<% } %>
+		</script>
+		<script src="wiki_ex3_script.js"></script>
+	</body>
+</html>
