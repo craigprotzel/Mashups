@@ -34,9 +34,7 @@ Create a single web page experience that leverages data from at least one public
 * Darya - [Quick Brown Fox](http://quick-brown-fox.pancakeapps.com/)
 * Fah - [Fireflies](http://fahdaengdej.github.io/Fireflies)
 * Chuksy - [Mbe](http://tortoise.pancakeapps.com/)
-* Rock - [Earth Rotate](http://rockzau.github.io/earth_rotate)
-* Kai - 
-* Asryque - 
+* Rock - [Earth Rotate](http://rockzou.github.io/earth_rotate)
 
 Final Project - Due 12/9
 -------------------------
@@ -54,28 +52,29 @@ Here are some links for inspiration:
   * [ThisIsSand](http://thisissand.com/)  
   * [Wordnik](https://www.wordnik.com/)
 
-Final Projects
-* Batu - [Game Recommend](https://gamerecommend.herokuapp.com/) 
+**FINAL PROJECTS**
+* James - [Destroy All Yolos](http://destroyallyolos.com)  
+	* A game in which we collectively rid the world of tweets containing yolo.  
+* Batu - [Game Recommend](http://gamerecommend.herokuapp.com/) 
 	* Game Recommend, as the name suggests, helps you find similar games to your favourites! All you have to do is type in the name of your favourite game and start exploring games of the same tone until you find one that you are willing try out. When you do, you can save the path you took from your old favorite game to your new one. Everyone else sharing your desire for your old favourite can see your path as an example.
-* Mick - [NYUAD Course Planner](https://course-planning.herokuapp.com/)
+* Mick - [NYUAD Course Planner](http://course-planning.herokuapp.com/)
 	* Planning classes and their pre-requisites to fit 4-year schedule can be a painful task. NYUAD Course Planner populates pre-requisites of specified classes and allows interactive class sequencing  
 * Joe - [Pump Me Up!](http://pumpmeup.herokuapp.com)
 	*  A website where people get encouraged and inspired (pumped up) by the inspirational words of those that have had tremendous success during their time on earth. :)  
-* Witold - [Dot Dot Connect](http://testdotdotconnect.herokuapp.com/)
+* Witold - [Dot Dot Connect](http://dotconnect.herokuapp.com/)
 	* Dot Dot Connect is a browser game which tests players' agility skills by randomly generating dots around a board that the user has to connect. The game features leaderboards and player statistics.  
-* Fah - [Do You Wanna Talk About It? (DYWTAI)](https://letstalk456.herokuapp.com/)
+* Fah - [Do You Wanna Talk About It? (DYWTAI)](http://letstalk456.herokuapp.com/)
 	* Web Therapy / Journal website to record your thoughts or ideas and have them bounce back to you in the future.  
-* Chuksy - [Hanno](https://thehanno.herokuapp.com/)
+* Chuksy - [Hanno](http://thehanno.herokuapp.com/)
 	* Hanno is a geo-locator web app. It takes either place name as a text or geocodes and searches for it, returning information containing its address, current weather, a map of the place, news relating that place and pictures from around that area. Furthermore, users can favorite places they love, which all appear on a map in the favorite places page.
+	* BONUS - [Write-Text](http://write-text.herokuapp.com/) & [Write-Anything](http://write-anything.herokuapp.com/)  
 * MacDavel - [Vina Vina](http://vinavina.herokuapp.com/)
-	* Vina vina is a dance platform built using NodeJS and the Arduino Uno.The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
-* Rock - [Lets Chip In](https://letschipin.herokuapp.com)
-	* A food ordering service for groups of people on Saadiyat Island.
-* Patrick - Yalla	
-	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!  
-* Julia - Foosie
+	* Vina Vina is a dance platform built using NodeJS and the Arduino Uno. The user is supposed to stand in the middle of the dance pads and follow the pattern produced by the LEDs. All dance sessions are recorded and dancers can view their performance on the site.
+* Rock - [Stay Hungry, Stay Foolish](http://letschipin.herokuapp.com)
+	* This is mostly a backend framework for a collective order site. However, have fun with the current story setting and good luck clicking things forever.
+* Patrick - [Yalla](http://tmoe.herokuapp.com)	
+	* Yalla is a fun tool to help people explore, join and create events for their community. It lets you know what's happening now, so that you can learn a new skill, meet new friends or just have fun! Yalla! Let's go have fun!
+* Julia - [Foosie](https://foosie.herokuapp.com)
 	* Foosie your troubles away. Squeeze the heart, and Foosie will glow and surprise you with funny noises. Foosie tracks how many times the heart has been squeezed globally to remind us that we're all in it together and everything will be okay.
-* Dasha - 
-* Kai -
-* Asryque - 
-
+* Dasha - [Quick Brown Fox](http://brown-fox.herokuapp.com/)
+	* Quick Brown Fox is a place for anyone interested in typography. Use it to search, learn more about, and play with type.
