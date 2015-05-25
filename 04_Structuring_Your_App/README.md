@@ -1,6 +1,6 @@
 ### Structuring Your App
 
-##### I. Discussion - Week 3 Homework
+##### I. Discussion - Class 3 Homework
 
 ##### II. Workshop - Objects and Arrays in Javascript
 * Built-in Objects - Math & Date
@@ -12,14 +12,6 @@
 * [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/InstaTimes)
 * [NY Times API](http://developer.nytimes.com/) 
 * [Instagram API](http://instagram.com/developer/)
-
-##### IV. **SPECIAL - Git & Github**
-* Download & Install - [Git](http://git-scm.com/downloads)
-* Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise
-* Sign up for [Github](https://github.com/)
-* Additional
-	* Read - [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
-	* Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 ##### V. Homework
 * Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)

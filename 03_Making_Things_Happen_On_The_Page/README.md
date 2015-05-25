@@ -1,6 +1,6 @@
 ### Making Things Happen On The Page
 
-##### I. Discussion - Week 2 Homework
+##### I. Discussion - Class 2 Homework
 * Review JS Fundamentals
 * Review JS Data Types
 

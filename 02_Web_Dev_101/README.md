@@ -1,8 +1,8 @@
 ### Web Dev 101
 
-##### I. Discussion - Week 1 Homework
+##### I. Discussion - Class 1 Homework
 
-##### II. Workshop - HTML & CSS Fly-By
+##### II. Workshop - HTML & CSS Boot Camp
 * Setting up your page
 	* Adding elements
 	* [HTML5 Element List](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)	
@@ -12,7 +12,7 @@
 	* Classes & IDs
 	* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
-	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) 
+	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 * [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
 
@@ -24,7 +24,7 @@
 
 ##### IV. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-##### V. Discussion - Project #1 Due Week 5 (Tuesday 09/30)
+##### V. Discussion - Project #1 Due Class 5 (Thursday 06/10)
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
 
 ##### VI. Homework

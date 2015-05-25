@@ -1,6 +1,6 @@
-### Re-Introduce Ourselves with OAuth + Final Project Proposals
+### More Storage + Final Project Proposals
 
-##### I. Discussion - Week 10 Homework
+##### I. Discussion - Week 9 Homework
 * Final Project Proposals
 
 ##### II. More Storage  
@@ -12,9 +12,9 @@
 	* [Favorite Words CRUD Example](https://dl.dropboxusercontent.com/u/9648298/CouchDB_Favorite_Words_CRUD.zip)
 	* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
 
-##### III. Web Security & Authentication
+##### III. Web Security & Authentication 
 * Download Basic Authentication Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/express_basic_auth.zip)
-* Mozilla - [How Do I Tell If  My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
+* Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
 	* [Base64 Decode](https://www.base64decode.org/)
@@ -44,3 +44,6 @@
 	* At least one route that serves data from your database to a page as json
 	* **BONUS** - include a query paramater in your api route
 * Work - on Final Project
+* Download & Install - [Git](http://git-scm.com/downloads)
+* Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise
+

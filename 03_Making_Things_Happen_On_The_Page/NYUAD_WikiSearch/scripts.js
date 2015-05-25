@@ -22,7 +22,6 @@ function searchWikipedia(word){
 			console.log("The Results");
 			console.log(data[1]);
 
-
 			var theSearchedTerm = data[0].toUpperCase();
 			var theSearchResults = data[1];
 
@@ -50,8 +49,6 @@ $(document).ready(function(){
 		searchWikipedia(searchTerm);
 
 	});
-
-
 });
 
 console.log("Not ready!");

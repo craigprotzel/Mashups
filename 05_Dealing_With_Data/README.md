@@ -30,15 +30,15 @@
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
 ##### V. Homework
-* Review - Readings/Videos/Assignments from Weeks 1 - 5
-* Write - a post about the most useful tutorial/video/exercise we have done in class that has helped you better understand the class material
 * Explore - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
-* Explore JS "Interaction" libraries
-	* Graphing - **[D3](http://d3js.org/)** and [chart](http://www.chartjs.org/)
-	* Drawing - [two](http://jonobr1.github.io/two.js/) & [raphael](http://raphaeljs.com/)
-	* Animation - **[p5](http://p5js.org/)** and [paper](http://paperjs.org/)
-	* Audio - **[Web Audio](http://www.html5rocks.com/en/tutorials/webaudio/intro/)**
-	* Video - **[Popcorn](http://popcornjs.org/)** ([PopcornJS docs](http://popcornjs.org/popcorn-docs/))
-	* 3D - [three](http://threejs.org/)
-* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+* Explore - [D3](http://d3js.org/)
+	* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+* Explore - [p5JS](http://p5js.org/)
+	* Watch [hello p5](http://hello.p5js.org/)
+	* Read - [p5 Get Started](http://p5js.org/get-started/)	
+* Additional Recommendations
+	* Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
+	* Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+	* Explore the [PopcornJS](http://popcornjs.org/) Video Library
+	* Explore the [threeJS](http://threejs.org/) library

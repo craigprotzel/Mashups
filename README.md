@@ -8,7 +8,7 @@ Class: Mondays & Wednesdays 3:20pm - 6:15pm
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
 Office Hours:  TBD 
-Students: Web Site List
+Students: [Web Site List](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
 
 Course Description
 ------------------
@@ -27,33 +27,27 @@ Schedule
 
 ##### [Class 1 (05/27): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-##### [Class 2 (): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
+##### [Class 2 (06/01): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-##### [Class 3 (): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Class 3 (06/03): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-##### [Class 4 (): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
+##### [Class 4 (06/08): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
 
-##### [Class 5 (): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Class 5 (06/10): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-##### No Class 10/7 + 10/9 - Holiday
+##### [Class 6 (06/15): Graphs & Animations](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_and_Animations)
 
-##### [Class 6 (): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_On_Graphs_On_Graphs)
+##### [Class 7 (06/17): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/07_Sound_and_Video)
 
-##### [Class 7 (): Animation Buffet](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Buffet)
+##### [Class 8 (06/22): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
 
-##### [Class 8 (): Moving Pictures & Sound](https://github.com/craigprotzel/Mashups/tree/master/08_Moving_Pictures_And_Sound)
+##### [Class 9 (06/24): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
 
-##### [Class 9 (): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
+##### [Class 10 (06/29): More Storage](https://github.com/craigprotzel/Mashups/tree/master/10_More_Storage) 
 
-##### [Class 10 (): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage) 
+##### [Class 11 (07/01): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_With_Git_And_Heroku)
 
-##### [Class 11 (): Re-Introduce Ourselves with OAuth + Final Project Proposals](https://github.com/craigprotzel/Mashups/tree/master/11_Reintroduce_Ourselves_With_OAuth)
-
-##### [Class 12 (): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku)
-
-##### [Class 13 () Final Project Workshop & User Testing](https://github.com/craigprotzel/Mashups/tree/master/13_Final_Project_Workshop_Plus_User_Testing)
-
-##### [Class 14 (): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
+##### [Class 12 (07/02): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/12_Final_Presentations)
 
 Learning Outcomes
 -----------------

@@ -1,6 +1,6 @@
 ### The Server Plus Storage 
 
-##### I. Discussion - Week 9 Homework
+##### I. Discussion - Week 8 Homework
 
 ##### II. Node-Express Intro Redux
 * Review Express Basic Examples  
