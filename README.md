@@ -2,60 +2,58 @@ Mashups: Creating with Web APIs
 ================================
 (always subject to change)
 
-NYUAD - Interactive Media Dept.  
-Semester: Fall 2014    
-Class: Tuesdays 9:15am - 11:55am & Thursdays  9:15am - 10:30am  
+NYU - Interactive Telecommunications Program ([ITP](http://itp.nyu.edu))  
+Semester: Summer Session I 2015    
+Class: Mondays & Wednesdays 3:20pm - 6:15pm  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours:  Mondays and/or by email appointment  
-Students: [Web Site List](https://docs.google.com/spreadsheets/d/1c_7z-jRsvXJHaoifS1imojktuyf9nNgAepcgXZ4kBCg/edit#gid=0)
+Office Hours:  TBD 
+Students: Web Site List
 
 Course Description
 ------------------
 
-As the World Wide Web continues to grow and pervade our everyday lives, an ever-increasing amount of data and digital services are becoming accessible to us through public web APIs - Application Programming Interfaces. Common to many web sites, including YouTube, Twitter, Google Maps, Wikipedia and more, web APIs offer a means to programmatically request and re-purpose endless troves of information. But how exactly do we access these datasets and services? How can we write code to transfer, store, and display this content on our own web sites? And how might we use these available resources to design unique, creative, and compelling web experiences of our own.
+As the World Wide Web continues to grow and permeate our everyday lives, an ever-increasing amount of data and digital services are accessible to us through public web APIs - Application Programming Interfaces. Common to many web sites, including YouTube, Twitter, Google Maps, Wikipedia and more, web APIs offer a means to programmatically request and re-purpose endless troves of information. But how exactly do we access these datasets and services? How can we write code to transfer, store, and display this content on our own web sites? And how might we use these available resources to design unique, creative, and compelling web experiences of our own.
 
-This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 functional well-designed single-page web applications by end of semester. Subscribing to a process-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, Paper, Popcorn, D3 and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as a basic understanding of web development, specifically exposure to HTML and CSS. Experience with Javascript is a plus.
+This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 well-designed functional single-page web applications by end of semester. Subscribing to a project-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, p5, Popcorn, D3 and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as an exposure to basic client-side web development, specifically HTML and CSS. Experience with Javascript is a plus.
 
 Schedule
 --------
 
 #### Overview
-* **PART I: Weeks 1 - 5 Client-Side Web + API Fundamentals**
-* **PART II: Weeks 5 - 9 Client-Side Javascript Frameworks**
-* **PART III: Weeks 9 - 14  Server-Side Web + Final Project**
+* **PART I: Classes 1 - 4 Client-Side Web Development + API Fundamentals**
+* **PART II: Classes 5 - 8 Client-Side Javascript Libraries**
+* **PART III: Classes 9 - 12  Server-Side Web Development + Final Project**
 
-##### [Week 1 (09/02): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+##### [Class 1 (05/27): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-##### No Class 09/04 - Reschedule Date TBD**
+##### [Class 2 (): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-##### [Week 2 (09/09 + 09/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
+##### [Class 3 (): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-##### [Week 3 (09/16 + 09/18): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Class 4 (): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
 
-##### [Week 4 (09/23 + 09/25): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
-
-##### [Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Class 5 (): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
 ##### No Class 10/7 + 10/9 - Holiday
 
-##### [Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_On_Graphs_On_Graphs)
+##### [Class 6 (): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_On_Graphs_On_Graphs)
 
-##### [Week 7 (10/21 + 10/23): Animation Buffet](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Buffet)
+##### [Class 7 (): Animation Buffet](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Buffet)
 
-##### [Week 8 (10/28 + 10/30): Moving Pictures & Sound](https://github.com/craigprotzel/Mashups/tree/master/08_Moving_Pictures_And_Sound)
+##### [Class 8 (): Moving Pictures & Sound](https://github.com/craigprotzel/Mashups/tree/master/08_Moving_Pictures_And_Sound)
 
-##### [Week 9 (11/4 + 11/6): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
+##### [Class 9 (): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
 
-##### [Week 10 (11/11 + 11/13): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage) 
+##### [Class 10 (): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage) 
 
-##### [Week 11 (11/18 + 11/20): Re-Introduce Ourselves with OAuth + Final Project Proposals](https://github.com/craigprotzel/Mashups/tree/master/11_Reintroduce_Ourselves_With_OAuth)
+##### [Class 11 (): Re-Introduce Ourselves with OAuth + Final Project Proposals](https://github.com/craigprotzel/Mashups/tree/master/11_Reintroduce_Ourselves_With_OAuth)
 
-##### [Week 12 (11/25 + 11/27): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku)
+##### [Class 12 (): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku)
 
-##### [Week 13 (11/29 + 12/4) Final Project Workshop & User Testing](https://github.com/craigprotzel/Mashups/tree/master/13_Final_Project_Workshop_Plus_User_Testing)
+##### [Class 13 () Final Project Workshop & User Testing](https://github.com/craigprotzel/Mashups/tree/master/13_Final_Project_Workshop_Plus_User_Testing)
 
-##### [Week 14 (12/9 + 12/11): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
+##### [Class 14 (): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
 
 Learning Outcomes
 -----------------
@@ -80,15 +78,15 @@ Course Mission: L.E.G.S.
 Grading
 --------
 **20%** Attendance & Participation  
-**25%** Weekly Homework Assignments + Online Journal  
+**25%** Homework Assignments + Online Journal  
 **30%** Projects #1 & #2  
 **25%** Final Project
 
-Weekly Homework
+Homework Assignments
 ---------------
-Each week there will be a homework assignment. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must submit their own individual work.  
+Each class there will be homework assignments. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must submit their own individual work.  
 
-Class time will be spent each week going over the homework assignments. Expect to be asked to show your work every week. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your weekly work must be completed on time prior to class, **uploaded to the web**, and documented on your online journal (see below for details).
+Class time will be spent each week going over the homework assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class, **uploaded to the web**, and documented in your online journal (see below for details).
 
 Online Journal
 ---------------
@@ -103,7 +101,7 @@ You are expected to keep some form of an online journal or web blog. For each as
 
 The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
 
-Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the weekly assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
+Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the class assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
 
 Projects 1 & 2
 --------------

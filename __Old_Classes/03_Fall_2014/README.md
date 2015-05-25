@@ -25,37 +25,37 @@ Schedule
 * **PART II: Weeks 5 - 9 Client-Side Javascript Frameworks**
 * **PART III: Weeks 9 - 14  Server-Side Web + Final Project**
 
-##### [Week 1 (09/02): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+##### [Week 1 (09/02): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/__Old_Classes/03_Fall_2014/01_The_Web_APIs_and_Data)
 
 ##### No Class 09/04 - Reschedule Date TBD**
 
-##### [Week 2 (09/09 + 09/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
+##### [Week 2 (09/09 + 09/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/02_Web_Dev_101)
 
-##### [Week 3 (09/16 + 09/18): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Week 3 (09/16 + 09/18): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/03_Making_Things_Happen_On_The_Page)
 
-##### [Week 4 (09/23 + 09/25): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
+##### [Week 4 (09/23 + 09/25): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/04_Structuring_Your_App)
 
-##### [Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Week 5 (09/30 + 10/2): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/05_Dealing_With_Data)
 
 ##### No Class 10/7 + 10/9 - Holiday
 
-##### [Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_On_Graphs_On_Graphs)
+##### [Week 6 (10/14 + 10/16): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/06_Graphs_On_Graphs_On_Graphs)
 
-##### [Week 7 (10/21 + 10/23): Animation Buffet](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Buffet)
+##### [Week 7 (10/21 + 10/23): Animation Buffet](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/07_Animation_Buffet)
 
-##### [Week 8 (10/28 + 10/30): Moving Pictures & Sound](https://github.com/craigprotzel/Mashups/tree/master/08_Moving_Pictures_And_Sound)
+##### [Week 8 (10/28 + 10/30): Moving Pictures & Sound](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/08_Moving_Pictures_And_Sound)
 
-##### [Week 9 (11/4 + 11/6): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
+##### [Week 9 (11/4 + 11/6): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/09_Back_To_The_Server)
 
-##### [Week 10 (11/11 + 11/13): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage) 
+##### [Week 10 (11/11 + 11/13): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/10_The_Server_Plus_Storage) 
 
-##### [Week 11 (11/18 + 11/20): Re-Introduce Ourselves with OAuth + Final Project Proposals](https://github.com/craigprotzel/Mashups/tree/master/11_Reintroduce_Ourselves_With_OAuth)
+##### [Week 11 (11/18 + 11/20): Re-Introduce Ourselves with OAuth + Final Project Proposals](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/11_Reintroduce_Ourselves_With_OAuth)
 
-##### [Week 12 (11/25 + 11/27): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku)
+##### [Week 12 (11/25 + 11/27): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/12_Running_Wild_With_Git_And_Heroku)
 
-##### [Week 13 (11/29 + 12/4) Final Project Workshop & User Testing](https://github.com/craigprotzel/Mashups/tree/master/13_Final_Project_Workshop_Plus_User_Testing)
+##### [Week 13 (11/29 + 12/4) Final Project Workshop & User Testing](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/13_Final_Project_Workshop_Plus_User_Testing)
 
-##### [Week 14 (12/9 + 12/11): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
+##### [Week 14 (12/9 + 12/11): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/__Old_Classes/03_Fall_2014/master/14_Final_Presentations)
 
 Learning Outcomes
 -----------------
