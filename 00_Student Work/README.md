@@ -32,7 +32,7 @@ Create a single web page experience that leverages data from at least one public
 * Batu - [Zebra](http://batu.github.io/zebra/)
 * Patrick - [I Will Survive](http://pkw228.github.io/IWillSurvive/)
 * Darya - [Quick Brown Fox](http://quick-brown-fox.pancakeapps.com/)
-* Fah - [Fireflies] (http://fahdaengdej.github.io/Fireflies)
+* Fah - [Fireflies](http://fahdaengdej.github.io/Fireflies)
 * Chuksy - [Mbe](http://tortoise.pancakeapps.com/)
 * Rock - [Earth Rotate](http://rockzau.github.io/earth_rotate)
 * Kai - 
@@ -47,7 +47,7 @@ Your final project will require creating a single web page experience that combi
   * data-storage (i.e. CouchDB on Cloudant)
   * at least one route that returns json data to the page  
 
-In terms of 'data-storage', the idea is that a user will somehow contribute (i.e. input data) to your application. User input could come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The input could be available only to that user through a personal link or could affect the entire experience of the application. It is up to you to decide! 
+In terms of 'data-storage', the idea is that a user will somehow contribute (i.e. input data) to your application. User input can come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The input could be available only to that user through a personal link or could affect the entire experience of the application. It is up to you to decide! 
 
 Here are some links for inspiration:  
   * [The Nicest Place on the Internet](http://thenicestplaceontheinter.net/)

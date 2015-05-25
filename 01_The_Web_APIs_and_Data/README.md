@@ -40,7 +40,7 @@
 * Find, Post, & Describe - a **url** that returns JSON data from an Open API
 * Create & Upload - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!)
 * Additional Recommendations
-	* [WebPlatform.org - How Does The Internet Work](http://docs.webplatform.org/wiki/concepts/internet_and_web/how_does_the_internet_work/es)
+	* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
 	* [API 101](http://apievangelist.com/index.html)
 	* [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 	* [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)

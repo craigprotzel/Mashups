@@ -5,7 +5,7 @@ Example based off Jared Hanson's Passport-Twitter Example:
 https://github.com/jaredhanson/passport-twitter/blob/master/examples/signin/app.js
 */
 
-// Decalre Requirements
+// Declare Requirements
 var express = require("express"),
 bodyParser = require('body-parser'),
 errorHandler = require('errorhandler'),
