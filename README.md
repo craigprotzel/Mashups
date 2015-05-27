@@ -99,7 +99,7 @@ Second, the journal is a way to document your work for your own use and that of 
 
 Projects 1 & 2
 --------------
-These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as Paper, D3, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your process for creating it.
+These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your process for creating it.
 
 Final Project
 -------------
