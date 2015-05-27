@@ -25,8 +25,14 @@
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
 	* [Open-Notify.org](http://open-notify.org/)
 	* [Into the Okavango](http://intotheokavango.org/)
+	* [Kimono Labs](https://www.kimonolabs.com/)
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
+
+* Student Work Examples
+	* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
+	* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
+	* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 
 ##### V. Homework
 * Setup

@@ -2,7 +2,7 @@ MASHUPS HOW TO'S
 ----------------
 * [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
 * [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/12_Running_Wild_With_Git_And_Heroku/Heroku_Node_Deploy)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
 
 Learning Resources
 ------------------
@@ -39,8 +39,6 @@ Open(ish) APIs
   * [Numbers](http://numbersapi.com/#42)
   * [OpenLibrary](https://openlibrary.org/developers/api)
   * [Encyclopedia of Life](http://eol.org/api)
-* Environment
-  * [Into the Okavango](http://intotheokavango.org/api)
 * Governemnt & Politics
   * [Dronestream](http://dronestre.am/)
   * [HealthCare.gov](https://www.healthcare.gov/developers/)
@@ -69,8 +67,9 @@ Open(ish) APIs
   * [The Guardian](http://www.theguardian.com/open-platform)
   * [The New York Times](http://developer.nytimes.com/page)
   * [USA Today](http://developer.usatoday.com/)
-* Outer Space
-  * [NASA](http://data.nasa.gov/api-info/)
+* Science
+  * [Into the Okavango](http://intotheokavango.org/api)
+  * [NASA](https://api.nasa.gov/index.html)
   * [People In Space](http://open-notify.org/Open-Notify-API/People-In-Space/)
 * Search
   * [Duck Duck Go](https://api.duckduckgo.com/api) 
@@ -130,6 +129,7 @@ Links
 * [What's Next for ECMAScript 6 - Axel Rauschmayer, August 2014](https://speakerdeck.com/rauschma/ecmascript-6-whats-next-for-javascript-august-2014)
 
 #### APIs
+* [Kimono Labs](https://www.kimonolabs.com/)
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
 * ["A REST Tutorial"](http://rest.elkstein.org/)
 * [Stack Overflow - What is JSONP All About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)

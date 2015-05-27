@@ -109,7 +109,7 @@ Your final project will require developing a comprehensive single page web exper
 * at least one public web API as a data source
 * at least one javascript “interaction” library
 * database storage
-* a public web API to access stored data
+* a public web API route to serve your stored data
 
 Attendance & Participation
 --------------------------
