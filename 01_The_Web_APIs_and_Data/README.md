@@ -45,7 +45,7 @@
 * Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Find, Post, & Describe - a **url** that returns JSON data from an Open API
-* Create & Upload - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. The upload should include a .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!)
+* Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!). If you can, upload your page to a server.
 * Additional Recommendations
 	* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
 	* [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
