@@ -7,7 +7,7 @@ Semester: Summer Session I 2015
 Class: Mondays & Wednesdays 3:20pm - 6:15pm  
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office Hours:  Wed 11AM - 3PM - Sign up [HERE](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc) 
+Office Hours:  Wednesdays 11AM - 3PM - Sign up [HERE](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)    
 Students: [Web Site List](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
 
 Course Description
