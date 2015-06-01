@@ -19,7 +19,7 @@
 
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console
-* Data Types 
+* Data Types - [MDN Data Types & Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 * [The Window](https://developer.mozilla.org/en/docs/Web/API/Window), [The Document](https://developer.mozilla.org/en-US/docs/Web/API/document), and [The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 * Running Code
 
@@ -30,9 +30,9 @@
 
 ##### VI. Homework
 * Read - [Javascript section of Ch.3 - Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) up to but not including the section on SVGs
-* Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)  
 * Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
+* Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)  
 * Install - A JS Linter for your Text Editor (I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/) for Sublime)
 * Answer - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console. 
 * Think & Post - idea(s) for Assignment #1, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, and what the experience of a user visiting the site would be like. Be prepared to present your idea(s) in class.
