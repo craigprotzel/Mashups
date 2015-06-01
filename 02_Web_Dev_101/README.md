@@ -13,6 +13,7 @@
 	* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+	* [Google Weather Styling Example](http://googlesamples.github.io/web-fundamentals/samples/layouts/rwd-fundamentals/weather-2.html)
 * [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
 
