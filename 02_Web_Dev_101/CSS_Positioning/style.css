@@ -65,3 +65,10 @@ body {
 .roundBox:hover{
 	background-color: blue;
 }
+
+@media (max-width: 600px) {
+  .navItem {
+    float: none;
+ 		display: block;
+  }
+}
