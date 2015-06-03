@@ -41,13 +41,13 @@ Schedule
 
 ##### [Class 8 (06/22): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
 
-##### [Class 9 (06/24): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
+##### [Class 9 (06/22): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
 
-##### [Class 10 (06/29): More Storage](https://github.com/craigprotzel/Mashups/tree/master/10_More_Storage) 
+##### [Class 10 (06/24): More Storage](https://github.com/craigprotzel/Mashups/tree/master/10_More_Storage) 
 
-##### [Class 11 (07/01): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_With_Git_And_Heroku)
+##### [Class 11 (06/29): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_With_Git_And_Heroku)
 
-##### [Class 12 (07/02): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/12_Final_Presentations)
+##### [Class 12 (07/01): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/12_Final_Presentations)
 
 Learning Outcomes
 -----------------
