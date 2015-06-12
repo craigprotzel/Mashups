@@ -1,5 +1,5 @@
 /*
-Code on this example is meant to demonstrate alternative 'jQuery AJAX' patterns you might want to use in class
+Code on this example is meant to demonstrate a variety of 'jQuery AJAX' patterns you might want to use in class
 
 Here is a list of helpful resources/tutorials that explain these patterns
  * http://api.jquery.com/category/deferred-object/
@@ -10,7 +10,7 @@ Here is a list of helpful resources/tutorials that explain these patterns
 
 /*******************************************/
 //Define the Wiki API url
-var wikiURL =  "http://en.wikia.org/w/api.php?action=opensearch&format=json&search=";
+var wikiURL = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 
 /*******************************************/
 //Define some initial callback functions
@@ -28,6 +28,19 @@ function itFailed(data){
 //A "completed" or "always" function 
 function finished(){
 	console.log("I'm all finished");
+}
+
+/*******************************************/
+//The "Basic" Pattern
+
+function searchBasicPattern(searchTerm){
+	$.ajax({
+		url: wikiURL + searchTerm,
+		type: 'GET',
+		dataType: 'jsonp',
+		error: itFailed,
+		success: itWorked
+	});
 }
 
 /*******************************************/
@@ -86,14 +99,14 @@ function searchWhenThenPattern(searchTerm){
 		//Define the success conditions
 		function(searchOne, searchTwo){
 			console.log("All good");
-			console.log(searchTwo);
 			console.log(searchOne);
+			console.log(searchTwo);
 		},
 		//Define the error conditions
 		function(searchOne, searchTwo){
 			console.log("Problems");
-			console.log(searchTwo);
 			console.log(searchOne);
+			console.log(searchTwo);
 		});
 
 	return 'Running "When-Then" Pattern';
@@ -101,13 +114,14 @@ function searchWhenThenPattern(searchTerm){
 
 /*******************************************/
 //Return an AJAX object from a function
-function makeASearchObj(term){
+function makeASearchObj(searchTerm){
 	console.log("Returning a promise");
-	return $.ajax({
+	var searchObj = $.ajax({
 		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp'
 	});
+	return searchObj;
 }
 
 /*******************************************/
@@ -116,15 +130,29 @@ $(document).ready(function(){
 	$('#theButton').click(function(){
 
 		var searchTerm = $("#query").val().toUpperCase();
+		
 		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console. You can also run any of the functions in the console at any time.');
+	
+		//searchBasicPattern(searchTerm);
 
-		//searchDonePattern(searchTerm);
+		//searchDoneFailPattern(searchTerm);
 
 		//searcThenPattern(searchTerm);
 
 		//searchWhenThenPattern(searchTerm);
 
-		//var searchCall = makeASearchObj();
-		//searchCall.then(itWorked, itFailed);	
+		//var searchCall = makeASearchObj(searchTerm);
+		//searchCall.then(itWorked, itFailed);
+
 	});
+
+	//Allow for enter to be pressed when the inupt box is active
+	$("#query").keypress(function(e){
+		//Check If enter key is pressed
+		if (e.which == 13){
+			//Use jQuery's trigger() function to execute the click event
+			$("#theButton").trigger('click');
+		}
+	});
+
 });
