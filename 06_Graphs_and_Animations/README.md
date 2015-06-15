@@ -27,11 +27,11 @@
 * [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 
-##### VI. [p5JS](https://github.com/lmccart/p5.js)
-	* [p5 Learn](http://p5js.org/learn/)
-	* [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
-	* [ITP Class - Creative JS](https://github.com/lmccart/itp-creative-js)
-	* [Nature of Code - p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
+##### VI. [p5JS](https://github.com/lmccart/p5.js)  
+* [p5 Learn](http://p5js.org/learn/)
+* [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
+* [ITP Class - Creative JS](https://github.com/lmccart/itp-creative-js)
+* [Nature of Code - p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 
 ##### V. Discussion - Project #2 Due Class 8 (Monday 06/22)
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.). The project must be deployed on the world wide web. 
