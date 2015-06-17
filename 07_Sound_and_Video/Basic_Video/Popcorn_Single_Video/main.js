@@ -2,8 +2,9 @@
 You will need a YouTube Data API KEY to run this example
 https://developers.google.com/youtube/v3/getting-started
 */
-	
+
 var myKey = 'YOUR-KEY-GOES-HERE';
+var myKey = 'AIzaSyCFGj73pBDtwemFf8iL1qGll00FzqB-Aok';
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
@@ -111,14 +112,6 @@ function setVideoEvents(video){
 		onEnd: function( options ) {
 			$('#infoBox').html("Read about NYUAD below!");
 		}
-	});
-
-	video.wikipedia({
-		start: 12,
-		end: 18,
-		src: "http://en.wikipedia.org/wiki/New_York_University_Abu_Dhabi",
-		title: "NYU AD",
-		target: "wiki"
 	});
 }
 

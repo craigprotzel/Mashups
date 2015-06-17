@@ -1,11 +1,8 @@
-/*
-You will need a FreeSound.org API KEY to run this example
-http://www.freesound.org/help/developers/
-*/
-var myKey = 'YOUR-KEY-GOES-HERE';
-var sound;
-
+var freeData, sound;
+//var myKey = 'YOUR-KEY-GOES-HERE';
+var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
 function getFreeSound(term){
+	//This is for Freesound API v2
 	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
 	var myURL = url + myKey;
 	$.ajax({
@@ -19,10 +16,7 @@ function getFreeSound(term){
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
-			//Get the free sound ID for the first result
-			var audioID = data.results[0].id;
-			//Make a second request to get the file url
-			getSoundContent(audioID);
+			getSoundContent(data.results[0].id);
 		}
 	});
 }
@@ -48,14 +42,10 @@ function getSoundContent(soundID){
 			sound = new Howl({
 				urls: [audioLink]
 			});
-			$("button#play").css('background-color', 'rgb(120,220,120)');
-			$("button#pause").css('background-color', 'rgb(220,120,120)');
+			$("button#play").css('background-color', 'green');
 		}
 	});
 }
-
-//Execute the intial request
-getFreeSound('lazer');
 
 $(document).ready(function(){
 	$('#play').click(function(){
@@ -90,3 +80,7 @@ $(document).keydown(function(e) {
 			break;
 	}
 });
+
+//Make a request to FreeSound
+getFreeSound('ghost');
+

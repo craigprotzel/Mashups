@@ -1,10 +1,8 @@
-/*
-You will need a FreeSound.org API KEY to run this example
-http://www.freesound.org/help/developers/
-*/
-var myKey = 'YOUR-KEY-GOES-HERE';
+//var myKey = 'YOUR-KEY-GOES-HERE';
+var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
 
 function getFreeSound(term){
+	//This is for Freesound API v2
 	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
 	var myURL = url + myKey;
 	$.ajax({
@@ -18,10 +16,7 @@ function getFreeSound(term){
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
-			//Get the free sound ID for the first result
-			var audioID = data.results[0].id;
-			//Make a second request to get the file url
-			getSoundContent(audioID);
+			getSoundContent(data.results[0].id);
 		}
 	});
 }
@@ -40,10 +35,9 @@ function getSoundContent(soundID){
 		success: function(data){
 			console.log("WooHoo 2!");
 			console.log(data);
-			//Get the link for the file
 			var audioLink = data.previews['preview-hq-mp3'];
 			console.log(audioLink);
-			//Make Native JS - AJAX request to get the actual file
+			//return;
 			makeAudioRequest(audioLink);
 		}
 	});
@@ -70,14 +64,14 @@ function makeAudioRequest(url){
 	request.open('GET', url, true);
 	//File data is binary, not text, need an arraybuffer
 	request.responseType = 'arraybuffer';
-	//Set success/error functionality
+
+	//Set success functionality
 	request.onload = function() {
 		context.decodeAudioData(request.response, function(dataBuffer) {
 			console.log(request.response);
 			console.log(dataBuffer);
 			buffer = dataBuffer;
-			$("button#play").css('background-color', 'rgb(120,220,120)');
-			$("button#pause").css('background-color', 'rgb(220,120,120)');
+			$("button#play").css('background-color', 'green');
 		}, onError);
 	};
 	request.send();
@@ -97,9 +91,6 @@ function stopSound(){
 	source.stop();
 }
 
-//Execute the intial request
-getFreeSound('lazer');
-
 $(document).keydown(function(e) {
 	//console.log(e);
 	//console.log(e.keyCode);
@@ -111,12 +102,14 @@ $(document).keydown(function(e) {
 			//Native WebAudio
 			source.playbackRate.value += 0.1;
 			console.log(source.playbackRate.value);
+
 			break;
 		//Down
 		case 40:
 			//Native WebAudio
 			source.playbackRate.value -= 0.1;
 			console.log(source.playbackRate.value);
+
 			break;
 	}
 });
@@ -130,3 +123,5 @@ $(document).ready(function(){
 	});
 });
 
+//Execeute the request
+getFreeSound('cat meow');

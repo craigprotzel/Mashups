@@ -51,7 +51,6 @@ function askForLocation(){
 	function error(data){
 		console.log(data);
 		p5Data.ready = true;
-
 	}
 	//Check if navigator is available
 	if (navigator.geolocation) {
@@ -62,7 +61,6 @@ function askForLocation(){
 		p5Data.ready = true;
 	}
 }
-
 
 /*----------------------------------------------------------*/
 //p5 Code
