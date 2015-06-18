@@ -4,7 +4,6 @@ https://developers.google.com/youtube/v3/getting-started
 */
 
 var myKey = 'YOUR-KEY-GOES-HERE';
-var myKey = 'AIzaSyCFGj73pBDtwemFf8iL1qGll00FzqB-Aok';
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
