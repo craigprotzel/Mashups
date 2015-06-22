@@ -44,7 +44,7 @@ app.get("/:word", function(req, res){
 });
 
 app.get("*", function(req, res){
-	response.send('Sorry, nothing doing here.');
+	res.send('Sorry, nothing doing here.');
 });
 
 // Start the server

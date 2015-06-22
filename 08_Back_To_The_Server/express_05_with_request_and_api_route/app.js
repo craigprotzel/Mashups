@@ -23,13 +23,21 @@ ROUTES
 
 //Main Page Route - NO data
 app.get("/", function(req, res){
-	res.render('index', {message: "Try adding a forward slash plus a word to the url", search: false});
+	var dataForThePage = {
+		message: "Try adding a forward slash plus a word to the url",
+		search: false
+	};
+	res.render('index', dataForThePage);
 });
 
 //Main Page Route - WITH data requested via the client
 app.get("/:word", function(req, res){
 	var currentWord = req.params.word;
-	res.render('index', {message: currentWord, search: true});
+	var dataForThePage = {
+		message: currentWord,
+		search: true
+	};
+	res.render('index', dataForThePage);
 });
 
 //JSON Serving route

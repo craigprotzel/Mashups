@@ -18,12 +18,22 @@ app.use(express.static(__dirname + '/public'));
 
 //ROUTES
 app.get("/", function(request, response){
-	response.render('index', {message: "Try adding a forward slash plus a word to the url"});
+	var dataForThePage = {
+		message : "Try adding a forward slash plus a word to the url"
+	};
+	response.render('index', dataForThePage);
 });
 
 app.get("/:word", function(request, response){
 	var currentWord = request.params.word;
-	response.render('index',{message: currentWord});
+	var dataForThePage = {
+		message: currentWord
+	};
+	response.render('index', dataForThePage);
+});
+
+app.get("*", function(request, response){
+	response.send('Hmmm, you may have added too many slashes. Try again with only one forward slash after 3000.');
 });
 
 // Start the server

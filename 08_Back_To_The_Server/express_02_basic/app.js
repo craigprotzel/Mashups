@@ -21,12 +21,18 @@ app.get("/", function(request, response){
 });
 
 app.get("/yo", function(request, response) {
-	response.render("yo", { message: "YOOOO!!!" });
+	var dataForThePage = {
+		specialMessage: "YOOOO!!!"
+	};
+	response.render("yo", dataForThePage);
 });
 
 app.get("/:term", function(request, response) {
 	var currentTerm = request.params.term;
-	response.render("other", { message: currentTerm });
+	var dataForThePage = {
+		theMessage: currentTerm
+	};
+	response.render("other", dataForThePage);
 });
 
 // Start the server
