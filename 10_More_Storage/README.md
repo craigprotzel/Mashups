@@ -1,4 +1,4 @@
-### More Storage + Final Project Proposals
+### More Storage
 
 ##### I. Web Security & Authentication 
 * Download Basic Authentication Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/express_basic_auth.zip)
