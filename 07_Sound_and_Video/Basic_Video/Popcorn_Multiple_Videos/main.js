@@ -4,6 +4,7 @@ https://developers.google.com/youtube/v3/getting-started
 */
 
 var myKey = 'YOUR-KEY-GOES-HERE';
+
 var allPopcornObjects = [];
 function makeYoutubeRequest(terms){
 	$('#videos').html('');

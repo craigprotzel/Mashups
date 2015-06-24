@@ -2,7 +2,6 @@
 You will need a YouTube Data API KEY to run this example
 https://developers.google.com/youtube/v3/getting-started
 */
-
 var myKey = 'YOUR-KEY-GOES-HERE';
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
@@ -27,7 +26,7 @@ function makeYoutubeRequest(term){
 			var theVideoId = data.items[0].id.videoId;
 			console.log(theVideoId);
 			//Create the youtube video link
-			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId;
+			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId + '&controls=1';
 
 			
 			//Initialize a Popcorn object with the video link
@@ -90,14 +89,6 @@ function setVideoEvents(video){
 	video.cue(5, function() {
 		//Do somethinge at time :5
 		console.log("We reached second 5");
-	});
-
-	//Plugins
-	video.footnote({
-		start: 1,
-		end: 5,
-		text: 'This is NYUAD!!',
-		target: "infoBox"
 	});
 
 	video.code({
