@@ -41,17 +41,13 @@ app.post("/save", function (request, response) {
 			user: CLOUDANT_KEY,
 			pass: CLOUDANT_PASSWORD
 		},
-		headers: {
-			"Content-Type": "application/json; charset=utf-8"
-		},
-		body: JSON.stringify(request.body)
+		json: true,
+		body: request.body
 	},
 	function (err, res, body) {
 		if (res.statusCode == 201){
 			console.log('Doc was saved!');
-			//Need to parse the body string
-			var parsed = JSON.parse(body);
-			response.json(parsed);
+			response.json(body);
 		}
 		else{
 			console.log('Error: '+ res.statusCode);
@@ -70,11 +66,11 @@ app.get("/api/:key", function (request, response) {
 		auth: {
 			user: CLOUDANT_KEY,
 			pass: CLOUDANT_PASSWORD
-		}
+		},
+		json: true
 	}, function (err, res, body){
-		// Need to parse the body string
-		var theBody = JSON.parse(body);
-		var theData = theBody.rows;
+		//Grab the rows
+		var theData = body.rows;
 
 		// And then filter the results to match the desired key.
 		var filteredData = theData.filter(function (d) {

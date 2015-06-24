@@ -1,4 +1,4 @@
-# Server-Side Notepad built with CouchDB
+#Favorite Words On Couch DB
 
 ## Getting Started
 
@@ -11,4 +11,4 @@
 6. Then, from the permissions page in Cloudant, check the **Reader** and **Writer** boxes for the KEY you just created.
 7. In Terminal, `cd` into this main directory and run `npm install`.
 8. Be sure there were no errors with the previous step. If not, then run: `npm run start` or `node app.js`
-9. Now visit [http://localhost:3000/](http://localhost:3000/) and you've got a notepad synced to a couchdb account.
+9. Now visit [http://localhost:3000/](http://localhost:3000/) and your app should be synced to your couchdb on Cloudant!

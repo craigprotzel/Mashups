@@ -1,6 +1,6 @@
 ### The Server Plus Storage 
 
-##### I. Discussion - Week 8 Homework
+##### I. Discussion - Class 8 Homework
 
 ##### II. Node-Express Intro Redux
 * Review Express Basic Examples  
@@ -12,9 +12,7 @@
 * API Calls on the Server    
 	* [Request Library](https://www.npmjs.org/package/request) 
 	* [Request Library Documentation](https://github.com/request/request)
-	* [JSON Parse](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) & [JSON Stringify](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
-* Eating Your Own Dogfood
-	* Download Example - [HERE](https://www.dropbox.com/s/3tjjykspondehfs/express_05_with_request_and_api_route.zip?dl=0) 
+	* [JSON Parse](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) & [JSON Stringify](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) 
 
 ##### III. Creating your own API
  * Main Page, Input Page, Data Page
@@ -22,7 +20,7 @@
  * [BodyParser Library](https://github.com/expressjs/body-parser)
 
 ##### IV. Storage with CouchDB
-* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/CouchDB_Examples.zip)
+* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_DB_Examples.zip)
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)

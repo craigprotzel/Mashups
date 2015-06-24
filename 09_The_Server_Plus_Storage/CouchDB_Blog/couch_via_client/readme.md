@@ -2,6 +2,7 @@
 
 ## Getting Started
 
+0. Sign up for Cloudant
 1. Sign in to Cloudant and create a new database, save the name of the new database in `public/clientside_notepad.js` as the value for `CLOUDANT_DATABASE`.
 2. In `public/clientside_notepad.js` at the top, set the values of the Cloudant variables `CLOUDANT_USERNAME`,
 3. Click the "Doc" dropdown when viewing your new database. And choose the Permissions Option
