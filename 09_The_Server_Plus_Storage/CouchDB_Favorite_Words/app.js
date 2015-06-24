@@ -18,11 +18,14 @@ app.use(express.static(__dirname + '/public'));
 // Enable json body parsing of application/json
 app.use(bodyParser.json());
 
+/*---------------
 //DATABASE CONFIG
+----------------*/
 var cloudant_USER = 'YOUR-USER-NAME';
 var cloudant_DB = 'YOUR-DB-NAME';
-var cloudant_KEY = 'YOUR-KEY';
-var cloudant_PASSWORD = 'YOUR-PASSWORD';
+var cloudant_KEY = 'YOUR-DB-KEY';
+var cloudant_PASSWORD = 'YOUR-DB-PASSWORD';
+
 var cloudant_URL = "https://" + cloudant_USER + ".cloudant.com/" + cloudant_DB;
 
 /*-----
