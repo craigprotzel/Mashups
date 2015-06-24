@@ -1,15 +1,6 @@
 ### More Storage + Final Project Proposals
 
-##### I. Discussion - Week 9 Homework
-* Final Project Proposals
-
-##### II. More Storage  
-* [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/contents.html)
-* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
-* [Cloudant](https://cloudant.com)
-* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
-
-##### III. Web Security & Authentication 
+##### I. Web Security & Authentication 
 * Download Basic Authentication Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/express_basic_auth.zip)
 * Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
@@ -20,7 +11,7 @@
 	* [Creating An SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self#generate-private-key-and-certificate-signing-request)
 *	Sessions, Cookies, Local Storage
 
-##### IV. Open Authentication (OAuth)  
+##### II. Open Authentication (OAuth)  
 * OAuth Explained
 	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
 	* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
@@ -34,7 +25,7 @@
 * Additional
 	* ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
-##### V. Homework
+##### III. Homework
 * Create - a  Node-Express app that runs locally on your computer and saves data to a CouchDB on Cloudant. Your app should include the following:
 	* The ability for user input to be saved in your database
 	* The presentation of data from your database on a page

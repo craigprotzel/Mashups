@@ -24,6 +24,7 @@
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
+* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
 
 ##### V. Discussion - Final Project
 *	Create a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:
@@ -39,7 +40,6 @@
 	* [The Nicest Place on the Internet](http://thenicestplaceontheinter.net/)  
 	* [ThisIsSand](http://thisissand.com/)  
 	* [Wordnik](https://www.wordnik.com/)  
-
 
 ##### VI. Homework
 * Create - a  Node-Express app that runs locally on your computer that has **4 routes**
