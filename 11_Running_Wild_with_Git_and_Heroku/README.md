@@ -2,12 +2,12 @@
 
 ##### I. Final Project Updates
 
-##### II. **Bonus - Git & Github**
-	* Read - [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
-	* Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
+##### II. **Git & Github**
+* Read- [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+* Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 ##### III. How to Deploy
-* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_With_Git_And_Heroku/Heroku_Node_Deploy)
+* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
 * Heroku
 	* [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
 	* [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
