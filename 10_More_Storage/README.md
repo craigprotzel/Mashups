@@ -1,7 +1,8 @@
 ### More Storage
 
+
+
 ##### I. Web Security & Authentication 
-* Download Basic Authentication Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/express_basic_auth.zip)
 * Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
@@ -12,6 +13,7 @@
 *	Sessions, Cookies, Local Storage
 
 ##### II. Open Authentication (OAuth)  
+* Download OAuth Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/OAuth_Examples.zip)
 * OAuth Explained
 	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
 	* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
@@ -19,7 +21,6 @@
 	* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node
 	* [PassportJS - User Profiles](http://passportjs.org/guide/profile/)
-	* Download Twitter OAuth Example - [HERE](https://dl.dropboxusercontent.com/u/9648298/OAuth_Twitter.zip)
 		* [Twitter API](https://dev.twitter.com/overview/documentation)
 		* [Twiiter Apps Account](https://apps.twitter.com/)
 * Additional
