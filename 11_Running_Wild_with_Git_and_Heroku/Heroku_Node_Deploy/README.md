@@ -2,7 +2,7 @@ Mashups: How to Deploy to Heroku
 --------------------------------
 
 #### Step 0 - The App
-* Create a Node-Express App that runs locally on your machine. If you don't have one, you can use this [example app](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server/express_03_with_public_folder)
+* Create a Node-Express App that runs locally on your machine. (If you don't have an app, see any of the examples in the "Back_To_The_Server" folder.)
 * Make sure your application runs locally without any errors. Check all the routes, check all the clicks, check all the console statements. If there are issues locally, there will be issues when your application tries to run on Heroku.
 
 #### Step 1 - The App Config
@@ -19,11 +19,11 @@ Mashups: How to Deploy to Heroku
 	```
 	console.log('Express started on port ' + port);
 	```    
-* Create a file named `Procfile` in your applications's main directory. In this file, add a line of code that will instruct Heroku how to run your application. The line should start with `web: node` and then be folowed by the name of your application's main javascript file. In this example, the file I call to launch my application is `app.js`. So, I need to add:  
+* Create a file named `Procfile` in your applications's main directory. In this file, add a line of code that will instruct Heroku how to run your application. The line should start with `web: node` and then be folowed by the name of your application's main serverside javascript file. In this example, the file I call to launch my application is `app.js`. So, I need to add:  
 	```
 	web: node app.js
 	```     
-	Again, this is basically the command we type in the Terminal to run our application and this will instruct Heroku how to properly run our application. 
+	Essentually, Heroku needs to know how to run our application. So this will be the command Heroku will use to do just that.
 * Check the `package.json` to make sure it is complete and accurate. Be careful, the `name` value in the `package.json` should not have any spaces!
 * Create a file named `.gitignore` in the app's main directory and add this line of code to the file
 	```
