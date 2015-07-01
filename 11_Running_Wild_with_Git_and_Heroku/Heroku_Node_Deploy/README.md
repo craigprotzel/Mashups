@@ -13,7 +13,7 @@ Mashups: How to Deploy to Heroku
 	This will allow Heroku to set their own port value. For our application, if no port value is set by the environment, the default port value will be 3000.  
 * Next, update the `app.listen` method to have `port` as its argument.  
 	```
-	app.listen(process.env.PORT || 3000);
+	app.listen(port);
 	```    
 	Also, if you have a console statement that explicitly prints out the port number, you should update that as well to use the new port variable.  
 	```
@@ -62,7 +62,7 @@ Mashups: How to Deploy to Heroku
 	heroku login
 	```  
 	You will be asked for your username and password. When typing your password, nothing will appear.
-* **STOP** Assuming you have never used Heroku before, you should be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than ssh. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.)
+* **STOP** Assuming you have never used Heroku before, you **MAYmay** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.)
 * You are now ready to create an empty Heroku app repo by typing:
 
   ```

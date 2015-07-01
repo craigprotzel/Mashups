@@ -34,5 +34,5 @@
 	* **BONUS** - include a query paramater in your api route
 * Work - on Final Project
 * Download & Install - [Git](http://git-scm.com/downloads)
-* Read - [Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/) by Steve Klise
+* Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
 

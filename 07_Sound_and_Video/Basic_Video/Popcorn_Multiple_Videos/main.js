@@ -30,7 +30,7 @@ function makeYoutubeRequest(terms){
 			for (var i = 0; i < totalVideos; i++){
 				var curVideoId = data.items[i].id.videoId;
 				var popVideoId = "pop-" + curVideoId;
-				var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId;
+				var curVideoLink = 'http://www.youtube.com/watch?v=' + curVideoId + '&controls=1';
 				//Create a div
 				$('#videos').append('<div class="video" id=' + popVideoId + '></div>');
 				//Initialize the Popcorn object
@@ -68,4 +68,4 @@ function makeYoutubeRequest(terms){
 	});
 }
 
-makeYoutubeRequest('nyu abu dhabi');
+makeYoutubeRequest('nyu itp');

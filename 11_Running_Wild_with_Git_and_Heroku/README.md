@@ -3,7 +3,7 @@
 ##### I. Final Project Updates
 
 ##### II. **Git & Github**
-* Read- [Git Workflow for Beginners](http://skli.se/2012/10/07/git-workflow-beginner/)
+* Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
 * Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 ##### III. How to Deploy
