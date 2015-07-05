@@ -18,10 +18,10 @@ Here are some links for inspiration:
   * [Wordnik](https://www.wordnik.com/)
 
 **FINAL PROJECTS**
-* Noah - [How Many?] http://how-many.herokuapp.com/
+* Noah - [How Many?](http://how-many.herokuapp.com/)
 * Dimas - [Mapping People](mappingpeople.herokuapp.com)
 * Nithi - [I Am Going To](http://iamgoingto.herokuapp.com/)
-* Ainsley - [IAmA]
+* Ainsley - IAmA
 * Liz - [Fishing Spots](final-project-mashup-app.herokuapp.com)
 * Hovsep - [Texts From Last Night](texts-you-never-sent.herokuapp.com)
 * Eli - [InstaWorld](instaworld.herokuapp.com)
@@ -34,16 +34,16 @@ Assignment #2 - Due 06/22
 -------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
 
-* Hovsep - [](http://sites.bxmc.poly.edu/~hovsepagop/mashups/assignment2/index.html)
-* Eli - [](http://www.elizhang.com/insta.html)
+* Hovsep - [Run For It](http://sites.bxmc.poly.edu/~hovsepagop/mashups/assignment2/index.html)
+* Eli - [Insta](http://www.elizhang.com/insta.html)
 * Ainsley - [IAmA](http://104.236.197.236:8080/Mashups/Project2/)
 * Liz - 
 * Dimas - [Immigration Map](dimbi.github.io/mashupAPI/project2/index.html)
-* Nick - [](http://nicholashagans.com/project2/)
-* Jen - [](http://jenshoe.com/Project%202/)
-* Sandy - [](http://yunhsuantp.github.io/mashups/project2/)
+* Nick - [Show me the Wether](http://nicholashagans.com/project2/)
+* Jen - [Sunrise - Sunset](http://jenshoe.com/Project%202/)
+* Sandy - [Beaches](http://yunhsuantp.github.io/mashups/project2/)
 * Nithi - [Face Mash](http://www.prasanpanich.com/mashups/mv/)
-* Noah - []()
+* Noah - 
 
 
 Assignment #1 - Due 06/10
@@ -56,8 +56,8 @@ Create a single web page experience that, upon user input, responds with data fr
 * Jen - [WikiFlickrEmotePage](http://jenshoe.com/Project1Revise/wikiflicker.html)
 * Noah - [How Many?](novh.us/howmany)
 * Ainsley - [IAmA](http://104.236.197.236:8080/Mashups/index.html)
-* Dimas - [](http://dimbi.github.io/mashupAPI/project1/index.html)
-* Liz - [](http://git-ebetts.github.io/mashups_PROJECT1/)
+* Dimas - [Drone Wars](http://dimbi.github.io/mashupAPI/project1/index.html)
+* Liz - [Best Fishing Spots](http://git-ebetts.github.io/mashups_PROJECT1/)
 * Nithi - [Leaders](http://www.prasanpanich.com/mashups/leaders/)
 * Sandy - [Beaches](http://www.prasanpanich.com/sandy/week3.html)
 
