@@ -16,9 +16,10 @@ Learning Resources
 * [Codecademy - Javascript](http://www.codecademy.com/)
 * [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
 * [Khan Academy](https://www.khanacademy.org/)
-* **[Stack Overflow](http://stackoverflow.com/)**
+* [Stack Overflow](http://stackoverflow.com/)
 * [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
 * [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
+* [Code Wars](http://www.codewars.com/)
 
 Open(ish) APIs
 --------------
@@ -27,10 +28,12 @@ Open(ish) APIs
   * [Behance](https://www.behance.net/dev)
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [Metropolitan Museum of Art](http://scrapi.org/)
+  * [Museum APIs List](http://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
   * [Fixer Exchange Rates](http://fixer.io/)
   * [Gifts](http://developer.gifts.com/)
+  * [Sears](https://developer.sears.com/documentation/sears-apis-0)
 * Communities
   * [Facebook](https://developers.facebook.com/docs/javascript) 
   * [Reddit](http://www.reddit.com/dev/api) 
@@ -40,11 +43,12 @@ Open(ish) APIs
   * [OpenLibrary](https://openlibrary.org/developers/api)
   * [Encyclopedia of Life](http://eol.org/api)
 * Governemnt & Politics
+  * [Data.gov](https://www.data.gov/developers/apis)
   * [Dronestream](http://dronestre.am/)
   * [HealthCare.gov](https://www.healthcare.gov/developers/)
+  * [New York State Open Data](https://data.ny.gov/browse?limitTo=apis)
   * [OpenSpending](http://community.openspending.org/help/api/)
   * [Sunlight Foundation](http://sunlightfoundation.com/api/)
-  * [Data.gov](https://www.data.gov/developers/apis)
   * [USA.gov](http://www.usa.gov/About/developer-resources/developers.shtml#APIs)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
@@ -75,12 +79,17 @@ Open(ish) APIs
   * [Duck Duck Go](https://api.duckduckgo.com/api) 
 * Transportation
   * [NYC - MTA](http://web.mta.info/developers/)
+  * [Edmunds Vehicles](http://edmunds.mashery.com/docs/read/The_Vehicle_API)
 * Video
   * [The Movie Database](http://docs.themoviedb.apiary.io/)
   * [Open IMDB](http://www.omdbapi.com/)
   * [Youtube Data](https://developers.google.com/youtube/v3/)
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
+* API Platforms/Networks/Services
+  * [Kimono Labs](https://www.kimonolabs.com/)
+  * [Mashery Network](http://developer.mashery.com/apinetwork)
+  * [Open Data Network](http://www.opendatanetwork.com/)
 
 Links
 -----
@@ -129,7 +138,6 @@ Links
 * [What's Next for ECMAScript 6 - Axel Rauschmayer, August 2014](https://speakerdeck.com/rauschma/ecmascript-6-whats-next-for-javascript-august-2014)
 
 #### APIs
-* [Kimono Labs](https://www.kimonolabs.com/)
 * ["A Brief Introduction to REST"](http://www.infoq.com/articles/rest-introduction)
 * ["A REST Tutorial"](http://rest.elkstein.org/)
 * [Stack Overflow - What is JSONP All About?](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)

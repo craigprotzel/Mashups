@@ -1,3 +1,5 @@
+var temps;
+
 function makeD3Chart(dataset){
 	//Clear the container each time a new chart is made
 	$('#container').html('');
@@ -88,7 +90,7 @@ function requestWeatherData(num){
 			//console.log(days);
 
 			//Make an array with just the temps
-			var temps = _.map(days, function(day){
+			temps = _.map(days, function(day){
 				return day.temp;
 			});
 			console.log(temps);
@@ -99,4 +101,10 @@ function requestWeatherData(num){
 
 $(document).ready(function(){
 	requestWeatherData(10);
+
+	//Redraw on resize
+	$(window).resize(function(){
+		console.log("Resizing");
+		makeD3Chart(temps);
+	});
 });

@@ -37,7 +37,7 @@ Create a single web page experience that leverages data from at least one public
 * Hovsep - [Run For It](http://sites.bxmc.poly.edu/~hovsepagop/mashups/assignment2/index.html)
 * Eli - [Insta](http://www.elizhang.com/insta.html)
 * Ainsley - [IAmA](http://104.236.197.236:8080/Mashups/Project2/)
-* Liz - 
+* Liz - [The Cute Cube](http://git-ebetts.github.io/mashups_PROJECT2/)
 * Dimas - [Immigration Map](dimbi.github.io/mashupAPI/project2/index.html)
 * Nick - [Show me the Wether](http://nicholashagans.com/project2/)
 * Jen - [Sunrise - Sunset](http://jenshoe.com/Project%202/)
