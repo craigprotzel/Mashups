@@ -20,8 +20,9 @@ Learning Resources
 * [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
 * [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
 * [Code Wars](http://www.codewars.com/)
+* [General Assembly Dash for HTML & CSS](https://dash.generalassemb.ly/)
 
-Open(ish) APIs
+Open APIs
 --------------
 * Art & Design
   * [Artsy](https://developers.artsy.net/)
@@ -29,6 +30,7 @@ Open(ish) APIs
   * [Cooper-Hewitt Museum](https://collection.cooperhewitt.org/api/)
   * [Metropolitan Museum of Art](http://scrapi.org/)
   * [Museum APIs List](http://museum-api.pbworks.com/w/page/21933420/Museum%C2%A0APIs)
+  * [Riksmuseum](https://www.rijksmuseum.nl/en/api)
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
   * [Fixer Exchange Rates](http://fixer.io/)
@@ -128,6 +130,7 @@ Links
 * [SuperheroJS](http://superherojs.com/) - a collection of the best articles, videos, and presentations on javascript
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 * [Google Javascript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+* [Javascript Is Sexy - Understand Javascript Callback Functions](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
 * [JS IS Sexy - 16 Concepts JS Professionals Must Know Well](http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/)
 * [A Drip of JS - Archive](http://designpepper.com/js-drip-archive)
 * [45 Useful JS Tips, Tricks, & Best Practices](http://flippinawesome.org/2013/12/23/45-useful-javascript-tips-tricks-and-best-practices)

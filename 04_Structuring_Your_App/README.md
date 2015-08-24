@@ -22,6 +22,7 @@
 * Write & Post - a blog post for Assignment #1
 * Additional Recommendations
 	* [Tuts - Design School For Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
+	* [Javascript Is Sexy - Understand Javascript Callback Functions](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
