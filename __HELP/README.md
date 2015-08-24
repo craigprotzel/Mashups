@@ -66,6 +66,7 @@ Open APIs
 * Music & Sounds
   * [FreeSound](https://www.freesound.org/help/developers/)
   * [LastFM](http://www.last.fm/api)
+  * [RapGenius](https://github.com/kenshiro-o/RapGenius-JS)
   * [SoundCloud](http://developers.soundcloud.com/docs)
   * [Spotify](https://developer.spotify.com/)
   * [NPR](http://dev.npr.org/)
