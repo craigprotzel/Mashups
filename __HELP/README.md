@@ -21,6 +21,7 @@ Learning Resources
 * [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
 * [Code Wars](http://www.codewars.com/)
 * [General Assembly Dash for HTML & CSS](https://dash.generalassemb.ly/)
+* [Scotch.io](https://scotch.io/)
 
 Open APIs
 --------------
