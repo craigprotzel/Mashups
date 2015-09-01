@@ -1,0 +1,14 @@
+{
+	"name": "couchdb-server-side",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.5.2",
+		"ejs": "*",
+		"express": "4.x",
+		"request": "~2.34.0"
+	}
+}

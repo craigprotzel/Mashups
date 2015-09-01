@@ -36,7 +36,7 @@
 
 ##### V. Homework
 * Setup
-	* Add -  yourself to the [class web site list](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
+	* Add - yourself to the [class web site list](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 	* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on Javascript**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
@@ -45,7 +45,7 @@
 * Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Find, Post, & Describe - a **url** that returns JSON data from an Open API
-* Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!). If you can, upload your page to a server.
+* Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!). If you can, upload your page to a server, but it is fine if it only runs locally.
 * Additional Recommendations
 	* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
 	* [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)

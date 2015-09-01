@@ -1,0 +1,4 @@
+### InstaTimes Example Index
+* Example 1 - On page load, grab data from the NY Times first and Instagram second. Then call a function to append all the data to the page.
+* Example 2 - On page load, grab data from the NY Times. Then make individual requests to Instagram for each NY Times object. As the Instagram requests respond, in the success function, call a function that will accept both a NY Times object and an Instagram object and append that data to the page. 
+* Example 3 - On page load, grab data from the NY Times and initialize **InstaTimes objects**. Then make individual requests to Instagram for each InstaTimes object. Use a method of the InstaTimes object to append the data to the page and bind click events to the generated DOM element.

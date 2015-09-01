@@ -2,13 +2,13 @@ Mashups: Creating with Web APIs
 ================================
 (always subject to change)
 
-NYU - Interactive Telecommunications Program ([ITP](http://itp.nyu.edu))  
-Semester: Summer Session I 2015    
-Class: Mondays & Wednesdays 3:20pm - 6:15pm  
+NYUAD - Interactive Media Dept.  
+Semester: Fall 2015
+Class: Tuesdays 3:35pm - 4:50pm & Thursdays  2:10pm - 4:50pm  
 Instructor: Craig Protzel  
-Email: craig.protzel@nyu.edu  
-Office Hours:  Wednesdays 11AM - 3PM - Sign up [HERE](https://www.google.com/calendar/selfsched?sstoken=UUdZSW52V1dpZUEwfGRlZmF1bHR8NGY4NmMwMTJiMWVkZGE0YjJkNjBlODM0ZmM1NTJkNjc)    
-Students: [Web Site List](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
+Email: craig.protzel@nyu.edu
+Office Hours: Mondays 11-2PM and/or by email appointment  
+Students: [Web Site List](https://docs.google.com/a/nyu.edu/spreadsheets/d/1ZL6M_h6fk8xAa46yAYZfPeJs9Fv63-ooAo1qkHdyb6w/edit?usp=sharing) 
 
 Course Description
 ------------------
@@ -25,29 +25,35 @@ Schedule
 * **PART II: Classes 5 - 8 Client-Side Javascript Libraries**
 * **PART III: Classes 9 - 12  Server-Side Web Development + Final Project**
 
-##### [Class 1 (05/27): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+##### [Week 1 (09/01 + 09/03): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-##### [Class 2 (06/01): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
+##### [Week 2 (09/08 + 09/10): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-##### [Class 3 (06/03): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Week 3 (09/15 + 09/17): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-##### [Class 4 (06/08): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
+##### No Class 09/22 + 09/24 - Holiday
 
-##### [Class 5 (06/10): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Week 4 (09/29 + 10/01): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
 
-##### [Class 6 (06/15): Graphs & Animations](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_and_Animations)
+##### [Week 5 (10/06 + 10/08): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-##### [Class 7 (06/17): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/07_Sound_and_Video)
+##### [Week 6 (10/13): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_on_Graphs_on_Graphs)
 
-##### [Class 8 (06/22): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
+##### [Week 7 (10/20 + 10/22): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Playstation)
 
-##### [Class 9 (06/22): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
+##### [Week 8 (10/27 + 10/29): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/08_Sound_and_Video)
 
-##### [Class 10 (06/24): More Storage](https://github.com/craigprotzel/Mashups/tree/master/10_More_Storage) 
+##### [Week 9 (11/03 + 11/05): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
 
-##### [Class 11 (06/29): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_With_Git_And_Heroku)
+##### [Week 10 (11/10 + 11/12): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage)
 
-##### [Class 12 (07/01): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/12_Final_Presentations)
+##### [Week 11 (11/17 + 11/19): More Storage](https://github.com/craigprotzel/Mashups/tree/master/11_More_Storage) 
+
+##### [Week 12 : (11/24 + 11/26): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/12_Realtime_Data_and_Authentication)
+
+##### [Week 13 (12/01 + 12/03): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku)
+
+##### [Week 14 (12/08 + 12/10): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
 
 Learning Outcomes
 -----------------
@@ -115,8 +121,9 @@ Attendance & Participation
 --------------------------
 
 * Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
+* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
 * Showing up on time, engaging in the class discussion, and offering advice and input during class is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
-* Please turn in all assignments on time.
+* Please turn in all assignments on time. For each day an assignment is late, it will result in a lower final grade (i.e. B+ to B).
 * You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn. 
 * Ask questions. If you do not ask questions, I can only assume you understand the material completely.
 

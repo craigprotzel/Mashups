@@ -1,0 +1,61 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+.chessBoardStyle{
+	font-size: 28px;
+	text-align: center;
+	color: red;
+}
+
+.chessBoardStyle:hover{
+	color: black;
+	background-color: red;
+}
+
+#chessBoardButton {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	color: blue;
+	background-color: yellow;
+	text-align: center;
+	font-size: 24px;
+	border: 4px solid blue;
+	margin: 10px 0;
+}
+
+#chessBoardButton:hover {
+	background-color: blue;
+	color: yellow;
+	border-color: yellow;
+}
+
+#doMoreButton{
+	font-size: 24px;
+	text-align: center;
+	width: 400px;
+	padding: 20px 40px;
+	margin: 80px auto;
+	background-color: aqua;
+	border: 2px solid black;
+}
+
+#doMoreButton:hover{
+	background-color: yellow;
+	color: red;
+}
+
+.boxBottom{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	margin: 10px;
+}
+
+.extraBox {
+	border: 10px solid red;
+	width: 50%;
+}
