@@ -1,6 +1,6 @@
 ### Web Dev 101
 
-##### I. Discussion - Class 1 Homework
+##### I. Discussion - Week 1 Homework
 
 ##### II. Workshop - HTML & CSS Boot Camp
 * Setting up your page

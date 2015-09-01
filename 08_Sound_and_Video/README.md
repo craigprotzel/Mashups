@@ -1,6 +1,6 @@
 ### Sound & Video
 
-##### I. Discussion - Class 6 Homework
+##### I. Discussion - Week 7 Homework
 
 ##### II. Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_Class7.zip)
 
@@ -29,13 +29,5 @@
 	* [VideoJS](http://www.videojs.com/)
 * [Youtube API](https://developers.google.com/youtube/v3/)
 
-##### V. BONUS - 3D
-* [ThreeJS](http://threejs.org/) & [ThreeJS Examples](http://threejs.org/examples/)
-  * [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
-  * [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
-	* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
-	* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
-	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
-
-##### VI. Homework
+##### V. Homework
 * DUE - Project #2. Your project must be running on the web. A blog post for this assignment is also required.

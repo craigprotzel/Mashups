@@ -1,6 +1,6 @@
 ### Structuring Your App
 
-##### I. Discussion - Class 3 Homework
+##### I. Discussion - Week 3 Homework
 
 ##### II. Workshop - Objects and Arrays in Javascript
 * Built-in Objects - Math & Date

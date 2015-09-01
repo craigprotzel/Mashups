@@ -34,11 +34,3 @@
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
 * Explore - [D3](http://d3js.org/)
 	* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-* Explore - [p5JS](http://p5js.org/)
-	* Watch [hello p5](http://hello.p5js.org/)
-	* Read - [p5 Get Started](http://p5js.org/get-started/)	
-* Additional Recommendations
-	* Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
-	* Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-	* Explore the [PopcornJS](http://popcornjs.org/) Video Library
-	* Explore the [threeJS](http://threejs.org/) library
