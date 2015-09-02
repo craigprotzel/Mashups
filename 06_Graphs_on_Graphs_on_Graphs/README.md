@@ -31,4 +31,5 @@
 * Explore the [threeJS](http://threejs.org/) library
 * Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * Explore the [PopcornJS](http://popcornjs.org/) Video Library
+* Do - 
 * Think & Post - idea(s) for Assignment #2, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, which js library (or libraries) you want to work with, and what the experience of a user visiting the site would be like. Be prepared to present your idea(s) in class.

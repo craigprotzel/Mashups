@@ -10,11 +10,15 @@
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
-##### III. Student Introductions
+##### III. Student Work Examples
+	* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
+	* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
+	* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 
-##### IV. Lecture: The Web, APIs, & Data
+##### IV. Student Introductions
 
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Summer2015_Class1_Slides_Upload.pdf)
+##### V. Lecture: The Web, APIs, & Data
+* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Fall2015_Week1_Slides_Upload.pdf)
 * References
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)
@@ -29,14 +33,9 @@
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
 
-* Student Work Examples
-	* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
-	* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
-	* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
-
-##### V. Homework
+##### VI. Homework
 * Setup
-	* Add - yourself to the [class web site list](https://docs.google.com/spreadsheets/d/1RVrabOKewll_9tJGhhs_GJG2B_rp8bWaleyX1RTrNGY/edit?usp=sharing)
+	* Add - yourself to the [class web site list](https://docs.google.com/a/nyu.edu/spreadsheets/d/1ZL6M_h6fk8xAa46yAYZfPeJs9Fv63-ooAo1qkHdyb6w/edit?usp=sharing)
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 	* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on Javascript**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
@@ -44,7 +43,7 @@
 * Read - [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
-* Find, Post, & Describe - a **url** that returns JSON data from an Open API
+* Find & Describe - a **url** that returns JSON data from an Open API
 * Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!). If you can, upload your page to a server, but it is fine if it only runs locally.
 * Additional Recommendations
 	* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
