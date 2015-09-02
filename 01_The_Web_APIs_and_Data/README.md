@@ -11,9 +11,10 @@
 * [VimeoLabs](http://vimeolabs.com)
 
 ##### III. Student Work Examples
-	* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
-	* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
-	* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
+* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
+* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
+* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
+* [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 
 ##### IV. Student Introductions
 
