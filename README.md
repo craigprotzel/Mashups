@@ -4,7 +4,10 @@ Mashups: Creating with Web APIs
 
 NYUAD - Interactive Media Dept.  
 Semester: Fall 2015
-Class: Tuesdays 3:35pm - 4:50pm & Thursdays  2:10pm - 4:50pm  
+Class: Tuesdays 3:35pm - 4:50pm & Thursdays  2:10pm - 4:50pm
+Room: C3 029 (IM Lab)
+Room Access: [FORM](http://goo.gl/forms/Mge02MPoCb)
+
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu
 Office Hours: Mondays 11-2PM and/or by email appointment  
