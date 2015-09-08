@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
 }
 #topLeftBox { 
 	position: absolute;
@@ -18,8 +19,16 @@ body {
 	height: 80px;
 	top: 0px;
 	left: 0px;
-	font-size: 22px;
+	font-size: 0.9em;
 	z-index: 10;
+}
+#centerBox{
+	width: 100px;
+	background-color: green;
+	margin: 200px auto 20px;
+	padding: 30px 100px;
+	text-align: center;
+	font-size: 1.5em;
 }
 .navItem{
 	float: left;
