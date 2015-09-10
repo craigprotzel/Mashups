@@ -4,18 +4,22 @@
 
 ##### II. Workshop - HTML & CSS Boot Camp
 * Setting up your page
+	* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 	* Adding elements
 	* [HTML5 Element List](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)	
 	* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
 	* [Understanding the Benefits of HTML5 and Semantic Markup](http://www.webmechanix.com/advantages-of-html5-and-semantic-markup)
+	* [HTML5 Boilerplate](http://html5boilerplate.com/)
 * Basic Styling
 	* Classes & IDs
 	* [CSS Box Model](http://css-tricks.com/the-css-box-model/)
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+	* [Bootstrap](http://getbootstrap.com/)
+* [Tuts - Design School for Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
+* [Google Web Dev - Fundamental Layouts](https://developers.google.com/web/fundamentals/layouts/)
 	* [Google Weather Styling Example](http://googlesamples.github.io/web-fundamentals/samples/layouts/rwd-fundamentals/weather-2.html)
-* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
-* [HTML5 Boilerplate](http://html5boilerplate.com/)
+
 
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console
