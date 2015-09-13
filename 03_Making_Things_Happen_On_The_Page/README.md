@@ -13,7 +13,7 @@
 * [jQuery Documentation](http://api.jquery.com/)
 * [AJAX with jQuery](http://learn.jquery.com/ajax/)
 * References
-	* [Events and Listeners in Javascript](http://idratherbewriting.com/2013/02/04/events-and-listeners-javascript/)
+	* [Events and Listeners in Javascript](http://idratherbewriting.com/events-and-listeners-javascript/)
 
 ##### III. Exercise - WikiSearch
 * [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page/WikiSearch)
