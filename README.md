@@ -36,9 +36,9 @@ Schedule
 
 ##### No Class 09/22 + 09/24 - Holiday
 
-##### [Week 4 (09/27 + 09/29 + 10/01): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
+##### [Week 4 (09/27 + 09/29 + 10/01): Structuring Your App + Project #1 Due](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
 
-##### [Week 5 (10/06 + 10/08): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Week 5 (10/06 + 10/08):Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
 ##### [Week 6 (10/13): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_on_Graphs_on_Graphs)
 
