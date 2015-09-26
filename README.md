@@ -40,9 +40,9 @@ Schedule
 
 ##### [Week 5 (10/06 + 10/08): Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-##### [Week 6 (10/13): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_on_Graphs_on_Graphs)
+##### [Week 6 (10/10 + 10/13): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_on_Graphs_on_Graphs)
 
-##### [Week 7 (10/20 + 10/22): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Playstation)
+##### [Week 7 (10/20): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Playstation)
 
 ##### [Week 8 (10/27 + 10/29): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/08_Sound_and_Video)
 
