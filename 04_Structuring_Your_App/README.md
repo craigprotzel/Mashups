@@ -3,10 +3,8 @@
 ##### I. Discussion - Week 3 Homework
 
 ##### II. Workshop - Objects and Arrays in Javascript
-* Built-in Objects - Math & Date
-* Understanding Objects and their Prototype
-* Creating Our Own Objects
 * Using Arrays to store data
+* Closure and passing an Object
 
 ##### III. Exercise - InstaTimes
 * [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/InstaTimes)
