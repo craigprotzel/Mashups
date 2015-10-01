@@ -16,5 +16,7 @@ img{
 	margin: 1px auto;
 }
 .instaArticle{
-	margin: 10px auto;
+	float: left;
+	width: 20%;
+	margin: 10px 4px;
 }

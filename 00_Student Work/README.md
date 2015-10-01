@@ -26,3 +26,21 @@ Create a single web page experience that leverages data from at least one public
 Assignment #1 - Due 10/01
 -------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ultimately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
+
+
+* Abhi G- [Project 1](http://av1509.nyuad.im/Project1/)
+* Abhi V - []()
+* Andrew - []()
+* Brooke - [SoulMusic](http://bnhopkins.com/SoulMusic)
+* Dirichi - []()
+* Gabor - []()
+* Gayoung - [Inspiration Generator](http://gl1035.nyuad.im/inspiration_generator/)
+* Luis - [Should I Breathe?](http://lmn297.nyuad.im/sib/)
+* Mark - []()
+* Miha -  [Rijks Mix](http://mk4908.imnyuad.com/api)
+* Moaz - [Rhtyhms of the World](http://ma3585.nyuad.im/Project1/project1.html)
+* Mohan - []()
+* Nahla - [Cheapest Journey](http://ni372.nyuad.im/Project%201/Project1.html)
+* Quan - [Slack to Google Calendar](http://qhv200.nyuad.im/assignment/first_assignment/main.html)
+* Shehroze - [Project 1](http://suk222.nyuad.im/Project%201/)
+* Shujaat - [Concert Scanner](http://www.msm622.nyuad.im/ConcertScanner/)
