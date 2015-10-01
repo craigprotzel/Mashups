@@ -42,6 +42,9 @@ Create a single web page experience that, upon user input, responds with data fr
 * Mohan - [XKCD Times](http://md2940.nyuad.im/XKCD.html)
 * Nahla - [Cheapest Journey](http://ni372.nyuad.im/Project%201/Project1.html)
 * Quan - [Slack to Google Calendar](http://qhv200.nyuad.im/assignment/first_assignment/main.html)
-* Shehroze - [Project 1](http://suk222.nyuad.im/Project%201/)
+* Shehroze - [Pic(k)it](http://suk222.nyuad.im/Project%201/)
 * Shujaat - [Concert Scanner](http://www.msm622.nyuad.im/ConcertScanner/)
 * Yuhui - [Healthy Food](http://yd610.nyuad.im/week3%20hw/week3hw.html)
+
+
+
