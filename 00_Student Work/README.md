@@ -29,8 +29,8 @@ Create a single web page experience that, upon user input, responds with data fr
 
 
 * Abhi G- [Project 1](http://av1509.nyuad.im/Project1/)
-* Abhi V - []()
-* Andrew - []()
+* Abhi V - [Scandinavia for Spring Break](http://av1509.nyuad.im/Project1/)
+* Andrew - [Talk to Me](http://aac511.nyuad.im/Mashups/Week%20of%20Sept%2030/feelings-talker.html)
 * Brooke - [SoulMusic](http://bnhopkins.com/SoulMusic)
 * Dirichi - []()
 * Gabor - []()
