@@ -32,7 +32,7 @@ Create a single web page experience that, upon user input, responds with data fr
 * Abhi V - [Scandinavia for Spring Break](http://av1509.nyuad.im/Project1/)
 * Andrew - [Talk to Me](http://aac511.nyuad.im/Mashups/Week%20of%20Sept%2030/feelings-talker.html)
 * Brooke - [SoulMusic](http://bnhopkins.com/SoulMusic)
-* Dirichi - []()
+* Dirichi - [Where Should I Work?](http://din206.nyuad.im/Mashups/projects/whereshouldiwork/)
 * Gabor - [Perfect Weather](http://gc1569.nyuad.im/perfectweather/perfectWeather.html)
 * Gayoung - [Inspiration Generator](http://gl1035.nyuad.im/inspiration_generator/)
 * Luis - [Should I Breathe?](http://lmn297.nyuad.im/sib/)
