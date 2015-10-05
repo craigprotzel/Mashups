@@ -29,11 +29,11 @@ Create a single web page experience that, upon user input, responds with data fr
 
 #####Grading Rubric
 50: Point Scale
-	* 10: Code Clarity - legibility
-	* 10: Technical Implementation - demonstrate an understanding of the material, includes the HTML, CSS, JS, code quality, and code management
-	* 10: User Experience
-	* 10: Creativity
-	* 10: Documentation
+  * 10: Code Clarity - legibility
+  * 10: Technical Implementation - demonstrate an understanding of the material, includes the HTML, CSS, JS, code quality, and code management
+  * 10: User Experience
+  * 10: Creativity
+  * 10: Documentation
 
 
 #####Student Links
