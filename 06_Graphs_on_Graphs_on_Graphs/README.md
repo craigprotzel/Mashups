@@ -20,7 +20,7 @@
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
-##### V. Discussion - Project #2 Due Class 8 (Monday 06/22)
+##### V. Discussion - Project #2 (Due 11/05)
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.). The project must be deployed on the world wide web. 
 
 ##### VI. Homework

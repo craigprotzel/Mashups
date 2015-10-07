@@ -18,9 +18,9 @@ Here are some links for inspiration:
   * [Wordnik](https://www.wordnik.com/)
 
 
-Assignment #2 - Due 11/03
+Assignment #2 - Due 11/05
 -------------------------
-Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, P5, Popcorn, etc.)
+Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.)
 
 
 Assignment #1 - Due 10/01

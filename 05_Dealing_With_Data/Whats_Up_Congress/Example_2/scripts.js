@@ -3,6 +3,9 @@ var WUC = {
 	returnCount : 0
 };
 
+var myKey = '2481dc6ebf4f42918aaed25bb22c50fd';
+//var myKey =	'YOUR-KEY-GOES-HERE';
+
 function getCongressData(){
 
 	//Create necessary date structure for AJAX request
@@ -20,7 +23,6 @@ function getCongressData(){
 	//Construct string
 	var queryDay = yyyy + '-' + mm + '-' + dd;
 
-	var myKey =	'YOUR-KEY-GOES-HERE';
 	var congressURL = 'http://congress.api.sunlightfoundation.com/floor_updates?legislative_day=' + queryDay + '&apikey=' + myKey;
 
 	//Make AJAX request
@@ -198,7 +200,6 @@ function parseForID(){
 function makeInfoRequest(personID, theObj){
 	console.log("Making Request For: " + personID);
 	var personURL = 'http://congress.api.sunlightfoundation.com/legislators?bioguide_id=' + personID + '&apikey=';
-	var myKey = 'YOUR-API-KEY-GOES-HERE';
 
 	$.ajax({
 		url: personURL + myKey,

@@ -31,6 +31,6 @@
 
 ##### VI. Homework
 * Coding + Design Exercise - using any js library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images or add images locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
-* Create - a working prototype for Assignment #2. This includes data coming in and some visual representation on the pag using the interaction library (or libraries) of your choosing. Be prepared to demo your work. We will be doing group user-testing in class.
+* Create - wireframes for Assignment #2. Be prepared to share your work.
 * Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * Explore the [PopcornJS](http://popcornjs.org/) Video Library
