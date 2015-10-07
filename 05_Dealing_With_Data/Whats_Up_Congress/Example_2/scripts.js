@@ -3,8 +3,7 @@ var WUC = {
 	returnCount : 0
 };
 
-var myKey = '2481dc6ebf4f42918aaed25bb22c50fd';
-//var myKey =	'YOUR-KEY-GOES-HERE';
+var myKey =	'YOUR-KEY-GOES-HERE';
 
 function getCongressData(){
 
