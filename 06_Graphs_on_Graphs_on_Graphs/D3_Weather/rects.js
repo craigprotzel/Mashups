@@ -1,3 +1,4 @@
+//Global to store the temps
 var temps;
 
 function makeD3Chart(dataset){
@@ -36,17 +37,8 @@ function makeD3Chart(dataset){
 		})
 		.attr("fill", function(d){
 			var red = Math.min(Math.round(d.day) * 2, 255);
-			//console.log(r);
 			var color = 'rgb(' + red + ',20,80)';
 			return color;
-		})
-		.on('click', function(d){
-			console.log("The temp is " + d.day);
-			d3.select(this)
-				.transition()
-				.attr("y", h)
-				.attr("fill", "blue")
-				.duration(1000);
 		});
 
 		// .attr("class", "rects")
@@ -55,6 +47,15 @@ function makeD3Chart(dataset){
 		// 	return h - d.day;
 		// })
 		// .duration(5000);
+
+		// .on('click', function(d){
+		// 	console.log("The temp is " + d.day);
+		// 	d3.select(this)
+		// 		.transition()
+		// 		.attr("y", h)
+		// 		.attr("fill", "blue")
+		// 		.duration(1000);
+		// });
 
 	svg.selectAll("text")
 		.data(dataset)
@@ -76,9 +77,12 @@ function makeD3Chart(dataset){
 }
 
 function requestWeatherData(num){
+
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
+	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-APP-KEY';
+
 	$.ajax({
-		url: weatherURL,
+		url: weatherURL + weatherKEY,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(err){

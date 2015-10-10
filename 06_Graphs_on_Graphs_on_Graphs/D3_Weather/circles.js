@@ -2,13 +2,10 @@ function makeD3Chart(dataset){
 	//Clear the page each time a new chart is made
 	$('body').html('');
 
+	//Get data about page
 	var w = $(window).width()/2;
 	var h = 300;
 	var barPadding = 2;
-
-	var yScale = d3.scale.linear()
-		.domain([d3.min(dataset, function(d) { return d.min; }), d3.max(dataset, function(d) { return d.max; })])
-		.range([100,h - 100]);
 
 	//Create SVG element
 	var svg = d3.select("body")
@@ -16,7 +13,17 @@ function makeD3Chart(dataset){
 		.attr("width", w)
 		.attr("height", h);
 
+	//Get min and max value from dataset
+	var dataMin = d3.min(dataset, function(d) { return d.min; });
+	var dataMax = d3.max(dataset, function(d) { return d.max; });
+
+	//Initialize the y-scale using the min and max temp values
+	var yScale = d3.scale.linear()
+		.domain([dataMin, dataMax])
+		.range([100,h - 100]);
+
 	//Create g 'groups' for the different types of circles
+	//Groups allow for separating data
 	var minTemps = svg.append("g")
 		.attr("class", "minTemps");
 	var maxTemps = svg.append("g")
@@ -51,9 +58,12 @@ function makeD3Chart(dataset){
 
 //AJAX Request for Weather Data
 function requestWeatherData(num){
+
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
+	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-APP-KEY';
+
 	$.ajax({
-		url: weatherURL,
+		url: weatherURL + weatherKEY,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(err){

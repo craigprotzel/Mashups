@@ -13,5 +13,5 @@ svg{
 	margin: 10px auto;
 }
 svg .rects:hover{
-	fill: orange;
+	fill: green;
 }

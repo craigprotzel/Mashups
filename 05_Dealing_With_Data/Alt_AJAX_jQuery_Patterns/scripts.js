@@ -48,11 +48,13 @@ function searchBasicPattern(searchTerm){
 //set the AJAX call equal to a variable
 //attach 'listeners' to this variable
 function searchDoneFailPattern(searchTerm){
+
 	var theAJAXCall = $.ajax({
 		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp'
 	});
+
 	theAJAXCall.done(itWorked);
 	theAJAXCall.fail(itFailed);
 	theAJAXCall.always(finished);
@@ -83,11 +85,13 @@ function searchThenPattern(searchTerm){
 //'.when' expects our AJAX call vars as arguments
 //'.then' will only be called when BOTH of these arguments are 'ready'
 function searchWhenThenPattern(searchTerm){
+
 	var searchOne = $.ajax({
 		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp'
 	});
+
 	var searchTwo = $.ajax({
 		url: wikiURL + 'mashups',
 		type: 'GET',
