@@ -15,8 +15,9 @@
 ##### IV. [p5JS](https://github.com/lmccart/p5.js)  
 * [p5 Learn](http://p5js.org/learn/)
 * [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
-* [ITP Class - Createive JS](https://github.com/lmccart/itp-creative-js)
-* [Nature of Code - p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
+* ITP Classes
+  * [Creative JS](https://github.com/lmccart/itp-creative-js)
+  * [Nature of Code](http://natureofcode.com/book/introduction/) - [p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 * [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator
 	* [PaperJS Tutorials](http://paperjs.org/tutorials/)
 * Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)
@@ -30,7 +31,7 @@
 * [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 ##### VI. Homework
-* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images or add images locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
+* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or add images locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
 * Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * Explore the [PopcornJS](http://popcornjs.org/) Video Library
 * Think & Post - idea(s) for Assignment #2, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, which js library (or libraries) you want to work with, and what the experience of a user visiting the site would be like. Create at least 3 wireframes for Assignment #2. Be prepared to present your work in class.
