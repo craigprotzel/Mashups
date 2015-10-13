@@ -36,8 +36,10 @@ p5 Code
 var astros = [];
 var msg = '';
 var canvasElement;
+
 function setup() {
 	console.log("Setup");
+	
 	msg = createDiv('Getting Space Data...');
 	var canvas = createCanvas(windowWidth, windowHeight);
 	canvasElement = canvas.elt;

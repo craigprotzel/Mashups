@@ -4,7 +4,7 @@ function drawCanvas(){
 	//Set the context
 	var ctx = canvas.getContext('2d');
 
-	ctx.fillStyle = "pink";
+	ctx.fillStyle = "#00CC00";
 	ctx.fillRect(0,0, canvas.width, canvas.height);
 
 	ctx.fillStyle = 'aqua';
