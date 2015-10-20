@@ -19,7 +19,14 @@
 	* [PaperJS Tutorials](http://paperjs.org/tutorials/)
 * Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)
 
-##### IV. [ThreeJS](http://threejs.org/)
+##### IV. Image Manipulation
+* [Canvas Pixel Manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)
+* p5  
+	* [p5 Filter](http://p5js.org/reference/#/p5/filter)  
+	* [p5 Load/Update Pixels](http://p5js.org/reference/#/p5/loadPixels)
+	* [p5 Examples - Images](http://p5js.org/examples/)
+
+##### V. [ThreeJS](http://threejs.org/)
 * [ThreeJS Examples](http://threejs.org/examples/)
 * [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
 * [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
