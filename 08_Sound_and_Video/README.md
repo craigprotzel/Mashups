@@ -25,8 +25,8 @@
 	* [Audio Analysis Demo](http://www.airtightinteractive.com/demos/js/uberviz/audioanalysis/)
 	* [p5JS Sound Amplitude Analysis](http://p5js.org/examples)
 * Web Audio API Libraries
-	* [p5 Sound](http://p5js.org/reference/#/libraries/p5.sound)
-	* [Tone](https://github.com/Tonejs/Tone.js)
+	* [p5 Sound](http://p5js.org/reference/#/libraries/p5.sound) - All purpose
+	* [Tone](https://github.com/Tonejs/Tone.js) - "Make Interactive Music" (p5.Sound lib is built on top of this)
 	* [Buzz](http://buzz.jaysalvat.com/documentation/buzz/) - HTML5 Audio
 	* [Howler](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) - Basic Web Audio + HTML5 Audio
 	* [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
