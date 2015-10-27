@@ -1,8 +1,13 @@
 ### Sound & Video
 
 ##### I. Intro
-* DB Tool - [SheetseeJS](http://jlord.us/sheetsee.js/docs/basics.html)
+* [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Week8.zip)
+* Keys
+	* [FreeSound API](https://www.freesound.org/help/developers/)
+	* [Youtube API](https://developers.google.com/youtube/v3/)
+* DataBase Tool - [SheetseeJS](http://jlord.us/sheetsee.js/docs/basics.html)
 * Inspiration - [Chrome Experiments](https://www.chromeexperiments.com/)
+
 
 ##### II. Audio
 * Web Audio API
@@ -17,6 +22,8 @@
 	* [Jazz Computer](http://jazz.computer/)
 	* [See Hear Party](http://www.seehearparty.com/)
 	* [Listen to Wikimedia](listen.hatnote.com)
+	* [Audio Analysis Demo](http://www.airtightinteractive.com/demos/js/uberviz/audioanalysis/)
+	* [p5JS Sound Amplitude Analysis](http://p5js.org/examples)
 * Web Audio API Libraries
 	* [p5 Sound](http://p5js.org/reference/#/libraries/p5.sound)
 	* [Tone](https://github.com/Tonejs/Tone.js)
@@ -24,7 +31,6 @@
 	* [Howler](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) - Basic Web Audio + HTML5 Audio
 	* [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
 	* [Annyang](https://www.talater.com/annyang/) - Speech Recognition	
-* [FreeSound API](https://www.freesound.org/help/developers/)
 
 ##### III. Video
 * [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
@@ -32,8 +38,8 @@
 * HTML5 Video Libraries
 	* [PopcornJS](http://popcornjs.org/)
 	* [Popcorn Starter Code](https://github.com/benrito/popcorn-starter) - [Ben Moskowitz](https://twitter.com/benrito)
+	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
-* [Youtube API](https://developers.google.com/youtube/v3/)
 
 ##### IV. Homework
 * DUE (Nov. 5) - Project #2. Your project must be running on the web. A blog post for this assignment is also required.

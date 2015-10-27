@@ -3,6 +3,7 @@ You will need a YouTube Data API KEY to run this example
 https://developers.google.com/youtube/v3/getting-started
 */
 var myKey = 'YOUR-KEY-GOES-HERE';
+
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
 	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
@@ -27,8 +28,7 @@ function makeYoutubeRequest(term){
 			console.log(theVideoId);
 			//Create the youtube video link
 			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId + '&controls=1';
-
-			
+	
 			//Initialize a Popcorn object with the video link
 			//(1) Set a 'Media Wrapper' for the Popcorn object
 			var wrapper = Popcorn.HTMLYouTubeVideoElement('#videos');
@@ -73,22 +73,27 @@ function setVideoEvents(video){
 	video.on('timeupdate', function(){
 		//console.log(video.currentTime());
 		$('#animation').append("<div class='greenBox'></div>");
+		console.log("Updating!");
 	});
 
 	video.on('play', function(){
 		console.log('Playing at: ' + video.currentTime());
-		//changeBG();
 	});
+
 	video.on('pause',function(){
 		console.log("Paused at: " + video.currentTime());
 		$('#animation').append("<div class='redBox'></div>");
-		//clearInterval(bgAnimation);
 	});
 
 	//Use the 'cue' to trigger an event at a specific time
 	video.cue(5, function() {
 		//Do somethinge at time :5
 		console.log("We reached second 5");
+		//changeBG();
+	});
+
+	video.cue(12, function() {
+		//clearInterval(bgAnimation);
 	});
 
 	video.code({
@@ -100,6 +105,7 @@ function setVideoEvents(video){
 			$('#infoBox').html("Want to know more?");
 		},
 		onEnd: function( options ) {
+			//clearInterval(bgAnimation);
 			$('#infoBox').html("Read about NYUAD below!");
 		}
 	});
@@ -122,5 +128,5 @@ function generateRandomColor(){
 }
 
 $(document).ready(function(){
-	makeYoutubeRequest("NYU Shanghai");
+	makeYoutubeRequest("nyu abu dhabi");
 });

@@ -1,26 +1,6 @@
-//var myKey = 'YOUR-KEY-GOES-HERE';
-var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
+var myKey = 'YOUR-KEY-GOES-HERE';
 
-function getFreeSound(term){
-	//This is for Freesound API v2
-	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
-	var myURL = url + myKey;
-	$.ajax({
-		url: myURL,
-		type: 'GET',
-		dataType: 'json',
-		error: function(data){
-			console.log("We got problems");
-			console.log(data.status);
-		},
-		success: function(data){
-			console.log("WooHoo!");
-			console.log(data);
-			getSoundContent(data.results[0].id);
-		}
-	});
-}
-
+//Second Request to FreeSound for Sound File Location
 function getSoundContent(soundID){
 	var url = 'http://www.freesound.org/apiv2/sounds/' + soundID + '/?token=';
 	var myURL = url + myKey;
@@ -43,6 +23,27 @@ function getSoundContent(soundID){
 	});
 }
 
+//Initial Request to FreeSound
+function getFreeSound(term){
+	//This is for Freesound API v2
+	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
+	var myURL = url + myKey;
+	$.ajax({
+		url: myURL,
+		type: 'GET',
+		dataType: 'json',
+		error: function(data){
+			console.log("We got problems");
+			console.log(data.status);
+		},
+		success: function(data){
+			console.log("WooHoo!");
+			console.log(data);
+			getSoundContent(data.results[0].id);
+		}
+	});
+}
+
 // Native JS - Web Audio API
 var context, source, buffer;
 var AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -58,7 +59,7 @@ function onError(){
 	console.log("We got problems");
 }
 
-//Define function for JS AJAX Request
+//JS AJAX Request to Access Sound File
 function makeAudioRequest(url){
 	var request = new XMLHttpRequest();
 	request.open('GET', url, true);
@@ -124,4 +125,4 @@ $(document).ready(function(){
 });
 
 //Execeute the request
-getFreeSound('cat meow');
+getFreeSound('dinosaurs');

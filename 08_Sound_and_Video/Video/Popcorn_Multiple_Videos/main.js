@@ -68,4 +68,4 @@ function makeYoutubeRequest(terms){
 	});
 }
 
-makeYoutubeRequest('nyu itp');
+makeYoutubeRequest('just a band');

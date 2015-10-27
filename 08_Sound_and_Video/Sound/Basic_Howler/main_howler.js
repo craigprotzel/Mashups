@@ -1,6 +1,7 @@
+//Global vars
 var freeData, sound;
-//var myKey = 'YOUR-KEY-GOES-HERE';
-var myKey = 'dfb706550f95738140ea58b0baaa1745876de52d';
+var myKey = 'YOUR-KEY-GOES-HERE';
+
 function getFreeSound(term){
 	//This is for Freesound API v2
 	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
@@ -38,10 +39,17 @@ function getSoundContent(soundID){
 			var audioLink = data.previews['preview-hq-mp3'];
 			console.log(audioLink);
 
-			//HowlerJS
-			sound = new Howl({
-				urls: [audioLink]
-			});
+			createHowl(audioLink);
+		}
+	});
+}
+
+
+function createHowl(link){
+	sound = new Howl({
+		urls: [audioLink],
+		onload: function() {
+			console.log("Done!");
 			$("button#play").css('background-color', 'green');
 		}
 	});
@@ -83,4 +91,3 @@ $(document).keydown(function(e) {
 
 //Make a request to FreeSound
 getFreeSound('ghost');
-
