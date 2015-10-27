@@ -24,6 +24,7 @@
 	* [Listen to Wikimedia](listen.hatnote.com)
 	* [Audio Analysis Demo](http://www.airtightinteractive.com/demos/js/uberviz/audioanalysis/)
 	* [p5JS Sound Amplitude Analysis](http://p5js.org/examples)
+	* [ToneJS Oscillator](http://tonejs.org/examples/oscillator.html)
 * Web Audio API Libraries
 	* [p5 Sound](http://p5js.org/reference/#/libraries/p5.sound) - All purpose
 	* [Tone](https://github.com/Tonejs/Tone.js) - "Make Interactive Music" (p5.Sound lib is built on top of this)
