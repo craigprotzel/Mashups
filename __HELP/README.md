@@ -84,12 +84,16 @@ Open APIs
 * Transportation
   * [NYC - MTA](http://web.mta.info/developers/)
   * [Edmunds Vehicles](http://edmunds.mashery.com/docs/read/The_Vehicle_API)
+* Travel  
+  * [Rome2Rio](http://www.rome2rio.com/documentation)
+  * [Expedia Hackathon](http://hackathon.expedia.com/)
 * Video
   * [The Movie Database](http://docs.themoviedb.apiary.io/)
   * [Open IMDB](http://www.omdbapi.com/)
   * [Youtube Data](https://developers.google.com/youtube/v3/)
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
+  * [NCDC Climate Data](http://www.ncdc.noaa.gov/cdo-web/webservices/v2)
 * API Platforms/Networks/Services
   * [Kimono Labs](https://www.kimonolabs.com/)
   * [Mashery Network](http://developer.mashery.com/apinetwork)
