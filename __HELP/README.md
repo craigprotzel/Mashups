@@ -58,6 +58,7 @@ Open APIs
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
   * [Instagram](http://instagram.com/developer/)
   * [Marvel Comics](http://developer.marvel.com/)
+  * [NASA Landsat Image Gallery](http://landsat.visibleearth.nasa.gov/)
 * Location
   * [Foursquare](https://developer.foursquare.com/)
   * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
