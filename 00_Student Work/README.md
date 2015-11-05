@@ -25,7 +25,7 @@ Create a single web page experience that leverages data from at least one public
 
 #####Student Links
 * Abhi G- []()
-* Abhi V - [Project 2](http://av1509.nyuad.im/Project2/)
+* Abhi V - [Drone Strikes In Yemen](http://av1509.nyuad.im/Project2/)
 * Andrew - []()
 * Brooke - [Death Row](http://bnhopkins.com/Death%20Row/)
 * Dirichi - []()
