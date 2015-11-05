@@ -3,6 +3,7 @@ MASHUPS HOW TO'S
 * [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
 * [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/Github_Pages)
 * [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
+* [Deploy A Local Host To A Temporary URL with ngrok](https://ngrok.com/)
 
 Learning Resources
 ------------------
