@@ -2,7 +2,7 @@
 
 ##### I. Presentations - Project #2
 
-##### Download Server Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Class9_Server_Code_Examples.zip)
+##### Download Server Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Node_Express_Examples.zip)
 
 ##### II. Intro to the Server
 * Install [NodeJS](http://nodejs.org/)
@@ -19,4 +19,4 @@
 * Additional Readings
 	* [The Node Beginner Book](http://www.nodebeginner.org/)
 	* [Understanding NodeJS](http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb)
-* BONUS Coding Exercise - [Nodeschool.io](http://nodeschool.io/) - [Functional Javascript](https://github.com/timoxley/functional-javascript-workshop) - 'Hello World' through 'Basic: Every Some'. Bonus Exercises - 'Basic: Reduce' & 'Basic: Recursion'
+	* Bonus Coding Exercises - [Nodeschool.io](http://nodeschool.io/) - [Functional Javascript](https://github.com/timoxley/functional-javascript-workshop) - 'Hello World' through 'Basic: Every Some'. Bonus Exercises - 'Basic: Reduce' & 'Basic: Recursion'
