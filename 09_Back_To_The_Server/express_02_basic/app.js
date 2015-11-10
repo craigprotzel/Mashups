@@ -30,7 +30,7 @@ app.get("/yo", function(request, response) {
 app.get("/:term", function(request, response) {
 	var currentTerm = request.params.term;
 	var dataForThePage = {
-		theMessage: currentTerm
+		message: currentTerm
 	};
 	response.render("other", dataForThePage);
 });
