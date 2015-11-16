@@ -22,6 +22,12 @@ Assignment #2 - Due 11/05
 -------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.)
 
+#####Grading Rubric - 50 Points
+  * 10: Code Clarity - legibility
+  * 10: Technical Implementation - demonstrate an understanding of the material, specifically the use of a javascript library plus overall code quality code management
+  * 10: User Experience
+  * 10: Creativity
+  * 10: Documentation
 
 #####Student Links
 * Abhi G- [Video Trek](http://ag3754.nyuad.im/videotrek/)
