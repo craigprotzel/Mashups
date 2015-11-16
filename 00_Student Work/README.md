@@ -34,7 +34,7 @@ Create a single web page experience that leverages data from at least one public
 * Abhi V - [Drone Strikes In Yemen](http://av1509.nyuad.im/Project2/)
 * Andrew - [The Case for Reparations](http://aac511.nyuad.im/Mashups/Mashups:%20Second%20Assignment/Mashups%20Second%20Assignment/euroMap.html)
 * Brooke - [Death Row](http://bnhopkins.com/The%20Death%20Row/)
-* Dirichi - [Soccer]()
+* Dirichi - [Soccer Manager](http://dirichi.github.io/SimpleSoccerManager/)
 * Gabor - [Money Makes the World Go 'Round](http://gc1569.nyuad.im/MoneyMakesTheWorld/)
 * Gayoung - [Refugee Boats](http://gl1035.nyuad.im/refugee_boats/)
 * Luis - [AGS](http://lmn297.nyuad.im/AGS/)
