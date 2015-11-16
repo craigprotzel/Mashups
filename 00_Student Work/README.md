@@ -24,23 +24,23 @@ Create a single web page experience that leverages data from at least one public
 
 
 #####Student Links
-* Abhi G- []()
+* Abhi G- [Video Trek](http://ag3754.nyuad.im/videotrek/)
 * Abhi V - [Drone Strikes In Yemen](http://av1509.nyuad.im/Project2/)
-* Andrew - []()
-* Brooke - [Death Row](http://bnhopkins.com/Death%20Row/)
-* Dirichi - []()
-* Gabor - []()
-* Gayoung - []()
+* Andrew - [The Case for Reparations](http://aac511.nyuad.im/Mashups/Mashups:%20Second%20Assignment/Mashups%20Second%20Assignment/euroMap.html)
+* Brooke - [Death Row](http://bnhopkins.com/The%20Death%20Row/)
+* Dirichi - [Soccer]()
+* Gabor - [Money Makes the World Go 'Round](http://gc1569.nyuad.im/MoneyMakesTheWorld/)
+* Gayoung - [Refugee Boats](http://gl1035.nyuad.im/refugee_boats/)
 * Luis - [AGS](http://lmn297.nyuad.im/AGS/)
 * Mark -  [Urban](http://marksurnin.com/urban)
 * Miha - [Exodus](http://mk4908.imnyuad.com/passingThruSlo/)
 * Moaz - [Map Project](http://ma3585.nyuad.im/)
 * Mohan - [Clubilepsy](http://md2940.nyuad.im/)
 * Nahla - [Filter Vision](http://ni372.nyuad.im/Project%202/)
-* Quan - []()
+* Quan - [WikiTerm](http://qhv200.nyuad.im/project/second_assignment/main.html)
 * Shehroze - [Audio Visualizer](http://suk222.nyuad.im/Project%202/)
-* Shujaat - [Malaria]()
-* Yuhui - []()
+* Shujaat - [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/)
+* Yuhui - [U.S. Corporate Tax Rates Visualization](http://yd610.nyuad.im/project2Yuhui/)
 
 
 
@@ -57,7 +57,7 @@ Create a single web page experience that, upon user input, responds with data fr
 
 
 #####Student Links
-* Abhi G- [Lesson Org](http://ag3754.nyuad.im/)
+* Abhi G- [Lesson Org](http://ag3754.nyuad.im/bing/)
 * Abhi V - [Scandinavia for Spring Break](http://av1509.nyuad.im/Project1/)
 * Andrew - [Talk to Me](http://aac511.nyuad.im/Mashups/Week%20of%20Sept%2030/feelings-talker.html)
 * Brooke - [SoulMusic](http://bnhopkins.com/SoulMusic)
