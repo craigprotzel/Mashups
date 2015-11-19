@@ -28,11 +28,6 @@
 	* ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
 ##### IV. Homework
-* Create - a  Node-Express app that runs locally on your computer and saves data to a CouchDB on Cloudant. Your app should include the following:
-	* The ability for user input to be saved in your database
-	* The presentation of data from your database on a page
-	* At least one route that serves data from your database to a page as json
-	* **BONUS** - include a query paramater in your api route
 * Work - on Final Project
 * Download & Install - [Git](http://git-scm.com/downloads)
 * Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise

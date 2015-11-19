@@ -32,4 +32,3 @@
 	* '/:term' - a page with an api request based on the url  
 	* '/api/:term' - a page that shows json data based on the url
 	* '*' - a catch all page
-* Prepare - 2 Final Project Proposals to share with the class
