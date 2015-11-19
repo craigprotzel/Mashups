@@ -52,6 +52,10 @@ function loadNotes() {
 			console.log(resp);
 			$("#notes").empty();
 
+			if (resp.noData){
+				return;
+			}
+
 			// Use Underscore's sort method to sort our records by date.
 			var sorted = _.sortBy(resp, function (row) { return row.doc.created_at;});
 

@@ -72,12 +72,17 @@ app.get("/api/:key", function (request, response) {
 		//Grab the rows
 		var theData = body.rows;
 
-		// And then filter the results to match the desired key.
-		var filteredData = theData.filter(function (d) {
-			return d.doc.namespace == request.params.key;
-		});
-		// Now use Express to render the JSON.
-		response.json(filteredData);
+		if (theData){
+			// And then filter the results to match the desired key.
+			var filteredData = theData.filter(function (d) {
+				return d.doc.namespace == request.params.key;
+			});
+			// Now use Express to render the JSON.
+			response.json(filteredData);
+		}
+		else{
+			response.json({noData:true});
+		}
 	});
 });
 

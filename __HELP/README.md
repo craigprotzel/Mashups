@@ -39,15 +39,24 @@ Open APIs
   * [Sears](https://developer.sears.com/documentation/sears-apis-0)
 * Communities
   * [Facebook](https://developers.facebook.com/docs/javascript) 
-  * [Reddit](http://www.reddit.com/dev/api) 
-* Education & Code
+  * [Reddit](http://www.reddit.com/dev/api)  
   * [Github](https://developer.github.com/v3/#json-p-callbacks)
+* Education & Code
   * [Numbers](http://numbersapi.com/#42)
   * [OpenLibrary](https://openlibrary.org/developers/api)
   * [Encyclopedia of Life](http://eol.org/api)
+* Film & Video
+  * [The Movie Database](http://docs.themoviedb.apiary.io/)
+  * [Open IMDB](http://www.omdbapi.com/)
+  * [Youtube Data](https://developers.google.com/youtube/v3/)
+  * [Rotten Tomatoes](http://developer.rottentomatoes.com/)
+* Finance
+  * [US Federal Reserve Economic Data](https://api.stlouisfed.org/docs/fred/series.html)
+  * [Consumer Financial Protection Bureau - Mortgages](http://cfpb.github.io/api/hmda/)
 * Governemnt & Politics
   * [Data.gov](https://www.data.gov/developers/apis)
   * [Dronestream](http://dronestre.am/)
+  * [Enigma.io](https://app.enigma.io/api)
   * [HealthCare.gov](https://www.healthcare.gov/developers/)
   * [New York State Open Data](https://data.ny.gov/browse?limitTo=apis)
   * [OpenSpending](http://community.openspending.org/help/api/)
@@ -77,6 +86,8 @@ Open APIs
   * [The Guardian](http://www.theguardian.com/open-platform)
   * [The New York Times](http://developer.nytimes.com/page)
   * [USA Today](http://developer.usatoday.com/)
+* Religion
+  * [Digital Bible Platform](http://www.digitalbibleplatform.com/)
 * Science
   * [Into the Okavango](http://intotheokavango.org/api)
   * [NASA](https://api.nasa.gov/index.html)
@@ -89,10 +100,6 @@ Open APIs
 * Travel  
   * [Rome2Rio](http://www.rome2rio.com/documentation)
   * [Expedia Hackathon](http://hackathon.expedia.com/)
-* Video
-  * [The Movie Database](http://docs.themoviedb.apiary.io/)
-  * [Open IMDB](http://www.omdbapi.com/)
-  * [Youtube Data](https://developers.google.com/youtube/v3/)
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
   * [NCDC Climate Data](http://www.ncdc.noaa.gov/cdo-web/webservices/v2)
