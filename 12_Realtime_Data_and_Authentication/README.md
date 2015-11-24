@@ -1,7 +1,7 @@
 ### More Storage
 
 ##### I. Realtime Data
-	* [Socket.io](http://socket.io/)
+* [Socket.io](http://socket.io/)
 
 ##### II. Web Security & Authentication 
 * Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
@@ -17,7 +17,7 @@
 * Download OAuth Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/OAuth_Examples.zip)
 * OAuth Explained
 	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
-	* [OAuth Diagram From Fitbit](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API#OAuthAuthenticationintheFitbitAPI-TheOAuthFlow)
+	* [OAuth Flow From Fitbit](https://dev.fitbit.com/docs/oauth1/)
 	* [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
 	* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node
