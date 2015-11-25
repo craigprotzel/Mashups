@@ -10,6 +10,7 @@
     "ejs": "*",
     "errorhandler": "^1.1.1",
     "express": "4.x",
-    "twitter": "^1.2.5"
+    "twitter": "^1.2.5",
+    "serve-favicon": "^2.2.0"
   }
 }

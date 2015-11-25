@@ -1,8 +1,8 @@
 /*
 Basic OAuth 1.0 Example
 Uses PassportJS to Authenticate via Twitter and the Request module to execute Data requests
-Example based off Jared Hanson's Passport-Twitter Example:
-https://github.com/jaredhanson/passport-twitter/blob/master/examples/signin/app.js
+Example based off Jared Hanson's Passport-Twitter Code:
+https://github.com/jaredhanson/passport-twitter
 */
 
 // Declare Requirements
@@ -14,7 +14,8 @@ _ = require('underscore'),
 cookieParser = require('cookie-parser'),
 session = require ('express-session'),
 passport = require('passport'),
-TwitterStrategy = require('passport-twitter').Strategy;
+TwitterStrategy = require('passport-twitter').Strategy,
+favicon = require('serve-favicon');
 
 //Create the app
 var app = express();
@@ -26,6 +27,7 @@ app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 //Add connection to public folder for css & js files
 app.use(express.static(__dirname + '/public'));
+app.use(favicon(__dirname + '/public/media/favicon.ico'));
 
 app.use(bodyParser.json());
 

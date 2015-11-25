@@ -2,7 +2,8 @@
 var express = require("express"),
 bodyParser = require('body-parser'),
 errorHandler = require('errorhandler'),
-Twitter = require('twitter');
+Twitter = require('twitter'),
+favicon = require('serve-favicon');
 
 //Create the app
 var app = express();
@@ -14,15 +15,15 @@ app.engine('.html', require('ejs').__express);
 app.set('view engine', 'html');
 //Add connection to public folder for css & js files
 app.use(express.static(__dirname + '/public'));
+app.use(favicon(__dirname + '/public/media/favicon.ico'));
 
 app.use(bodyParser.json());
 
 // Set up Express error handling
 app.use(errorHandler());
 // Start the server
-var port = process.env.PORT || 3000;
-var server = app.listen(port);
-console.log('Express started on port: ' + port);
+var server = app.listen(3000);
+console.log('Express started on port: ' + 3000);
 
 /********************************
 twitter user: chp_labs
