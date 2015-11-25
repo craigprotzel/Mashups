@@ -19,8 +19,8 @@ app.use(express.static(__dirname + '/public'));
 // Enable json body parsing of application/json
 app.use(bodyParser.json());
 
-var port = process.env.PORT || 3000;
-// Start the server
+var port = 3000;
+// Start the server & save it to a var
 var server = app.listen(port);
 //Pass the server var as an arg to the 'io' init requirement
 var io = require('socket.io')(server);
@@ -38,8 +38,12 @@ app.get("/", function(req, res){
 io.on('connection', function (socket) {
  //console.log('a user connected');
 	socket.on('sounds', function (data) {
-		//data.numUsers = numUsers;
-		socket.broadcast.emit('news', data);
+		//Will send to everyone
+		io.emit('news', data);
+
+		//Will send to everyone except the sender
+		//socket.broadcast.emit('news', data);		
+
 		//console.log(data);
   });
 });

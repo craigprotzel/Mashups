@@ -12,10 +12,11 @@ Your final project will require creating a single web page experience that combi
 
 In terms of 'data-storage', the idea is that a user will somehow contribute (i.e. input data) to your application. User input can come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The input could be available only to that user through a personal link or could affect the entire experience of the application. It is up to you to decide! 
 
-Here are some links for inspiration:  
-  * [The Nicest Place on the Internet](http://thenicestplaceontheinter.net/)
-  * [ThisIsSand](http://thisissand.com/)  
+* Here are some links for inspiration:  
   * [Wordnik](https://www.wordnik.com/)
+  * [ISeeChange](https://www.iseechange.org/)
+  * [ThisIsSand](http://thisissand.com/)
+  * [The Nicest Place on the Internet](http://thenicestplaceontheinter.net/)  
 
 
 Assignment #2 - Due 11/05

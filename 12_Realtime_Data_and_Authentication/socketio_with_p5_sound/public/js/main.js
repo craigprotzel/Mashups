@@ -20,7 +20,6 @@ function preload(){
 	soundOptions.push(high_hat_02);
 }
 
-
 function setup(){
 	createCanvas(windowWidth, windowHeight);
 	var curNum = Math.floor(Math.random()*soundOptions.length);
@@ -32,8 +31,8 @@ function draw(){
 }
 	
 function mousePressed(){
-	curSound.play();
-	console.log('Playing local');
+	//curSound.play();
+	//console.log('Playing local');
 	grabAndSend(curSound);
 }
 
@@ -48,7 +47,7 @@ socket.on('news', function (data) {
 });
 
 function playSound(data){
-	var theSoundName = data.sound.name;
+	var theSoundName = data.sound;
 	if (theSoundName == 'chimes'){
 		chimes.play();
 	}
@@ -64,7 +63,7 @@ function playSound(data){
 //Send data to the server using .emit()
 function grabAndSend(curSound){
 	var data = {
-		sound: curSound
+		sound: curSound.name
 	};
 	socket.emit('sounds', data);
 }
