@@ -1,4 +1,4 @@
-### RealTime + Authentication
+### Realtime Data + Authentication
 
 * Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_Sockets_and_Auth_Examples.zip)
 

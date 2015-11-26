@@ -1,5 +1,5 @@
 Mashups: Creating with Web APIs
-================================
+===============================
 (always subject to change)
 
 NYUAD - Interactive Media Dept.  

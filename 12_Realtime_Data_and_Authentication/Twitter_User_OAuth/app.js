@@ -3,6 +3,7 @@ Basic OAuth 1.0 Example
 Uses PassportJS to Authenticate via Twitter and the Request module to execute Data requests
 Example based off Jared Hanson's Passport-Twitter Code:
 https://github.com/jaredhanson/passport-twitter
+https://github.com/passport/express-4.x-twitter-example/blob/master/server.js
 */
 
 // Declare Requirements
