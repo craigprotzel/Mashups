@@ -1,4 +1,3 @@
-
 var $theH2;
 var searchTwitter;
 var delay = 10000;

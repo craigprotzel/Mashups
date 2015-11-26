@@ -51,12 +51,12 @@ var params = {
 	user_id: 'A-TWITTER-USER-ID'
 };
 
-
 //ROUTES
 app.get("/", function(req, res){
 	res.render('index');
 });
 
+//Using the 'Twitter' lib - https://www.npmjs.com/package/twitter
 app.get("/search", function(req, res){
 	client.get('statuses/user_timeline', params, function(error, tweets, response){
 		if (error){

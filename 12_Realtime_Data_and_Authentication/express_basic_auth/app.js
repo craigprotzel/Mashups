@@ -1,4 +1,4 @@
-// Decalre Requirements
+// Declare Requirements
 var express = require("express");
 var auth = require("basic-auth");
 
