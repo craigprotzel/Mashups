@@ -2,7 +2,7 @@ MASHUPS HOW TO'S
 ----------------
 * [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
 * [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
 
 Learning Resources
 ------------------

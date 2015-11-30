@@ -50,7 +50,7 @@ Mashups: How to Deploy to Heroku
 	```  
 * At anytime it is helpful to execute `git status` or `git status -s` for a "short-hand" version of the state of the git repository.
 * If you are unsure of what is going to be added to the git repository when you run `git add -A`, you can always type `git add -n .` to do a test run of what will occur. 
-* If you are only interested in adding a specific file to the git repository, you can type `git add file-name` to add only a specific file
+* If you are only interested in adding a specific file to the git repository, you can type `git add FILE-NAME` to add only a specific file
 * Also, when you first run `git add -A`, you should NOT see anything that has been declared in your `.gitignore` file.
 
 #### Step 3 - The Heroku Site
@@ -62,7 +62,7 @@ Mashups: How to Deploy to Heroku
 	heroku login
 	```  
 	You will be asked for your username and password. When typing your password, nothing will appear.
-* **STOP** Assuming you have never used Heroku before, you **MAYmay** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.)
+* **STOP** Assuming you have never used Heroku before, you **MAY** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.)
 * You are now ready to create an empty Heroku app repo by typing:
 
   ```
@@ -75,12 +75,12 @@ Mashups: How to Deploy to Heroku
 	```
 	git push heroku master
 	```  
-* Once the push is complete, your site should be live at `https://your-app-name.herokuapp.com/`
+* Once the push is complete, your site should be live at `https://YOUR-APP-NAME.herokuapp.com/`
 This url will also print out to the Terminal after your push is complete
 * If you would like your app to use a "custom domain", meaning your own url, Heroku's [Custom Domains Page](https://devcenter.heroku.com/articles/custom-domains) will help step you through doing this.
 
 #### Step 4 - The Updates
-* To update you app at any time, you will need to first (1) update your local git repository and then second (2) push the updated files to Heroku. This can be done by executing the following commands in Terminal in your app's directory
+* To update your app at any time, you will need to (1) update your local git repository and then (2) push the updated files to Heroku. This can be done by executing the following commands in Terminal in your app's directory
 
 	```
 	git status -s 
@@ -92,7 +92,7 @@ This url will also print out to the Terminal after your push is complete
 * For the `git add` step you can also add files individually by executing
 
 	```
-	git add file-name
+	git add FILE-NAME
 	```  
 * If you navigate to your app, which you can do by typing `heroku open` in the Terminal window, you should see your updated application.
 
