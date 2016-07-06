@@ -24,6 +24,7 @@
 * Lecture Slides
 * References
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
+	* [A Packet's Tale](http://www.worldsciencefestival.com/2012/06/there_and_back_again_a_packets_tale/)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)
 	* [OpenWeatherMap API](http://openweathermap.org/API)
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
