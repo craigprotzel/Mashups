@@ -13,7 +13,7 @@
 ##### III. Student Work Examples
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
-* [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/)
+* [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 * [Breeding Rhythms](http://breedingrhythms.herokuapp.com/) - Abhi
 
