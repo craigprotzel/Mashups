@@ -3,12 +3,12 @@ Mashups: Creating with Web APIs
 (always subject to change)
 
 NYU - ITP  
-Semester: Summer Session II 2016
-Class: Mon/Wed 12:10pm - 3:05pm
-Room: 721 Broadway 4th Floor
+Semester: Summer Session II 2016  
+Class: Mon/Wed 12:10pm - 3:05pm  
+Room: 721 Broadway 4th Floor  
 
 Instructor: Craig Protzel  
-Email: craig.protzel@nyu.edu
+Email: craig.protzel@nyu.edu  
 Office Hours: TBD
 
 Course Description
@@ -24,7 +24,7 @@ Schedule
 #### Overview
 * **PART I: Classes 1 - 4 Client-Side Web Development + API Fundamentals**
 * **PART II: Classes 5 - 8 Client-Side Javascript Libraries**
-* **PART III: Classes 9 - 12  Server-Side Web Development + Final Project**
+* **PART III: Classes 9 - 12  Server-Side Web Developmentt**
 
 ##### [Class 1 (07/06): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
@@ -73,30 +73,15 @@ Course Mission: L.E.G.S.
 Grading
 --------
 **20%** Attendance & Participation  
-**25%** Homework Assignments + Online Journal  
-**30%** Projects #1 & #2  
+**15%** Homework Assignments
+**40%** Projects #1 & #2  
 **25%** Final Project
 
 Homework Assignments
 ---------------
-Each class there will be homework assignments. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must submit their own individual work.  
+Each class there will be homework assignments. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
 
-Class time will be spent each week going over the homework assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class, **uploaded to the web**, and documented in your online journal (see below for details).
-
-Online Journal
----------------
-You are expected to keep some form of an online journal or web blog. For each assignment, you must:
-
-* provide a direct hyperlink to the work
-* describe the assignment
-* discuss what you chose to do and why
-* document any resources/research/inspiration
-* explain your process
-* highlight both successes and failures
-
-The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
-
-Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the class assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
+Class time will be spent going over assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class.
 
 Projects 1 & 2
 --------------
