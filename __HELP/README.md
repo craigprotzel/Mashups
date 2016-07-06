@@ -1,8 +1,8 @@
 MASHUPS HOW TO'S
 ----------------
 * [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
-* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
+* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git/Github_Pages)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Heroku/Heroku_Node_Deploy)
 
 Learning Resources
 ------------------
@@ -23,7 +23,7 @@ Learning Resources
 * [General Assembly Dash for HTML & CSS](https://dash.generalassemb.ly/)
 * [Scotch.io](https://scotch.io/)
 
-Open APIs
+Open Data APIs
 --------------
 * Art & Design
   * [Artsy](https://developers.artsy.net/)
@@ -106,6 +106,7 @@ Open APIs
 * API Platforms/Networks/Services
   * [Kimono Labs](https://www.kimonolabs.com/)
   * [Mashery Network](http://developer.mashery.com/apinetwork)
+  * [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/en-us/apis)
   * [Open Data Network](http://www.opendatanetwork.com/)
 
 Links

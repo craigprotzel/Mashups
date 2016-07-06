@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial;
+	font-size: 24px;
+}
+
+/*canvas{
+	display:block;
+	margin: 100px auto;
+	border: 1px solid black;
+}*/
+
+
+.notSpecial{
+	color: orange;
+}
+
+.highlight{
+	color: blue;
+	background-color: yellow;
+	height: 100px;
+	font-size: 48px;
+}
+
+.center{
+	text-align: center;
+	font-size: 36px;
+}

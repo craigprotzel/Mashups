@@ -2,16 +2,14 @@ Mashups: Creating with Web APIs
 ===============================
 (always subject to change)
 
-NYUAD - Interactive Media Dept.  
-Semester: Fall 2015
-Class: Tuesdays 3:35pm - 4:50pm & Thursdays  2:10pm - 4:50pm
-Room: C3 029 (IM Lab)
-Room Access: [FORM](http://goo.gl/forms/Mge02MPoCb)
+NYU - ITP  
+Semester: Summer Session II 2016
+Class: Mon/Wed 12:10pm - 3:05pm
+Room: 721 Broadway 4th Floor
 
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu
-Office Hours: Mondays 11-2PM and/or by email appointment  
-Students: [Web Site List](https://docs.google.com/a/nyu.edu/spreadsheets/d/1ZL6M_h6fk8xAa46yAYZfPeJs9Fv63-ooAo1qkHdyb6w/edit?usp=sharing) 
+Office Hours: TBD
 
 Course Description
 ------------------
@@ -28,35 +26,29 @@ Schedule
 * **PART II: Classes 5 - 8 Client-Side Javascript Libraries**
 * **PART III: Classes 9 - 12  Server-Side Web Development + Final Project**
 
-##### [Week 1 (09/01 + 09/03): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
+##### [Class 1 (07/06): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-##### [Week 2 (09/08 + 09/10): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
+##### [Class 2 (07/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-##### [Week 3 (09/15 + 09/17): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Class 3 (07/11): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-##### No Class 09/22 + 09/24 - Holiday
+##### [Class 4 (07/13): Structuring Your App and Git](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git)
 
-##### [Week 4 (09/27 + 09/29 + 10/01): Structuring Your App + Project #1 Due](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App)
+##### [Class 5 (07/18): Project #1 Due + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-##### [Week 5 (10/06 + 10/08): Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
+##### [Class 6 (07/20): Graphs and Animation](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_and_Animation)
 
-##### [Week 6 (10/10 + 10/13): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_on_Graphs_on_Graphs)
+##### [Class 7 (07/25): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/07_Sound_and_Video)
 
-##### [Week 7 (10/20): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/07_Animation_Playstation)
+##### [Class 8 (07/27): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
 
-##### [Week 8 (10/27 + 10/29): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/08_Sound_and_Video)
+##### [Class 9 (07/30): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
 
-##### [Week 9 (11/03 + 11/05): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/09_Back_To_The_Server)
+##### [Class 10 (08/01): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/10_Realtime_Data_and_Authentication)
 
-##### [Week 10 (11/10 + 11/12): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/10_The_Server_Plus_Storage)
+##### [Class 11 (08/03): Running Wild with Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Heroku)
 
-##### [Week 11 (11/17 + 11/19): More Storage](https://github.com/craigprotzel/Mashups/tree/master/11_More_Storage) 
-
-##### [Week 12 : (11/24 + 11/26): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/12_Realtime_Data_and_Authentication)
-
-##### [Week 13 (12/01 + 12/03): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku)
-
-##### [Week 14 (12/08 + 12/10): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
+##### [Class 12 (08/08): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
 
 Learning Outcomes
 -----------------

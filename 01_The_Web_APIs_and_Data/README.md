@@ -11,15 +11,16 @@
 * [VimeoLabs](http://vimeolabs.com)
 
 ##### III. Student Work Examples
-* [NYU Today](nyutoday.pancakeapps.com) - Patrick Wee
-* [Selfie World](selfieworld.herokuapp.com) - Lauren Rakusin
-* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
+* [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
+* [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/)
+* [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
+* [Breeding Rhythms](http://breedingrhythms.herokuapp.com/) - Abhi
 
 ##### IV. Student Introductions
 
 ##### V. Lecture: The Web, APIs, & Data
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Fall2015_Week1_Slides_Upload.pdf)
+* Lecture Slides
 * References
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)
@@ -30,27 +31,25 @@
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
 	* [Open-Notify.org](http://open-notify.org/)
 	* [Into the Okavango](http://intotheokavango.org/)
-	* [Kimono Labs](https://www.kimonolabs.com/)
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
 
 ##### VI. Homework
 * Setup
-	* Add - yourself to the [class web site list](https://docs.google.com/a/nyu.edu/spreadsheets/d/1ZL6M_h6fk8xAa46yAYZfPeJs9Fv63-ooAo1qkHdyb6w/edit?usp=sharing)
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 	* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on Javascript**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on SVGs**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-* Read - [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
-* Find & Describe - a **url** that returns JSON data from an Open API
-* Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for Week 3!). If you can, upload your page to a server, but it is fine if it only runs locally.
+* Create - a single web page that displays (some of) the data returned by the url you chose. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for next class!). If you can, upload your page to a server, but it is fine if it only runs locally.
 * Additional Recommendations
-	* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
-	* [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-	* [WebPlatform.org - The Basics of HTML](http://docs.webplatform.org/wiki/guides/the_basics_of_html)
-	* [WebPlatform.org - Getting Started with CSS](http://docs.webplatform.org/wiki/guides/getting_started_with_css)
-	* [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
-	* [API 101](http://apievangelist.com/index.html)	
-	* [The Future of API Design by Daniel Jacobson](http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer)
+	* HTML & CSS Tutorials  
+		* [Khan Academy - Intro to HTML/CSS: Making Webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+		* [Codecademy - Make A Website](https://www.codecademy.com/learn/make-a-website)
+		* [Don't Fear The Internet - Basic HTML & CSS](http://www.dontfeartheinternet.com/02-html/)
+		* [Mozilla - Intro to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+		* [Mozilla - Getting Started with CSS Tutorials Parts 1-14](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
+	* General Reference	
+		* [WebPlatform.org - How Does The Internet Work](https://docs.webplatform.org/wiki/concepts/Internet_and_Web/How_does_the_Internet_Work)
+		* [API 101](http://apievangelist.com/index.html)	

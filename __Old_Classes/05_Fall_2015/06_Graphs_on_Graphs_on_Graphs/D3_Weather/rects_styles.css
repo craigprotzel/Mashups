@@ -1,0 +1,17 @@
+body{
+	font-family: Helvetica, Arial;
+}
+h1{
+	text-align: center;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+}
+svg{
+	background-color: aqua;
+	margin: 10px auto;
+}
+svg .rects:hover{
+	fill: green;
+}

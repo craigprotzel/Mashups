@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<style>
+			body {
+				font-family: monospace;
+				max-width: 600px;
+				min-width: 300px;
+				margin: 1em auto;
+			}
+			input[type=text],
+			textarea {
+				display: block;
+				width: 100%;
+			}
+			textarea {
+				min-height: 150px;
+			}
+			.note {
+				margin: 1em 0;
+				padding: 1em 0;
+				border-bottom: 1px solid gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><%= title %></h1>
+		<p>To create or join a room, type something after the "/" in the url. This room will be private to only those that know the name.</p>
+	</body>
+</html>

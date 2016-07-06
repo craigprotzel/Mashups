@@ -1,0 +1,21 @@
+#mySVG{
+	display: block;
+    background-color: aqua;
+    margin: 10px auto;
+}
+svg .mainCircle{
+    fill: yellow;
+    stroke: purple;
+    stroke-width: 2px;
+}
+svg .myPaths{
+    fill: red;
+    stroke: green;
+    stroke-width: 4px;
+}
+svg .eyeCircles{
+    fill: green;
+}
+svg .eyeCircles:hover{
+    fill: blue;
+}

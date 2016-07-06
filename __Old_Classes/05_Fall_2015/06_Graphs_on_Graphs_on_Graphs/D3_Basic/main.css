@@ -1,0 +1,14 @@
+#mySVG{
+	background-color: aqua;
+}
+svg .mainCircle{
+	fill: yellow;
+	stroke: purple;
+	stroke-width: 2px;
+}
+svg .eyeCircles{
+	fill: green;
+}
+svg .eyeCircles:hover{
+	fill: blue;
+}
