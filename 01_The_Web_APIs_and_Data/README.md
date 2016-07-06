@@ -16,6 +16,7 @@
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 * [Breeding Rhythms](http://breedingrhythms.herokuapp.com/) - Abhi
+* [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
 
 ##### IV. Student Introductions
 
