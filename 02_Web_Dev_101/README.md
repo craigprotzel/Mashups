@@ -17,8 +17,8 @@
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 	* [Bootstrap](http://getbootstrap.com/)
 * [Tuts - Design School for Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
-* [Google Web Dev - Fundamental Layouts](https://developers.google.com/web/fundamentals/layouts/)
-	* [Google Weather Styling Example](http://googlesamples.github.io/web-fundamentals/samples/layouts/rwd-fundamentals/weather-2.html)
+* [Google Web Dev - Responsive Basics + Layouts](https://developers.google.com/web/fundamentals/design-and-ui/responsive/)
+	* [Google Web Dev - Responsive Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en)
 
 ##### III. Workshop - Intro to Javascript
 * Using the Browser Console
@@ -36,7 +36,8 @@
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
 * Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)  
 * Install - A JS Linter for your Text Editor (I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/) for Sublime)
-* Answer - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console. 
+* Answer - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console.
+* Begin - working on Project #1 
 * Additional Recommendations
 	* [JS For Cats](http://jsforcats.com/)
 	* [Mozilla - A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)

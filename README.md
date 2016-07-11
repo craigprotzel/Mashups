@@ -30,9 +30,9 @@ Schedule
 
 ##### [Class 2 (07/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-##### [Class 3 (07/11): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
+##### [Class 3 (07/13): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-##### [Class 4 (07/13): Structuring Your App and Git](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git)
+##### [Class 4 (07/15): Structuring Your App and Git](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git)
 
 ##### [Class 5 (07/18): Project #1 Due + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
@@ -42,11 +42,13 @@ Schedule
 
 ##### [Class 8 (07/27): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
 
-##### [Class 9 (07/30): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
+##### [Class 9 (07/29): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
 
 ##### [Class 10 (08/01): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/10_Realtime_Data_and_Authentication)
 
 ##### [Class 11 (08/03): Running Wild with Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Heroku)
+
+##### Class Optional (08/05): Final Project Workshop
 
 ##### [Class 12 (08/08): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
 
