@@ -1,8 +1,8 @@
 ### Web Dev 101
 
-##### I. Discussion - Class 1 Homework
+#### I. Discussion - Class 1 Homework
 
-##### II. Workshop - HTML & CSS Boot Camp
+#### II. Workshop - HTML & CSS Boot Camp
 * Setting up your page
 	* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 	* Adding elements
@@ -20,18 +20,18 @@
 * [Google Web Dev - Responsive Basics + Layouts](https://developers.google.com/web/fundamentals/design-and-ui/responsive/)
 	* [Google Web Dev - Responsive Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en)
 
-##### III. Workshop - Intro to Javascript
+#### III. Workshop - Intro to Javascript
 * Using the Browser Console
 * Data Types - [MDN Data Types & Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 * [The Window](https://developer.mozilla.org/en/docs/Web/API/Window), [The Document](https://developer.mozilla.org/en-US/docs/Web/API/document), and [The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 * Running Code
 
-##### IV. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
+#### IV. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-##### V. Discussion - Project #1 Due Class 5 (Monday 07/18)
+#### V. Discussion - Project #1 Due Class 5 (Monday 07/18)
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
 
-##### VI. Homework
+#### VI. Homework
 * Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
 * Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)  

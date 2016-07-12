@@ -1,12 +1,12 @@
 ### Running Wild with Git and Heroku
 
-##### I. Final Project Updates
+#### I. Final Project Updates
 
-##### II. Cross-Origin Resource-Sharing
+#### II. Cross-Origin Resource-Sharing
 * [CORS Enabled Routes](http://enable-cors.org/server.html)
 * [CORS on ExpressJS](http://enable-cors.org/server_expressjs.html)
 
-##### III. Deploy to Heroku
+#### III. Deploy to Heroku
 * Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy)
 * Heroku
 	* [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
@@ -19,5 +19,5 @@
 	* Github - [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
 	* Github Common Problem - [Error: Permission Denied (publickey)](https://help.github.com/articles/error-permission-denied-publickey)
 
-##### IV. Homework
+#### IV. Homework
 * DUE - Final Project

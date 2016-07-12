@@ -1,8 +1,8 @@
 ### The Web, APIs, & Data
 
-##### I. Introduction
+#### I. Introduction
 
-##### II. Course Background
+#### II. Course Background
 * [ITP](http://itp.nyu.edu/)
 * [ITP Write Once Access Anywhere by Corey Menscher](http://menscher.com/teaching/woaa/)
 * [ITP Dynamic Web Development by John Schimmel](http://itpwebclass.herokuapp.com/)
@@ -10,7 +10,7 @@
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
-##### III. Student Work Examples
+#### III. Student Work Examples
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
@@ -18,9 +18,9 @@
 * [Breeding Rhythms](http://breedingrhythms.herokuapp.com/) - Abhi
 * [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
 
-##### IV. Student Introductions
+#### IV. Student Introductions
 
-##### V. Lecture: The Web, APIs, & Data
+#### V. Lecture: The Web, APIs, & Data
 * Lecture Slides
 * References
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
@@ -36,7 +36,7 @@
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
 
-##### VI. Homework
+#### VI. Homework
 * Setup
 	* Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 	* Donwload - a JSON formatter extension for the browser (I use [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)

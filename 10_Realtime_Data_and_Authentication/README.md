@@ -2,11 +2,11 @@
 
 * Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_Sockets_and_Auth_Examples.zip)
 
-##### I. Realtime Data
+#### I. Realtime Data
 * [Socket.io](http://socket.io/)
 * [How To Write A Chat Application](http://socket.io/get-started/chat/)
 
-##### II. Web Security & Authentication 
+#### II. Web Security & Authentication 
 * Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
 * [Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 	* [Node Basic-Auth Package](https://github.com/jshttp/basic-auth)
@@ -16,7 +16,7 @@
 	* [Creating An SSL Certificate](https://devcenter.heroku.com/articles/ssl-certificate-self#generate-private-key-and-certificate-signing-request)
 *	Sessions, Cookies, Local Storage
 
-##### III. Open Authentication (OAuth)  
+#### III. Open Authentication (OAuth)  
 * OAuth Explained
 	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
 	* [OAuth Flow From Fitbit](https://dev.fitbit.com/docs/oauth1/)
@@ -27,5 +27,5 @@
 * [Twiiter Apps Account](https://apps.twitter.com/)
 * ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
-##### IV. Homework
+#### IV. Homework
 * Work - on Final Project

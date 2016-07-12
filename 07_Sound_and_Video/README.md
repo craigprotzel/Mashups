@@ -1,6 +1,6 @@
 ### Sound & Video
 
-##### I. Intro
+#### I. Intro
 * [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Mashups_Week8.zip)
 * Keys
 	* [FreeSound API](https://www.freesound.org/help/developers/)
@@ -9,7 +9,7 @@
 * Inspiration - [Chrome Experiments](https://www.chromeexperiments.com/)
 
 
-##### II. Audio
+#### II. Audio
 * Web Audio API
 	* [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
 	* [Web Audio API by Boris Smus](http://chimera.labs.oreilly.com/books/1234000001552/index.html) - Ch.1 & 2
@@ -33,7 +33,7 @@
 	* [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
 	* [Annyang](https://www.talater.com/annyang/) - Speech Recognition	
 
-##### III. Video
+#### III. Video
 * [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [HTML5 Video Events & API](http://www.w3.org/2010/05/video/mediaevents.html)
 * HTML5 Video Libraries
@@ -41,5 +41,5 @@
 	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
 
-##### IV. Homework
+#### IV. Homework
 * DUE - Project #2 Class 8 07/27. Your project must be running on the web.
