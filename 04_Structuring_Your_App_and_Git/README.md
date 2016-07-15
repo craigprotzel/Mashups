@@ -1,15 +1,14 @@
 ### Structuring Your App
 
-#### I. Discussion - Week 3 Homework
+#### I. Discussion - Class 3 Homework
 
 #### II. Workshop - Objects and Arrays in Javascript
 * Using Arrays to store data
 * Closure and passing an Object
 
-#### III. Exercise - InstaTimes
-* [InstaTimes Examples](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App/InstaTimes)
+#### III. Exercise - FlickrTimes
 * [NY Times API](http://developer.nytimes.com/) 
-* [Instagram API](http://instagram.com/developer/)
+* [Flickr API](https://www.flickr.com/services/apps/create/)
 
 #### IV. Git & Github
 * Download & Install - [Git](http://git-scm.com/downloads)
