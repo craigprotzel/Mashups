@@ -2,21 +2,27 @@
 
 #### I. Discussion - Class 3 Homework
 
-#### II. Workshop - Objects and Arrays in Javascript
-* Using Arrays to store data
-* Closure and passing an Object
+#### II. Running A Local Web Server
+* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
+  * [Scott Murray - Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
+	* [Download Python](https://www.python.org/download) **for Windows users**
+	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally)
 
-#### III. Exercise - FlickrTimes
+#### III. Workshop - Objects and Arrays in Javascript
+* Using Arrays to store data
+* Closure and passing in an Object
+
+#### IV. Exercise - FlickrTimes
 * [NY Times API](http://developer.nytimes.com/) 
 * [Flickr API](https://www.flickr.com/services/apps/create/)
 
-#### IV. Git & Github
+#### V. Git & Github
 * Download & Install - [Git](http://git-scm.com/downloads)
 * Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
 * Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
 * Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
-#### V. Homework
+#### VI. Homework
 * DUE - Project #1 on Monday 07/18
 * Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 3 Objects, Arrays, and More - Manipulating Arrays (7 mins)](http://www.nyu.edu/lynda)

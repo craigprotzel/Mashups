@@ -4,13 +4,7 @@
 * [Hats Lecture](https://dl.dropboxusercontent.com/u/9648298/HATS.pdf) by Martin Bravo
 * [Friend Forecast by Martin Bravo](https://github.com/bravomartin/friend-forecast)
 
-#### II. Running A Local Web Server
-* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
-  * [Scott Murray - Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
-	* [Download Python](https://www.python.org/download) **for Windows users**
-	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally)
-
-#### III. Data Organization & Management
+#### II. Data Organization & Management
 * [Basic Underscore Example](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Basic_Underscore)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -27,7 +21,7 @@
 * Code Examples
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. Homework
+#### III. Homework
 * Explore - [Getting Cozy with Underscore JS](http://net.tutsplus.com/tutorials/javascript-ajax/getting-cozy-with-underscore-js/)
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
 * Explore - [D3](http://d3js.org/)
