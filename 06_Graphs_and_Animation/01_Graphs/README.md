@@ -19,8 +19,8 @@
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
-#### IV. Discussion - Project #2 (Due 11/05)
-* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.). The project must be deployed on the world wide web. 
+#### IV. Discussion - Project #2 (Due Thursday 07/27)
+* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.). The project must be deployed on the world wide web.
 
 #### V. Homework
 * Explore - [p5JS](http://p5js.org/)
