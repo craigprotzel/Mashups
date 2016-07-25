@@ -9,9 +9,15 @@ function makeD3Chart(dataset){
 	var h = 300;
 	var barPadding = 2;
 
-	// var yScale = d3.scale.linear()
-	// 	.domain([d3.min(dataset, function(d) { return d.day; }), d3.max(dataset, function(d) { return d.day; })])
-	// 	.range([50,h - 50]);
+	/*
+	var dataMin = d3.min(dataset, function(d){ return d.day; });
+	var dataMax = d3.max(dataset, function(d) { return d.day; });
+
+	var yScale = d3.scale.linear()
+		.domain([dataMin, dataMax])
+		.range([50,h - 50]);
+	*/
+	
 
 	//Create SVG element
 	var svg = d3.select('#container')
@@ -79,7 +85,7 @@ function makeD3Chart(dataset){
 function requestWeatherData(num){
 
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
-	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-APP-KEY';
+	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-API-KEY';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,

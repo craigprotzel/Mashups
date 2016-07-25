@@ -7,6 +7,7 @@ var player;
 var vidTimeCheck;
 var myKey = 'YOUR-KEY-GOES-HERE';
 
+
 //Make a request to the Youtube Data API to get a video ID
 function makeYoutubeRequest(term){
 

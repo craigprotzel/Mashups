@@ -106,7 +106,7 @@ function setVideoEvents(video){
 		},
 		onEnd: function( options ) {
 			//clearInterval(bgAnimation);
-			$('#infoBox').html("Read about NYUAD below!");
+			$('#infoBox').html("Read about NYU below!");
 		}
 	});
 }
@@ -122,11 +122,10 @@ function generateRandomColor(){
 	var r = Math.floor(Math.random() * 200);
 	var g = Math.floor(Math.random() * 225);
 	var b = Math.floor(Math.random() * 255);
-
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
 	return randomColor;
 }
 
 $(document).ready(function(){
-	makeYoutubeRequest("nyu abu dhabi");
+	makeYoutubeRequest("NYU ITP");
 });

@@ -1,8 +1,11 @@
 //Function to draw SVGs using D3
 function drawD3Astros(totalNum){
 	console.log("D3!");
+
 	var d3SVG = d3.select('#mySVG');
+
 	var centerX = 50;
+
 	for (var i = 0; i <totalNum; i++){
 		d3SVG.append('circle')
 		.attr({
@@ -12,6 +15,7 @@ function drawD3Astros(totalNum){
 			"r" : 40
 		});
 
+		/*
 		d3SVG.append('circle')
 		.attr({
 			"class": 'eyeCircles',
@@ -23,6 +27,7 @@ function drawD3Astros(totalNum){
 		.attr("cy",500)
 		.duration(3000)
 		.delay(500);
+		*/
 
 		centerX += 100;
 	}

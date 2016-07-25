@@ -60,7 +60,7 @@ function makeD3Chart(dataset){
 function requestWeatherData(num){
 
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
-	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-APP-KEY';
+	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-API-KEY';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,

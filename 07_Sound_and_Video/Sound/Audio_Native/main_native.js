@@ -1,5 +1,10 @@
 var myKey = 'YOUR-KEY-GOES-HERE';
 
+var soundIsReady = false;
+
+/*******************/
+//FreeSound Requests
+/*******************/
 //Second Request to FreeSound for Sound File Location
 function getSoundContent(soundID){
 	var url = 'http://www.freesound.org/apiv2/sounds/' + soundID + '/?token=';
@@ -39,12 +44,19 @@ function getFreeSound(term){
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
-			getSoundContent(data.results[0].id);
+			if (data.results.length){
+				getSoundContent(data.results[0].id);
+			}
+			else{
+				alert("Uh oh, we got problems... No sounds for that string!");
+			}
 		}
 	});
 }
 
-// Native JS - Web Audio API
+/**************************/
+//Native JS - Web Audio API
+/**************************/
 var context, source, buffer;
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 //Confirm Web Audio API is available
@@ -72,6 +84,7 @@ function makeAudioRequest(url){
 			console.log(request.response);
 			console.log(dataBuffer);
 			buffer = dataBuffer;
+			soundIsReady = true;
 			$("button#play").css('background-color', 'green');
 		}, onError);
 	};
@@ -91,6 +104,10 @@ function playSound(buffer) {
 function stopSound(){
 	source.stop();
 }
+
+/**********************/
+//DOM Events with jQuery
+/**********************/
 
 $(document).keydown(function(e) {
 	//console.log(e);
@@ -117,12 +134,22 @@ $(document).keydown(function(e) {
 
 $(document).ready(function(){
 	$('#play').click(function(){
-		playSound(buffer);
+		if (soundIsReady){
+			playSound(buffer);
+		}
+		else{
+			alert("Still waiting for the sound to load. The play button will turn green when the sound is ready.");
+		}
 	});
 	$('#pause').click(function(){
-		stopSound();
+		if (soundIsReady){
+			stopSound();
+		}
+		else{
+			alert("Still waiting for the sound to load. The play button will turn green when the sound is ready.");
+		}
 	});
-});
 
-//Execeute the request
-getFreeSound('dinosaurs');
+	//Make initial request to FreeSound API
+	getFreeSound('ghost');
+});

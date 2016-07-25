@@ -8,7 +8,6 @@
 * DataBase Tool - [SheetseeJS](http://jlord.us/sheetsee.js/docs/basics.html)
 * Inspiration - [Chrome Experiments](https://www.chromeexperiments.com/)
 
-
 #### II. Audio
 * Web Audio API
 	* [HTML5 Rocks: Getting Started With Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
@@ -42,4 +41,4 @@
 	* [VideoJS](http://www.videojs.com/)
 
 #### IV. Homework
-* DUE - Project #2 Class 8 07/27. Your project must be running on the web.
+* DUE - Project #2 Class 8 07/27.
