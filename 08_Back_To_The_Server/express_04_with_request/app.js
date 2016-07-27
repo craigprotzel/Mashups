@@ -34,8 +34,17 @@ app.get("/:word", function(req, res){
 		if (!error && response.statusCode == 200) {
 			//console.log(body);
 			var theData = JSON.parse(body);
-			//console.log(theData);
-			res.json(theData);
+			console.log(theData);
+			//Grab the names
+			var theNames = theData[1];
+			if (theNames.length){
+				//Send the names only to the page
+				res.json(theNames);
+			}
+			else{
+				//If there is no data
+				res.json({data: null, code: "MASHUPS ERROR"});
+			}
 		}
 		else{
 			res.send("Uh oh. Something went wrong. Try another word.");

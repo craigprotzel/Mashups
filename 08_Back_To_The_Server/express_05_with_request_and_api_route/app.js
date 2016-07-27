@@ -51,6 +51,7 @@ app.get("/api/:word", function(req, res){
 			//console.log(body);
 			var theData = JSON.parse(body);
 			//console.log(theData);
+			//send all the data
 			res.json(theData);
 		}
 	});
