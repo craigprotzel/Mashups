@@ -1,6 +1,6 @@
 ### More Storage 
 
-##### I. Discussion - Class 10 Homework
+##### I. Discussion - Homework
 
 ##### II. Blog with CouchDB
 

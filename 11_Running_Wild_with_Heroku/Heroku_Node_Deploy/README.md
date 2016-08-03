@@ -30,7 +30,7 @@ Mashups: How to Deploy to Heroku
 	node_modules
 	```    
 	This will exclude the node_modules folder from your git repository. Note, the `.gitgnore` file may not appear in your finder directory. If you are on a Mac running OSX, you may also want to add `.DS_Store` on another line to your `.gitignore` file. 
-* Lastly, if you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src value has `https`. Heroku may yell at you if they are not. These are files that are not hosted within your own application.  	
+* Lastly, if you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src value has `https`. Heroku may yell at you if they are not `https`. These are files that are not hosted within your own application.  	
 
 #### Step 2 - The Git Repo
 * Install [git](http://git-scm.com/downloads) (skip if already installed)
@@ -62,13 +62,13 @@ Mashups: How to Deploy to Heroku
 	heroku login
 	```  
 	You will be asked for your username and password. When typing your password, nothing will appear.
-* **STOP** Assuming you have never used Heroku before, you **MAY** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.)
+* **STOP** Assuming you have never used Heroku before, you **MAY** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a github user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.) If you **DO NOT** see this prompt, continue on.
 * You are now ready to create an empty Heroku app repo by typing:
 
   ```
-	heroku create my-app-name --http-git
+	heroku create my-app-name
 	```  
-	* Note, what you enter for `my-app-name` will be part of your app's url. So, if I enter `heroku create mysuperawesomeapp --http-git`, the url Heroku assigns to my app will be `http://mysuperawesomeapp.herokuapp.com`
+	* Note, what you enter for `my-app-name` will be part of your app's url. So, if I enter `heroku create mysuperawesomeapp`, the url Heroku assigns to my app will be `http://mysuperawesomeapp.herokuapp.com`
 * After creating the app, type `git remote` to confirm the app was created and has been added as a remote repository. It should list `heroku` as a remote. You can also check your heroku account's "Apps" page to confirm the app was created and added to your account.
 * The last step here is to push (i.e send) the app files to heroku by executing the following command
 
