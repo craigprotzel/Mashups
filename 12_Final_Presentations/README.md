@@ -2,6 +2,8 @@
 
 #### I. Final Presentations
 
-#### II. Course Evaluations
+#### II. Guest - [Steve Klise](https://sklise.com/) 
 
-#### III. Where Do We Go Now?
+#### III. Course Evaluations
+
+#### IV. Where Do We Go Now?
