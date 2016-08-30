@@ -29,33 +29,33 @@ Schedule
 * **PART II: Classes 10 - 17 Client-Side Javascript Libraries**
 * **PART III: Classes 18 - 28 Server-Side Web Developmentt**
 
-#### [Classes 01_02: Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
+#### [Classes 01_02 (08/30 & 09/01): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
 
-#### [Classes 03_04: Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/03_04_Web_Dev_101)
+#### [Classes 03_04 (09/06 & 09/08): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/03_04_Web_Dev_101)
 
-#### [Classes 05_06: Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/05_06_Making_Things_Happen_On_The_Page)
+#### [Classes 05_06 (09/15 & 09/20): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/05_06_Making_Things_Happen_On_The_Page)
 
-#### [Classes 07_08: Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
+#### [Classes 07_08 (09/22 & 09/27): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
 
-#### [Classes 09_10: Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
+#### [Classes 09_10 (09/29 & 10/04): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
 
-#### [Classes 11_12: Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
+#### [Classes 11_12 (10/06 & 11/11): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
 
-#### [Classes 13_14: Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
+#### [Classes 13_14 (10/13 & 10/18): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
 
-#### [Classes 15_16: Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video)
+#### [Classes 15_16 (10/27 & 11/01): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video)
 
-#### [Classes 17_18: Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
+#### [Classes 17_18 (11/03 & 11/08): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
 
-#### [Classes 19_20: The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
+#### [Classes 19_20 (11/10 & 11/15): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
 
-#### [Classes 21_22: More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
+#### [Classes 21_22 (11/17 & 11/22): More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
 
-#### [Classes 23_24): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
+#### [Classes 23_24 (11/24 & 11/29): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
 
-#### [Classes 25_26: Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/25_26_Running_Wild_with_Git_and_Heroku)
+#### [Classes 25_26 (12/06 & 12/08): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/25_26_Running_Wild_with_Git_and_Heroku)
 
-#### [Classes 27_28: Final Project DUE](https://github.com/craigprotzel/Mashups/tree/master/27_28_Final_Project)
+#### [Classes 27_28 (12/13 & 12/15): Final Project DUE](https://github.com/craigprotzel/Mashups/tree/master/27_28_Final_Project)
 
 Learning Outcomes
 -----------------
