@@ -1,4 +1,4 @@
-### Graphs and Animations
+### Classes 11/12: Graphs and Animations
 
 #### I. SVGs
 * [SVGs - MDN Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)

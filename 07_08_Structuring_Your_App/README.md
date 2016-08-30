@@ -1,9 +1,9 @@
-### Structuring Your App
+### Classes 07/08: Structuring Your App
 
 #### I. Discussion - Class 5/6 Homework
 
 #### II. Running A Local Web Server
-* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
+* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App/Local_Server/README.md)
   * [Scott Murray - Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
 	* [Download Python](https://www.python.org/download) **for Windows users**
 	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally)

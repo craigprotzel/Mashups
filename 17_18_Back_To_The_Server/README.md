@@ -1,4 +1,4 @@
-### Project #2 DUE + Back to the Server
+### Classes 17/18: Project #2 DUE + Back to the Server
 
 #### I. Presentations - Project #2
 

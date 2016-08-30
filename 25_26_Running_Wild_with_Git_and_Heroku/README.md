@@ -1,4 +1,4 @@
-### Running Wild with Git and Heroku
+### Classes 25/26: Running Wild with Git and Heroku
 
 #### I. Final Project Updates
 
@@ -13,7 +13,7 @@
 * Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 #### III. Deploy to Heroku
-* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/blob/master/11_Running_Wild_with_Heroku/Heroku_Node_Deploy/README.md)
+* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/blob/master/25_26_Running_Wild_with_Git_and_Heroku/Heroku_Node_Deploy/README.md)
 * Heroku
 	* [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
 	* [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)

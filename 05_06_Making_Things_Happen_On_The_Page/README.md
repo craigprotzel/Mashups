@@ -1,4 +1,4 @@
-### Making Things Happen On The Page
+### Classes 05/06: Making Things Happen On The Page
 
 #### I. Discussion - Class 3/4 Homework
 * Review JS Fundamentals

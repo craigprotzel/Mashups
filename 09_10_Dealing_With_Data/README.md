@@ -1,6 +1,6 @@
-### Dealing with Data
+### Classes 09/10: Project #1 DUE + Dealing with Data
 
-#### I. Presentations - Project #2
+#### I. Presentations - Project #1
 
 #### II. D & D Thinking
 * [Hats Lecture](https://dl.dropboxusercontent.com/u/9648298/HATS.pdf) by Martin Bravo
