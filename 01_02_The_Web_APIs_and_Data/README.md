@@ -4,7 +4,6 @@
 
 #### II. Course Background
 * [ITP](http://itp.nyu.edu/)
-* [ITP Mashups - Remixing the Web by Dan Aminzade](http://webremix.org/syllabus.php)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
 
