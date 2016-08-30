@@ -1,0 +1,14 @@
+
+
+.flickr-article-box{
+	float: left;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+}
+
+img{
+	display: block;
+	width: 80%;
+	margin: 5px auto;
+}

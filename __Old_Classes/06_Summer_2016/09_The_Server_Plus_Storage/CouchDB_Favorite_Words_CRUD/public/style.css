@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  font-size: 18px;
+  color:  white;
+  font-family: Helvetica, Arial;
+}
+a{
+	text-decoration: none;
+	color : aqua;
+}
+a:active{
+	color: orange;
+}
+input{
+	margin: 5px;
+}
+button{
+	padding: 5px 10px;
+} 
+li{
+	margin: 8px 0;
+}
+.deleteButton{
+	margin-left: 10px;
+	display: inline;
+}
+#container{
+	display: none;
+	margin: 10px
+}
+#mainTitle{
+	text-align: center;
+}
+#loading{
+	margin: 20px;
+}

@@ -2,16 +2,13 @@ Mashups: Creating with Web APIs
 ===============================
 (always subject to change)
 
-School: NYUAD
-Program: Interactive Media  
-Course Number: MDMED-AD 116 
-Semester: Fall 2016  
-Class: Tuesday 2:40pm - 3:55pm & Thursday 2:40pm - 5:20pm  
-Room: Arts Center IM Lab (Rm.029)  
+NYU - ITP  
+Semester: Summer Session II 2016  
+Class: Mon/Wed 12:10pm - 3:05pm  
+Room: 721 Broadway 4th Floor  
 
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
-Office: Arts Center Rm.191
 Office Hours: TBD
 
 Course Description
@@ -25,37 +22,35 @@ Schedule
 --------
 
 #### Overview
-* **PART I: Classes 01 - 09 Client-Side Web Development + API Fundamentals**
-* **PART II: Classes 10 - 17 Client-Side Javascript Libraries**
-* **PART III: Classes 18 - 28 Server-Side Web Developmentt**
+* **PART I: Classes 1 - 4 Client-Side Web Development + API Fundamentals**
+* **PART II: Classes 5 - 8 Client-Side Javascript Libraries**
+* **PART III: Classes 9 - 12  Server-Side Web Developmentt**
 
-#### [01_02: Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
+#### [Class 1 (07/06): Introduction to the Web, APIs, & Data](https://github.com/craigprotzel/Mashups/tree/master/01_The_Web_APIs_and_Data)
 
-#### [03_04: Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/03_04_Web_Dev_101)
+#### [Class 2 (07/11): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/02_Web_Dev_101)
 
-#### [05_06: Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/05_06_Making_Things_Happen_On_The_Page)
+#### [Class 3 (07/13): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page)
 
-#### [07_08: Structuring Your App and Git](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
+#### [Class 4 (07/15): Structuring Your App and Git](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git)
 
-#### [09_10: Project #1 Due + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
+#### [Class 5 (07/18): Project #1 Due + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data)
 
-#### [11_12: Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
+#### [Class 6 (07/20): Graphs and Animation](https://github.com/craigprotzel/Mashups/tree/master/06_Graphs_and_Animation)
 
-#### [13_14: Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
+#### [Class 7 (07/25): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/07_Sound_and_Video)
 
-#### [15_16: Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video)
+#### [Class 8 (07/27): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/08_Back_To_The_Server)
 
-#### [17_18: Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
+#### [Class 9 (07/29): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/09_The_Server_Plus_Storage)
 
-#### [19_20: The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
+#### [Class 10 (08/01): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/10_Realtime_Data_and_Authentication)
 
-#### [21_22: More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
+#### [Class 11 (08/03): Running Wild with Heroku](https://github.com/craigprotzel/Mashups/tree/master/11_Running_Wild_with_Heroku)
 
-#### [23_24): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
+#### Class Optional (08/05): Final Project Workshop
 
-#### [25_26: Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/25_26_Running_Wild_with_Heroku)
-
-#### [27_28: Final Project DUE](https://github.com/craigprotzel/Mashups/tree/master/27_28_Final_Project)
+#### [Class 12 (08/08): Final Project Presentations](https://github.com/craigprotzel/Mashups/tree/master/14_Final_Presentations)
 
 Learning Outcomes
 -----------------
@@ -78,11 +73,10 @@ Course Mission: L.E.G.S.
 * Share - describe, document, communicate, contribute, participate
 
 Grading
--------
-**10%** Attendance
-**10%** Participation  
-**25%** Homework Assignments + Online Journal
-**30%** Projects #1 & #2    
+--------
+**20%** Attendance & Participation  
+**15%** Homework Assignments  
+**40%** Projects #1 & #2    
 **25%** Final Project  
 
 Homework Assignments
@@ -91,24 +85,9 @@ Each class there will be homework assignments. Homework may include reading, wat
 
 Class time will be spent going over assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class.
 
-Online Journal
----------------
-You are expected to keep some form of an online journal or web blog. For each assignment, you must:
-
-* provide a direct hyperlink to the work
-* describe the assignment
-* discuss what you chose to do and why
-* document any resources/research/inspiration
-* explain your process
-* highlight both successes and failures
-
-The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing. 
-
-Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the class assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
-
 Projects 1 & 2
 --------------
-These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your creative process.
+These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your process for creating it.
 
 Final Project
 -------------

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width">
+			<title>Basic D3 Example</title>
+			<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+			<div id="totalPeople"></div>
+			<svg id="mySVG" width="600px" height="600px"></svg>
+
+			<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+			<script src="http://d3js.org/d3.v3.min.js"></script>
+			<script>
+				// For demonstration purposes - appending to an svg through jquery will NOT work	
+				$('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
+				
+				/*
+				var d3SVG = d3.select('#mySVG');
+				var centerX = 50;
+				for (var i = 0; i < 6; i++){
+					d3SVG.append('circle')
+					.attr({
+						"class": "mainCircle",
+						"cx" : centerX,
+						"cy" : 200,
+						"r" : 40
+					});
+					centerX += 100;
+				}
+				*/
+				
+			</script>
+			<!--<script src="main.js"></script>-->
+	</body>
+</html>

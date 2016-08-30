@@ -1,0 +1,10 @@
+#videos{
+	width: 95%;
+}
+.video{
+	float: left;
+	margin: 10px;
+	width: 320px;
+	height: 240px;
+}
+

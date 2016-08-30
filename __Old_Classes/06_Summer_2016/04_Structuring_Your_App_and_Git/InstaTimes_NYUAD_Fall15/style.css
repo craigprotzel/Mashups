@@ -1,0 +1,22 @@
+body{
+	font-family: Times;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+main{
+	width: 98%;
+	margin: 10px auto
+}
+img{
+	display: block;
+	margin: 1px auto;
+}
+.instaArticle{
+	float: left;
+	width: 20%;
+	margin: 10px 4px;
+}

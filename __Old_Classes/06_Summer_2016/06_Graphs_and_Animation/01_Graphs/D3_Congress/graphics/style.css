@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Helvetica', 'Arial';
+}
+ul{list-style:none;}
+
+#articleHeader{
+	padding: 26px 36px;
+	font: 300 15px/19px 'Helvetica', 'Arial';
+}
+#articleHeader h2{
+	padding: 10px 0px;
+}
+
+.chatter{
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #222;
+}
+
+#yeaVis{
+	position: relative;
+}
+#dataBubble{
+	position: absolute;
+	background-color: #ddd;
+	padding: 8px 10px 10px;
+	opacity: 0;
+	pointer-events: none;
+	max-width: 200px;
+}
+#dataBubble.unhide{opacity: 1;}
+#vote-results{
+	width: 180px;
+	min-height: 20px;
+	margin: 0 auto 0 auto;
+}
+#dataBubble h4{
+	text-align: left;
+	padding-bottom: 10px;
+	font-size: 13px;
+	line-height: 17px;
+}
+#party-D{
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #333;
+}
+#party-R{
+	float: left;
+}
+#vote-types{
+	text-align: center;
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #333;
+}
+
+#background_rect{
+	fill:#fff;
+}
+
+.basicCirc{
+	fill:#ddd;
+	stroke-width: 1px;
+	stroke: #fff;
+}
+.basicCirc.Passed{
+	fill:rgb(140,220,180);
+}
+.basicCirc.AgreedTo{
+	fill:rgb(160,220,240);
+}
+.basicCirc.Failed{
+	fill:rgb(160,130,140);
+}
+.basicCirc.selected{
+	stroke: #333;
+	stroke-width: 2px;
+}
+
+.timeline{
+	stroke: #333;
+	stroke-width: 2px;
+}
+.voteTime{
+	fill: #444;
+	text-anchor: middle;
+	font: 500 14px/18px 'Helvetica', 'Arial';
+}
+.voteTimeBack{
+	fill: #fff;
+	text-anchor: middle;
+	stroke: #fff;
+	stroke-width: 4px;
+	font: 900 14px/18px 'Helvetica', 'Arial';
+}
+
+
+
+#parties{
+	text-align: center;
+}
+#parties span{
+	display: inline-block;
+	padding: 0px 20px;
+}
