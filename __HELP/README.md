@@ -39,8 +39,9 @@ Open Data APIs
   * [Sears](https://developer.sears.com/documentation/sears-apis-0)
 * Communities
   * [Facebook](https://developers.facebook.com/docs/javascript) 
-  * [Reddit](http://www.reddit.com/dev/api)  
   * [Github](https://developer.github.com/v3/#json-p-callbacks)
+  * [Reddit](http://www.reddit.com/dev/api)  
+  * [Stack Exchange](https://api.stackexchange.com/)
 * Education & Code
   * [Numbers](http://numbersapi.com/#42)
   * [OpenLibrary](https://openlibrary.org/developers/api)
@@ -77,11 +78,12 @@ Open Data APIs
   * [SeatGeek](http://platform.seatgeek.com/)
 * Music & Sounds
   * [FreeSound](https://www.freesound.org/help/developers/)
+  * [Kanye REST](http://kanyerest.xyz/)
   * [LastFM](http://www.last.fm/api)
+  * [NPR](http://dev.npr.org/)
   * [RapGenius](https://github.com/kenshiro-o/RapGenius-JS)
   * [SoundCloud](http://developers.soundcloud.com/docs)
   * [Spotify](https://developer.spotify.com/)
-  * [NPR](http://dev.npr.org/)
 * News
   * [The Guardian](http://www.theguardian.com/open-platform)
   * [The New York Times](http://developer.nytimes.com/page)
@@ -104,7 +106,6 @@ Open Data APIs
   * [OpenWeatherMap](http://openweathermap.org/api)
   * [NCDC Climate Data](http://www.ncdc.noaa.gov/cdo-web/webservices/v2)
 * API Platforms/Networks/Services
-  * [Kimono Labs](https://www.kimonolabs.com/)
   * [Mashery Network](http://developer.mashery.com/apinetwork)
   * [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/en-us/apis)
   * [Open Data Network](http://www.opendatanetwork.com/)

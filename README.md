@@ -79,11 +79,11 @@ Course Mission: L.E.G.S.
 
 Grading
 -------
-**10%** Attendance
+**10%** Attendance  
 **10%** Participation  
-**25%** Homework Assignments + Online Journal
-**30%** Projects #1 & #2    
-**25%** Final Project  
+**25%** Homework Assignments + Online Journal  
+**30%** Projects #1 & #2      
+**25%** Final Project    
 
 Homework Assignments
 ---------------
