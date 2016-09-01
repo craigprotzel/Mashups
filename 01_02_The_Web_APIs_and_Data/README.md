@@ -18,7 +18,7 @@
 #### IV. Student Introductions
 
 #### V. Lecture: The Web, APIs, & Data
-* Lecture Slides
+* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Fall2016_Lecture_Upload.pdf)
 * WWW Background
 	* [The History of the Web](http://docs.webplatform.org/wiki/concepts/internet_and_web/The_History_of_the_Web)
 	* [A Packet's Tale](http://www.worldsciencefestival.com/2012/06/there_and_back_again_a_packets_tale/)
