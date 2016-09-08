@@ -12,6 +12,11 @@ header{
 	background-color: pink;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 .nav-item{
 	float: left;
 	background-color: rgba(171,195,249,0.5);
@@ -63,10 +68,20 @@ main{
 	background-color: blue;
 }
 
+@media (max-width: 640px){
+	main{
+		background-color: blue;
+	}
+}
+
 @media (max-width: 460px) {
   main{
-  	width: 70%;
+  	display: none;
+/*  	width: 70%;
   	margin-top: 120px;
   	background-color: green; 
-  }
+*/  }
 }
+
+
+

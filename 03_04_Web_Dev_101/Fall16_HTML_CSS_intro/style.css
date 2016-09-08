@@ -1,0 +1,37 @@
+body{
+	margin:	0;
+	padding: 0;
+	font-size: 32px;
+}
+
+header{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+
+.big{
+	font-size: 4em;
+}
+
+.top-box{
+	color: red;
+	font-size: 1.2em;
+	float: left;
+	width: 200px;
+	text-align: center;
+	font-size: 32px;
+	background-color: rgba(148,250,196, 0.5);
+	border: 10px solid #9e0ec7;
+	padding: 20px;
+	margin: 10px;
+}
+
+.special{
+	color: blue;
+	font-size: 0.5em;
+}
+
+div{
+	color: yellow;
+}
