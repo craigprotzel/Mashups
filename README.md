@@ -7,7 +7,8 @@ Program: Interactive Media
 Course Number: MDMED-AD 116 
 Semester: Fall 2016  
 Class: Tuesday 2:40pm - 3:55pm & Thursday 2:40pm - 5:20pm  
-Room: Arts Center IM Lab (Rm.029)  
+Room: Arts Center IM Lab (Rm.029)   
+[Room Access Form](http://goo.gl/forms/Mge02MPoCb)
 
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
