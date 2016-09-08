@@ -32,6 +32,7 @@
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
 
 #### VI. Homework
+* Review - [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
 * Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)  

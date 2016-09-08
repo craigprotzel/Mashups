@@ -1,0 +1,54 @@
+body{
+	font-family: 'Inconsolata';
+	margin:0;
+	padding: 0; 
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	background-color: pink;
+}
+
+.nav-item{
+	float: left;
+	background-color: rgba(171,195,249,0.5);
+	border: solid 1px black;
+	padding: 10px 0;
+	text-align: center;
+	margin: 10px 2.25%;
+	width: 20%;
+}
+
+.nav-item:hover{
+	background-color: aqua;
+}
+
+main{
+	position: relative;
+	text-align: center;
+	width: 90%;
+	max-width: 800px;
+	background-color: yellow;
+	height: 1200px;
+	margin: 100px auto;
+}
+
+.small-box{
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+@media (max-width: 460px) {
+  main{
+  	width: 70%;
+  	margin-top: 120px;
+  	background-color: green; 
+  }
+}
