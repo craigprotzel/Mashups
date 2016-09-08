@@ -27,7 +27,7 @@
 * API Examples & Resources
 	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)  
 	* [OpenWeatherMap API](http://openweathermap.org/API)
-	* [Kante REST](http://kanyerest.xyz/)
+	* [Kanye REST](http://kanyerest.xyz/)
 	* [Sunlight Foundation Labs - APIs](http://sunlightfoundation.com/api/)
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
 	* [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
