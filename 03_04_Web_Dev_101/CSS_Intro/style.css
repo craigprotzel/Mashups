@@ -45,6 +45,24 @@ main{
 	background-color: red;
 }
 
+.column-container{
+	position: relative;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	height: 800px;
+	text-align: left;
+}
+
+.red-bg{
+	background-color: red;
+}
+.blue-bg{
+	background-color: blue;
+}
+
 @media (max-width: 460px) {
   main{
   	width: 70%;
