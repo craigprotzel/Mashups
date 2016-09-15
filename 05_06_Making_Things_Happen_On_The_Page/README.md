@@ -15,9 +15,7 @@
 * References
 	* [Events and Listeners in Javascript](http://idratherbewriting.com/events-and-listeners-javascript/)
 
-#### III. Exercise - WikiSearch
-* [WikiSearch Examples](https://github.com/craigprotzel/Mashups/tree/master/03_Making_Things_Happen_On_The_Page/WikiSearch)
-* [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
+#### III. Exercise - [WikiSearch API](http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search)
 
 #### IV. Homework
 * Read - [Steve Krug "Don't Make Me Think" pp.1 - 49](http://itp.nyu.edu/~kd49/ux/wp-content/uploads/2011/12/Dont_Make_Me_Think-chptr1-5.pdf)

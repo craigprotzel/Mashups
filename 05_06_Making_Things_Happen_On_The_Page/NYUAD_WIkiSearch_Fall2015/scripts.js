@@ -133,8 +133,6 @@ function searchWiki(searchTerm){
 	});
 }
 
-
-
 $(document).ready( function(){
 
 	console.log("Loaded 2");
@@ -149,29 +147,6 @@ $(document).ready( function(){
 
 		searchWiki(theInputValue);
 	});
-
-
-
 });
 
-
 console.log("Loaded 3");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
