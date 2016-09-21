@@ -23,14 +23,13 @@
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Popcorn, etc.). The project must be deployed on the world wide web.
 
 #### V. Homework
-* Explore - [p5JS](http://p5js.org/)
-	* Watch [hello p5](http://hello.p5js.org/)
-	* Read - [p5 Get Started](http://p5js.org/get-started/)	
-	* Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
-* Watch - [Lynda.com: Javascript Essential Training: Section 13 Advanced Javascript Features - Working With Objects and Prototypes (9 mins)](http://www.nyu.edu/its/lynda/)	
-* Explore the [threeJS](http://threejs.org/) library
-* Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-* Explore the [PopcornJS](http://popcornjs.org/) Video Library
+* For Tuesday 10/11:
+	* Explore - [p5JS](http://p5js.org/)
+		* Watch [hello p5](http://hello.p5js.org/)
+		* Read - [p5 Get Started](http://p5js.org/get-started/)	
+		* Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
+* For Thursday 10/13:
+	* Watch - [Lynda.com: Javascript Essential Training: Section 13 Advanced Javascript Features - Working With Objects and Prototypes (9 mins)](http://www.nyu.edu/its/lynda/)	
 * Additional Recommendations
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)

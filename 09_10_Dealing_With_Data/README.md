@@ -24,10 +24,9 @@
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
 #### IV. Homework
-* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
-* Explore - [Fathom.info](https://fathom.info/projects/) Projects
-* Explore - [D3](http://d3js.org/)
-	* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-* Explore - [p5JS](http://p5js.org/)
-	* Watch [hello p5](http://hello.p5js.org/)
-	* Read - [p5 Get Started](http://p5js.org/get-started/)	
+* For Tuesday 10/04:
+	* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
+	* Explore - [Fathom.info](https://fathom.info/projects/) Projects
+	* Explore - [D3](http://d3js.org/)
+* For Thursday 10/06:
+	* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)	
