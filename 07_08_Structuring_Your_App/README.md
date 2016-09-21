@@ -17,10 +17,13 @@
 * [Flickr API](https://www.flickr.com/services/apps/create/)
 
 #### VI. Homework
-* DUE - Project #1 on Thursday 09/29 
-* Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
-* Watch - [Lynda.com - Introducing the Javascript Language: Section 3 Objects, Arrays, and More - Manipulating Arrays (7 mins)](http://www.nyu.edu/lynda)
-* Watch - [Lynda.com - Introducing the Javascript Language: Section 5 Iterating with Loops - For loops: Enumerative (5 mins))](http://www.nyu.edu/lynda)
+* For Tuesday 09/27:
+	* Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
+	* Watch - [Lynda.com - Introducing the Javascript Language: Section 3 Objects, Arrays, and More - Manipulating Arrays (7 mins)](http://www.nyu.edu/lynda)
+	* Watch - [Lynda.com - Introducing the Javascript Language: Section 5 Iterating with Loops - For loops: Enumerative (5 mins))](http://www.nyu.edu/lynda)
+	* Work - on Project #1 which is due on Thursday 09/29
+* For Thursday 09/29:
+	* DUE - Project #1 on Thursday 09/29 
 * Additional Recommendations
 	* [Tuts - Design School For Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
 	* [Javascript Is Sexy - Understand Javascript Callback Functions](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
