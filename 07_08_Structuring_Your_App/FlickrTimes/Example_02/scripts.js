@@ -1,14 +1,13 @@
 console.log("Loading...");
 
-
 function makeHTML(theObj,theImageURL){
 
-		var htmlString = '<div class="flickr-article-box">';
-		htmlString +=	'<h1>' + theObj.headline.main + '</h1>';
-		htmlString +=	'<img src="' + theImageURL + '">';
-		htmlString += '</div>';
+	var htmlString = '<div class="flickr-article-box">';
+	htmlString +=	'<h1>' + theObj.headline.main + '</h1>';
+	htmlString +=	'<img src="' + theImageURL + '">';
+	htmlString += '</div>';
 
-		$('#news-container').append(htmlString);
+	$('#news-container').append(htmlString);
 }
 
 function getFlickrData(theNYTObj){
@@ -87,6 +86,3 @@ $(document).ready(function(){
 });
 
 console.log("Finished loading.");
-
-
-

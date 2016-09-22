@@ -51,7 +51,6 @@ function getFlickrData(currentWord){
 	});
 }
 
-
 function getNYTimesData(){
 	console.log("Get NY Times Data");
 
