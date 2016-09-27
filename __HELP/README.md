@@ -1,27 +1,8 @@
-MASHUPS HOW TO'S
+Mashups How To's
 ----------------
 * [Run A Local Host](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server)
 * [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/04_Structuring_Your_App_and_Git/Github_Pages)
 * [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/13_Running_Wild_with_Heroku/Heroku_Node_Deploy)
-
-Learning Resources
-------------------
-* [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
-* [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-* [Lynda.com - Introducing the Javascript Language](http://www.nyu.edu/lynda)
-* [Lynda.com - Javascript Essential Training](http://www.nyu.edu/lynda)
-* [Eloquent Javascript 2nd Edition](http://eloquentjavascript.net/)
-* [jQuery Learning Center](http://learn.jquery.com/)
-* [WebPlatform.org](http://docs.webplatform.org)
-* [Codecademy - Javascript](http://www.codecademy.com/)
-* [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
-* [Khan Academy](https://www.khanacademy.org/)
-* [Stack Overflow](http://stackoverflow.com/)
-* [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
-* [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
-* [Code Wars](http://www.codewars.com/)
-* [General Assembly Dash for HTML & CSS](https://dash.generalassemb.ly/)
-* [Scotch.io](https://scotch.io/)
 
 Open Data APIs
 --------------
@@ -106,9 +87,29 @@ Open Data APIs
   * [OpenWeatherMap](http://openweathermap.org/api)
   * [NCDC Climate Data](http://www.ncdc.noaa.gov/cdo-web/webservices/v2)
 * API Platforms/Networks/Services
+  * [Mashape](https://market.mashape.com/explore)
   * [Mashery Network](http://developer.mashery.com/apinetwork)
   * [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/en-us/apis)
   * [Open Data Network](http://www.opendatanetwork.com/)
+
+Learning Resources
+------------------
+* [Mozilla - Web Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+* [Mozilla - JS Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [Lynda.com - Introducing the Javascript Language](http://www.nyu.edu/lynda)
+* [Lynda.com - Javascript Essential Training](http://www.nyu.edu/lynda)
+* [Eloquent Javascript 2nd Edition](http://eloquentjavascript.net/)
+* [jQuery Learning Center](http://learn.jquery.com/)
+* [WebPlatform.org](http://docs.webplatform.org)
+* [Codecademy - Javascript](http://www.codecademy.com/)
+* [Codecademy API Tutorials](http://www.codecademy.com/tracks/apis)
+* [Khan Academy](https://www.khanacademy.org/)
+* [Stack Overflow](http://stackoverflow.com/)
+* [Douglas Crockford on Javscript](https://www.youtube.com/playlist?list=PL7664379246A246CB)
+* [CodeSchool - Discover Dev Tools](http://discover-devtools.codeschool.com/)
+* [Code Wars](http://www.codewars.com/)
+* [General Assembly Dash for HTML & CSS](https://dash.generalassemb.ly/)
+* [Scotch.io](https://scotch.io/)
 
 Links
 -----
