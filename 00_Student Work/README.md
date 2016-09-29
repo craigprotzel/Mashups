@@ -14,14 +14,14 @@ Create a single web page experience that, upon user input, responds with data fr
 
 #####Student Links
 Alejandra - [Music Travels](http://atr313.nyuad.im/music/)  
-Asfandyar - []  
+Asfandyar - [NASA APoD](http://as7584.nyuad.im/Project%201/index.html)  
 Cristian - [Unreal Deal](http://cmm959.nyuad.im/project1/index.html)  
 Cynthia - [Travel Forecast](http://xt405.nyuad.im/Mashups/Travel_Forecast/travelForecast.html)  
 Dana - [History](http://daa389.nyuad.im/Project1/project1.html)  
 Erica - [Guess the Rhyme](http://elo239.nyuad.im/guess_the_rhyme.html)  
-Hayat - []  
-Kipras - []  
-Lauren - []  
+Hayat - [News Bias]  
+Kipras - [Hippify Art](http://kk2788.nyuad.im/Project_1/index.html)  
+Lauren - [Mum, You Asleep?](http://jwy272.nyuad.im/plugging%20API/home.html)  
 Manas - [Yoda Slate](http://mp4083.nyuad.im/Project1/Yoda.html)  
 Mateo - [WillThereBeAnEarthquakeNearby](http://mjm973.nyuad.im/mashups/earthquakes/)  
 Noel - [CitySearch](http://nk1469.nyuad.im/Project%201%20Final/index.html)  
@@ -29,7 +29,6 @@ Peter C - [Recipe](http://wc1126.nyuad.im/hw/Recipe%20Site/)
 Peter H - []  
 Rick - [MovCrit](http://yjk394.nyuad.im/MashUps/Project%20%231%20-%20MovCrit/)  
 Shelly - [NutritionIX](http://sz1152.nyuad.im/Project1/)  
-
 
 Assignment #2 - Class 17 (Thursday 11/03)
 -------------------------
