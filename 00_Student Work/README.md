@@ -26,7 +26,7 @@ Manas - [Yoda Slate](http://mp4083.nyuad.im/Project1/Yoda.html)
 Mateo - [WillThereBeAnEarthquakeNearby](http://mjm973.nyuad.im/mashups/earthquakes/)  
 Noel - [CitySearch](http://nk1469.nyuad.im/Project%201%20Final/index.html)  
 Peter C - [Recipe](http://wc1126.nyuad.im/hw/Recipe%20Site/)  
-Peter H - [Motivate ME]http://ph1088.nyuad.im/motivational_quotes/index.html 
+Peter H - [Motivate ME](http://ph1088.nyuad.im/motivational_quotes/index.html)  
 Rick - [MovCrit](http://yjk394.nyuad.im/MashUps/Project%20%231%20-%20MovCrit/)  
 Shelly - [NutritionIX](http://sz1152.nyuad.im/Project1/)  
 
