@@ -17,7 +17,7 @@ Alejandra - [Music Travels](http://atr313.nyuad.im/music/)
 Asfandyar - [NASA APoD](http://as7584.nyuad.im/Project%201/index.html)  
 Cristian - [Unreal Deal](http://cmm959.nyuad.im/project1/index.html)  
 Cynthia - [Travel Forecast](http://xt405.nyuad.im/Mashups/Travel_Forecast/travelForecast.html)  
-Dana - [History](http://daa389.nyuad.im/Project1/project1.html)  
+Dana - [History](http://daa389.nyuad.im/Project1/Facts&News.html)  
 Erica - [Guess the Rhyme](http://elo239.nyuad.im/guess_the_rhyme.html)  
 Hayat - [News Bias]  
 Kipras - [Hippify Art](http://kk2788.nyuad.im/Project_1/index.html)  
