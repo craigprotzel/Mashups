@@ -24,7 +24,11 @@
 * Code Examples
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. Homework
+#### IV. D3 Intro  
+* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
+* Polygaph - [Film Dialogue](http://polygraph.cool/films/)  
+
+#### V. Homework
 * For Tuesday 10/04:
 	* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
 	* Explore - [Fathom.info](https://fathom.info/projects/) Projects
