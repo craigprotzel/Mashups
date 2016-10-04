@@ -19,7 +19,7 @@ Cristian - [Unreal Deal](http://cmm959.nyuad.im/project1/index.html)
 Cynthia - [Travel Forecast](http://xt405.nyuad.im/Mashups/Travel_Forecast/travelForecast.html)  
 Dana - [History](http://daa389.nyuad.im/Project1/Facts&News.html)  
 Erica - [Guess the Rhyme](http://elo239.nyuad.im/guess_the_rhyme.html)  
-Hayat - [News Bias]  
+Hayat - [News Bias](http://hah308.nyuad.im/NewsBias/)  
 Kipras - [Hippify Art](http://kk2788.nyuad.im/Project_1/index.html)  
 Lauren - [Mum, You Asleep?](http://jwy272.nyuad.im/plugging%20API/home.html)  
 Manas - [Yoda Slate](http://mp4083.nyuad.im/Project1/Yoda.html)  
