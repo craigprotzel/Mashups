@@ -16,12 +16,12 @@
 		* [Rubular](http://rubular.com/) & [Scriptular](http://scriptular.com/) - web-based regular expression editors
 		* [Stack Overflow - Don't Parse HTML with RegEx](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags)
 * Managing Asynchronicity
-	* Code Example - [DOWNLOAD](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [jQuery Deferred Object](http://api.jquery.com/category/deferred-object/)
 	* [Deferred & Promise in jQuery](http://www.bitstorm.org/weblog/2012-1/Deferred_and_promise_in_jQuery.html)
 	* [Making Promises with jQuery Deferred](http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html)
 	* [Mulitple Simultnaeous AJAX Requests In jQuery](http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/)
 * Code Examples
+	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
 #### IV. D3 Intro  
