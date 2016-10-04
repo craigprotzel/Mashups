@@ -15,16 +15,18 @@ var wikiURL = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&
 /*******************************************/
 //Define some initial callback functions
 
-//A "success" or "done" function
-function itWorked(data){
-	console.log("Worked!");
-	console.log(data);
-}
 //An "error" or "fail" function
 function itFailed(data){
 	console.log("Failed");
 	console.log(data);
 }
+
+//A "success" or "done" function
+function itWorked(data){
+	console.log("Worked!");
+	console.log(data);
+}
+
 //A "completed" or "always" function 
 function finished(){
 	console.log("I'm all finished");
@@ -44,10 +46,10 @@ function searchBasicPattern(searchTerm){
 }
 
 /*******************************************/
-//The "Done" + "Fail" Pattern
+//The "Done" Pattern
 //set the AJAX call equal to a variable
 //attach 'listeners' to this variable
-function searchDoneFailPattern(searchTerm){
+function searchDonePattern(searchTerm){
 
 	var theAJAXCall = $.ajax({
 		url: wikiURL + searchTerm,
@@ -74,6 +76,7 @@ function searchThenPattern(searchTerm){
 		type: 'GET',
 		dataType: 'jsonp'
 	});
+
 	theAJAXCall.then(itWorked,itFailed);
 
 	//Add a comment for the console	
@@ -99,32 +102,61 @@ function searchWhenThenPattern(searchTerm){
 	});
 	
 	//Pass in the AJAX objects
-	$.when(searchOne, searchTwo).then(
-		//Define the success conditions
-		function(searchOne, searchTwo){
+	$.when(searchOne, searchTwo).then(function(sOne, sTwo){
 			console.log("All good");
-			console.log(searchOne);
-			console.log(searchTwo);
+			console.log(sOne);
+			console.log(sTwo);
 		},
 		//Define the error conditions
-		function(searchOne, searchTwo){
+		function(err){
 			console.log("Problems");
-			console.log(searchOne);
-			console.log(searchTwo);
+			console.log(err);
 		});
 
 	return 'Running "When-Then" Pattern';
 }
 
 /*******************************************/
+//The "When-Done" Pattern
+//'.when' expects our AJAX call vars as arguments
+//'.done' will only be called when BOTH of these arguments return successfully
+function searchWhenDonePattern(searchTerm){
+
+	var searchOne = $.ajax({
+		url: wikiURL + searchTerm,
+		type: 'GET',
+		dataType: 'jsonp'
+	});
+
+	var searchTwo = $.ajax({
+		url: wikiURL + 'mashups',
+		type: 'GET',
+		dataType: 'jsonp'
+	});
+
+
+	$.when(searchOne, searchTwo).done(function(sOne, sTwo){
+		console.log(sOne);
+		console.log(sTwo);
+	}).fail(function(err){
+		console.log("Problems");
+		console.log(err);
+	});
+
+	return 'Running "When-Done" Pattern';
+}
+
+/*******************************************/
 //Return an AJAX object from a function
 function makeASearchObj(searchTerm){
 	console.log("Returning a promise");
+
 	var searchObj = $.ajax({
 		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp'
 	});
+	
 	return searchObj;
 }
 
@@ -135,19 +167,30 @@ $(document).ready(function(){
 
 		var searchTerm = $("#query").val().toUpperCase();
 		
+		/*
 		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console. You can also run any of the functions in the console at any time.');
-	
+		*/
+
 		//searchBasicPattern(searchTerm);
 
-		//searchDoneFailPattern(searchTerm);
+		//searchDonePattern(searchTerm);
 
-		//searcThenPattern(searchTerm);
+		//searchThenPattern(searchTerm);
 
 		//searchWhenThenPattern(searchTerm);
 
+		//searchWhenDonePattern(searchTerm);
+
+
+		//ALT APPROACH - return promise directly from function
+
+		//var searchCall = makeASearchObj(searchTerm);
+		//searchCall.done(itWorked);
+		//searchCall.fail(itFailed);
+
 		//var searchCall = makeASearchObj(searchTerm);
 		//searchCall.then(itWorked, itFailed);
-
+		
 	});
 
 	//Allow for enter to be pressed when the inupt box is active
