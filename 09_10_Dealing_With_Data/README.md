@@ -7,7 +7,7 @@
 * [Friend Forecast by Martin Bravo](https://github.com/bravomartin/friend-forecast)
 
 #### III. Data Organization & Management
-* [Basic Underscore Example](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Basic_Underscore)
+* [Basic Underscore Example](https://github.com/craigprotzel/Mashups/blob/master/09_10_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
 	* Regular Expressions
