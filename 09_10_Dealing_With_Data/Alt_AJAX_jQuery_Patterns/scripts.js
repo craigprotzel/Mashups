@@ -167,9 +167,7 @@ $(document).ready(function(){
 
 		var searchTerm = $("#query").val().toUpperCase();
 		
-		/*
 		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console. You can also run any of the functions in the console at any time.');
-		*/
 
 		//searchBasicPattern(searchTerm);
 
