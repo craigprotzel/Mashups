@@ -6,8 +6,8 @@
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
 * [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
 * Reponsive SVGs  
-	* [Making An SVG Responsive](http://demosthenes.info/blog/744/Make-SVG-Responsive)
 	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
+	* [How To Make SVGs Responsive](https://css-tricks.com/scale-svg/)
 * [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
 
 #### II. [D3JS](http://d3js.org/)
