@@ -1,7 +1,7 @@
 ### Classes 11/12: Graphs and Animations
 
 #### I. SVGs
-* [SVGs - MDN Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
+* [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
 	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
 * [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
