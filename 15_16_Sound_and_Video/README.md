@@ -43,4 +43,7 @@
 	* [VideoJS](http://www.videojs.com/)
 
 #### V. Homework
-* DUE - Project #2 Class 17 Tursday 11/03.
+* For Tuesday 11/01
+  * Work - on Project #2 which is due Thursday 11/03. Be prepared to share a user-testable version of your project idea in class
+* For Thursday 11/03
+	* DUE - Project #2 
