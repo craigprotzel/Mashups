@@ -30,7 +30,7 @@ function makeD3Chart(dataset){
 		.attr("class", "maxTemps");
 
 	//Plot the maxTemps
-	svg.selectAll("maxTemps")
+	maxTemps.selectAll("circle")
 		.data(dataset)
 		.enter()
 		.append("circle")
@@ -43,7 +43,7 @@ function makeD3Chart(dataset){
 		.attr("r", 6);
 
 	//Plot the minTemps
-	svg.selectAll("minTemps")
+	minTemps.selectAll("circle")
 		.data(dataset)
 		.enter()
 		.append("circle")

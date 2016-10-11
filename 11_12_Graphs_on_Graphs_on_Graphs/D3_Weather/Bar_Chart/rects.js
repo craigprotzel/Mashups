@@ -17,7 +17,6 @@ function makeD3Chart(dataset){
 		.domain([dataMin, dataMax])
 		.range([50,h - 50]);
 	*/
-	
 
 	//Create SVG element
 	var svg = d3.select('#container')
