@@ -37,9 +37,9 @@
 #### V. Homework
 * For Tuesday 10/18
 	* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
-	* Explore the [threeJS](http://threejs.org/) library and the ThreeJS links above
-	* Explore the [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-	* Explore the [PopcornJS](http://popcornjs.org/) Video Library
-	* Think & Post - idea(s) for Project #2, this should include at minimum a paragraph description of what you're thinking about doing, how the data flow might work, which js library (or libraries) you want to work with, and what the experience of a user visiting the site would be like. Create at least 3 wireframes for Assignment #2. Be prepared to present your work in class.
+	* Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
+	* Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
+	* Explore - [PopcornJS](http://popcornjs.org/) Video Library
+	* Think - about ideas for Project #2. Be prepared to share your ideas in class.
 * For Thursday 10/27
 	* Work - on Project #2
