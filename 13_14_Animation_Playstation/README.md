@@ -26,13 +26,18 @@
 	* [p5 Load/Update Pixels](http://p5js.org/reference/#/p5/loadPixels)
 	* [p5 Examples - Images](http://p5js.org/examples/)
 
-#### V. [ThreeJS](http://threejs.org/)
-* [ThreeJS Examples](http://threejs.org/examples/)
-* [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
-* [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
-* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
-* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
-* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
+#### V. [3D]
+* WebGL
+	* [Mozilla Hacks - The Concepts of WebGL](https://hacks.mozilla.org/2013/04/the-concepts-of-webgl/)
+	* [Learning WebGL - FAQ](http://learningwebgl.com/cookbook/index.php/WebGL:_Frequently_Asked_Questions)
+	* [WebGL in P5](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5)
+* [ThreeJS](http://threejs.org/)
+	* [ThreeJS Examples](http://threejs.org/examples/)
+	* [ThreeJS Getting Started](http://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene)
+	* [HTML5 Rocks - ThreeJS Intro](http://www.html5rocks.com/en/tutorials/three/intro/) 
+	* [OrbitControls vs TrackballControls](http://stackoverflow.com/questions/18581225/orbitcontrol-or-trackballcontrol)
+	* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
+	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 #### V. Homework
 * For Tuesday 10/18
