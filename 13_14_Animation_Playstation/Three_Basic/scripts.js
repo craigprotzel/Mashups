@@ -8,7 +8,7 @@ Setup - NEED 3 THINGS:
 //Create a scene
 var scene = new THREE.Scene();
 //Create a camera
-var camera = new THREE.PerspectiveCamera(25, window.innerWidth/window.innerHeight, 0.1, 1000);
+var camera = new THREE.PerspectiveCamera(500, window.innerWidth/window.innerHeight, 0.1, 1000);
 //Create a renderer
 var renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);

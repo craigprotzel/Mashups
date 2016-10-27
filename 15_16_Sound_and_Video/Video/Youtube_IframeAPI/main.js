@@ -7,7 +7,6 @@ var player;
 var vidTimeCheck;
 var myKey = 'YOUR-KEY-GOES-HERE';
 
-
 //Make a request to the Youtube Data API to get a video ID
 function makeYoutubeRequest(term){
 
@@ -17,7 +16,7 @@ function makeYoutubeRequest(term){
 	}
 
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
-	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
+	var myParams = 'part=snippet&type=video&q=' + term + '&key=';
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -32,8 +31,10 @@ function makeYoutubeRequest(term){
 			console.log("WooHoo!");
 			console.log(data);
 	
-			//Get the video id of the first video
-			var theVideoId = data.items[0].id.videoId;
+			//Get a random integer between 0 and 5
+			var num = Math.floor(Math.random() * 5);
+			//Get the video id
+			var theVideoId = data.items[num].id.videoId;
 			console.log(theVideoId);
  
 			//Initialize a youtube player object
@@ -85,6 +86,6 @@ function makeYoutubeRequest(term){
 }
 
 $(document).ready(function(){
-	//Calling function to get a youtube video about 'NYU ITP'
-	makeYoutubeRequest("NYU ITP");
+	//Calling function to get a youtube video
+	makeYoutubeRequest("NYU Abu Dhabi");
 });

@@ -67,4 +67,4 @@ function makeYoutubeRequest(terms){
 	});
 }
 
-makeYoutubeRequest('NYU ITP');
+makeYoutubeRequest('NYU Abu Dhabi');

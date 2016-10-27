@@ -7,8 +7,6 @@
 * Keys
 	* [FreeSound API](https://www.freesound.org/help/developers/)
 	* [Youtube API](https://developers.google.com/youtube/v3/)
-* DataBase Tool - [SheetseeJS](http://jlord.us/sheetsee.js/docs/basics.html)
-* Inspiration - [Chrome Experiments](https://www.chromeexperiments.com/)
 
 #### III. Audio
 * Web Audio API

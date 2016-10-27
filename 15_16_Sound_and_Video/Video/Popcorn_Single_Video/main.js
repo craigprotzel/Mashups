@@ -6,8 +6,7 @@ var myKey = 'YOUR-KEY-GOES-HERE';
 
 function makeYoutubeRequest(term){
 	var url = 'https://www.googleapis.com/youtube/v3/search?';
-	var myParams = 'part=snippet&q=' + term + '&type=video&order=viewCount&key=';
-
+	var myParams = 'part=snippet&type=video&q=' + term + '&key=';
 	var myURL = url + myParams + myKey;
 
 	$.ajax({
@@ -23,8 +22,10 @@ function makeYoutubeRequest(term){
 			console.log(data);
 			//return;
 
+			//Get a random integer between 0 and 5
+			var num = Math.floor(Math.random() * 5);
 			//Get the video id
-			var theVideoId = data.items[0].id.videoId;
+			var theVideoId = data.items[num].id.videoId;
 			console.log(theVideoId);
 			//Create the youtube video link
 			var theVideoLink = 'http://www.youtube.com/watch?v=' + theVideoId + '&controls=1';
@@ -106,7 +107,7 @@ function setVideoEvents(video){
 		},
 		onEnd: function( options ) {
 			//clearInterval(bgAnimation);
-			$('#infoBox').html("Read about NYU below!");
+			$('#infoBox').html("What would you like to know?");
 		}
 	});
 }
@@ -127,5 +128,5 @@ function generateRandomColor(){
 }
 
 $(document).ready(function(){
-	makeYoutubeRequest("NYU ITP");
+	makeYoutubeRequest("'NYU Abu Dhabi'");
 });
