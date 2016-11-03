@@ -13,6 +13,7 @@
 
 #### III. Homework
 * For Tuesday 11/08
+	* Open Studios Prep  
   * Read - [What Is Node.JS and Why Should I Care?](http://www.makeuseof.com/tag/what-is-node-js-and-why-should-i-care-web-development/)
   * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
   * Read - [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)

@@ -18,7 +18,7 @@ Asfandyar - [NASA APoD](http://as7584.nyuad.im/Project%201/index.html)
 Cristian - [Unreal Deal](http://cmm959.nyuad.im/project1/index.html)  
 Cynthia - [Travel Forecast](http://xt405.nyuad.im/Mashups/Travel_Forecast/travelForecast.html)  
 Dana - [History](http://daa389.nyuad.im/Project1/Facts&News.html)  
-Erica - [Guess the Rhyme](http://elo239.nyuad.im/guess_the_rhyme.html)  
+Erika - [Guess the Rhyme](http://elo239.nyuad.im/guess_the_rhyme.html)  
 Hayat - [News Bias](http://hah308.nyuad.im/NewsBias/)  
 Kipras - [Hippify Art](http://kk2788.nyuad.im/Project_1/index.html)  
 Lauren - [Mum, You Asleep?](http://jwy272.nyuad.im/plugging%20API/home.html)  
@@ -42,6 +42,23 @@ Create a single web page experience that leverages data from at least one public
 * 10: Documentation
 
 #####Student Links
+
+Alejandra - []()  
+Asfandyar - []()  
+Cristian - [Hola Timon](http://cmm959.nyuad.im/project2/)  
+Cynthia - [Audio Wave](http://xt405.nyuad.im/Mashups/Audio_Wave/)  
+Dana - []()  
+Erika - [Demographic problem](http://elo239.nyuad.im/Project_2/)  
+Hayat - []()  
+Kipras - []()  
+Lauren - []()  
+Manas - []()  
+Mateo - []()  
+Noel - []()  
+Peter C - [BitCoin Map](http://wc1126.nyuad.im/hw/BitCoin%20Map/index.html)  
+Peter H - []()  
+Rick - []()  
+Shelly - []()  
 
 Final Project - Class 28 (Thursday 12/15)
 -------------------------
