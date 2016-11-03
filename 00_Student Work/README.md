@@ -43,21 +43,21 @@ Create a single web page experience that leverages data from at least one public
 
 #####Student Links
 
-Alejandra - []()  
-Asfandyar - []()  
+Alejandra - [Ni Una Menos]()  
+Asfandyar - [BlackJack](http://as7584.nyuad.im/Project%202/)  
 Cristian - [Hola Timon](http://cmm959.nyuad.im/project2/)  
 Cynthia - [Audio Wave](http://xt405.nyuad.im/Mashups/Audio_Wave/)  
 Dana - [A World of Displacement](http://daa389.nyuad.im/Project2/refugee-crisis.html)  
 Erika - [Demographic problem](http://elo239.nyuad.im/Project_2/)     
-Hayat - []()  
-Kipras - [NFL Arrests]()  
+Hayat - [Save the Astros]()  
+Kipras - [NFL Arrests](http://kk2788.nyuad.im/Project_2/)  
 Lauren - [Love Meteor](http://jwy272.nyuad.im/Mashups_Project2/)  
 Manas - [Asteroid Alerts](http://mp4083.nyuad.im/Project2/)  
-Mateo - []()  
+Mateo - [PokeStats](http://mjm973.nyuad.im/mashups/pokestats/)  
 Noel - [USSR Nuclear Detonations]()  
 Peter C - [BitCoin Map](http://wc1126.nyuad.im/hw/BitCoin%20Map/index.html)  
 Peter H - []()  
-Rick - []()  
+Rick - [Do You Know Wine?](http://yjk394.nyuad.im/MashUps/Project%20%232%20-%20Do%20You%20Know%20Wine/)  
 Shelly - [Liga BBVA](http://sz1152.nyuad.im/Project2/)  
 
 Final Project - Class 28 (Thursday 12/15)
