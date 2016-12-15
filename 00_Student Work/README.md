@@ -101,6 +101,7 @@ Noel - [Where Is Home?](http://whereishome.herokuapp.com/)
 Peter C - [Alternative Trip Planner](https://alt-planner.herokuapp.com/)  
 Peter H - [Shirts]()  
 Rick - [Emotions](http://emotionsmoodblocks.herokuapp.com/)
+Shelly - [Poetry Collective](https://poetry-collective.herokuapp.com/)
 
 
 
