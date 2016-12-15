@@ -97,10 +97,10 @@ Kipras - [Times Popular](http://timespopular.herokuapp.com/)
 Lauren - [Platydance](https://platydance.herokuapp.com/)  
 Manas - [TweetMatch](http://tweetmatch.herokuapp.com/cover)  
 Mateo - [Shiritori](https://shiritori-game.herokuapp.com)  
-Noel - [Where Is Home?](http://whereishome.herokuapp.com/)
-Peter C - [Alternative Trip Planner](https://alt-planner.herokuapp.com/)  
+Noel - [Where Is Home?](http://whereishome.herokuapp.com/)  
+Peter C - [Alternative Trip Planner](https://alt-planner.herokuapp.com/)    
 Peter H - [Shirts]()  
-Rick - [Emotions](http://emotionsmoodblocks.herokuapp.com/)
+Rick - [Emotions](http://emotionsmoodblocks.herokuapp.com/)  
 Shelly - [Poetry Collective](https://poetry-collective.herokuapp.com/)
 
 
