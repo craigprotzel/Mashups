@@ -86,6 +86,21 @@ Here are some links for inspiration:
 
 #####Student Links
 
+Alejandra - []()  
+Asfandyar - [Blackjack]()  
+Cristian - [Crazy Car](https://crazycar.herokuapp.com)  
+Cynthia - [Meme2D](https://meme2d.herokuapp.com/)  
+Dana - [A World of Displacement]()  
+Erika - [Poetry Place](http://poetryplace.herokuapp.com/)     
+Hayat - []()  
+Kipras - []()
+Lauren - []()  
+Manas - [TweetMatch](http://tweetmatch.herokuapp.com/cover)  
+Mateo - [Shiritori](https://shiritori-game.herokuapp.com)  
+Noel - [Where Is Home?](http://whereishome.herokuapp.com/)
+Peter C - [Alternative Trip Planner](https://alt-planner.herokuapp.com/)  
+Peter H - [Shirts]()  
+Rick - [Emotions](http://emotionsmoodblocks.herokuapp.com/)
 
 
 
