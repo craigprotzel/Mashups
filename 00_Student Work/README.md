@@ -86,15 +86,15 @@ Here are some links for inspiration:
 
 #####Student Links
 
-Alejandra - []()  
+Alejandra - [Saadiayt Share](http://saadiyatshare.herokuapp.com/)  
 Asfandyar - [Blackjack]()  
 Cristian - [Crazy Car](https://crazycar.herokuapp.com)  
 Cynthia - [Meme2D](https://meme2d.herokuapp.com/)  
 Dana - [A World of Displacement]()  
 Erika - [Poetry Place](http://poetryplace.herokuapp.com/)     
-Hayat - [Type It Out]()    
-Kipras - [Times Popular]()  
-Lauren - [Platydance]()  
+Hayat - [Type It Out]()  
+Kipras - [Times Popular](http://timespopular.herokuapp.com/)   
+Lauren - [Platydance](https://platydance.herokuapp.com/)  
 Manas - [TweetMatch](http://tweetmatch.herokuapp.com/cover)  
 Mateo - [Shiritori](https://shiritori-game.herokuapp.com)  
 Noel - [Where Is Home?](http://whereishome.herokuapp.com/)
