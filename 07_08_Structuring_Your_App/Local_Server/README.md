@@ -7,7 +7,7 @@ Setting Up A Local Server
 
 3. After clicking enter, you can type the command pwd to see exactly where you are in terms of your directory structure.
 
-4. Next, check your version number of python (python comes preloaded on Macs) by typing the following command into the Terminal window and then hitting enter. NOTE, Windows users may need to typ `py` instead of `python` dpeending on your OS version:   
+4. Next, check your version number of python (python comes preloaded on Macs) by typing the following command into the Terminal window and then hitting enter. NOTE, Windows users may need to type `py` instead of `python` depending on your OS version:   
   ```
   python --version
   ```
