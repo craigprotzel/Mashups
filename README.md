@@ -6,7 +6,7 @@ School: NYUAD
 Program: Interactive Media  
 Course Number: IM-UH 2110 (Formerly MDMED-AD 116)   
 Semester: Fall 2016  
-Class: T 2:40pm - 3:55pm & Th 2:40pm - 5:20pm  
+Class: Tues 2:40pm - 3:55pm & Thurs 2:40pm - 5:20pm  
 Room: Arts Center IM Lab (Rm.029)   
 [Room Access Form](http://goo.gl/forms/Mge02MPoCb)
 
@@ -44,7 +44,7 @@ Schedule
 
 #### [Classes 13_14 (10/17 & 10/19): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
 
-#### Fall Break - No Classes 10/24 & 10/26
+#### Fall Break - NO CLASSES 10/24 & 10/26
 
 #### [Classes 15_16 (10/31 & 11/02): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video)
 
@@ -84,12 +84,12 @@ Grading
 -------
 **10%** Attendance  
 **10%** Participation  
-**25%** Homework Assignments + Online Journal
+**25%** Homework Assignments + Online Journal  
 **30%** Projects #1 & #2      
 **25%** Final Project    
 
 Homework Assignments
----------------
+--------------------
 Each class there will be homework assignments. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
 
 Class time will be spent going over assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class.
@@ -151,3 +151,12 @@ Mobile Phones
 Communicate
 -----------
 If you have any questions, would like extra help, or need further instruction, please reach out to me. You can communicate with me via e-mail, sign up for ofice hours, speak with me before class, after class or during break, but please let me know if you have any concerns pertaining to the course.
+
+Academic Integrity
+------------------
+As set forth in NYU Abu Dhabi's Academic Integrity Policy, the relationship between students and faculty at NYU Abu Dhabi is defined by a shared commitment to academic excellence and is
+grounded in an expectation of fairness, honesty, and respect, which are essential to maintaining the integrity of the community. Every student who enrolls and everyone who accepts an appointment as a member of the faculty or staff at NYU Abu Dhabi agrees to abide by the expectation of academic honesty.  
+
+The full policies and procedures relating to Academic Integrity may be found on the NYUAD
+Student Portal: [https://students.nyuad.nyu.edu/campus-life/student-policies/community-standardspolicies/academic-integrity/](https://students.nyuad.nyu.edu/campus-life/student-policies/community-standardspolicies/academic-integrity/)
+
