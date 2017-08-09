@@ -1,7 +1,8 @@
 Mashups: Student Work
 ===============================
 
-##### Grading Rubric - 50 Points
+Grading Rubric - 50 Points
+--------------------------
 * 10: Code Quality - includes legibility, clarity, and comments  
 * 10: Technical Implementation - demonstrate an understanding of the technical material, which includes an assessment of code proficiency, quality, and management along with an understanding of data flow and order of operations  
 * 10: User Experience - how is the experience for a person who visits the web page with an emphasis on usability  
@@ -22,13 +23,13 @@ Create a single web page experience that, upon user input, responds with data fr
 ##### Student Links
 
 Assignment #2 - Class 18 (Thursday 11/09)
-------------------------------------------------------------
+-----------------------------------------
 Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original creative expression. 
 
 ##### Student Links
 
 Final Project - Class 28 (Thursday 12/14)
-------------------------------------------------------
+-----------------------------------------
 Your final project will require creating a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own database. Your final project should be uploaded to the web before class and should incorporate the following elements:  
 * a public web API as a data source
 * a client-side js library other than jQuery and/or Underscore
