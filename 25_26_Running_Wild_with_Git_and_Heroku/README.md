@@ -14,7 +14,7 @@
 * Try - [Interactive Git Tutorial from Gthub](http://try.github.io/levels/1/challenges/1)
 
 #### III. Deploy to Heroku
-* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/blob/master/_HELP/How_To/Heroku_Node_Deploy/README.md)
+* Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/blob/master/__HELP/How_To/Heroku_Node_Deploy/README.md)
 * Heroku
 	* [Getting Started with Heroku](https://devcenter.heroku.com/articles/quickstart) & [Heroku Toolbelt](https://toolbelt.heroku.com/)
 	* [Getting Started with NodeJS on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)

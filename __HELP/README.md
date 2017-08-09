@@ -1,8 +1,8 @@
 Mashups How To's
 ----------------
-* [Run A Local Host Server](https://github.com/craigprotzel/Mashups/tree/master/_HELP/How_To/Local_Server)
-* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/_HELP/How_To/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/_HELP/How_To/Heroku_Node_Deploy)
+* [Run A Local Host Server](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Local_Server)
+* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Github_Pages)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Heroku_Node_Deploy)
 
 Open Data APIs
 --------------

@@ -4,7 +4,7 @@
 #### I. Discussion - Class 5_6 Homework
 
 #### II. Running A Local Web Server
-* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/_HELP/How_To/Local_Server/README.md)
+* [Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Local_Server/README.md)
   * [Scott Murray - Local Web Server](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server)
 	* [Download Python](https://www.python.org/download) **for Windows users**
 	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally)
