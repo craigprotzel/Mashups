@@ -1,6 +1,7 @@
-### Classes 15/16: Sound & Video
+### Classes 15_16: Sound, Video, & 3D
+(Week 8)
 
-#### I. Discussion - Class 13/14 Homework
+#### I. Discussion - Class 13_14 Homework
 
 #### II. Intro
 * [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/Sound_and_Video_Examples.zip)
@@ -41,7 +42,8 @@
 	* [VideoJS](http://www.videojs.com/)
 
 #### V. Homework
-* For Tuesday 11/01
-  * Work - on Project #2 which is due Thursday 11/03. Be prepared to share a user-testable version of your project idea in class
-* For Thursday 11/03
+* OPEN STUDIOS! 11/06
+* For Class 17 (Tues 11/07)
+  * Work - on Project #2 which is due Thursday 11/09. Be prepared to share a user-testable version of your project idea in class
+* For Class 18 (Thurs 11/09)
 	* DUE - Project #2 

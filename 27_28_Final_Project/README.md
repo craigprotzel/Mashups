@@ -1,6 +1,7 @@
-### Classes 27/28: Final Project DUE
+### Classes 27_28: Final Project DUE
+(Week 14)
 
-#### I. Final Presentations
+#### I. Final Project Workshop
 
 #### II. Course Evaluations
 
@@ -10,4 +11,6 @@
 * [SuperHeroJS](http://superherojs.com/)
 * [Javascript Weekly](http://javascriptweekly.com/)
 
-#### IV. IM End-of-Semester Showcase
+#### IV. Final Presentations
+
+#### V. IM End-of-Semester Show

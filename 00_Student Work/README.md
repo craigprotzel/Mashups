@@ -1,11 +1,18 @@
 Mashups: Student Work
 ===============================
 
-Assignment #1 - Class 09 (Thursday 09/29)
+##### Grading Rubric - 50 Points
+* 10: Code Quality - includes legibility, clarity, and comments  
+* 10: Technical Implementation - demonstrate an understanding of the technical material, which includes an assessment of code proficiency, quality, and management along with an understanding of data flow and order of operations  
+* 10: User Experience - how is the experience for a person who visits the web page  
+* 10: Creativity - is there a demonstration of creative input, direction, and thoughtfulness  
+10: Documentation - includes a clear description of the project, any creative and technical decisions, specific influences, key challenges and solutions, overall lessons learned, and all relevant references and resources
+
+Assignment #1 - Class 9 (Thursday 09/29)
 -------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ultimately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
-#####Grading Rubric - 50 Points
+##### Grading Rubric - 50 Points
 * 10: Code Clarity - legibility
 * 10: Technical Implementation - demonstrate an understanding of the material, includes the HTML, CSS, JS, code quality, and code management
 * 10: User Experience
@@ -62,7 +69,7 @@ Shelly - [Liga BBVA](http://sz1152.nyuad.im/Project2/)
 
 Final Project - Class 28 (Thursday 12/15)
 -------------------------
-Your final project will require creating a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:  
+Your final project will require creating a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own database. Your final project should be uploaded to the web before class and should incorporate the following elements:  
 * a public web API as a data source
 * a client-side js library other than jQuery and/or Underscore
 * server-side code (i.e. Node-Express)

@@ -1,6 +1,7 @@
-### Classes 09/10: Project #1 DUE + Dealing with Data
+### Classes 09_10: Project #1 DUE + Dealing with Data  
+(Week 5)
 
-#### I. Presentations - Project #1
+#### I. User Testing Exercise
 
 #### II. D & D Thinking
 * [Hats Lecture](https://dl.dropboxusercontent.com/u/9648298/HATS.pdf) by Martin Bravo
@@ -24,14 +25,14 @@
 	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. D3 Intro  
-* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
-* Polygaph - [Film Dialogue](http://polygraph.cool/films/)  
+#### IV. Presentations - Project #1
 
-#### V. Homework
-* For Tuesday 10/04:
-	* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
-	* Explore - [Fathom.info](https://fathom.info/projects/) Projects
-	* Explore - [D3](http://d3js.org/)
-* For Thursday 10/06:
-	* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)	
+#### V. D3 Intro  
+* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
+* Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
+
+#### VI. Homework
+* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
+* Explore - [Fathom.info](https://fathom.info/projects/) Projects
+* Explore - [D3](http://d3js.org/)
+* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)	

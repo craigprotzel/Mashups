@@ -60,12 +60,12 @@ $(document).ready(function(){
 		//Use jQuery to get the value of the 'query' input box
 		var newSearchTerm = $("#query").val();
 		console.log(newSearchTerm);
-		//Execute the Wikipedia API call with the 'newSearchTerm' string as its argument 
+		//Execute the Wikipedia API call with the 'newSearchTerm' string as its argument
 		myApp.searchWikipedia(newSearchTerm);
 	});
 
 	//What if someone just wants to click "ENTER"?
-	//Use jQuery to assign a callback function when enter is pressed 
+	//Use jQuery to assign a callback function when enter is pressed
 	//This will ONLY work when the 'query' input box is active
 	$("#query").keypress(function(e){
 		//If enter key is pressed

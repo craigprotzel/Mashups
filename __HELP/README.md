@@ -19,7 +19,7 @@ Open Data APIs
   * [Gifts](http://developer.gifts.com/)
   * [Sears](https://developer.sears.com/documentation/sears-apis-0)
 * Communities
-  * [Facebook](https://developers.facebook.com/docs/javascript) 
+  * [Facebook](https://developers.facebook.com/docs/javascript)
   * [Github](https://developer.github.com/v3/#json-p-callbacks)
   * [Reddit](http://www.reddit.com/dev/api)  
   * [Stack Exchange](https://api.stackexchange.com/)
@@ -77,7 +77,7 @@ Open Data APIs
   * [NASA](https://api.nasa.gov/index.html)
   * [People In Space](http://open-notify.org/Open-Notify-API/People-In-Space/)
 * Search
-  * [Duck Duck Go](https://api.duckduckgo.com/api) 
+  * [Duck Duck Go](https://api.duckduckgo.com/api)
 * Transportation
   * [NYC - MTA](http://web.mta.info/developers/)
   * [Edmunds Vehicles](http://edmunds.mashery.com/docs/read/The_Vehicle_API)

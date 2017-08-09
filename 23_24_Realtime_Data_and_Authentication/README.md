@@ -1,8 +1,9 @@
-### Classes 23/24: Realtime Data + Authentication
+### Classes 23_24: Realtime Data + Authentication
+(Week 12)
 
-* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_Sockets_and_Auth_Examples.zip)
+#### I. Discussion - Class 21_22 Homework
 
-#### I. Discussion - Class 21/22 Homework
+#### Download Socket & Auth Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_Sockets_and_Auth_Examples.zip)
 
 #### II. Realtime Data
 * [Socket.io](http://socket.io/)

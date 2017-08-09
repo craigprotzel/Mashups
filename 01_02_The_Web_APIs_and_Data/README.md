@@ -1,4 +1,5 @@
-### Classes 01/02: The Web, APIs, & Data
+### Classes 01_02: The Web, APIs, & Data  
+(Week 1)
 
 #### I. Introduction
 

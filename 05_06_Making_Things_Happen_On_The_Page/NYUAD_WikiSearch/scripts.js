@@ -6,8 +6,8 @@ function searchWikipedia(word){
 	$.ajax({
 		url: wikiURL,
 		type: 'GET',
-		dataType: 'jsonp',
-		error: function(data){
+		dataType: 'jsonp'
+		error: function (data){
 			console.log("Oh no!!!! Didn't work...");
 		},
 		success: function(data){
@@ -18,7 +18,7 @@ function searchWikipedia(word){
 
 			console.log("The Term");
 			console.log(data[0]);
-		
+
 			console.log("The Results");
 			console.log(data[1]);
 

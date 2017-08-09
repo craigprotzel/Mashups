@@ -1,6 +1,7 @@
-### Classes 13/14: Animation Playstation 
+### Classes 13_14: Animation Playstation 
+(Week 7)
 
-#### I. Discussion - Class 12 Homework
+#### I. Discussion - Class 11_12 Homework
 
 #### II. A Blank Canvas
 * [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
@@ -26,7 +27,7 @@
 	* [p5 Load/Update Pixels](http://p5js.org/reference/#/p5/loadPixels)
 	* [p5 Examples - Images](http://p5js.org/examples/)
 
-#### V. [3D]
+#### V. 3D
 * WebGL
 	* [Mozilla Hacks - The Concepts of WebGL](https://hacks.mozilla.org/2013/04/the-concepts-of-webgl/)
 	* [Learning WebGL - FAQ](http://learningwebgl.com/cookbook/index.php/WebGL:_Frequently_Asked_Questions)
@@ -40,11 +41,8 @@
 	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 #### V. Homework
-* For Tuesday 10/18
-	* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
-	* Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
-	* Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
-	* Explore - [PopcornJS](http://popcornjs.org/) Video Library
-	* Think - about ideas for Project #2. Be prepared to share your ideas in class.
-* For Thursday 10/27
-	* Work - on Project #2
+* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
+* Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
+* Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
+* Explore - [PopcornJS](http://popcornjs.org/) Video Library
+* Think - about ideas for Project #2. Be prepared to share your ideas in class.

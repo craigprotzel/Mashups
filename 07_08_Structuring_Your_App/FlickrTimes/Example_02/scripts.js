@@ -1,3 +1,4 @@
+
 console.log("Loading...");
 
 function makeHTML(theObj,theImageURL){
@@ -42,9 +43,7 @@ function getFlickrData(theNYTObj){
 				}
 			}
 			console.log(theImage);
-
 			makeHTML(theNYTObj, theImage);
-
 		}
 	});
 }

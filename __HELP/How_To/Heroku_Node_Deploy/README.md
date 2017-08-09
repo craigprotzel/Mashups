@@ -1,5 +1,5 @@
-Mashups: How to Deploy to Heroku
---------------------------------
+How to Deploy to Heroku
+-----------------------
 
 #### Step 0 - The App
 * Create a Node-Express App that runs locally on your machine. (If you don't have an app, see any of the examples in the "Back_To_The_Server" folder.)

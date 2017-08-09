@@ -4,7 +4,7 @@ Code on this example is meant to demonstrate a variety of 'jQuery AJAX' patterns
 Here is a list of helpful resources/tutorials that explain these patterns
  * http://api.jquery.com/category/deferred-object/
  * http://www.htmlgoodies.com/beyond/javascript/making-promises-with-jquery-deferred.html
- * http://www.bitstorm.org/weblog/2012-1/Deferred_and_promise_in_jQuery.html 
+ * http://www.bitstorm.org/weblog/2012-1/Deferred_and_promise_in_jQuery.html
  * http://css-tricks.com/multiple-simultaneous-ajax-requests-one-callback-jquery/
 */
 
@@ -27,7 +27,7 @@ function itWorked(data){
 	console.log(data);
 }
 
-//A "completed" or "always" function 
+//A "completed" or "always" function
 function finished(){
 	console.log("I'm all finished");
 }
@@ -66,10 +66,10 @@ function searchDonePattern(searchTerm){
 }
 
 /*******************************************/
-//The "Then" Pattern 
+//The "Then" Pattern
 //'.then' expects two arguments:
 //argument 1 - a 'success/done' function
-//argument 2 -  an 'error/fail' function 
+//argument 2 -  an 'error/fail' function
 function searchThenPattern(searchTerm){
 	var theAJAXCall = $.ajax({
 		url: wikiURL + searchTerm,
@@ -79,7 +79,7 @@ function searchThenPattern(searchTerm){
 
 	theAJAXCall.then(itWorked,itFailed);
 
-	//Add a comment for the console	
+	//Add a comment for the console
 	return 'Running "Then" Pattern';
 }
 
@@ -100,7 +100,7 @@ function searchWhenThenPattern(searchTerm){
 		type: 'GET',
 		dataType: 'jsonp'
 	});
-	
+
 	//Pass in the AJAX objects
 	$.when(searchOne, searchTwo).then(function(sOne, sTwo){
 			console.log("All good");
@@ -156,7 +156,7 @@ function makeASearchObj(searchTerm){
 		type: 'GET',
 		dataType: 'jsonp'
 	});
-	
+
 	return searchObj;
 }
 
@@ -166,7 +166,7 @@ $(document).ready(function(){
 	$('#theButton').click(function(){
 
 		var searchTerm = $("#query").val().toUpperCase();
-		
+
 		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console. You can also run any of the functions in the console at any time.');
 
 		//searchBasicPattern(searchTerm);
@@ -188,7 +188,7 @@ $(document).ready(function(){
 
 		//var searchCall = makeASearchObj(searchTerm);
 		//searchCall.then(itWorked, itFailed);
-		
+
 	});
 
 	//Allow for enter to be pressed when the inupt box is active
