@@ -1,24 +1,30 @@
 Mashups: Student Work
 ===============================
 
-Grading Rubric - 50 Points
---------------------------
-* 10: Code Quality - includes legibility, clarity, and comments  
-* 10: Technical Implementation - demonstrate an understanding of the technical material, which includes an assessment of code proficiency, quality, and management along with an understanding of data flow and order of operations  
-* 10: User Experience - how is the experience for a person who visits the web page with an emphasis on usability  
-* 10: Creativity - is there a demonstration of creative input, direction, expression, and thoughtfulness  
-10: Documentation - includes a clear description of the project, any creative and technical decisions, specific influences, key challenges and solutions, overall lessons learned, and all relevant references and resources
+Grading Rubric - 100 Points
+---------------------------
+* 20: Code Quality - includes legibility, clarity, and comments  
+* 20: Technical Implementation - demonstrate an understanding of the technical material, which includes code proficiency, quality and  management as well as an understanding of data flow, order of operations, programming logic  
+* 20: User Experience - what is the quality of the experience for a person who visits the web page with an emphasis on usability, design, and intent  
+* 20: Creativity - is there a demonstration of creative input, personal expression, meaningful direction, and overall thoughtfulness  
+* 20: Documentation - includes a clear description of the project, any major creative and technical decisions, primary influences and inspiration, key challenges and solutions, overall lessons learned, and any relevant references and resources
+
+* A+:	98+
+* A:	93 - 97.9 
+* A-:	90 - 92.9  
+* B+:	88 - 89.9
+* B:	83 - 87.9
+* B-:	80 - 82.9
+* C+:	78 - 79.9
+* C:	73 - 77.9
+* C-: 	70 - 72.9
+* D:	60 - 69.9
+* F:	59.9-
+
 
 Assignment #1 - Class 10 (Thursday 10/05)
 -----------------------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ultimately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
-
-##### Grading Rubric - 50 Points
-* 10: Code Clarity - legibility
-* 10: Technical Implementation - demonstrate an understanding of the material, includes the HTML, CSS, JS, code quality, and code management
-* 10: User Experience
-* 10: Creativity
-* 10: Documentation
 
 ##### Student Links
 
