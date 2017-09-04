@@ -84,15 +84,17 @@ Grading
 -------
 **10%** Attendance  
 **10%** Participation  
-**25%** Homework Assignments
-**30%** Projects #1 & #2      
+**25%** Homework Assignments  
+**30%** Projects #1 & #2
 **25%** Final Project    
 
 Homework Assignments
 --------------------
 Each class there will be homework assignments. Homework may include reading, writing, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
 
-Class time will be spent going over assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so. Your work must be completed by prior to class and should be uploaded by 10am the next day. For each day an assignment is late, it will result in a lower assignment grade (i.e. B+ to B).
+Class time will be spent going over assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so.
+
+Your work must be completed by prior to class and should be uploaded by 10am the next day. For each day an assignment is late, it will result in a lower assignment grade (i.e. B+ to B).
 
 For any "CREATE" homework assignmnents, the following grading rubric will be used:
 
