@@ -31,4 +31,5 @@
 * ClientSide Auth with [Hello.js](http://adodson.com/hello.js/)
 
 #### V. Homework
+* Read - Jaron Lanier "Who Owns the Future - First Thought Best Thought" pp.221 - 230
 * Work - on Final Project

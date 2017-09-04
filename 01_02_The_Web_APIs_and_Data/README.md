@@ -9,6 +9,7 @@
 * [VimeoLabs](http://vimeolabs.com)
 
 #### III. Student Work Examples
+* [Shiritori](https://shiritori-game.herokuapp.com/)
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
@@ -37,13 +38,15 @@
 	* [Into the Okavango](http://intotheokavango.org/)
 	* [Programmable Web](http://programmableweb.com)
 	* [Temboo](https://www.temboo.com/)
+	* [Jeff Bezos Mandate - Service Interfaces](http://jesusgilhernandez.com/2012/10/18/jeff-bezos-mandate-amazon-and-web-services/)
 
 #### VI. Homework
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
 * Install - a code linter in your text editor. (For Sublime, I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/))
+* Read - [How The Web Works](https://medium.freecodecamp.org/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on SVGs**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
-* Explore - [Programmable Web](http://programmableweb.com) (Note: lots of deprecated resources and broken links)
+* Explore - [Programmable Web](http://programmableweb.com) (Note: LOTS of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#openish-apis)
 * Create - a single web page that displays (some of) the data returned by an API url. Your page must have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for next class!). If you can, upload your page to a server, but it is fine if it only runs locally.
 * Additional Recommendations

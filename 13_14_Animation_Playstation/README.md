@@ -41,7 +41,8 @@
 	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 #### V. Homework
-* Coding + Design Exercise - using a javascript library of your choosing, create a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
+* Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
+* Create - using a javascript library of your choosing, a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
 * Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
 * Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
 * Explore - [PopcornJS](http://popcornjs.org/) Video Library

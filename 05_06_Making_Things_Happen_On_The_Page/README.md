@@ -35,4 +35,6 @@
   * [A Comprehensive Look at Events in jQuery](http://www.sitepoint.com/comprehensive-events-jquery)
   * [What Is JSONP All About](http://stackoverflow.com/questions/2067472/what-is-jsonp-all-about)
   * [jQuery's JSONP Explained](https://www.sitepoint.com/jsonp-examples/?utm_source=javascriptweekly&utm_medium=email)
+  * [CrossOrigin.me](http://crossorigin.me/)
+  * [CORS Chrome Plugin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)
   * [Variable and Function Hoisting](http://designpepper.com/blog/drips/variable-and-function-hoisting)

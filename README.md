@@ -84,37 +84,22 @@ Grading
 -------
 **10%** Attendance  
 **10%** Participation  
-**25%** Homework Assignments + Online Journal  
+**25%** Homework Assignments
 **30%** Projects #1 & #2      
 **25%** Final Project    
 
 Homework Assignments
 --------------------
-Each class there will be homework assignments. Homework may include reading, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
+Each class there will be homework assignments. Homework may include reading, writing, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
 
-Class time will be spent going over assignments. Expect to be asked to show your work every class. Some classes everyone may demonstrate their work, other classes only a few students will share, but always be prepared to do so. All of your work must be completed on time prior to class.
+Class time will be spent going over assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so. Your work must be completed by prior to class and should be uploaded by 10am the next day. For each day an assignment is late, it will result in a lower assignment grade (i.e. B+ to B).
 
 For any "CREATE" homework assignmnents, the following grading rubric will be used:
 
-Grading Rubric - 9 Points  
-	* 3: Technical - completion of the technical task  
-	* 3: Creative - demonstration of creative expression  
-	* 3: Usability - attempt to make the site usable  
-
-Online Journal
----------------
-You are expected to keep some form of an online journal or web blog. For each assignment, you must:
-
-* provide a direct hyperlink to the work
-* describe the assignment
-* discuss what you chose to do and why
-* document any resources/research/inspiration
-* explain your process
-* highlight both successes and failures
-
-The purpose of the journal is twofold. First, it is a valuable way for you to communicate that you are keeping up with the work in the class and that you are grasping the material. I read the journals to see how you are doing.
-
-Second, the journal is a way to document your work for your own use and that of others. You must update the journal each week with the work you have done for class. You should use the journal as an opportunity to write clear, concise thoughts, questions, and analysis based on the class assignments. The writing is expected to be well reasoned and grammatically correct. You should link to any relevant sources, and provide context, such as images, video or audio, when appropriate. Whether this is a tumblr, a Wordpress site, a static HTML page, or even a Google doc does not matter. What does matter is that it is online and publicly accessible.
+Grading Rubric - 30 Points  
+	* 10: Technical - completion of the technical task  
+	* 10: Creative - demonstration of creative expression  
+	* 10: Usability - attempt to make the site usable
 
 Projects 1 & 2
 --------------
@@ -130,15 +115,18 @@ Your final project will require developing a comprehensive single page web exper
 * database storage
 * a public web API route to serve your stored data
 
-Attendance & Participation
---------------------------
+Attendance
+----------
 
 * Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
-* More than two unexcused absences (more than 20 minutes late to class) will result in a lower final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
-* Showing up on time, engaging in the class discussion, and offering advice and input during class is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
-* Please turn in all assignments on time. For each day an assignment is late, it will result in a lower final grade (i.e. B+ to B).
+* More than two unexcused absences (more than 20 minutes late to class) will result in a lower overall final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
+* Show up on time, we have a lot of material to cover and we'll need all of the class time. 
+
+Participation
+-------------
+* Engaging in the class discussion, offering feedback to peers, and "being present" is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
 * You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn.
-* Ask questions. If you do not ask questions, I can only assume you understand the material completely.
+* Ask questions. If you do not ask questions, I can only assume you understand the material completely. 
 
 Laptops
 -------
