@@ -85,8 +85,8 @@ Grading
 **10%** Attendance  
 **10%** Participation  
 **25%** Homework Assignments  
-**30%** Projects #1 & #2
-**25%** Final Project    
+**30%** Projects #1 & #2  
+**25%** Final Project
 
 Homework Assignments
 --------------------
@@ -99,9 +99,9 @@ Your work must be completed by prior to class and should be uploaded by 10am the
 For any "CREATE" homework assignmnents, the following grading rubric will be used:
 
 Grading Rubric - 30 Points  
-	* 10: Technical - completion of the technical task  
-	* 10: Creative - demonstration of creative expression  
-	* 10: Usability - attempt to make the site usable
+	* **10: Technical** - completion of the technical task  
+	* **10: Creative** - demonstration of creative expression  
+	* **10: Usability** - attempt to make the site usable
 
 Projects 1 & 2
 --------------
