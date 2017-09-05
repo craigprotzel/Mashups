@@ -36,7 +36,8 @@
 * Review - [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * Watch - [Lynda.com: Javascript Essential Training Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
 * Watch - [Lynda.com - Introducing the Javascript Language: Section 6 Functions - Basic Uses of Functions (4 mins))](http://www.nyu.edu/lynda)
-* Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)   
+* Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
+* Explore - "If Hemingway Wrote Javascript" and choose ONE PERSON to focus on. Come to class prepared to talk about the person you chose, who they are, and why "they" wrote the code the way that they did.
 * Install - A JS Linter for your Text Editor. I use [Sublime Linter](http://www.sublimelinter.com/en/latest/index.html) with Sublime. See [How To Install Linter]() for specific instructions.
 * Answer - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console.
 * Begin - working on Project #1 

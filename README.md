@@ -8,7 +8,7 @@ Course Number: IM-UH 2110 (Formerly MDMED-AD 116)
 Semester: Fall 2016  
 Class: Tues 2:40pm - 3:55pm & Thurs 2:40pm - 5:20pm  
 Room: Arts Center IM Lab (Rm.029)   
-[Room Access Form](http://goo.gl/forms/Mge02MPoCb)
+[IM Lab Access Form](http://goo.gl/forms/Mge02MPoCb)
 
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
@@ -116,6 +116,18 @@ Your final project will require developing a comprehensive single page web exper
 * at least one javascript “interaction” library
 * database storage
 * a public web API route to serve your stored data
+
+Readings
+--------
+
+Required Text
+* Croll, Angus, "If Hemingway Wrote Javascript" (No Starch Press, 2015)
+
+Supplemental Texts
+(These readings will either be distributed or available at the library)
+* Krug, Steve, "Don't Make Me Think" (New Riders, 2000)
+* Lanier, Jaron, "Who Owns the Future" (Simon & Shuster, 2013)
+* Murray, Janet H,"Inventing the Medium" (MIT Press, 2012)
 
 Attendance
 ----------
