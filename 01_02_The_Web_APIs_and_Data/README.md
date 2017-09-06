@@ -15,9 +15,7 @@
 #### III. Student Introductions
 
 #### IV. Student Work Examples
-* [Shiritori](https://shiritori-game.herokuapp.com/) - Mateo
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
-* [Movie Soundtracks](http://moviesoundtracks.herokuapp.com/) - Nicholas Hagans
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Lives of Congress](http://thelivesofcongress.com/) - Brian Clifton
 * [Breeding Rhythms](http://breedingrhythms.herokuapp.com/) - Abhi
@@ -31,11 +29,11 @@
 	* [How The Web Works](https://medium.freecodecamp.org/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c)
 	* [What's In An HTTP Request](http://rve.org.uk/dumprequest)
 * API Examples & Resources
-	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) in Chrome)  
+	* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) (Chrome PlugIn)  
 	* [OpenWeatherMap API](http://openweathermap.org/API)
 	* [Kanye REST](http://kanyerest.xyz/)
-	* [HTTP Bin](http://httpbin.org/)
 	* [ProPublica DataStore](https://www.propublica.org/datastore/) & [APIs](https://www.propublica.org/datastore/apis)
+	* [HTTP Bin](http://httpbin.org/)	
 	* [HealthCare.gov for Developers](https://www.healthcare.gov/developers/)
 	* [New Yorker - A Month of CitiBike Data](http://www.newyorker.com/sandbox/business/citi-bike.html)
 	* [HowManyPeopleAreInSpaceRightNow?](http://www.howmanypeopleareinspacerightnow.com/)
