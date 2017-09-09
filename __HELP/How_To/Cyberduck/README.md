@@ -1,11 +1,11 @@
-How To Upload Files Via Cyberduck
----------------------------------
+How To Upload Files (SFTP) Via Cyberduck
+----------------------------------------
 
 This is a quick step-by-step guide on how to upload files to your server sapce via Cyberduck
 
 ### Step 1: Open A Connection 
 * Double-click the Cyberduck icon. Towards the top left of the panel, you should see a button labeled `Open Connection`. You can also find `Open Connection` in the `File Menu`.
-* Note, if you have connected to the server before, you can try clicking on the `History` button that looks like a clock, locate your server, and double-click to connect.
+* Note, if you have connected to the server before, you can try clicking on the `History` button that looks like a clock, locate your server, and double-click to connect. If this is successful, you should be able to skip to Step 4.
 
 ### Step 2: Fill out the Form
 * Dropdown Menu: `SFTP (SSH File Transfer Protocol)`
@@ -24,7 +24,7 @@ This is a quick step-by-step guide on how to upload files to your server sapce v
 ### Step 4: Organize Your Files
 * Back on your own computer, when creating a page for the first time, make sure all of the necessary files are in a single folder.
 * Move any unncessary files out of the folder.
-* Assuming there is one `.html` file in the folder, name it `index.html`.
+* Assuming there is one `.html` file in the folder, name it `index.html`. If there are multiple .html files, only name the main home page 'index.html' and leave the others as is.
 
 ### Step 5: Upload Your Folder
 * In the Cyberduck panel, click on the `Action` button.
