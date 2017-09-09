@@ -34,12 +34,12 @@ A step-by-step guide for NYUAD IM students on how to upload files to your Dreamh
 
 ### Step 5: Check The Web
 * In the browser, go to `your-nyu-netid.nyuad.im/your-folder-name` and you should see your webpage.
-* If your `.html` is not named `index.html`, but something else like `mypage.html` you should be able to find it at `your-nyu-netid.nyuad.im/your-folder-name/mypage.html`
-* The folders and file structure that you see in the Cyberduck panel directly determine the url of your web page.
+* If your `.html` file is not named `index.html`, but something else like `mypage.html` you should be able to find it at `your-nyu-netid.nyuad.im/your-folder-name/mypage.html`
+* The folders and file structure that you see in the Cyberduck panel will determine the url of your web page.
 
 ### Step 6: Update Your Page
-* To make changes to your page, you should always edit the local files that are on your own machine, not the files on Cyberduck. 
-* Then, you can either re-upload the entire folder or just the file(s) that have been edited.
-* Assuming you are updating files, you will be asked whether you want to overwrite. Click `Yes`.
+* To make changes to your page, you should always edit the local files that are on your own machine. Avoid editing the files uploaded on Cyberduck. 
+* Then, when your changes are complete, either re-upload the entire folder or just the file(s) that have been edited.
+* Assuming you are updating files, you will be asked whether you want to overwrite the existing files. Click `Yes`.
 
 
