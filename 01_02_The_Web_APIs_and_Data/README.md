@@ -22,7 +22,7 @@
 * [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
 
 #### V. Lecture: The Web, APIs, & Data
-* [Lecture Slides](https://dl.dropboxusercontent.com/u/9648298/Mashups_Fall2016_Lecture_Upload.pdf)
+* [Lecture Slides](https://github.com/craigprotzel/Mashups/blob/master/01_02_The_Web_APIs_and_Data/Web_APIs_Data_Slides.pdf)
 * WWW Background
 	* [A Packet's Tale](https://www.youtube.com/watch?v=ewrBalT_eBM)
 	* [Andrew Blum - What Is The Internet Really?](https://www.ted.com/talks/andrew_blum_what_is_the_internet_really)

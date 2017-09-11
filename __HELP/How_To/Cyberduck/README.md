@@ -40,6 +40,6 @@ A step-by-step guide for NYUAD IM students on how to upload files to your Dreamh
 ### Step 6: Update Your Page
 * To make changes to your page, you should always edit the local files that are on your own machine. Avoid editing the files uploaded on Cyberduck. 
 * Then, when your changes are complete, either re-upload the entire folder or just the file(s) that have been edited.
-* Assuming you are updating files, you will be asked whether you want to overwrite the existing files. Click `Yes`.
+* Assuming you are updating files, you will be asked whether you want to overwrite the existing files. Click `Overwrite`.
 
 
