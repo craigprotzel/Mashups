@@ -5,7 +5,7 @@
 
 #### II. Workshop - HTML & CSS Boot Camp
 * Setting up your page
-	* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/02_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
+	* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/03_04_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 	* Adding elements
 	* [HTML5 Element List](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list)	
 	* [HTML5 Semantics](http://diveintohtml5.info/semantics.html) 
