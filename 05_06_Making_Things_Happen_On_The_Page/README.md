@@ -23,6 +23,7 @@
 * Watch - [Lynda.com: Javascript Essential Training (2011): Section 3 Types & Objects + Section 4 - Understanding the Document Object Model (45 mins)](http://www.nyu.edu/lynda)
 * Read - [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * Read - [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
+* Begin - working on Project #1
 * Create - a single web page that uses AJAX (through jQuery) to load and display data from a public web api. Your page should also include at least one form of "user interaction". The finished work should include a .html file, a .css file, and a .js file. It is recommended that you use a web API that you intend to use for Assignment #1.
 * Get API Keys for both the [NY Times API](http://developer.nytimes.com/) and the [Flickr API](https://www.flickr.com/services/apps/create/)
 * Additional Recommendations

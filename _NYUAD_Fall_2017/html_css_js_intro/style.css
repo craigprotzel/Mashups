@@ -1,0 +1,94 @@
+html,body{
+	font-family: 'Maven Pro', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#nav2{
+	background-color: pink;
+}
+
+h1{
+	text-align: center;
+}
+
+.buttonData{
+	font-size: 64px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.nav-container{
+	width: 70%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+button{
+	color: rgb(200,100,100);
+}
+
+.nav-button{
+	width: 20%;
+	height: 25px;
+	margin: 0 20px;
+	background-color: aqua;
+}
+
+.nav-button:hover{
+	background-color: green;
+	color: yellow;
+}
+
+.main-container{
+	position: relative;
+	width: 80%;
+	margin: 60px auto;
+}
+
+.main-left{
+	width: 45%;
+	position: absolute;
+	left: 0;
+}
+
+.main-right{
+	width: 45%;
+	position: absolute;
+	right: 0;
+}
+
+
+@media (max-width: 840px){
+
+	.main-left{
+		position: relative;
+		width: 80%;
+		margin: 10px auto;
+	}
+
+	.main-right{
+		position: relative;
+		width: 80%;
+		display: block;
+		margin: 30px auto;
+	}
+
+	.nav-button{
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
