@@ -35,7 +35,7 @@
 #### VI. Homework
 * Review - [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 * Watch - [Lynda.com: Javascript Essential Training (2011): Section 2 - Core Javascript Syntax (56 mins)](http://www.nyu.edu/lynda)
-* Watch - [Lynda.com - Javascript Essential Training: Section 4  Functions & Objects" Clips 1-3 (10 mins))](http://www.nyu.edu/lynda)("Functions in Javascript", "Build A Basic Function", & "Add Arguments to the Function")
+* Watch - [Lynda.com - Javascript Essential Training: Section 4  Functions & Objects" Clips 1-3 (10 mins)](http://www.nyu.edu/lynda)("Functions in Javascript", "Build A Basic Function", & "Add Arguments to the Function")
 * Read - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 * Explore - "If Hemingway Wrote Javascript" and choose ONE PERSON to focus on. Come to class prepared to talk about the person you chose, who they are, and why "they" wrote the code the way that they did.
 * Install - A JS Linter for your Text Editor. I use [Sublime Linter](http://www.sublimelinter.com/en/latest/index.html) with Sublime. See [How To Install Linter]() for specific instructions.
