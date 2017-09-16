@@ -154,7 +154,7 @@ $(document).ready(function(){
 
 /*
 	//JS Approach
-		var chessButton = document.getElementById('chessBoardButton');
+	var chessButton = document.getElementById('chessBoardButton');
 	chessButton.addEventListener('click', function(){
 		notify();
 		$('#chessBoard').append(myChessBoard);

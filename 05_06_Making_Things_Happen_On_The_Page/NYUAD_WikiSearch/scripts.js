@@ -6,7 +6,7 @@ function searchWikipedia(word){
 	$.ajax({
 		url: wikiURL,
 		type: 'GET',
-		dataType: 'jsonp'
+		dataType: 'jsonp',
 		error: function (data){
 			console.log("Oh no!!!! Didn't work...");
 		},
@@ -41,13 +41,10 @@ $(document).ready(function(){
 
  //button listener
  $('#theButton').click(function(){
-
-		console.log("CLicked the button!");
+		console.log("Clicked the button!");
 		var searchTerm = $('#theInput').val();
-
 		//function to make api request
 		searchWikipedia(searchTerm);
-
 	});
 });
 

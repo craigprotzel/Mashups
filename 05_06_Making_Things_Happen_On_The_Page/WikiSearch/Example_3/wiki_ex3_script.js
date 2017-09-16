@@ -2,54 +2,84 @@
 NYU - MASHUPS CLASS
 gihtub.com/craigprotzel/Mashups
 
-WIKIPEDIA SEARCH - EXAMPLE #3
+WIKIPEDIA SEARCH - EXAMPLE #4
 Wikipedia API Reference - http://www.mediawiki.org/wiki/API:Main_page
 
-This example will immediately search Wikipedia for entries with the word "dog"
-And then populate those results on the page using an UNDERSCORE TEMPLATE
-Some CSS styling has been added to this example as well 
+This example will search Wikipedia for a user submitted entry
+And then populate those results on the page using the jQuery 'append' function
 */
 
 //Define the url for the wikipedia API call
-var wikiURL = "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
-//Define an intial search term
-var currentWord = "dogs";
+var wikiURL =  "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=";
 
-//Define a funnction to execute the AJAX call
-//The argument will be the desired search term
-function searchWikipedia(word) {
-	//Use jQuery to make the AJAX call
+//Create a function that will execute the Wikipedia AJAX call
+var searchWikipedia = function(searchTerm){
 	$.ajax({
-		url: wikiURL + word,
+		url: wikiURL + searchTerm,
 		type: 'GET',
 		dataType: 'jsonp',
 		error: function(data){
 			console.log("We got problems");
-			console.log(data.status);
+			//console.log(data.status);
 		},
 		success: function(data){
 			console.log("WooHoo!");
 			//Check the browser console to see the returned data
 			console.log(data);
-
 			//Use jQuery to insert the search term into the appropriate DOM element
 			//The data we want is the first item in the returned JSON, hence value "0"
 			$("#searchTerm").html(data[0]);
 
-			//Use the Undesrcore Template to add the data to the page
-			//Involves 3 steps
-			//(1) Get the template markup - use jQuery's html() function to get the markup
-			var tmplMarkup = $('#tmpl-results').html();
-			//(2) Tell Underscore to render the template with the appropriate data
-			//We're using Underscore's built-in template() method to do this
-			//Also, the key value here, which we're calling 'results', is how we reference the data in the template
-			var compiledTmpl = _.template(tmplMarkup, { results : data[1] });
-			//(3) Update the page
-			//Use jQuery's html() method to add the markup to the appropriate div
-			$("#resultsTarget").html(compiledTmpl);
+			//The results data we want is the second item in the returned JSON, hence value "1"
+			//Create a var to save the array of search results 
+			var searchResults = data[1];
+			//Loop through the array of results
+			for (var i = 0; i < searchResults.length; i++){
+				//Use 'replace' and a regular expression to substitue white space with '_' character
+				var result = searchResults[i].replace(/\s/g, '_');
+				var curURL = 'http://en.wikipedia.org/wiki/' + result;
+				var htmlString =	"<p class='wikiResults'>" +
+														"<a href=" + curURL + ">" + searchResults[i] + "</a>" +
+													"</p>";
+				//Use jQuery's append() function to add the searchResults to the DOM
+				$("#resultsTarget").append(htmlString);
+			}
 		}
 	});
-}
+};
 
-//Execute the wikipedia API call function with the correct search term var as the argument
-searchWikipedia(currentWord);
+//Code to be executed once the page has fully loaded
+$(document).ready(function(){
+	console.log("LOADED!!!!");
+
+	/*
+	var terms = ['hello', 'seven', 'craig', 'mashups'];
+	var randomNum = Math.floor( Math.random() * 4);
+	console.log(randomNum);
+	searchWikipedia(terms[randomNum]);
+	*/
+
+	//Use jQuery to assign a callback function when the 'search' button is clicked
+	$("#search").click(function(){
+		console.log("Clicked search");
+		//Clear the div
+		$("#resultsTarget").html("");
+		//Use jQuery to get the value of the 'query' input box
+		var newSearchTerm = $("#query").val();
+		console.log(newSearchTerm);
+		//Execute the Wikipedia API call with the 'newSearchTerm' string as its argument 
+		searchWikipedia(newSearchTerm);
+	});
+
+	//What if someone just wants to click "ENTER"?
+	//Use jQuery to assign a callback function when enter is pressed 
+	//This will ONLY work when the 'query' input box is active
+	$("#query").keypress(function(e){
+		//console.log(e);
+		//If enter key is pressed
+		if (e.which == 13){
+			//Use jQuery's trigger() function to execute the click event
+			$("#search").trigger('click');
+		}
+	});
+});
