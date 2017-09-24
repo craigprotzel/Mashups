@@ -1,0 +1,19 @@
+html, body{
+	font-family: Arial;
+	font-size: 36px;
+}
+h1{
+	text-align: center;
+}
+input{
+	display: block;
+	width: 300px;
+	margin: 10px auto;
+	line-height: 32px;
+	font-size: 32px;
+}
+button{
+	display: block;
+	margin: 30px auto;
+	font-size: 32px;
+}

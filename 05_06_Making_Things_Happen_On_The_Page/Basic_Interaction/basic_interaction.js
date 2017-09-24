@@ -55,7 +55,6 @@ function make(rows,cols){
 	console.log(wholeBoard);
 }
 
-
 //On the page
 function makeBoard(rows, cols){
 	var wholeBoard = "";
@@ -110,7 +109,6 @@ function generateRandomColor(){
 	var randomColor = "rgb(" + r + "," + g + "," + b + ")";
 	return randomColor;
 }
-
 
 function getData(curSearchTerm){
 	//Write AJAX code
