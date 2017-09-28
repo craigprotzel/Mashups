@@ -32,7 +32,7 @@ How To Set Up A Javascript Linter in Sublime Text 3
 ```
 sudo npm install -g jshint
 ```
-* You will be asked for your password. Enter your password and press ok. This will install the javascript hint package to your computer and will allow Sublime to use it.
+* You will be asked for your password. When you type your password it will not appear. Enter your password and press ok. If you think you made a typo, press delete a million times, retype and press ok .This will install the javascript hint package to your computer and will allow Sublime to use it.
 
 ### Step 6: Install SublimeLinter-jshint
 * Go back into Sublime. Press "Command-Shift-P" again. Select  "Package Control: Install Package" again and press Enter. 

@@ -1,3 +1,5 @@
+//In this exampple, the NY Times articles and Flickr images are not directly related
+
 var nyTimesArticles = [];
 var flickrData = [];
 

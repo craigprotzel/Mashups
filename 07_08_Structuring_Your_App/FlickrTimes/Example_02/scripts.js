@@ -1,3 +1,4 @@
+//In this example, each NY Times article is directly tied to a Flickr image
 
 console.log("Loading...");
 
@@ -53,6 +54,7 @@ function getNYTimesData(){
 
 	var nyTimesURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=new+york+times&page=0&sort=newest&api-key=";
 	var myNYTimesAPIKey = "YOUR-NY-TIMES-KEY-GOES-HERE";
+
 	var nyTimesReqURL = nyTimesURL + myNYTimesAPIKey;
 
 	$.ajax({
