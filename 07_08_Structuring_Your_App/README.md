@@ -20,8 +20,7 @@
 #### V. Homework
 * For Class 9 (Tues 10/03):
 	* Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
-	* Watch - [Lynda.com - Introducing the Javascript Language: Section 3 Objects, Arrays, and More - Manipulating Arrays (7 mins)](http://www.nyu.edu/lynda)
-	* Watch - [Lynda.com - Introducing the Javascript Language: Section 5 Iterating with Loops - For loops: Enumerative (5 mins))](http://www.nyu.edu/lynda)
+	* Watch - [Lynda.com - Javascript Essential Training: Section 9 (15 mins)](http://www.nyu.edu/lynda)
 	* Finish - Project #1
 * For Class 10 (Thurs 10/05):
 	* DUE - Project #1
