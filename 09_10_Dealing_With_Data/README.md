@@ -35,4 +35,5 @@
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
 * Explore - [Fathom.info](https://fathom.info/projects/) Projects
 * Explore - [D3](http://d3js.org/)
-* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)	
+* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+* Post - Project #1 + the "About" (Documentation) page by 5pm Sunday, Oct.8
