@@ -9,15 +9,15 @@ function makeD3Chart(dataset){
 	var h = 300;
 	var barPadding = 2;
 
-	/*
+	/*	
 	var dataMin = d3.min(dataset, function(d){ return d.day; });
-	var dataMax = d3.max(dataset, function(d) { return d.day; });
+	var dataMax = d3.max(dataset, function(d){ return d.day; });
 
-	var yScale = d3.scale.linear()
+	var yScale = d3.scaleLinear()
 		.domain([dataMin, dataMax])
 		.range([50,h - 50]);
 	*/
-
+	
 	//Create SVG element
 	var svg = d3.select('#container')
 		.append("svg")
@@ -51,7 +51,7 @@ function makeD3Chart(dataset){
 		// .attr("y", function(d){
 		// 	return h - d.day;
 		// })
-		// .duration(5000);
+		// .duration(2000);
 
 		// .on('click', function(d){
 		// 	console.log("The temp is " + d.day);
@@ -83,8 +83,8 @@ function makeD3Chart(dataset){
 
 function requestWeatherData(num){
 
-	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
-	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-API-KEY';
+	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=metric&cnt=' + num;
+	var weatherKEY = '&APPID=' + 'YOUR-WEATHER-API-KEY-GOES-HERE';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,

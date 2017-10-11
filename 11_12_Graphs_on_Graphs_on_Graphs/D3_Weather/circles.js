@@ -1,6 +1,6 @@
 function makeD3Chart(dataset){
 	//Clear the page each time a new chart is made
-	$('body').html('');
+	// $('body').html('');
 
 	//Get data about page
 	var w = $(window).width()/2;
@@ -8,7 +8,7 @@ function makeD3Chart(dataset){
 	var barPadding = 2;
 
 	//Create SVG element
-	var svg = d3.select("body")
+	var svg = d3.select("#container")
 		.append("svg")
 		.attr("width", w)
 		.attr("height", h);
@@ -18,7 +18,7 @@ function makeD3Chart(dataset){
 	var dataMax = d3.max(dataset, function(d) { return d.max; });
 
 	//Initialize the y-scale using the min and max temp values
-	var yScale = d3.scale.linear()
+	var yScale = d3.scaleLinear()
 		.domain([dataMin, dataMax])
 		.range([100,h - 100]);
 
@@ -30,7 +30,7 @@ function makeD3Chart(dataset){
 		.attr("class", "maxTemps");
 
 	//Plot the maxTemps
-	maxTemps.selectAll("circle")
+	maxTemps.selectAll(".maxTemps")
 		.data(dataset)
 		.enter()
 		.append("circle")
@@ -40,10 +40,14 @@ function makeD3Chart(dataset){
 		.attr("cy", function(d) {
 			return h - yScale(d.max);
 		})
-		.attr("r", 6);
+		.attr("r", 6)
+		.on('click', function(d,i){
+			console.log(d.max);
+			$('#the-temp').html("The high temp in " + (i+1) + " days will be: " + d.max + "C"); 	
+		});
 
 	//Plot the minTemps
-	minTemps.selectAll("circle")
+	minTemps.selectAll(".minTemps")
 		.data(dataset)
 		.enter()
 		.append("circle")
@@ -53,14 +57,18 @@ function makeD3Chart(dataset){
 		.attr("cy", function(d) {
 			return h - yScale(d.min);
 		})
-		.attr("r", 6);
+		.attr("r", 6)
+		.on('click', function(d, i){
+			console.log(d.min);
+			$('#the-temp').html("The low temp in " + (i+1) + " days will be " + d.min + "C"); 
+		});
 }
 
 //AJAX Request for Weather Data
 function requestWeatherData(num){
 
-	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=imperial&cnt=' + num;
-	var weatherKEY = '&APPID=' + 'YOUR-OPEN-WEATHER-API-KEY';
+	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=metric&cnt=' + num;
+	var weatherKEY = '&APPID=' + 'YOUR-WEATHER-API-KEY-GOES-HERE';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,

@@ -57,7 +57,9 @@ function searchDonePattern(searchTerm){
 		dataType: 'jsonp'
 	});
 
-	theAJAXCall.done(itWorked);
+	theAJAXCall.done(function(data){
+		console.log(data);
+	});
 	theAJAXCall.fail(itFailed);
 	theAJAXCall.always(finished);
 
@@ -167,7 +169,7 @@ $(document).ready(function(){
 
 		var searchTerm = $("#query").val().toUpperCase();
 
-		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console. You can also run any of the functions in the console at any time.');
+		alert('To search for ' + searchTerm + ' remove this alert from the scripts.js file and uncomment one of the "search" functions below it. Responses will write to the console.');
 
 		//searchBasicPattern(searchTerm);
 
@@ -178,7 +180,6 @@ $(document).ready(function(){
 		//searchWhenThenPattern(searchTerm);
 
 		//searchWhenDonePattern(searchTerm);
-
 
 		//ALT APPROACH - return promise directly from function
 

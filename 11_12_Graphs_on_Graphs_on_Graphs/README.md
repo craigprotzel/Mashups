@@ -24,12 +24,12 @@
 * Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.). The project must be deployed on the world wide web.
 
 #### V. Homework
-* Create - Using the API from Project #1 OR a new data serving API of your choosing, a web page that pulls in data and represents it using D3JS. Be prepared to share your work in class. 
+* Create - Using a data serving API (could be the same as Project #1) or a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
 * Explore - [p5JS](http://p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)
 * Read - [p5 Get Started](http://p5js.org/get-started/)	
 * Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
-* Watch - [Lynda.com: Javascript Essential Training: Section 13 Advanced Javascript Features - Working With Objects and Prototypes (9 mins)](http://www.nyu.edu/its/lynda/)	
+* Watch - [Lynda.com: Javascript Essential Training (2011): Section 13 Advanced Javascript Features - Working With Objects and Prototypes (9 mins)](http://www.nyu.edu/its/lynda/)	
 * Additional Recommendations
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)

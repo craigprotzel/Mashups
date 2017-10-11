@@ -1,24 +1,22 @@
 //Function to draw SVGs using D3
 function drawD3Astros(totalNum){
-	console.log("D3!");
+	console.log("About to do some D3!");
 
 	var d3SVG = d3.select('#mySVG');
-
 	var centerX = 50;
-
 	for (var i = 0; i <totalNum; i++){
+		console.log(i);
 		d3SVG.append('circle')
-		.attr({
-			"class": "mainCircle",
+		.attrs({
+			"class": "bigCircle",
 			"cx" : centerX,
 			"cy" : 200,
 			"r" : 40
 		});
 
-		/*
 		d3SVG.append('circle')
-		.attr({
-			"class": 'eyeCircles',
+		.attrs({
+			"class": 'smallCircle',
 			"cx" : centerX,
 			"cy" : 400,
 			"r" : 20
@@ -27,8 +25,7 @@ function drawD3Astros(totalNum){
 		.attr("cy",500)
 		.duration(3000)
 		.delay(500);
-		*/
-
+	
 		centerX += 100;
 	}
 }
@@ -47,6 +44,7 @@ function getSpaceData() {
 		success: function(data){
 			console.log("WooHoo!");
 			console.log(data);
+
 			$('#totalPeople').html(data.number);
 			drawD3Astros(data.number);
 		}
@@ -54,5 +52,25 @@ function getSpaceData() {
 }
 
 $('document').ready(function(){
+
+	console.log("Document is ready!");
+	// For demonstration purposes - appending to an svg through jquery will NOT work	
+	// $('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
+
+	var d3SVG = d3.select('#mySVG');
+	var centerX = 50;
+	for (var i = 0; i < 6; i++){
+		d3SVG.append('circle')
+		.attrs({
+			"class": "bigCircle",
+			"cx" : centerX,
+			"cy" : 200,
+			"r" : 40
+		});
+		centerX += 100;
+	}
+	
+	
+	//Make request for space data
 	getSpaceData();
 });
