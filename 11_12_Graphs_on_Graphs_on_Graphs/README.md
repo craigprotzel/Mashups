@@ -12,16 +12,13 @@
 * [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
 
 #### II. [D3JS](http://d3js.org/)
-* [Download Code Examples](https://dl.dropboxusercontent.com/u/9648298/D3_Examples.zip)
+* [D3 Gallery](https://github.com/d3/d3/wiki/gallery)
 * [Mike Bostock Examples](http://bost.ocks.org/mike/)
 
 #### III. Other SVG & Graphing Libraries
 * [RaphaelJS](http://raphaeljs.com/)
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
-
-#### IV. Discussion - Project #2 (Due Thurs 11/09)
-* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.). The project must be deployed on the world wide web.
 
 #### V. Homework
 * Create - Using a data serving API (could be the same as Project #1) or a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.

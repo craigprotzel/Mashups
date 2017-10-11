@@ -3,14 +3,17 @@
 
 #### I. Discussion - Class 11_12 Homework
 
-#### II. A Blank Canvas
+#### II. Discussion - Project #2 (Due Thurs 11/09)
+* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.). The project must be deployed on the world wide web.
+
+#### III. A Blank Canvas
 * [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
 * [Mozilla - Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
 * [Dive Into HTML5 - Let's Call It A Draw(ing) Surface](http://diveintohtml5.info/canvas.html)
 * [CreativeJS - Request Animation Frame](http://creativejs.com/resources/requestanimationframe/)
 * [Using Request Animation Frame](http://css-tricks.com/using-requestanimationframe/)
 
-#### III. [p5JS](https://github.com/lmccart/p5.js)  
+#### IV. [p5JS](https://github.com/lmccart/p5.js)  
 * [p5 Learn](http://p5js.org/learn/)
 * [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
 * ITP Classes
@@ -20,14 +23,14 @@
 	* [PaperJS Tutorials](http://paperjs.org/tutorials/)
 * Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)
 
-#### IV. Image Manipulation
+#### V. Image Manipulation
 * [Canvas Pixel Manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)
 * p5  
 	* [p5 Filter](http://p5js.org/reference/#/p5/filter)  
 	* [p5 Load/Update Pixels](http://p5js.org/reference/#/p5/loadPixels)
 	* [p5 Examples - Images](http://p5js.org/examples/)
 
-#### V. 3D
+#### VI. 3D
 * WebGL
 	* [Mozilla Hacks - The Concepts of WebGL](https://hacks.mozilla.org/2013/04/the-concepts-of-webgl/)
 	* [Learning WebGL - FAQ](http://learningwebgl.com/cookbook/index.php/WebGL:_Frequently_Asked_Questions)
@@ -40,7 +43,7 @@
 	* [Casting Shadows](http://learningthreejs.com/blog/2012/01/20/casting-shadows/)
 	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
-#### V. Homework
+#### VII. Homework
 * Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
 * Create - using a javascript library of your choosing, a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
 * Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
