@@ -16,12 +16,13 @@
 #### IV. [p5JS](https://github.com/lmccart/p5.js)  
 * [p5 Learn](http://p5js.org/learn/)
 * [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
+* [p5 Web Based EDitor](http://alpha.editor.p5js.org/)
+* [Coding Train by Dan Shiffman](https://www.youtube.com/user/shiffman/featured)
 * ITP Classes
   * [Creative JS](https://github.com/lmccart/itp-creative-js)
   * [Nature of Code](http://natureofcode.com/book/introduction/) - [p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 * [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator
 	* [PaperJS Tutorials](http://paperjs.org/tutorials/)
-* Download Animation Examples [HERE](https://dl.dropboxusercontent.com/u/9648298/Animation_Examples.zip)
 
 #### V. Image Manipulation
 * [Canvas Pixel Manipulation](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)
@@ -45,7 +46,7 @@
 
 #### VII. Homework
 * Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
-* Create - using a javascript library of your choosing, a page that applies your own "instagram filter" to an image. This involves populating an image on the page and then manipulating the color of the image pixels. You are welcome to pull in images dynamically or use images stored locally, it's up to you. The goal is to show the image in it's normal state and then in it's filtered state. (Hint: using the canvas tag is a good idea!)
+* Create - a p5 sketch that leverages data (via an API or static data set) and has your own "class" that is used to generates relevant "objects" with the data.
 * Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
 * Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
 * Explore - [PopcornJS](http://popcornjs.org/) Video Library

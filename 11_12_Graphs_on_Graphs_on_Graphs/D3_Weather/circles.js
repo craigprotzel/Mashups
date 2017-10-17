@@ -1,6 +1,4 @@
 function makeD3Chart(dataset){
-	//Clear the page each time a new chart is made
-	// $('body').html('');
 
 	//Get data about page
 	var w = $(window).width()/2;
@@ -30,7 +28,7 @@ function makeD3Chart(dataset){
 		.attr("class", "maxTemps");
 
 	//Plot the maxTemps
-	maxTemps.selectAll(".maxTemps")
+	maxTemps.selectAll("circle")
 		.data(dataset)
 		.enter()
 		.append("circle")
@@ -47,7 +45,7 @@ function makeD3Chart(dataset){
 		});
 
 	//Plot the minTemps
-	minTemps.selectAll(".minTemps")
+	minTemps.selectAll("circle")
 		.data(dataset)
 		.enter()
 		.append("circle")

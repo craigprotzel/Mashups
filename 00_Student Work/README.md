@@ -4,7 +4,7 @@ Mashups: Student Work
 Grading Rubric - 100 Points
 ---------------------------
 (20 pts each)
-- **Technical Competency** (20pts): Correct implementation of code and fulfillment of technical aspect of the assignment. Proper order of operations, data flow, and use of logic. No unnecessary variables or code blocks.
+- **Technical Competency** (20pts): Correct implementation of code and fulfillment of technical aspect of the assignment. Proper order of operations, data flow, and use of logic. No unnecessary variables or code blocks. 
 - **Technical Insight** (20 pts): No redundancy or unnecessary duplication of code. Clear and easy to follow structure. Robustness and appropriate handling of invalid inputs or data responses. Intelligent debugging (or logging) messages.
 - **User Experience** (20pts): The quality of the experience for a person who visits the web page, specifically the usability, design, and intent.
 - **Creativity** (20pts): Evidence of creative input, personal expression, meaningful direction, and overall thoughtfulness.
