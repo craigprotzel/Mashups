@@ -46,8 +46,9 @@
 
 #### VII. Homework
 * Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
-* Create - a p5 sketch that leverages data (via an API or static data set) and has your own "class" that is used to generates relevant "objects" with the data.
+* Create - a p5 sketch that leverages data (via an API or static data set) and that has your own "class" which is used to generates "objects" related to the data.
 * Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
+* Explore - [Chrome Experiments Page](https://experiments.withgoogle.com/chrome)
 * Explore - [Chrome Music Lab](https://musiclab.chromeexperiments.com/)
-* Explore - [PopcornJS](http://popcornjs.org/) Video Library
+* Explore - [Mashups - Week 8 Web Audio Examples](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video#iii-audio)
 * Think - about ideas for Project #2. Be prepared to share your ideas in class.
