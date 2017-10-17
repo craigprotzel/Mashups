@@ -31,18 +31,18 @@ Create a single web page experience that, upon user input, responds with data fr
 
 Assignment #2 - Due Class 18 (Thursday 11/09)
 ---------------------------------------------
-Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original creative expression. 
+Create a single web page experience that utilizes data from either a public api or a static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original creative and meaningful expression. 
 
 ##### Student Links
 
 Final Project - Due Class 28 (Thursday 12/14)
 ---------------------------------------------
-Your final project will require creating a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own database. Your final project should be uploaded to the web before class and should incorporate the following elements:  
-* a public web API as a data source
-* a client-side js library other than jQuery and/or Underscore
-* server-side code (i.e. Node-Express)
-* data-storage (i.e. CouchDB on Cloudant)
-* at least one route that returns stored data to the page in json format  
+Your final project will require creating a single web page experience that combines (1) data from at least one public web API and/or a static data set and (2) data submitted by users that is stored in your own database. Your final project should be uploaded to the web before class and should incorporate the following elements:  
+* a public web API or a static data set as a data source  
+* a client-side js library other than jQuery and/or Underscore  
+* server-side code (i.e. Node-Express)  
+* data-storage (i.e. CouchDB on Cloudant)  
+* at least one CORS enabled route that returns stored data to the page in json format    
 
 In terms of 'data-storage', the idea is that a user will somehow contribute (i.e. input data) to your application. User input can come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The data input could be intended only for a specific user through a personal link or it could affect the entire experience of the application for all users. It is up to you to decide! 
 

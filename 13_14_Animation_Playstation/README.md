@@ -4,7 +4,7 @@
 #### I. Discussion - Class 11_12 Homework
 
 #### II. Discussion - Project #2 (Due Thurs 11/09)
-* Create a single web page experience that leverages data from at least one public api and incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.). The project must be deployed on the world wide web.
+* Create a single web page experience that utilizes data from either a public api or a static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.). The project must be deployed on the world wide web.
 
 #### III. A Blank Canvas
 * [Canvas vs SVG - How to Choose the Right Format](http://www.sitepoint.com/canvas-vs-svg-how-to-choose/)
