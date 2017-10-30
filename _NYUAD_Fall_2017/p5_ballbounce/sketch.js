@@ -29,3 +29,4 @@ function draw() {
 		speedY = speedY * -1;
 	}
 }
+
