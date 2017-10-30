@@ -45,7 +45,6 @@
 	* [Canvas Deep Dive - Three JS & WebGL Chapters](http://joshondesign.com/p/books/canvasdeepdive/toc.html) & [Canvas Deep Dive Examples](https://github.com/joshmarinacci/canvasdeepdive-examples/tree/master/WebGL)
 
 #### VII. Homework
-* Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
 * Create - a p5 sketch that leverages data (via an API or static data set) and that has your own "class" which is used to generates "objects" related to the data.
 * Explore - [threeJS](http://threejs.org/) library and the ThreeJS links above
 * Explore - [Chrome Experiments Page](https://experiments.withgoogle.com/chrome)
