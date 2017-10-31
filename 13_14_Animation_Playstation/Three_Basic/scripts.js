@@ -7,6 +7,7 @@ Setup - NEED 3 THINGS:
 
 //Create a scene
 var scene = new THREE.Scene();
+scene.background = new THREE.Color(0xff0000);
 //Create a camera
 var camera = new THREE.PerspectiveCamera(500, window.innerWidth/window.innerHeight, 0.1, 1000);
 //Create a renderer
@@ -32,14 +33,16 @@ var geometry = new THREE.BoxGeometry(2,2,2);
 //Let's set the material to be an image
 //To do this we need to assign the image as a texture
 var imageLink = 'einstein.jpg';
-var imageTexture = THREE.ImageUtils.loadTexture(imageLink);
+var imageLoader =  new THREE.TextureLoader();
+var imageTexture =  imageLoader.load(imageLink);
+
 //Now we can pass the texture onto the material
 var material = new THREE.MeshBasicMaterial( { map: imageTexture} );
 
-/*
+
 //Alt - Set the material to be a color
-var material = new THREE.MeshBasicMaterial({color: 'white', wireframe: true});
-*/
+//var material = new THREE.MeshBasicMaterial({color: 'white', wireframe: true});
+
 
 // (3) Initialize the mesh
 var cube = new THREE.Mesh(geometry, material);
@@ -48,33 +51,46 @@ scene.add(cube);
 
 // Add OrbitControls so that we can pan around with the mouse.
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
-camera.position.z = 10;
+camera.position.z = 3;
 
-//Define a render funnction to be called repeatedy
-function render() {
-	requestAnimationFrame(render);
 
-	cube.rotation.x += 0.01;
-	cube.rotation.y += 0.01;
+var rotate = true;
+var rotateX = 0.01;
+var rotateY = 0.01;
+//Define a render/animate funnction to be called repeatedy
+function animate() {
+	requestAnimationFrame(animate);
+
+	if (rotate){
+		cube.rotation.x += rotateX;
+		cube.rotation.y += rotateY;
+	}
 
 	controls.update();
 	renderer.render(scene, camera);
 }
 //Call the render function
-render();
+animate();
 
-function updateMaterial(){
+function updateImage(){
 	if (imageLink === 'einstein.jpg'){
 		imageLink = 'einstein_02.jpg';
 	}
 	else{
 		imageLink = 'einstein.jpg';
 	}
-	var imageTextureUpdate = THREE.ImageUtils.loadTexture(imageLink);
+
+	var imageLoaderUpdate =  new THREE.TextureLoader();
+	var imageTextureUpdate =  imageLoaderUpdate.load(imageLink);
+
 	cube.material.map = imageTextureUpdate;
 	cube.material.needsUpdate = true;
 }
 
-$('#the-button').click(function(){
-	updateMaterial();
+$('#image-toggle').click(function(){
+	updateImage();
+});
+
+$('#rotation-toggle').click(function(){
+	rotate = !rotate;
 });
