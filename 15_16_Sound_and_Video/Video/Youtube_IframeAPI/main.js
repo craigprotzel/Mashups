@@ -37,6 +37,14 @@ function makeYoutubeRequest(term){
 			var theVideoId = data.items[num].id.videoId;
 			console.log(theVideoId);
  
+			/*
+			//Note - you could use the id to create an iframe tag and put the video on the page
+			var embedLink = "https://www.youtube.com/embed/" + theVideoId;
+			var iframeTag = '<iframe width="560" height="315" src="' + embedLink + '" frameborder="0" allowfullscreen></iframe>'
+			$('#youtubeVideo').append(iframeTag);
+			return;
+			*/
+
 			//Initialize a youtube player object
 			//The first argument is the id of the div where the video should go
 			player = new YT.Player('youtubeVideo', {

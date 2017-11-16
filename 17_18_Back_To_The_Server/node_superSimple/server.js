@@ -3,10 +3,15 @@ var http = require("http");
 
 // Build the server
 var app = http.createServer(function(request, response) {
+	
+	//console.log(request);
+	console.log(request.url);
+
 	response.writeHead(200, {
-		"Content-Type": "text/plain"
+			"Content-Type": "text/plain"
 	});
 	response.end("Node!!!!");
+
 });
 
 // Start the server

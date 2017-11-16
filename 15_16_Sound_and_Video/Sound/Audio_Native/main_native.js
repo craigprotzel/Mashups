@@ -22,7 +22,7 @@ function getSoundContent(soundID){
 			console.log(data);
 			var audioLink = data.previews['preview-hq-mp3'];
 			console.log(audioLink);
-			//return;
+			//Need to retrieve the actual sound data
 			makeAudioRequest(audioLink);
 		}
 	});
@@ -71,7 +71,7 @@ function onError(){
 	console.log("We got problems");
 }
 
-//JS AJAX Request to Access Sound File
+//JS AJAX Request to Retrieve Sound Data
 function makeAudioRequest(url){
 	var request = new XMLHttpRequest();
 	request.open('GET', url, true);
@@ -151,5 +151,5 @@ $(document).ready(function(){
 	});
 
 	//Make initial request to FreeSound API
-	getFreeSound('ghost');
+	getFreeSound('lion');
 });

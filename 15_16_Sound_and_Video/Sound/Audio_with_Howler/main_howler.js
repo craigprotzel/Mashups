@@ -1,13 +1,11 @@
-//Global vars
-var freeData, sound;
-//var myKey = 'YOUR-KEY-GOES-HERE';
+var myKey = 'YOUR-KEY-GOES-HERE';
 
 var soundIsReady = false;
 
 /*******************/
 //FreeSound Requests
 /*******************/
-
+//Second Request to FreeSound for Sound File Location
 function getSoundContent(soundID){
 	var url = 'http://www.freesound.org/apiv2/sounds/' + soundID + '/?token=';
 	var myURL = url + myKey;
@@ -30,6 +28,7 @@ function getSoundContent(soundID){
 	});
 }
 
+//Initial Request to FreeSound
 function getFreeSound(term){
 	//This is for Freesound API v2
 	var url = 'http://www.freesound.org/apiv2/search/text/?query=' + term + '&token=';
@@ -55,10 +54,10 @@ function getFreeSound(term){
 	});
 }
 
-
 /************/
 //Howler Code
 /************/
+var sound;
 function createHowl(link){
 	var links = [link];
 	sound = new Howl({
@@ -74,27 +73,36 @@ function createHowl(link){
 /**********************/
 //DOM Events with jQuery
 /**********************/
-
 $(document).keydown(function(e) {
 	//console.log(e);
-	//console.log(e.keyCode);
+	console.log(e.keyCode);
 	var curKey = e.keyCode;
 
+
+	var curRate;
 	switch(curKey){
 		//Up
 		case 38:
-			//Howler
-			sound.pause();
-			sound._rate += 0.1;
-			sound.play();
+			curRate = sound._rate;
+			sound.rate(curRate + 0.1);
 			break;
 		//Down
 		case 40:
 			//Howler
-			sound.pause();
-			sound._rate -= 0.1;
-			sound.play();
+			curRate = sound._rate;
+			sound.rate(curRate - 0.1);
 			break;
+		//Left Arrow - lower frequency
+		case 37:
+			sound.stereo(-1);
+			break;
+		//Right Arrow - raise frequency
+		case 39: 
+			sound.stereo(1);
+			break;
+		//Space Bar
+		case 32:
+			sound.stereo(0);
 	}
 });
 
@@ -103,6 +111,7 @@ $(document).ready(function(){
 		//Howler
 		if (soundIsReady){
 			sound.play();
+			console.log(sound);
 		}
 		else{
 			alert("Still waiting for the sound to load. The play button will turn green when the sound is ready.");
@@ -119,5 +128,5 @@ $(document).ready(function(){
 	});
 
 	//Make initial request to FreeSound API
-	getFreeSound('ghost');
+	getFreeSound('chimes');
 });

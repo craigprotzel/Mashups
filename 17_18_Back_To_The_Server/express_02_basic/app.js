@@ -35,6 +35,13 @@ app.get("/:term", function(request, response) {
 	response.render("other", dataForThePage);
 });
 
+app.get("/api/search", function(request, response) {
+	var currentTerm = request.query.term;
+	var searchWord = {term: currentTerm};
+	response.json(searchWord);
+});
+
+
 // Start the server
 app.listen(3000);
 console.log('Express started on port 3000');
