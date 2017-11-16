@@ -3,7 +3,7 @@
 
 ##### I. Discussion - Class 17_18 Homework
 
-#### II. Node-Express Intro Redux
+#### II. Node-Express Intro Review
 * Review Express Basic Examples  
 	* [Understanding Module.exports & exports in NodeJS](http://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 	* [Exports vs Module.exports in NodeJS](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html)
@@ -21,7 +21,6 @@
  * [BodyParser Library](https://github.com/expressjs/body-parser)
 
 #### IV. Storage with CouchDB
-* Download Code Examples - [HERE](https://dl.dropboxusercontent.com/u/9648298/Mashups_DB_Examples.zip)
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)
