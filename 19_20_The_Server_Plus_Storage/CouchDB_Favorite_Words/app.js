@@ -32,12 +32,12 @@ var cloudant_URL = "https://" + cloudant_USER + ".cloudant.com/" + cloudant_DB;
 ROUTES
 -----*/
 
-//Main Page Route - Show ALL data via Clientside Request
+//Main Page Route - Show ALL data VIEW
 app.get("/", function(req, res){
 	res.render('index', {page: 'get all data'});
 });
 
-//Main Page Route - Show SINGLE word via Clientside Request
+//Main Page Route - Show SINGLE word VIEW
 app.get("/:word", function(req, res){
 	var currentWord = req.params.word;
 	res.render('index', {page: currentWord});
@@ -72,7 +72,7 @@ app.post("/save", function(req,res){
 	});
 });
 
-//JSON Serving route - ALL Data
+//JSON Serving route - Serve ALL Data
 app.get("/api/all", function(req,res){
 	console.log('Making a db request for all entries');
 	//Use the Request lib to GET the data in the CouchDB on Cloudant
@@ -86,12 +86,12 @@ app.get("/api/all", function(req,res){
 	},
 	function (error, response, body){
 		var theRows = body.rows;
-		//Send the data
+		//Send all of the data
 		res.json(theRows);
 	});
 });
 
-//JSON Serving route - Single Word
+//JSON Serving route - Serve SINGLE Word
 app.get("/api/word/:word", function(req, res){
 	var currentWord = req.params.word;
 	console.log('Making a db request for: ' + currentWord);

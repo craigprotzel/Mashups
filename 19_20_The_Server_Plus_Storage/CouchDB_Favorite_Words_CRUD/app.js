@@ -29,13 +29,13 @@ var cloudant_URL = "https://" + cloudant_USER + ".cloudant.com/" + cloudant_DB;
 ROUTES
 -----*/
 
-//Main Page Route - Show ALL data via Clientside Request
+//Main Page Route - Show ALL data VIEW
 app.get("/", function(req, res){
 	console.log(req.params);
 	res.render('index', {page: 'get all data'});
 });
 
-//Main Page Route - Show SINGLE word via Clientside Request
+//Main Page Route - Show SINGLE word VIEW
 app.get("/:word", function(req, res){
 	var currentWord = req.params.word;
 	res.render('index', {page: currentWord});
