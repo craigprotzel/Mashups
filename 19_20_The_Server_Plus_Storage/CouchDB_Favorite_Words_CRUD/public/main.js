@@ -2,7 +2,7 @@ function makeHTML(theData){
 	var htmlString = '<ul id="theDataList">';
 	theData.forEach(function(d){
 		htmlString += '<li>' + d.user + ' : <a href="/' + d.word + '">'  + d.word + '</a>';
-		htmlString += '<button id=' + d._rev + ' class="deleteButton">UPDATE</button>';
+		htmlString += '<button id=' + d._rev + ' class="updateButton">UPDATE</button>';
 		htmlString += '<button id=' + d._id + ' class="deleteButton">DELETE</button>';
 		htmlString += '</li>';
 	});

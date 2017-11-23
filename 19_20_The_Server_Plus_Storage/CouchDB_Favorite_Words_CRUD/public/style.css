@@ -24,6 +24,10 @@ li{
 	margin-left: 10px;
 	display: inline;
 }
+.updateButton{
+	margin-left: 10px;
+	display: inline;
+}
 #container{
 	display: none;
 	margin: 10px
