@@ -2,7 +2,6 @@
 var express = require("express");
 var Request = require('request');
 var bodyParser = require('body-parser');
-var _ = require('underscore');
 var favicon = require('serve-favicon');
 
 //Create an 'express' object
