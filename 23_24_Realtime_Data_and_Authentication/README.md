@@ -36,6 +36,6 @@
 #### VI. Web Scraping
 * Lauren McCarthy - [Cheerio Examples](https://github.com/lmccart/itp-critical-apis/tree/master/02_Scraping)
 
-#### VI. Homework
+#### VII. Homework
 * Read - Jaron Lanier "Who Owns the Future - First Thought Best Thought" pp.221 - 230
 * Work - on Final Project
