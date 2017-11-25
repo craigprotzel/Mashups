@@ -10,13 +10,12 @@ https://github.com/passport/express-4.x-twitter-example/blob/master/server.js
 var express = require("express"),
 bodyParser = require('body-parser'),
 errorHandler = require('errorhandler'),
-Request = require('request'),
-_ = require('underscore'),
 cookieParser = require('cookie-parser'),
 session = require ('express-session'),
 passport = require('passport'),
 TwitterStrategy = require('passport-twitter').Strategy,
-favicon = require('serve-favicon');
+favicon = require('serve-favicon'),
+Twitter = require('twitter');
 
 //Create the app
 var app = express();
@@ -46,9 +45,11 @@ var TWITTER_CONSUMER_SECRET = 'YOUR-CONSUMER-SECRET-GOES-HERE';
 var oAuthData = {
 	consumer_key: TWITTER_CONSUMER_KEY,
 	consumer_secret: TWITTER_CONSUMER_SECRET,
-	token: '',
-	token_secret: ''
+	access_token_key: '',
+	access_token_secret: ''	
 };
+//Initialize client var to use the Twitter lib
+var client;
 
 passport.serializeUser(function(user, done) {
 	console.log("SERIALIZE!!!");
@@ -66,14 +67,14 @@ passport.use(new TwitterStrategy({
 	},
 	function(tokenPass, tokenSecretPass, profile, done) {
 		process.nextTick(function () {
-			oAuthData.token = tokenPass;
-			oAuthData.token_secret = tokenSecretPass;
+			oAuthData.access_token_key = tokenPass;
+			oAuthData.access_token_secret = tokenSecretPass;
 
 			//console.log(profile);
 
-			//Typically you would check for the user in our database
+			//Typically you would check for the user in your database
 			//But we aren't storing any users
-			//So just going to return the current user
+			//So we're just going to return the current user
 
 			return done(null, profile);
 		});
@@ -103,31 +104,30 @@ app.get('/login', function(req,res){
 app.get("/success", checkAuthentication, function(req, res){
 	console.log("In success route");
 
-	//console.log("---------------------------");
-	//console.log(req.user);
-	//console.log("---------------------------");
-	
-	//Make a request to twitter for most recent tweet
-	var userID = req.user.id;
-	var tweetURL = "https://api.twitter.com/1.1/statuses/user_timeline.json?user_id=" + userID + "&count=1";
-	Request.get(
-		{
-			url: tweetURL,
-			oauth: oAuthData,
-			json: true
-		},
-		function (err, resTwit, body) {
-			console.log("Tweet Response");
-			console.log(body);
-			//Respond with this line to show json on the page
-			// res.json(body);
+	console.log("---------------------------");
+	console.log(req.user);
+	console.log("---------------------------");
 
-			//Respond with these lines to show success.html
-			res.render('success',
-				{	user: body[0].user.screen_name,
-					lastTweet: body[0].text
-				});
-		});
+	//Create the client object to use the twitter package
+	if (!client){
+		client = new Twitter(oAuthData);		
+	}
+
+	//Set request parameters
+	var params = {
+		screen_name: req.user.username
+	};
+
+	client.get('statuses/user_timeline', params, function(error, tweets, response){
+		if (error){
+			throw error;
+		}
+		//console.log(tweets);
+		console.log(tweets[0].text);
+		var theTweet = {'tweet': tweets[0].text };
+		res.json(theTweet);
+	});
+
 });
 
 app.get('/logout', function(req, res){

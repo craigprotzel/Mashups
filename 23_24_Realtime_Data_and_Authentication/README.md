@@ -19,8 +19,8 @@
 
 #### IV. Open Authentication (OAuth)  
 * OAuth Explained
+	* [OAuth Diagram](https://oauth.net/core/diagram.png)
 	* [Hueniverse: OAuth Intro - A Valet Key For the Web](http://hueniverse.com/oauth/guide/intro/)
-	* [OAuth Flow From Fitbit](https://dev.fitbit.com/docs/oauth1/)
 	* [OAuth Case Study with Foursquare](http://www.sitepoint.com/oauth-explained-with-foursquar/)
 	* [OAuth 2.0 - The Good, The Bad, & The Ugly](http://code.tutsplus.com/tutorials/oauth-2-0-the-good-the-bad-the-ugly--net-33216)
 * [PassportJS](http://passportjs.org/) - Authentication for Node

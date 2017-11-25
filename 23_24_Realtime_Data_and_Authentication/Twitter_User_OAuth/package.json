@@ -14,8 +14,7 @@
     "express-session": "^1.7.2",
     "passport": "*",
     "passport-twitter": "*",
-    "request": "^2.34.0",
-    "underscore": "~1.6.0",
-    "serve-favicon": "^2.2.0"    
+    "serve-favicon": "^2.2.0",
+    "twitter": "^1.7.1",
   }
 }

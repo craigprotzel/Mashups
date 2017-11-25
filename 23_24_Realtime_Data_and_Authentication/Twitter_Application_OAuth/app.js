@@ -22,14 +22,12 @@ app.use(bodyParser.json());
 // Set up Express error handling
 app.use(errorHandler());
 // Start the server
-var server = app.listen(3000);
+app.listen(3000);
 console.log('Express started on port: ' + 3000);
 
 /********************************
-twitter user: chp_labs
-twitter app: NYUAD-Streaming-Test
+Twitter App Info
 ********************************/
-
 var TWITTER_CONSUMER_KEY = 'YOUR-TWITTER-CONSUMER-KEY';
 var TWITTER_CONSUMER_SECRET = 'YOUR-TWITTER-CONSUMER-SECRET';
 var TWITTER_ACCESS_TOKEN_KEY = 'YOUR-TWITTER-ACCESS-TOKEN-KEY';
@@ -42,13 +40,9 @@ var client = new Twitter({
 	access_token_secret: TWITTER_ACCESS_SECRET
 });
 
-/*--------------------------------------------
-For this example, you need a twitter user's id
-This site can help you with this
-http://gettwitterid.com/
---------------------------------------------*/
+//For this example, hard code a user's twitter handle
 var params = {
-	user_id: 'A-TWITTER-USER-ID'
+	screen_name: 'craigprotzel'
 };
 
 //ROUTES
@@ -62,6 +56,7 @@ app.get("/search", function(req, res){
 		if (error){
 			throw error;
 		}
+		//console.log(tweets);
 		console.log(tweets[0].text);
 		var theTweet = {'tweet': tweets[0].text };
 		res.json(theTweet);
