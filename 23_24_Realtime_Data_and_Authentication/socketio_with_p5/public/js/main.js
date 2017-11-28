@@ -75,7 +75,7 @@ function drawData(data){
 
 //Send data to the server using .emit()
 function grabAndSend(shape, posX, posY, curFill){
-	var rgba = curFill.rgba;
+	var rgba = curFill.levels;
 	var data = {
 		shapeType: shape,
 		pos: [posX, posY],
