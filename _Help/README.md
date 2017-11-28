@@ -1,10 +1,10 @@
 Mashups How To's
 ----------------
-* [Upload Files Via Cyberduck](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Cyberduck)
+* [Upload Files Via Cyberduck](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Cyberduck)
 * [Install A Javascript Linter in Sublime Text 3](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Sublime_Linter)
-* [Run A Local Host Server](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Local_Server)
-* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Github_Pages)
-* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Heroku_Node_Deploy)
+* [Run A Local Host Server](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Local_Server)
+* [Deploy To Github Pages](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Github_Pages)
+* [Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Heroku_Node_Deploy)
 
 Open Data APIs
 --------------

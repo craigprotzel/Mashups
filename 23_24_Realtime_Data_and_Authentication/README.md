@@ -37,5 +37,8 @@
 * Lauren McCarthy - [Cheerio Examples](https://github.com/lmccart/itp-critical-apis/tree/master/02_Scraping)
 
 #### VII. Homework
-* Read - Jaron Lanier "Who Owns the Future - First Thought Best Thought" pp.221 - 230
+* Read - Jaron Lanier ["Who Owns the Future - First Thought, Best Thought"](https://github.com/craigprotzel/Mashups/blob/master/_Readings/JaronLanier_WhoOwnsThe%20Future_FirstThoughtBestThought.pdf) pp.221 - 230
+* Download & Install - [Git](http://git-scm.com/downloads)
+* Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1)
 * Work - on Final Project
+* Prepare - a local version of your Final Project that can de deployed to Heroku (we will do Heroku together in class next week)
