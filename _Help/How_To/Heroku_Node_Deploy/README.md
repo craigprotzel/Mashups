@@ -35,7 +35,8 @@ How to Deploy to Heroku
 	node_modules
 	```    
 	This will exclude the node_modules folder from your git repository. Note, the `.gitgnore` file may not appear in your finder directory. If you are on a Mac running OSX, you should also include `.DS_Store` on the next line in the `.gitignore` file. 
-* Lastly, if you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src/href value is set to `https`. Heroku will yell at you if it is not `https`. This is specifically for 3rd party hosted files (i.e. files that are not hosted within your own application).  	
+* If you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src/href value is set to `https`. Heroku will yell at you if it is not `https`. This is specifically for 3rd party hosted files (i.e. files that are not hosted within your own application). 
+* Lastly, consider commenting out any unnecessary or lengthy `console.log` statements on both the server and the client to prevent any performance issues.
 
 #### Step 2 - The Git Repo
 * Install [git](http://git-scm.com/downloads) (skip if already installed)
@@ -57,20 +58,22 @@ How to Deploy to Heroku
 	git status -s
 	```  
 * At anytime it is helpful to execute `git status` or `git status -s` for a "short-hand" version of the state of the git repository.
-* If you are unsure of what is going to be added to the git repository when you run `git add -A`, you can always type `git add -n .` to do a test run of what will occur. 
 * If you are only interested in adding a specific file to the git repository, you can type `git add FILE-NAME` to add only this specific file
-* Also, when you first run `git add -A`, you should NOT see any files with the extensions declared in your `.gitignore` file.
+* When you first run `git add -A`, you should NOT see any files with the extensions declared in your `.gitignore` file.
+* It is fine to change file and folder names. When you run the `git add -A`, it will attempt to update the directory
+* Prior to running git commit, if there is a specific file that has been added that you do not want to commit, you can type `git reset FILE-NAME` and it will unstage it.
+* If you make a commit and want to go back to the previous commit, you can run `git reset HEAD~1`.
 
 #### Step 3 - The Heroku Site
 * Create an account on [Heroku](https://heroku.com)
-* Install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
-* In Terminal in your app's main directory, first login to Heroku by typing 
+* Download and Install the [Heroku CLI Toolbelt](https://toolbelt.heroku.com/). 
+* In Terminal in your app's main directory, first type `heroku` and press enter. It should run an initial install.
+* Next, login to Heroku by typing 
 
 	```
 	heroku login
 	```  
-	You will be asked for your username and password. When typing your password, nothing will appear.
-* **STOP** Assuming you have never used Heroku before, you **MAY** be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a github user or (2) generate a new one. We are going to type `N` and deploy via HTTP rather than SSH. (If you would like to use SSH, see the ALT steps listed at the bottom of the tutorial.) If you **DO NOT** see this prompt, continue on.
+	You will be asked for your username and password. When typing your password, only asterisks will appear. Once you press enter, it should say that you are logged in.
 * You are now ready to create an empty Heroku app repo by typing:
 
 	```
@@ -86,6 +89,7 @@ How to Deploy to Heroku
 * Once the push is complete, your site should be live at `https://YOUR-APP-NAME.herokuapp.com/`
 This url will also print out to the Terminal after your push is complete
 * If you would like your app to use a "custom domain", meaning your own url, Heroku's [Custom Domains Page](https://devcenter.heroku.com/articles/custom-domains) will help step you through doing this.
+* For an alternative step-by-step guide to deploying on Heroku, go to [Getting Started with NodeJS](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 
 #### Step 4 - The Updates
 * To update your app at any time, you will need to (1) update your local git repository and then (2) push the updated files to Heroku. This can be done by executing the following commands in Terminal in your app's directory
@@ -103,15 +107,3 @@ This url will also print out to the Terminal after your push is complete
 	git add FILE-NAME
 	```  
 * If you navigate to your app, which you can do by typing `heroku open` in the Terminal window, you should see your updated application.
-
-#### ALT - SSH Deploy	
-* Assuming you have never used Heroku before, you may be prompted to either (1) add an existing SSH key, which you might already have on your computer especially if you are a gihtub user or (2) generate a new one. We are going to type `Y` and deploy via ssh rather than HTTP. 
-*  If you already have one, feel free to use that one. If you don't have an SSH key, then you should generate a new one.
-* Note, at any time you can create a new key on your machine, add a new key to Heroku, remove an existing key from Heroku, and/or clear all of your existing keys on Heroku. For reference, Heroku's ["Manage Your SSH Keys"](https://devcenter.heroku.com/articles/keys) page provides helpful information. Also, the Heroku specific command line prompts can help you navigate Heroku SSH key issues 
-* Extra tip - to check for existing SSH keys on your computer, type `ls -al ~/.ssh`. If you have files named either `id_rsa.pub` or `id_dsa.pub`, then you do have a key.
-* Once you are logged in and you have an SSH key added to your heroku account, you are ready to create an empty Heroku app repo by typing
-
-	 ```
-	heroku create my-app-name
-	```  
-* Note, what you enter for `my-app-name` will be part of your app's url. So, if I enter `heroku create mysuperawesomeapp`, the url Heroku assigns to my app will be `http://mysuperawesomeapp.herokuapp.com`
