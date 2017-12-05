@@ -35,7 +35,7 @@ How to Deploy to Heroku
 	node_modules
 	```    
 	This will exclude the node_modules folder from your git repository. Note, the `.gitgnore` file may not appear in your finder directory. If you are on a Mac running OSX, you should also include `.DS_Store` on the next line in the `.gitignore` file. 
-* If you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src/href value is set to `https`. Heroku will yell at you if it is not `https`. This is specifically for 3rd party hosted files (i.e. files that are not hosted within your own application). 
+* If you are linking to any **external** client-side javascript or css libraries, such as jquery, underscore or google fonts, make sure the src/href value is set to `https`. Heroku will yell at you if it is not `https`. This is specifically for 3rd party hosted files (i.e. files that are not hosted within your own application). You may also get an error if you are making a client-side AJAX request to an http url. Update the url to https, but test first to make sure it still works.  
 * Lastly, consider commenting out any unnecessary or lengthy `console.log` statements on both the server and the client to prevent any performance issues.
 
 #### Step 2 - The Git Repo
