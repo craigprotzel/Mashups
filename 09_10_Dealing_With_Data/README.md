@@ -1,4 +1,4 @@
-### WEEK 5 Classes 09_10: Project #1 DUE + Dealing with Data  
+### WEEK 5 Classes 09_10: Dealing with Data + Project #1 DUE  
 
 #### I. User Testing Exercise
 

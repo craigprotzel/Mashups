@@ -1,8 +1,12 @@
-### WEEK 10 Classes 19_20: The Server Plus Storage   
+### WEEK 10 Classes 19_20: Back to the Server   
 
 ##### I. Discussion - Class 17_18 Homework
 
-#### II. Node-Express Intro Review
+#### II. Intro to the Server & Node-Express
+* [Express Framework](http://expressjs.com/)
+* [NPM - Dependencies](https://www.npmjs.org/doc/files/package.json.html#dependencies)
+	* [NPM - Tilde vs Caret](http://stackoverflow.com/questions/22343224/difference-between-tilde-and-caret-in-package-json)
+* [Nodemon Package](http://nodemon.io/)
 * Review Express Basic Examples  
 	* [Understanding Module.exports & exports in NodeJS](http://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 	* [Exports vs Module.exports in NodeJS](http://www.hacksparrow.com/node-js-exports-vs-module-exports.html)
@@ -19,13 +23,7 @@
  * [CORS Enabled Routes](http://enable-cors.org/server.html)
  * [BodyParser Library](https://github.com/expressjs/body-parser)
 
-#### IV. Storage with CouchDB (TBD)
-* [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
-* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
-* [Cloudant](https://cloudant.com)
-* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
-
-#### V. Homework
+#### IV. Homework
 * Create - a  Node-Express app that runs locally on your computer that has **4 routes**
 	* '/' - the landing page
 	* '/:term' - a page with an api request based on the url  

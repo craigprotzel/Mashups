@@ -1,9 +1,13 @@
-### Classes 21_22: More Storage 
+### WEEK 11 Classes 21_22: The Server Plus Storage 
 (Week 11)
 
 ##### I. Discussion - Class 19_20 Homework
 
-##### II. Blog with CouchDB
+#### II. Storage with CouchDB (TBD)
+* [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
+* [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
+* [Cloudant](https://cloudant.com)
+* [Cloudant CRUD Docs](https://docs.cloudant.com/tutorials/crud/index.html)
 
 ##### III. Discussion - Final Project
 * Create a single web page experience that combines (1) data from at least one public web API and (2) data submitted by users that is stored in your own databse. Your final project should be uploaded to the web before class and should incorporate the following elements:

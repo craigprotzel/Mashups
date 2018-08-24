@@ -26,9 +26,9 @@ Schedule
 --------
 
 #### Overview
-* **PART I: Classes 01 - 09 (Weeks 1-5) Client-Side Web Development + API Fundamentals**
-* **PART II: Classes 10 - 17 (Weeks 5-9) Client-Side Javascript Libraries**
-* **PART III: Classes 18 - 28 (Weeks 9-14) Server-Side Web Development**
+* **PART I: Weeks 1-5 (Classes 01 - 10) Client-Side Web Development + API Fundamentals**
+* **PART II: Weeks 6 - 9 (Classes 11 - 18) Client-Side Javascript Libraries**
+* **PART III: Weeks 10 - 14 (Classes 19 - 28) Server-Side Web Development**
 
 #### [WEEK 1 (09/04 & 09/06): Introduction to the Web, APIs & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
 
@@ -38,7 +38,7 @@ Schedule
 
 #### [WEEK 4 (09/25 & 09/27): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
 
-#### [WEEK 5 (10/02 & 10/04): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
+#### [WEEK 5 (10/02 & 10/04): Dealing with Data + Project #1 DUE](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
 
 #### [WEEK 6 (10/09 & 10/11): Graphs on Graphs on Graphs with D3](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
 
@@ -48,11 +48,11 @@ Schedule
 
 #### [WEEK 8 (10/30 & 11/01): Extra Dimensions with Sound and ml5](https://github.com/craigprotzel/Mashups/tree/master/15_16_Extra_Dimensions)
 
-#### [WEEK 9 (11/06 & 11/08): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
+#### [WEEK 9 (11/06 & 11/08): User Ready + Project #2 DUE](https://github.com/craigprotzel/Mashups/tree/master/17_18_User_Ready)
 
-#### [WEEK 10 (11/13 & 11/15): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
+#### [WEEK 10 (11/13 & 11/15): Back To The Server](https://github.com/craigprotzel/Mashups/tree/master/19_20_Back_To_The_Server)
 
-#### [WEEK 11 (11/20 & 11/22): More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
+#### [WEEK 11 (11/20 & 11/22): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_The_Server_Plus_Storage)
 
 #### [WEEK 12 (11/27 & 11/29): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
 

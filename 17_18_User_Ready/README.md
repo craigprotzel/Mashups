@@ -1,19 +1,13 @@
-### WEEK 9 Classes 17_18: Project #2 DUE + Back to the Server
+### WEEK 9 Classes 17_18: User Ready + Project #2 DUE
 
 #### I. User Testing Exercise
 
 #### II. Presentations - Project #2
 
-#### II. Intro to the Server
-* Install [NodeJS](http://nodejs.org/)
-* [Express Framework](http://expressjs.com/)
-* [NPM - Dependencies](https://www.npmjs.org/doc/files/package.json.html#dependencies)
-	* [NPM - Tilde vs Caret](http://stackoverflow.com/questions/22343224/difference-between-tilde-and-caret-in-package-json)
-* [Nodemon Package](http://nodemon.io/)
-
-#### IV. Homework
+#### III. Homework
 * Finish - Project #2
 * Read - [What Is Node.JS and Why Should I Care?](http://www.makeuseof.com/tag/what-is-node-js-and-why-should-i-care-web-development/)
+* Install [NodeJS](http://nodejs.org/)
 * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
 * Read - [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 * Additional Readings
