@@ -1,6 +1,5 @@
 ### WEEK 3 Classes 05_06: Making Things Happen On The Page  
 
-
 #### I. Discussion - Class 3_4 Homework
 * Review JS Fundamentals
 * Review JS Data Types

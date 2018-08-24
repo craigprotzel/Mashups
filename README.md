@@ -26,7 +26,7 @@ Schedule
 --------
 
 #### Overview
-* **PART I: Weeks 1-5 (Classes 01 - 10) Client-Side Web Development + API Fundamentals**
+* **PART I: Weeks 1 - 5 (Classes 01 - 10) Client-Side Web Development + API Fundamentals**
 * **PART II: Weeks 6 - 9 (Classes 11 - 18) Client-Side Javascript Libraries**
 * **PART III: Weeks 10 - 14 (Classes 19 - 28) Server-Side Web Development**
 

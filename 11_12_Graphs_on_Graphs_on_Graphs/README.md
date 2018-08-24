@@ -25,7 +25,6 @@
 * Watch - [hello p5](http://hello.p5js.org/)
 * Read - [p5 Get Started](http://p5js.org/get-started/)	
 * Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
-* Watch - [Lynda.com: Javascript Essential Training (2011): Section 13 Advanced Javascript Features - Working With Objects and Prototypes (9 mins)](http://www.nyu.edu/its/lynda/)	
 * Additional Recommendations
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
