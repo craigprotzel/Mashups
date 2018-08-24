@@ -1,5 +1,4 @@
-### Classes 01_02: The Web, APIs, & Data  
-(Week 1)
+### WEEK 1 Classes 01_02: The Web, APIs, & Data  
 
 #### I. Introduction
 * [IM](http://nyuad.im)
@@ -49,8 +48,8 @@
 
 #### VI. Homework
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
-* Install - a code linter in your text editor. (For Sublime, I use [Sublime Linter](http://www.hongkiat.com/blog/identify-code-errors-sublime-linter/))
-* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html) **up to but not including the section on SVGs**. (Also note, the link appears to Ch.3 appears to be broken. Make sure you sscroll to the beginning of Chapter 3 and start from there.)
+* Read - [School of Data - Web APIs for Non-Programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/)
+* Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://commlab.nyuad.im/media/ScottMurray_Fundamentals.pdf)
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
 * Explore - [Programmable Web](http://programmableweb.com) (Note: LOTS of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#open-data-apis)

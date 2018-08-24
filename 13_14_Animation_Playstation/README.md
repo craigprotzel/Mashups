@@ -1,5 +1,4 @@
-### Classes 13_14: Animation Playstation 
-(Week 7)
+### WEEK 7 Classes 13_14: Animation Playstation with p5 and Three
 
 #### I. Discussion - Class 11_12 Homework
 

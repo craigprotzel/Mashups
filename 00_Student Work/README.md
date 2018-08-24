@@ -23,7 +23,7 @@ Grading Rubric - 100 Points
 - F:	-59.9
 
 
-Assignment #1 - Due Class 10 (Thursday 10/05)
+Assignment #1 - Due Class 10 (Thursday 10/04)
 --------------------------------------------
 Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). An example of a mashup that pulls together data from two different apis is the InstaTimes example provided here in the class repo. Ultimately, it's up to you what you want to build. But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file. 
 
@@ -31,7 +31,7 @@ Create a single web page experience that, upon user input, responds with data fr
 
 Assignment #2 - Due Class 18 (Thursday 11/09)
 ---------------------------------------------
-Create a single web page experience that utilizes data from either a public api or a static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original creative and meaningful expression. 
+Create a single web page experience that utilizes data from either a public api or a queryable static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original, creative and meaningful expression. 
 
 ##### Student Links
 
@@ -42,9 +42,10 @@ Your final project will require creating a single web page experience that combi
 * a client-side js library other than jQuery and/or Underscore  
 * server-side code (i.e. Node-Express)  
 * data-storage (i.e. CouchDB on Cloudant)  
-* at least one CORS enabled route that returns stored data to the page in json format    
+* at least one CORS enabled route that returns stored data to the page in json format  
+* documentation for both the project and the open web API  
 
-In terms of 'data-storage', the idea is that a user will somehow contribute (i.e. input data) to your application. User input can come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The data input could be intended only for a specific user through a personal link or it could affect the entire experience of the application for all users. It is up to you to decide! 
+In terms of 'data-storage', the idea is that a user will contribute (i.e. input data) to your application. User input can come in many forms including but not limited to requests, comments, reviews, links, media, feedback, high scores, solutions and more. The data input could be intended only for a specific user through a personal link or it could affect the entire experience of the application for all users. It is up to you to decide! 
 
 Overall, the application should demonstrate an attention towards and understanding of technical topics, creative approaches, and usability patterns covered over the entire semester.
 

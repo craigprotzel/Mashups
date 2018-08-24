@@ -1,5 +1,4 @@
-### Classes 19_20: The Server Plus Storage  
-(Week 10) 
+### WEEK 10 Classes 19_20: The Server Plus Storage   
 
 ##### I. Discussion - Class 17_18 Homework
 
@@ -20,7 +19,7 @@
  * [CORS Enabled Routes](http://enable-cors.org/server.html)
  * [BodyParser Library](https://github.com/expressjs/body-parser)
 
-#### IV. Storage with CouchDB
+#### IV. Storage with CouchDB (TBD)
 * [CouchDB](http://couchdb.apache.org/) + [CouchDB Docs](http://docs.couchdb.org/en/1.6.1/)
 * [Couch DB - The Definitive Guide](http://guide.couchdb.org/editions/1/en/index.html)
 * [Cloudant](https://cloudant.com)

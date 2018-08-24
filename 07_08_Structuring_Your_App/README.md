@@ -1,5 +1,4 @@
-### Classes 07_08: Structuring Your App  
-(Week 4)
+### WEEK 4 Classes 07_08: Structuring Your App  
 
 #### I. Discussion - Class 5_6 Homework
 

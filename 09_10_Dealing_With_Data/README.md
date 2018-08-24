@@ -1,13 +1,8 @@
-### Classes 09_10: Project #1 DUE + Dealing with Data  
-(Week 5)
+### WEEK 5 Classes 09_10: Project #1 DUE + Dealing with Data  
 
 #### I. User Testing Exercise
 
-#### II. D & D Thinking
-* [Hats Lecture](https://dl.dropboxusercontent.com/u/9648298/HATS.pdf) by Martin Bravo
-* [Friend Forecast by Martin Bravo](https://github.com/bravomartin/friend-forecast)
-
-#### III. Data Organization & Management
+#### II. Data Organization & Management
 * [Basic Underscore Example](https://github.com/craigprotzel/Mashups/blob/master/09_10_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -25,15 +20,16 @@
 	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. Presentations - Project #1
+#### III. Presentations - Project #1
 
-#### V. D3 Intro  
+#### IV. D3 Intro  
 * Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
 #### VI. Homework
-* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - **from 16:45  to the end**
+* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus on sesction from 16:45  to the end**
+* Read - Software Studies "Data Visualization" Essay by Richard Wright
 * Explore - [Fathom.info](https://fathom.info/projects/) Projects
 * Explore - [D3](http://d3js.org/)
 * Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-* Post - Project #1 + the "About" (Documentation) page by 5pm Sunday, Oct.8
+* Post - Project #1 + the "About" (Documentation) page by 11:59pm Saturday, Oct.6

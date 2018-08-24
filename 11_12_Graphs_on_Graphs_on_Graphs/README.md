@@ -1,5 +1,4 @@
-### Classes 11_12: Graphs and Animations  
-(Week 6)
+### WEEK 6 Classes 11_12: Graphs on Graphs on Graphs with D3
 
 #### I. SVGs
 * [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)

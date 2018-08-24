@@ -5,7 +5,7 @@ Mashups: Creating with Web APIs
 School: NYUAD
 Program: Interactive Media  
 Course Number: IM-UH 2110 (Formerly MDMED-AD 116)   
-Semester: Fall 2016  
+Semester: Fall 2018  
 Class: Tues 2:40pm - 3:55pm & Thurs 2:40pm - 5:20pm  
 Room: Arts Center IM Lab (Rm.029)   
 [IM Lab Access Form](http://goo.gl/forms/Mge02MPoCb)
@@ -13,14 +13,14 @@ Room: Arts Center IM Lab (Rm.029)
 Instructor: Craig Protzel  
 Email: craig.protzel@nyu.edu  
 Office: Arts Center Rm.191  
-Office Hours: Open door policy or by email appointment
+Office Hours: TBD
 
 Course Description
 ------------------
 
 As the World Wide Web continues to grow and permeate our everyday lives, an ever-increasing amount of data and digital services are accessible to us through public web APIs - Application Programming Interfaces. Common to many web sites, including YouTube, Twitter, Google Maps, Wikipedia and more, web APIs offer a means to programmatically request and re-purpose endless troves of information. But how exactly do we access these datasets and services? How can we write code to transfer, store, and display this content on our own web sites? And how might we use these available resources to design unique, creative, and compelling web experiences of our own.
 
-This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 well-designed functional single-page web applications by end of semester. Subscribing to a project-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, p5, Popcorn, D3, Three and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as an exposure to basic client-side web development, specifically HTML and CSS. Experience with Javascript is a plus.
+This class is about creating interactive single-page web applications that leverage public data and digital services from a wide range of existing web products. The overall goal of the class will be for each student to have 3 well-designed functional single-page web applications by end of semester. Subscribing to a project-oriented approach, a majority of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development. We will use a number of Javascript libraries, including jQuery, Underscore, D3,p5, Three and more, to help build a diversity of web experiences. Where server-side (back-end) development is required, we will use the Node-Express framework. Students should have some programming experience as well as an exposure to basic client-side web development, specifically HTML and CSS. Experience with Javascript is a plus.
 
 Schedule
 --------
@@ -30,35 +30,35 @@ Schedule
 * **PART II: Classes 10 - 17 (Weeks 5-9) Client-Side Javascript Libraries**
 * **PART III: Classes 18 - 28 (Weeks 9-14) Server-Side Web Development**
 
-#### [Classes 01_02 (09/05 & 09/07): Introduction to the Web, APIs & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
+#### [WEEK 1 (09/04 & 09/06): Introduction to the Web, APIs & Data](https://github.com/craigprotzel/Mashups/tree/master/01_02_The_Web_APIs_and_Data)
 
-#### [Classes 03_04 (09/12 & 09/14): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/03_04_Web_Dev_101)
+#### [WEEK 2 (09/11 & 09/13): Web Dev 101](https://github.com/craigprotzel/Mashups/tree/master/03_04_Web_Dev_101)
 
-#### [Classes 05_06 (09/16 & 09/19): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/05_06_Making_Things_Happen_On_The_Page)
+#### [WEEK 3 (09/18 & 09/20): Making Things Happen On The Page](https://github.com/craigprotzel/Mashups/tree/master/05_06_Making_Things_Happen_On_The_Page)
 
-#### [Classes 07_08 (09/26 & 09/28): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
+#### [WEEK 4 (09/25 & 09/27): Structuring Your App](https://github.com/craigprotzel/Mashups/tree/master/07_08_Structuring_Your_App)
 
-#### [Classes 09_10 (10/03 & 10/05): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
+#### [WEEK 5 (10/02 & 10/04): Project #1 DUE + Dealing with Data](https://github.com/craigprotzel/Mashups/tree/master/09_10_Dealing_With_Data)
 
-#### [Classes 11_12 (10/10 & 10/12): Graphs on Graphs on Graphs](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
+#### [WEEK 6 (10/09 & 10/11): Graphs on Graphs on Graphs with D3](https://github.com/craigprotzel/Mashups/tree/master/11_12_Graphs_on_Graphs_on_Graphs)
 
-#### [Classes 13_14 (10/17 & 10/19): Animation Playstation](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
+#### [WEEK 7 (10/16 & 10/18): Animation Playstation with p5 and Three](https://github.com/craigprotzel/Mashups/tree/master/13_14_Animation_Playstation)
 
-#### Fall Break - NO CLASSES 10/24 & 10/26
+#### Fall Break - NO CLASSES 10/23 & 10/25
 
-#### [Classes 15_16 (10/31 & 11/02): Sound & Video](https://github.com/craigprotzel/Mashups/tree/master/15_16_Sound_and_Video)
+#### [WEEK 8 (10/30 & 11/01): Extra Dimensions with Sound and ml5](https://github.com/craigprotzel/Mashups/tree/master/15_16_Extra_Dimensions)
 
-#### [Classes 17_18 (11/07 & 11/09): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
+#### [WEEK 9 (11/06 & 11/08): Project #2 DUE + Back to the Server](https://github.com/craigprotzel/Mashups/tree/master/17_18_Back_To_The_Server)
 
-#### [Classes 19_20 (11/14 & 11/16): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
+#### [WEEK 10 (11/13 & 11/15): The Server Plus Storage](https://github.com/craigprotzel/Mashups/tree/master/19_20_The_Server_Plus_Storage)
 
-#### [Classes 21_22 (11/21 & 11/23): More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
+#### [WEEK 11 (11/20 & 11/22): More Storage](https://github.com/craigprotzel/Mashups/tree/master/21_22_More_Storage)
 
-#### [Classes 23_24 (11/25 & 11/28): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
+#### [WEEK 12 (11/27 & 11/29): Realtime Data + Authentication](https://github.com/craigprotzel/Mashups/tree/master/23_24_Realtime_Data_and_Authentication)
 
-#### [Classes 25_26 (12/05 & 12/07): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/25_26_Running_Wild_with_Git_and_Heroku)
+#### [WEEK 13 (12/04 & 12/06): Running Wild with Git and Heroku](https://github.com/craigprotzel/Mashups/tree/master/25_26_Running_Wild_with_Git_and_Heroku)
 
-#### [Classes 27_28 (12/12 & 12/14): Final Project DUE + End-of-Semester Show](https://github.com/craigprotzel/Mashups/tree/master/27_28_Final_Project)
+#### [WEEK 14 (12/11 & 12/13): Final Project DUE + End-of-Semester Show](https://github.com/craigprotzel/Mashups/tree/master/27_28_Final_Project)
 
 Learning Outcomes
 -----------------
@@ -83,57 +83,54 @@ Course Mission: L.E.G.S.
 Grading
 -------
 **10%** Attendance  
-**10%** Participation  
-**25%** Homework Assignments  
-**30%** Projects #1 & #2  
-**25%** Final Project
+**15%** Participation  
+**20%** Homework Assignments  
+**30%** Projects #1 & #2 (15% each)    
+**25%** Final Project  
 
 Homework Assignments
 --------------------
 Each class there will be homework assignments. Homework may include reading, writing, watching videos, doing code exercises, creating web prototypes, and completing projects. Feel free to collaborate with your classmates and work together on any assignment(s), but everyone must share/submit their own individual work.  
 
-Class time will be spent going over assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so.
+Class time will be spent going over homework assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so. Regardless, your work must be completed by prior to class and ready to be shared, discussed, presented, and critiqued in class
 
-Your work must be completed by prior to class and should be uploaded by 10am the next day. For each day an assignment is late, it will result in a lower assignment grade (i.e. B+ to B).
-
-For any "CREATE" homework assignmnents, the following grading rubric will be used:
-
-Grading Rubric - 30 Points  
-	* **10: Technical** - completion of the technical task  
-	* **10: Creative** - demonstration of creative expression  
-	* **10: Usability** - attempt to make the site usable
+Homework will be evaluated on a 3 point scale: 
+	* **1: Technical** - completion of the technical task  
+	* **1: Creative** - demonstration of creative expression  
+	* **1: Usability** - attempt to make the work usable  
 
 Projects 1 & 2
 --------------
-These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience that ideally leverages data from at least one public web API and incorporates the use of at least one Javascript “interaction” library, such as p5, D3, Three, Popcorn, etc. For both projects, you will be expected to present your site, discuss your work, and clearly articulate your creative process.
+These two projects can be thought of as mini-mid terms. Both will build off preceding homework assignments thus allowing you to iteratively build towards their completion. Project 1 will involve creating a single page (client-side only) web experience that, upon user input, responds with data from at least 2 public web APIs. Project 2 will involve creating a single page (client-side only) web experience leverages data from at least one public web API (or a queryable dataset) and incorporates the use of at least one Javascript “interaction” library, such as D3, p5, Three, ml5, etc. For both projects, you will be expected to present your site, discuss your work, articulate your creative process, and document the entire project.
 
 Final Project
 -------------
 Your final project will require developing a comprehensive single page web experience that includes:
 
 * client-side and server-side web development
-* at least one public web API as a data source
+* at least one public web API (or queryable data set) as a data source
 * at least one javascript “interaction” library
-* database storage
-* a public web API route to serve your stored data
+* database storage  
+* public web API routes to serve and share your stored data  
+* documentation for both the project and the open web API
 
 Readings
 --------
-
 Required Text
 * Croll, Angus, "If Hemingway Wrote Javascript" (No Starch Press, 2015)
 
 Supplemental Texts
 (These readings will either be distributed or available at the library)
-* Krug, Steve, "Don't Make Me Think" (New Riders, 2000)
-* Lanier, Jaron, "Who Owns the Future" (Simon & Shuster, 2013)
-* Murray, Janet H,"Inventing the Medium" (MIT Press, 2012)
+* Fuller, Matthew "Software Studies - A Lexicon" (MIT Press, 2008)  
+* Krug, Steve, "Don't Make Me Think" (New Riders, 2000)  
+* Lanier, Jaron, "Who Owns the Future" (Simon & Shuster, 2013)  
+* Murray, Janet H,"Inventing the Medium" (MIT Press, 2012)  
 
 Attendance
 ----------
-
-* Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.
-* More than two unexcused absences (more than 20 minutes late to class) will result in a lower overall final grade (i.e. B+ to B). More than five unexcused absences will result in an F.
+* Attendance is mandatory. Every class builds off the previous one so it is vital to be present for every lesson. Unexcused absences or habitual lateness will negatively impact your final grade for the class. If you are going to be late or absent, please email me **in advance**. If you have an emergency, please let me know as soon as you can.  
+* If you are more than 20 minutes late to class with no excuse, it will count as an unexcused absence.
+* Two unexcused absences will result in a decrease in your overall final grade (i.e. B+ to B). Three will result in an entire letter grade drop (i.e. from A to B). Four will result in two letter grade drops (i.e. from A to C). More than four unexcused absences will result in an F.
 * Show up on time, we have a lot of material to cover and we'll need all of the class time. 
 
 Participation
@@ -148,7 +145,7 @@ Laptop use will be expected in class, but should be focused on class-specific ma
 
 Mobile Phones
 -------------
- Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call.
+ Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call. Otherwise, please refrain from using your mobile phone during class unless necessary for class work.
 
 Communicate
 -----------

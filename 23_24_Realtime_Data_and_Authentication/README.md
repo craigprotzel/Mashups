@@ -1,5 +1,4 @@
-### Classes 23_24: Realtime Data + Authentication
-(Week 12)
+### WEEK 12 Classes 23_24: Realtime Data + Authentication
 
 #### I. Discussion - Class 21_22 Homework (Final Project Ideas)
 

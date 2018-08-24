@@ -34,18 +34,23 @@ Open Data APIs
   * [Open IMDB](http://www.omdbapi.com/)
   * [Youtube Data](https://developers.google.com/youtube/v3/)
   * [Rotten Tomatoes](http://developer.rottentomatoes.com/)
+* Food
+  * [Recipe Puppy](http://www.recipepuppy.com/about/api/)
+  * [Taco Fancy](https://github.com/evz/tacofancy-api)
 * Finance
   * [US Federal Reserve Economic Data](https://api.stlouisfed.org/docs/fred/series.html)
   * [Consumer Financial Protection Bureau - Mortgages](http://cfpb.github.io/api/hmda/)
 * Governemnt & Politics
-  * [Data.gov](https://www.data.gov/developers/apis)
   * [Dronestream](http://dronestre.am/)
   * [Enigma.io](https://app.enigma.io/api)
+  * [EU Open Data Portal](https://data.europa.eu/euodp/data/dataset/eu-open-data-portal-api)
   * [HealthCare.gov](https://www.healthcare.gov/developers/)
   * [New York State Open Data](https://data.ny.gov/browse?limitTo=apis)
   * [OpenSpending](http://community.openspending.org/help/api/)
   * [Sunlight Foundation](http://sunlightfoundation.com/api/)
   * [USA.gov](http://www.usa.gov/About/developer-resources/developers.shtml#APIs)
+  * [US Data.gov](https://www.data.gov/developers/apis) & https://api.data.gov/
+  * [US Open Data Network](https://www.opendatanetwork.com/)
 * Images
   * [Flickr](https://www.flickr.com/services/api/)
   * [Google Images](https://developers.google.com/custom-search/json-api/v1/overview)
@@ -53,7 +58,7 @@ Open Data APIs
   * [Marvel Comics](http://developer.marvel.com/)
   * [NASA Landsat Image Gallery](http://landsat.visibleearth.nasa.gov/)  
   * [Pixabay](https://pixabay.com/api/docs/)
-  * [Unsplash](https://source.unsplash.com/)
+  * [Unsplash](https://unsplash.com/developers) 
 * Location
   * [Foursquare](https://developer.foursquare.com/)
   * [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
@@ -62,6 +67,7 @@ Open Data APIs
   * [SeatGeek](http://platform.seatgeek.com/)
 * Music & Sounds
   * [FreeSound](https://www.freesound.org/help/developers/)
+  * [Hip Hop Word Count](https://dev.hiphopwordcount.com/) + [Actual Fact](http://www.actualfact.net/)
   * [Kanye REST](http://kanyerest.xyz/)
   * [LastFM](http://www.last.fm/api)
   * [NPR](http://dev.npr.org/)
@@ -89,11 +95,12 @@ Open Data APIs
 * Weather
   * [OpenWeatherMap](http://openweathermap.org/api)
   * [NCDC Climate Data](http://www.ncdc.noaa.gov/cdo-web/webservices/v2)
-* API Platforms/Networks/Services
+* API Databases/Platforms/Networks/Services
   * [Mashape](https://market.mashape.com/explore)
   * [Mashery Network](http://developer.mashery.com/apinetwork)
   * [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services/en-us/apis)
   * [Open Data Network](http://www.opendatanetwork.com/)
+  * [Todd Motto's Public APIs DB](https://github.com/toddmotto/public-apis)
 
 Learning Resources
 ------------------

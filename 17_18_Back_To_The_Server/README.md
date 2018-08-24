@@ -1,5 +1,4 @@
-### Classes 17_18: Project #2 DUE + Back to the Server
-(Week 9)
+### WEEK 9 Classes 17_18: Project #2 DUE + Back to the Server
 
 #### I. User Testing Exercise
 

@@ -1,5 +1,4 @@
-### Classes 25_26: Running Wild with Git and Heroku
-(Week 13)
+### WEEK 13 Classes 25_26: Running Wild with Git and Heroku
 
 #### I. Final Project Updates
 

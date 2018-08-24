@@ -1,5 +1,4 @@
-### Classes 15_16: Sound, Video, & 3D
-(Week 8)
+### WEEK 8 Classes 15_16: Extra Dimensions with Sound & ml5
 
 #### I. Discussion - Class 13_14 Homework
 
