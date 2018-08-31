@@ -2,7 +2,19 @@
 
 #### I. Discussion - Class 1_2 Homework
 
-#### II. Workshop - HTML & CSS Boot Camp
+#### II. Web Design Fundamentals
+* Examples
+	* [Tumblr](https://www.tumblr.com/)
+	* [AirBnB](https://www.airbnb.com/)
+* Principles 
+	* Title + Description 
+	* Call to Action
+	* Sequential v Parallel
+	* Simplify
+	* Emotion
+	* "Don't Make Me Think" vs "Intentional Friction"
+
+#### III. Workshop - HTML & CSS Boot Camp
 * Setting up your page
 	* [Mashups HTML Boilerplate](https://github.com/craigprotzel/Mashups/blob/master/03_04_Web_Dev_101/HTML_Boilerplate/html_boilerplate.html)
 	* Adding elements
@@ -20,18 +32,18 @@
 * [Google Web Dev - Responsive Basics + Layouts](https://developers.google.com/web/fundamentals/design-and-ui/responsive/)
 	* [Google Web Dev - Responsive Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en)
 
-#### III. Workshop - Intro to Javascript
+#### IV. Workshop - Intro to Javascript
 * Using the Browser Console
 * Data Types - [MDN Data Types & Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 * [The Window](https://developer.mozilla.org/en/docs/Web/API/Window), [The Document](https://developer.mozilla.org/en-US/docs/Web/API/document), and [The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 * Running Code
 
-#### IV. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
+#### V. Exercise: [Playing with the Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-#### V. Discussion - Project #1 Due Class 10 (Thurs 10/04) 
+#### VI. Discussion - Project #1 Due Class 10 (Thurs 10/04) 
 * Create a single web page experience that, upon user input, responds with data from at least 2 web apis. One possible approach to this assignment would be to design the experience around answering a question for the user. An example of this is [doineedanumbrella.com](http://doineedanumbrella.com/). But **(1)** a user needs to "trigger" an event, **(2)** data needs to be requested via AJAX from two APIs, and **(3)** the page should update appropriately. Your completed assignment should include a .html file, a .css file, and a .js file.
 
-#### VI. Homework
+#### VII. Homework
 * Read - [Javascript from Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://commlab.nyuad.im/media/ScottMurray_Javascript.pdf)
 * Watch - [Lynda.com: Javascript Essential Training: Section 3 "Working with Data" & Section 4 "Functions & Objects"](http://www.nyu.edu/lynda)
 * Explore - "If Hemingway Wrote Javascript" and choose ONE PERSON to focus on. Come to class prepared to talk about the person you chose, who they are, and why their code is written the way it is.
