@@ -21,7 +21,7 @@
 
 #### V. Homework
 * Create - Using a data serving API (could be the same as Project #1) or a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
-* Explore - [p5JS](http://p5js.org/)
+* Explore - [p5JS](http://p5js.org/) & [p5JS Web Editor](https://editor.p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)
 * Read - [p5 Get Started](http://p5js.org/get-started/)	
 * Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)

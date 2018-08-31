@@ -1,8 +1,10 @@
 ### WEEK 5 Classes 09_10: Dealing with Data + Project #1 DUE  
 
-#### I. User Testing Exercise
+#### I. Discuss "Mashup" Essay
 
-#### II. Data Organization & Management
+#### II. User Testing Exercise
+
+#### III. Data Organization & Management (Time Permitting)
 * [Basic Underscore Example](https://github.com/craigprotzel/Mashups/blob/master/09_10_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -20,9 +22,9 @@
 	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### III. Presentations - Project #1
+#### IV. Presentations - Project #1
 
-#### IV. D3 Intro  
+#### V. D3 Intro 
 * Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 

@@ -31,7 +31,9 @@
 	* [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
 	* [Annyang](https://www.talater.com/annyang/) - Speech Recognition	
 
-#### IV. Video
+#### IV. ml5
+
+#### V. Video (Time Permitting)
 * [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [HTML5 Video Events & API](http://www.w3.org/2010/05/video/mediaevents.html)
 * HTML5 Video Libraries
@@ -39,10 +41,10 @@
 	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
 
-#### V. Homework
-* OPEN STUDIOS! 11/06
-* For Class 17 (Tues 11/07)
+#### VI. Homework
+* OPEN STUDIOS! 11/12
+* For Class 17 (Tues 11/06)
 	* Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
- 	* Work - on Project #2 which is due Thursday 11/09. Be prepared to share a user-testable version of your project idea in class
-* For Class 18 (Thurs 11/09)
+ 	* Work - on Project #2 which is due Thursday 11/08. Be prepared to share a user-testable version of your project idea in class
+* For Class 18 (Thurs 11/08)
 	* DUE - Project #2 
