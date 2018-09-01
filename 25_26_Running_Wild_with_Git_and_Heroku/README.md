@@ -6,10 +6,6 @@
 * [CORS Enabled Routes](http://enable-cors.org/server.html)
 * [CORS on ExpressJS](http://enable-cors.org/server_expressjs.html)
 
-#### V. Git & Github
-* Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
-* Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
-
 #### III. Deploy to Heroku
 * Tutorial - [Mashups: How To Deploy To Heroku](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Heroku_Node_Deploy)
 * Heroku

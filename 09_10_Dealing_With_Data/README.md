@@ -4,7 +4,11 @@
 
 #### II. User Testing Exercise
 
-#### III. Data Organization & Management (Time Permitting)
+#### III. Git & Github
+* Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
+* Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
+
+#### IV. Data Organization & Management (Time Permitting)
 * [Basic Underscore Example](https://github.com/craigprotzel/Mashups/blob/master/09_10_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -29,7 +33,7 @@
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
 #### VI. Homework
-* Post - Project #1 + the "About" (Documentation) page by 11:59pm Saturday, Oct.6
+* Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Saturday, Oct.6
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on sesction from 16:45  to the end**
 * Read - Software Studies "Data Visualization" Essay by Richard Wright
