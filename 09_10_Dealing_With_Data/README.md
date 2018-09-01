@@ -29,9 +29,10 @@
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
 #### VI. Homework
-* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus on sesction from 16:45  to the end**
+* Post - Project #1 + the "About" (Documentation) page by 11:59pm Saturday, Oct.6
+* Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
+on sesction from 16:45  to the end**
 * Read - Software Studies "Data Visualization" Essay by Richard Wright
 * Explore - [Fathom.info](https://fathom.info/projects/) Projects
 * Explore - [D3](http://d3js.org/)
 * Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray]()
-* Post - Project #1 + the "About" (Documentation) page by 11:59pm Saturday, Oct.6

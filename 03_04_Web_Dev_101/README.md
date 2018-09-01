@@ -13,6 +13,9 @@
 	* Simplify
 	* Emotion
 	* "Don't Make Me Think" vs "Intentional Friction"
+* Resources
+	* Web Tuts - [Design School For Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
+	* Web Tuts - [Introducing Wireframes to Your Design Process](http://webdesign.tutsplus.com/articles/introducing-wireframes-to-your-design-process--webdesign-13284)
 
 #### III. Workshop - HTML & CSS Boot Camp
 * Setting up your page
@@ -28,7 +31,6 @@
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 	* [Bootstrap](http://getbootstrap.com/)
-* [Tuts - Design School for Developers](http://webdesign.tutsplus.com/series/design-school-for-developers--webdesign-13793)
 * [Google Web Dev - Responsive Basics + Layouts](https://developers.google.com/web/fundamentals/design-and-ui/responsive/)
 	* [Google Web Dev - Responsive Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en)
 

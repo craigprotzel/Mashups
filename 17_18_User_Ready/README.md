@@ -5,7 +5,7 @@
 #### II. Presentations - Project #2
 
 #### III. Homework
-* Finish - Project #2
+* Post - Project #2 + the "About" (Documentation) page by 11:59pm Saturday, Nov.10
 * Read - [What Is Node.JS and Why Should I Care?](http://www.makeuseof.com/tag/what-is-node-js-and-why-should-i-care-web-development/)
 * Install [NodeJS](http://nodejs.org/)
 * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
