@@ -137,15 +137,16 @@ Participation
 -------------
 * Engaging in the class discussion, offering feedback to peers, and "being present" is a major part of your grade. Participating in class is helpful for me to get to know you as an individual and keep track of your progress, but most importantly, it provides you and your classmates the opportunity to share failures, successes, and insights on the work you are doing.
 * You are expected to show work in class. This includes a working web site, a kind-of working web site, a non-working web site, a failed web site, a web site that works but not the way you expected it to work, and so on. Basically, don’t be afraid to volunteer to show what you did do or failed to do. Explaining your work to other people is a great way to better understand the material and answer questions for yourself. Plus, showing work that did not function as expected is not a sign of failure, it is an opportunity to learn.
-* Ask questions. If you do not ask questions, I can only assume you understand the material completely. 
+* Ask questions. If you do not ask questions, I can only assume you understand the material completely.
+* Respect the "Laptops" and "Mobiel Phones" policy described below. 
 
 Laptops
 -------
-Laptop use will be expected in class, but should be focused on class-specific material, applications, and research. Whenever classmates are presenting please keep your laptop closed. The quality of the class depends in large part on your attention and active participation, so please respect your fellow classmates and close your lid.
+Laptop use will be expected in class, but should be focused on class-specific material, applications, and research. Whenever classmates are presenting please keep your laptop closed unless directed otherwise. The quality of the class depends in large part on your attention and active participation, so please respect your fellow classmates and close your lid.
 
 Mobile Phones
 -------------
- Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call. Otherwise, please refrain from using your mobile phone during class unless necessary for class work.
+ Please put them on vibrate or turn them off before you come to class. If you have an emergency that requires you to answer your phone during class, please let me know me ahead of time or quietly step out of class to take the call. Otherwise, please refrain from using your mobile phone during class for emailing, messaging, or any other non-class work. 
 
 Communicate
 -----------
