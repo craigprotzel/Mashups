@@ -9,6 +9,7 @@
 * [ITP](http://itp.nyu.edu/)
 * [StoryScramble](http://storyscramble.com)
 * [VimeoLabs](http://vimeolabs.com)
+* [Blue Feed Red Feed](http://graphics.wsj.com/blue-feed-red-feed/)
 * Review Current Syllabus
 
 #### III. Student Introductions
@@ -22,7 +23,9 @@
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
 
-#### V. Lecture: The Web, APIs, & Data
+#### V. FOR THURSDAY - WATCH - [Mimi Onuoha's Eyeo 2017 Talk](https://vimeo.com/233011125) (trt 38 mins)
+
+#### VI. Lecture: The Web, APIs, & Data
 * [Lecture Slides](https://github.com/craigprotzel/Mashups/blob/master/01_02_The_Web_APIs_and_Data/Web_APIs_Data_Slides.pdf)
 * WWW Background
 	* [A Packet's Tale](https://www.youtube.com/watch?v=ewrBalT_eBM)
@@ -47,15 +50,14 @@
 	* Danah Boyd - [Data & Society](https://datasociety.net/) 
 	* Beth Novecek - [NYU Gov Lab](http://www.thegovlab.org/)
 
-#### VI. Homework
-* Watch - [Mimi Onuoha's Eyeo 2017 Talk](https://vimeo.com/233011125) (trt 38 mins)
+#### VII. Homework
 * Read - [School of Data - Web APIs for Non-Programmers](https://schoolofdata.org/2013/11/18/web-apis-for-non-programmers/)
 * Read - [Data + Design - Ch.15 Importance of Color, Fonts, & Icons](https://infoactive.co/data-design/ch15)
 * Read - [Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://commlab.nyuad.im/media/ScottMurray_Fundamentals.pdf)
 * Explore - [Programmable Web](http://programmableweb.com) (Note: LOTS of deprecated resources and broken links)
 * Explore - [Mashups Help Page - Open(ish) APIs](https://github.com/craigprotzel/Mashups/tree/master/__HELP#open-data-apis)
 * Download - a text editor (I use [Sublime Text](http://www.sublimetext.com/))
-* Create - a single web page that displays (some of) the data returned by an API url. Your page should have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for next class!). If you can, upload your page to a server, but it is fine if it only runs locally. Be prepared to talk about the dataset you found, why you chose it, what is significant about it, what are its implications?
+* Create - a single web page that displays (some of) the data returned by an API url. Your page should have some basic css styling. You must have an .html file and .css file. Feel free to copy and paste your data into the DOM, you **DO NOT** need to programatically connect your page to the data (that's for next class!). If you can, upload your page to a server, but it is fine if it only runs locally. (We will be using Gitub to deploy sites and covering that in Week 4.) Be prepared to talk about the dataset you found, why you chose it, what is significant about it, what are its implications?
 * Additional Recommendations
 	* [Khan Academy - Intro to HTML/CSS: Making Webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
 	* [Codecademy - Make A Website](https://www.codecademy.com/learn/make-a-website)
