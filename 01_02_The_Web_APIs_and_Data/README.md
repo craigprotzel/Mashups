@@ -22,6 +22,7 @@
 * [Tweet Gen](http://mashup-tweetgen.herokuapp.com/) - Nahla
 * [Malaria Persists](http://www.msm622.nyuad.im/MalariaPersists/) - Shujaat
 * [Vjenerate](http://vjenerate.com/) - Jonathan Sparks
+* [Imagine Science Drawing](http://imaginescience.herokuapp.com/)
 
 #### V. FOR THURSDAY - WATCH - [Mimi Onuoha's Eyeo 2017 Talk](https://vimeo.com/233011125) (trt 38 mins)
 
