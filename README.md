@@ -94,10 +94,10 @@ Each class there will be homework assignments. Homework may include reading, wri
 
 Class time will be spent going over homework assignments. Expect to be asked to share your work every class. Some classes everyone may demonstrate their work, other classes only a few students will, but always be prepared to do so. Regardless, your work must be completed by prior to class and ready to be shared, discussed, presented, and critiqued in class
 
-Homework will be evaluated on a 3 point scale: 
-	* **1: Technical** - completion of the technical task  
-	* **1: Creative** - demonstration of creative expression  
-	* **1: Usability** - attempt to make the work usable  
+Homework will be evaluated on a 3 point scale:   
+	* **1: Technical** - completion of the technical task    
+	* **1: Creative** - demonstration of creative expression    
+	* **1: Usability** - attempt to make the work usable    
 
 Projects 1 & 2
 --------------
