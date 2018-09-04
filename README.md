@@ -122,9 +122,11 @@ Required Text
 Supplemental Texts
 (These readings will either be distributed or available at the library)
 * Fuller, Matthew "Software Studies - A Lexicon" (MIT Press, 2008)  
+* Harrison, Nate & Navas, 	Eduardo, "Mashup" Essay from "Keywords in Remix Studies"  
 * Krug, Steve, "Don't Make Me Think" (New Riders, 2000)  
 * Lanier, Jaron, "Who Owns the Future" (Simon & Shuster, 2013)  
-* Murray, Janet H,"Inventing the Medium" (MIT Press, 2012)  
+* Murray, Janet H, "Inventing the Medium" (MIT Press, 2012)  
+
 
 Attendance
 ----------
