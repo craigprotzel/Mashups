@@ -6,10 +6,12 @@
 * Examples
 	* [Tumblr](https://www.tumblr.com/)
 	* [AirBnB](https://www.airbnb.com/)
+	* [Kickstarter](https://www.kickstarter.com/)
+	* Archive.org - [Wayback Machine](https://archive.org/web/)
 * Principles 
 	* Title + Description 
 	* Call to Action
-	* Sequential v Parallel
+	* Sequential, Parallel, Open
 	* Simplify
 	* Emotion
 	* "Don't Make Me Think" vs "Intentional Friction"
