@@ -33,6 +33,7 @@
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101) 
 	* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
 	* [Bootstrap](http://getbootstrap.com/)
+	* [Google Fonts](https://fonts.google.com/)
 * [Google Web Dev - Responsive Basics + Layouts](https://developers.google.com/web/fundamentals/design-and-ui/responsive/)
 	* [Google Web Dev - Responsive Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en)
 
