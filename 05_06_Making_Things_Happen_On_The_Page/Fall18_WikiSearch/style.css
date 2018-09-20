@@ -1,0 +1,62 @@
+html,body{
+	font-family: 'Muli', sans-serif;
+	background-color: aqua;
+	font-size: 12px;
+}
+
+
+h1{
+	background-color: yellow;
+	text-align: center;
+	font-size: 6em;
+}
+
+
+input{
+	display: block;
+	border: 4px solid pink;
+	height: 40px;
+	width: 320px;
+	font-size: 2em;
+}
+
+button{
+	display: block;
+	font-size: 3em;
+	padding: 12px 36px;
+}
+
+.image-container{
+/*	width: 50%;
+*/}
+
+.big-image{
+	display: block;
+	width: 50%;
+}
+
+.center-spacing{
+	margin: 20px auto;
+}
+
+.results-style{
+	font-size: 2.5em;
+	text-align: center;
+}
+
+@media (max-width: 920px) {
+
+	.big-image{
+		width: 80%;
+	}
+
+}
+
+
+
+
+
+
+
+
+

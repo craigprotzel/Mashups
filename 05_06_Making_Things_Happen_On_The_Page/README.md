@@ -22,7 +22,7 @@
 * Review - [MDN - Javascript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 * Read - [How jQuery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * Read - [A Basic Intro to the jQuery Object](http://www.smashingmagazine.com/2014/05/29/mystery-jquery-object-syntax-basic-introduction)
-* Begin - working on Project #1
+* Begin - working on Project #1. Come to class with at least one idea for Project #1, which must involve data from 2 different web APIS.
 * Create - a single web page that uses AJAX (through jQuery) to load and display data from a public web api. Your page should also include at least one form of "user interaction". The finished work should include a .html file, a .css file, and a .js file. It is recommended that you use a web API that you intend to use for Assignment #1.
 * Get API Keys for both the [NY Times API](http://developer.nytimes.com/) and the [Flickr API](https://www.flickr.com/services/apps/create/)
 * Additional Recommendations
