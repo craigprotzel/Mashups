@@ -18,7 +18,6 @@ Open Data APIs
 * Commerce
   * [Etsy](https://www.etsy.com/developers/documentation)
   * [Fixer Exchange Rates](http://fixer.io/)
-  * [Gifts](http://developer.gifts.com/)
   * [Sears](https://developer.sears.com/documentation/sears-apis-0)
 * Communities
   * [Facebook](https://developers.facebook.com/docs/javascript)
@@ -33,7 +32,7 @@ Open Data APIs
   * [The Movie Database](http://docs.themoviedb.apiary.io/)
   * [Open IMDB](http://www.omdbapi.com/)
   * [Youtube Data](https://developers.google.com/youtube/v3/)
-  * [Rotten Tomatoes](http://developer.rottentomatoes.com/)
+  * [Rotten Tomatoes](https://developer.fandango.com/Rotten_Tomatoes)
 * Food
   * [Recipe Puppy](http://www.recipepuppy.com/about/api/)
   * [Taco Fancy](https://github.com/evz/tacofancy-api)
