@@ -4,7 +4,7 @@
 
 #### II. User Testing Exercise
 
-#### III. Git & Github
+#### III. Git & Github (Time Permitting)
 * Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
 * Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
 
@@ -28,14 +28,10 @@
 
 #### IV. Presentations - Project #1
 
-#### V. D3 Intro 
-* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
-* Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
-
-#### VI. Homework
+#### V. Homework
 * Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Sunday, Oct.7
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
-on sesction from 16:45  to the end**
+on the sesction from 16:45  to the end**
 * Read - Software Studies "Data Visualization" Essay by Richard Wright
 * Explore - [Fathom.info](https://fathom.info/projects/) Projects
 * Explore - [D3](http://d3js.org/)

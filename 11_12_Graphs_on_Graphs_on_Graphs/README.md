@@ -12,7 +12,9 @@
 
 #### II. [D3JS](http://d3js.org/)
 * [D3 Gallery](https://github.com/d3/d3/wiki/gallery)
-* [Mike Bostock Examples](http://bost.ocks.org/mike/)
+* [Mike Bostock Examples](http://bost.ocks.org/mike/)  
+* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
+* Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
 #### III. Other SVG & Graphing Libraries
 * [RaphaelJS](http://raphaeljs.com/)
@@ -20,7 +22,7 @@
 * [ChartJS](http://www.chartjs.org/)
 
 #### V. Homework
-* Create - Using a data serving API (could be the same as Project #1) or a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
+* Create - Using a data serving API (could be the same as Project #1) OR a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
 * Explore - [p5JS](http://p5js.org/) & [p5JS Web Editor](https://editor.p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)
 * Read - [p5 Get Started](http://p5js.org/get-started/)	
