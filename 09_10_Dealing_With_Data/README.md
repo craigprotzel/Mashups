@@ -33,7 +33,7 @@
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
 #### VI. Homework
-* Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Saturday, Oct.6
+* Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Sunday, Oct.7
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on sesction from 16:45  to the end**
 * Read - Software Studies "Data Visualization" Essay by Richard Wright
