@@ -21,7 +21,7 @@
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
-#### V. Homework
+#### IV. Homework
 * Create - Using a data serving API (could be the same as Project #1) OR a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
 * Explore - [p5JS](http://p5js.org/) & [p5JS Web Editor](https://editor.p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)

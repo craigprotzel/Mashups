@@ -26,9 +26,9 @@
 	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### IV. Presentations - Project #1
+#### V. Presentations - Project #1
 
-#### V. Homework
+#### VI. Homework
 * Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Sunday, Oct.7
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on the sesction from 16:45  to the end**
