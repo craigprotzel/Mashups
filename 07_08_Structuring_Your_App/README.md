@@ -20,7 +20,7 @@
 * For Class 9 (Tues 10/02):
 	* Read - ["Mashup" Essay by Nate Harrison & Eduardo Navas](https://github.com/craigprotzel/Mashups/blob/master/_Readings/NateHarrison_and_EduardoNavas_Mashup_Essay.pdf) from "Keywords in Remix Studies"
 	* Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
-	* Download & Install [Git](https://git-scm.com/downloads)
+	* Download & Install - [Git](https://git-scm.com/downloads)
 	* Work - on Project #1. Be prepared to do some in-class user testing
 * For Class 10 (Thurs 10/04):
 	* DUE - Project #1
