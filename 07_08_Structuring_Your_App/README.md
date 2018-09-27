@@ -3,7 +3,7 @@
 #### I. Discussion - Class 5_6 Homework
 
 #### II. Running A Local Web Server
-* [Mashups - How To Setup A Local Web Server](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Local_Server/README.md)
+* [Mashups - How To Setup A Local Web Server](https://github.com/craigprotzel/Mashups/blob/master/_Help/How_To/Local_Server/README.md)
   * [Scott Murray - Local Web Server]()
 	* [Download Python](https://www.python.org/download) **for Windows users**
 	* Mr.Doob - [How To Run Things Locally](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally)
@@ -18,7 +18,7 @@
 
 #### V. Homework
 * For Class 9 (Tues 10/02):
-	* Read - "Mashup" Essay by Nate Harrison & Eduardo Navas from "Keywords in Remix Studies"
+	* Read - ["Mashup" Essay by Nate Harrison & Eduardo Navas](https://github.com/craigprotzel/Mashups/blob/master/_Readings/NateHarrison_and_EduardoNavas_Mashup_Essay.pdf) from "Keywords in Remix Studies"
 	* Read - [Tuts: Web Design - Understanding the Composite Parts of Your Design](http://webdesign.tutsplus.com/articles/understanding-the-composite-parts-of-your-design--webdesign-17281)
 	* Work - on Project #1. Be prepared to do some in-class user testing
 * For Class 10 (Thurs 10/04):
