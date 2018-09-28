@@ -52,7 +52,7 @@
 * Read - [Javascript from Ch.3 of Interactive Data Viz for the Web by Scott Murray](http://commlab.nyuad.im/media/ScottMurray_Javascript.pdf)
 * Watch - [Lynda.com: Javascript Essential Training: Section 3 "Working with Data" & Section 4 "Functions & Objects"](http://www.nyu.edu/lynda)
 * Explore - "If Hemingway Wrote Javascript" and choose ONE PERSON to focus on. Come to class prepared to talk about the person you chose, who they are, and why their code is written the way it is.
-* Install - A JS Linter for your Text Editor. I use [Sublime Linter](http://www.sublimelinter.com/en/latest/index.html) with Sublime. See [How To Install Linter](https://github.com/craigprotzel/Mashups/tree/master/__HELP/How_To/Sublime_Linter) for specific instructions.
+* Install - A JS Linter for your Text Editor. I use [Sublime Linter](http://www.sublimelinter.com/en/latest/index.html) with Sublime. See [How To Install Linter](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Sublime_Linter) for specific instructions.
 * Answer - the 3 code exercises at the end of [Eloquent JS 2nd Edition Preview Ch.2 - Looping A Triangle, FizzBuzz, & ChessBoard](http://eloquentjavascript.net/02_program_structure.html). Create a .html and .js file. Your code answers should be written in the .js file as functions. Try to link your .js file to your .html file so that the functions can be run in the browser console when you load the .html file. In your .html file, you only need to write some basic markup stating the names of the 3 functions to call in the console.
 * Additional Recommendations
 	* [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
