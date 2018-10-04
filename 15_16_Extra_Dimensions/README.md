@@ -42,9 +42,8 @@
 	* [VideoJS](http://www.videojs.com/)
 
 #### VI. Homework
-* OPEN STUDIOS! 11/12
 * For Class 17 (Tues 11/06)
 	* Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
- 	* Work - on Project #2 which is due Thursday 11/08. Be prepared to share a user-testable version of your project idea in class
+ 	* Work - on Project #2 which is due Thursday 11/08. Be prepared to share a user-testable version of your project idea in class on Tuesday 11/06
 * For Class 18 (Thurs 11/08)
 	* DUE - Project #2 

@@ -1,6 +1,11 @@
 ### WEEK 6 Classes 11_12: Graphs on Graphs on Graphs with D3
 
-#### I. SVGs
+#### I. Git & Github 
+
+#### II. Project #2 & Data Visualization
+* [Fathom.info](https://fathom.info/projects/) Projects
+
+#### II. SVGs
 * [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
 	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
@@ -10,23 +15,24 @@
 	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
 * [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
 
-#### II. [D3JS](http://d3js.org/)
+#### III. [D3JS](http://d3js.org/)
 * [D3 Gallery](https://github.com/d3/d3/wiki/gallery)
 * [Mike Bostock Examples](http://bost.ocks.org/mike/)  
 * Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
 * Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
 
-#### III. Other SVG & Graphing Libraries
+#### IV. Other SVG & Graphing Libraries
 * [RaphaelJS](http://raphaeljs.com/)
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
-#### IV. Homework
-* Create - Using a data serving API (could be the same as Project #1) OR a static data set of your choosing, create a web page that represents the data using D3JS. Be prepared to share your work in class.
+#### V. Homework
+* Read - Software Studies "Data Visualization" Essay by Richard Wright
 * Explore - [p5JS](http://p5js.org/) & [p5JS Web Editor](https://editor.p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)
 * Read - [p5 Get Started](http://p5js.org/get-started/)	
 * Read - [p5 Overview](https://github.com/processing/p5.js/wiki/p5.js-overview)
+* Think - about idea(s) for Project #2. Be prepared to share at least ONE idea in class on Tuesday
 * Additional Recommendations
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)

@@ -4,11 +4,7 @@
 
 #### II. User Testing Exercise
 
-#### III. Git & Github (Time Permitting)
-* Read - [Introdcution to Git](http://sklise.com/2012/09/22/introduction-to-git/) by Steve Klise
-* Read- [Git Workflow for Beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
-
-#### IV. Data Organization & Management (Time Permitting)
+#### III. Data Organization & Management (Time Permitting)
 * [Basic Underscore Example](https://github.com/craigprotzel/Mashups/blob/master/09_10_Dealing_With_Data/Basic_Underscore/friends.js)
 * Manipulating Strings
 	* [MDN - String Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties)
@@ -26,13 +22,14 @@
 	* ALT AJAX jQuery Patterns - [DOWNLOAD EXAMPLE](https://dl.dropboxusercontent.com/u/9648298/Alt_AJAX_jQuery_Patterns.zip)
 	* [Sunlight Foundation API](http://sunlightfoundation.com/api/)
 
-#### V. Presentations - Project #1
+#### IV. Presentations - Project #1
 
-#### VI. Homework
-* Post - Project #1 + the "About" (Documentation) on Github by 11:59pm Sunday, Oct.7
+#### V. Homework
+* Post - Project #1 + the "About" (Documentation) in a Google Drive Folder by 11:59pm SUNDAY, OCT.7
+* Download & Install - [Git](http://git-scm.com/downloads)
+* Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1)
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on the sesction from 16:45  to the end**
-* Read - Software Studies "Data Visualization" Essay by Richard Wright
-* Explore - [Fathom.info](https://fathom.info/projects/) Projects
 * Explore - [D3](http://d3js.org/)
 * Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray]()
+
