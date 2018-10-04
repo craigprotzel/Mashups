@@ -25,11 +25,12 @@
 #### IV. Presentations - Project #1
 
 #### V. Homework
-* Post - Project #1 + the "About" (Documentation) in a Google Drive Folder by 11:59pm SUNDAY, OCT.7
+* Post - Project #1 + the "About" (Documentation) in a Google Drive Folder and share that with my via email by 11:59pm SUNDAY, OCT.7.
 * Download & Install - [Git](http://git-scm.com/downloads)
-* Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1)
+* SignUp - for [Github](https://github.com/) (no need to sign up if you already have an account)
+* Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1) (Note, we will be going through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Github_Pages) together in class on Tuesday)
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on the sesction from 16:45  to the end**
 * Explore - [D3](http://d3js.org/)
-* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray]()
+* Read - [Ch.3 SVGs Section + Ch.4-6 of Interactive Data Viz for the Web by Scott Murray](https://github.com/craigprotzel/Mashups/blob/master/_Readings/ScottMurray_Interactive%20Data%20Visualization%20for%20the%20Web_%20An%20Introduction%20to%20Designing%20with%20D3.pdf)
 

@@ -4,15 +4,15 @@ How To Deploy To Github Pages
 This is a quick step-by-step guide on how to deploy to Github Pages for Mashups students. This is not a comprehensive git or Github tutorial. The objective is solely to get your local single page application deployed to the web via Github Pages. 
 
 ### Step 1: Test Your Application 
-* Make sure your application runs locally **WITHOUT ANY ERRORS**. Test this by running a localhost. If you are unfamiliar with what a localhost is, read through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/05_Dealing_With_Data/Local_Server) and/or through read this [explanation](http://chimera.labs.oreilly.com/books/1230000000345/ch04.html#_setting_up_a_web_server) by Scott Murrray. 
+* Make sure your application runs locally **WITHOUT ANY ERRORS**. Test this by running a localhost. If you are unfamiliar with what a localhost is, read through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Local_Server)
 * If the application is logging any errors, resolve those before moving forward.
+* Also, make sure you check that all of your media asset extensions are correct, especially checking for case sensitivity. For example, if you are using an image file that is saved with uppercase ".JPG" and you are pointing to it in an "img" tag using lowercase ".jpg", this may error and not show the image. They need to match. 
 
 ### Step 2: Check The HTML File Name
-* For your application to be served correctly, you need the primary html page to be named `index.html
+* For your application to be served correctly, you need the primary html page to be named `index.html`
 
 ### Step 3: Create A git Repository
 * Make sure you have [git](http://git-scm.com/downloads) installed on your machine.
-	* If you are new to git (and Github), please read this tutorial by [Steve Klise - Introdcution to Git](http://skli.se/2012/09/22/introduction-to-git/)
 * Navigate to your app directory in Terminal. You can do this by typing `cd` into the command prompt then a space and then drag 'n drop the folder that contains your application files. Press enter and you should cd (change directory) to that folder. Double check that you are in the correct folder by typing `pwd` into the command prompt and press enter. The path to whichever directory you are in will log out. Make sure it is correct. 
 * Create a git repository and commit your app by executing the following commands in Terminal
 
