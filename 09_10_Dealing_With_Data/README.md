@@ -25,7 +25,13 @@
 #### IV. Presentations - Project #1
 
 #### V. Homework
-* Post - Project #1 + the "About" (Documentation) in a Google Drive Folder and share that with my via email by 11:59pm SUNDAY, OCT.7.
+* Post - Project #1 + the "About" (Documentation) in a Google Drive Folder and share that with my via email by 11:59pm SUNDAY, OCT.7. The "About" page should include at least the following:  
+	* A description of the project and intended experience
+	* Your motivation and process for creating it
+	* Explanantion of the design decisions
+	* Links to any data sources, references, or code resources that you used
+	* Major challenges you faced
+	* Possible next steps
 * Download & Install - [Git](http://git-scm.com/downloads)
 * SignUp - for [Github](https://github.com/) (no need to sign up if you already have an account)
 * Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1) (Note, we will be going through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Github_Pages) together in class on Tuesday)
