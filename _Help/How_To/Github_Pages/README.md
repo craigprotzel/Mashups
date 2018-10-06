@@ -80,7 +80,7 @@ You will be back in your master branch and can continue your normal workflow.
 	```
 * Send the updated gh-pages branch to github    
 	```
-	git push gh-pages master 
+	git push origin gh-pages master 
 	```
 * Switch back into the master branch    	
 	```
