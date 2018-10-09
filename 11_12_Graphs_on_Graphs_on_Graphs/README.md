@@ -2,31 +2,38 @@
 
 #### I. Git & Github 
 
-#### II. Project #2 & Data Visualization
-* [Fathom.info](https://fathom.info/projects/) Projects
+#### II. Project #2
+* [D3](https://d3js.org/)
+* [p5](https://p5js.org/)
+* [ThreeJS](https://threejs.org/)
+* [howler](https://howlerjs.com/)
+* [popcornJS Fork](https://github.com/menismu/popcorn-js)
+* [ml5](https://ml5js.org/)
 
-#### III. SVGs
-* [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
-	* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
-* [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
-* [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
-* Reponsive SVGs  
-	* [How To Make SVGs Responsive](https://css-tricks.com/scale-svg/)
-	* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
-* [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
+#### II. [D3JS](http://d3js.org/)
+* D3 Examples  
+	* [D3 Gallery](https://github.com/d3/d3/wiki/gallery)  
+	* [Mike Bostock Examples](http://bost.ocks.org/mike/) & [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)  
+	* [Fathom.info](https://fathom.info/projects/) Projects  
+	* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
+	* Polygraph - [Film Dialogue](http://polygraph.cool/films/)   
+* SVG Workshop
+	* [SVGs - Getting Started](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
+		* [SVGs- Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+	* [SVG CheatSheet](http://www.cheat-sheets.org/own/svg/index.xhtml)
+	* [SVG Styling Properties](http://www.w3.org/TR/SVG/styling.html#SVGStylingProperties)
+	* Reponsive SVGs  
+		* [How To Make SVGs Responsive](https://css-tricks.com/scale-svg/)
+		* [Making SVGs Reponsive with CSS](http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/)
+	* [Stack Overflow - jQuery Append Not Working with SVG???](http://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element/7381068#7381068)
+* D3 Coding Examples & Workshop  
 
-#### IV. [D3JS](http://d3js.org/)
-* [D3 Gallery](https://github.com/d3/d3/wiki/gallery)
-* [Mike Bostock Examples](http://bost.ocks.org/mike/)  
-* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/)  
-* Polygraph - [Film Dialogue](http://polygraph.cool/films/)  
-
-#### V. Other SVG & Graphing Libraries
+#### IV. Other SVG & Graphing Libraries
 * [RaphaelJS](http://raphaeljs.com/)
 * [Google Charts](https://developers.google.com/chart/)
 * [ChartJS](http://www.chartjs.org/)
 
-#### VI. Homework
+#### V. Homework
 * Read - Software Studies ["Data Visualization"](https://github.com/craigprotzel/Mashups/blob/master/_Readings/RichardWright_Data%20Visualization%20Essay%20in%20Software%20Studies%20by%20Matthew%20Fuller.pdf) Essay by Richard Wright
 * Explore - [p5JS](http://p5js.org/) & [p5JS Web Editor](https://editor.p5js.org/)
 * Watch - [hello p5](http://hello.p5js.org/)
