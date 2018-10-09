@@ -3,7 +3,7 @@
 #### I. Git & Github 
 
 #### II. Project #2
-Create a single web page experience that utilizes data from either a public api or a queryable static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original, creative and meaningful expression.  
+Create a single web page experience that utilizes data from either a public api or a static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, Three, etc.) The application should demonstrate an understanding of the library of choosing as well as an attempt to leverage the library for original, creative and meaningful expression.  
 * [D3](https://d3js.org/)
 * [p5](https://p5js.org/)
 * [ThreeJS](https://threejs.org/)
