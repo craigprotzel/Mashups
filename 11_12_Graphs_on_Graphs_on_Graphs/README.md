@@ -11,7 +11,7 @@ Create a single web page experience that utilizes data from either a public api 
 * [popcornJS Fork](https://github.com/menismu/popcorn-js)
 * [ml5](https://ml5js.org/)
 
-#### II. [D3JS](http://d3js.org/)
+#### III. D3 JS
 * D3 Examples  
 	* [D3 Gallery](https://github.com/d3/d3/wiki/gallery)  
 	* [Mike Bostock Examples](http://bost.ocks.org/mike/) & [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)  
