@@ -34,7 +34,7 @@
 	* Possible next steps
 * Download & Install - [Git](http://git-scm.com/downloads)
 * SignUp - for [Github](https://github.com/) (no need to sign up if you already have an account)
-* Do - [Interactive Git Tutorial from Github](http://try.github.io/levels/1/challenges/1) (Note, we will be going through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Github_Pages) together in class on Tuesday)
+* Try - [Git Rocks - Getting Started with Git Tutorial](http://git.rocks/getting-started/) (Note, we will be going through this [tutorial](https://github.com/craigprotzel/Mashups/tree/master/_Help/How_To/Github_Pages) together in class on Tuesday)
 * Watch - [Eyeo 2012 - Viegas and Wattenberg Wind Map](https://vimeo.com/48625144) - ** Note - focus 
 on the sesction from 16:45  to the end**
 * Explore - [D3](http://d3js.org/)
