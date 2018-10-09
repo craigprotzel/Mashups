@@ -36,7 +36,7 @@ This is a quick step-by-step guide on how to deploy to Github Pages for Mashups 
 	```
 * After you run these commands, check your repository web page on Github. Your files should be there!
 
-###Step 5: Create A gh-pages Branch
+### Step 5: Create A gh-pages Branch
 
 * Your code files are now on Github, but the application is not running on the web just yet. We still need to put them in a separate git branch named 'gh-pages' 
 * On your computer, to see a branch in your git repository, you can type `git branch`. You should only see one branch `master`
@@ -55,13 +55,13 @@ This is a quick step-by-step guide on how to deploy to Github Pages for Mashups 
 	```
 * Once the repository has been sent, check your Github repository to confirm this new branch has been sent. On your repository page, there is a button just above the files that says 'branch:master'. If you click on that button, a dropdown menu should appear that will display all the branches that exist in your repository. Yours should show both 'master' and 'gh-pages'. If so, you are good to go! 
 
-###Step 6: Check Your Site
+### Step 6: Check Your Site
 * Now you just need to give Github a few minutes to work it's magic and properly serve your files. Your application should be running at      
 	```
 	your-github-user-name.github.io/your-repository-name
 	```
 
-###Step 7: Updating Your App
+### Step 7: Updating Your App
 * In your Terminal window, type `git branch` to see what branch you are in. Assuming you have not changed branches since you last pushed your files to Github, you should switch back into your master branch. You can do this by typing  
 	```
 	git checkout master
