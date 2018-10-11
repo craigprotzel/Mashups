@@ -14,7 +14,6 @@ function drawD3Astros(totalNum){
 			"r" : 40
 		});
 
-		/*
 		//Append and animate using transition()
 		d3SVG.append('circle')
 		.attrs({
@@ -22,14 +21,13 @@ function drawD3Astros(totalNum){
 			"cx" : centerX,
 			"cy" : 400,
 			"r" : 20
-		})
-		.transition()
-		.attr("cy",500)
-		.duration(3000)
-		.delay(500);
-	
+		}).transition()
+		.attr("cy",550)
+		.duration(2000)
+		.ease('quad')
+		.delay(1000);
+		
 		centerX += 100;
-		*/
 	}
 }
 
@@ -58,23 +56,26 @@ $('document').ready(function(){
 
 	console.log("Document is ready!");
 	// For demonstration purposes - appending to an svg through jquery will NOT work	
-	$('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
+	//$('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
 
 	/*
 	var d3SVG = d3.select('#mySVG');
-	var centerX = 50;
-	for (var i = 0; i < 6; i++){
+	var centerX = 5;
+	var centerY = 50;
+	for (var i = 0; i < 100; i++){
 		d3SVG.append('circle')
 		.attrs({
 			"class": "bigCircle",
 			"cx" : centerX,
-			"cy" : 200,
-			"r" : 40
+			"cy" : centerY,
+			"r" : 3
 		});
-		centerX += 100;
+		centerX += 10;
+		centerY += 10
 	}
+	*/
 	
 	//Make request for space data
 	getSpaceData();
-	*/
+	
 });

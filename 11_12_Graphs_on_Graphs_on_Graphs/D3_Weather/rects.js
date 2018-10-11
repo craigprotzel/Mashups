@@ -7,16 +7,15 @@ function makeD3Chart(dataset){
 
 	var w = $('#container').width();
 	var h = 300;
-	var barPadding = 2;
-
-	/*	
+	var barPadding = 10;
+		
 	var dataMin = d3.min(dataset, function(d){ return d.day; });
 	var dataMax = d3.max(dataset, function(d){ return d.day; });
 
 	var yScale = d3.scaleLinear()
 		.domain([dataMin, dataMax])
-		.range([50,h - 50]);
-	*/
+		.range([20,h - 20]);
+	
 	
 	//Create SVG element
 	var svg = d3.select('#container')
@@ -24,6 +23,7 @@ function makeD3Chart(dataset){
 		.attr("width", w)
 		.attr("height", h);
 
+	//Create rectangles
 	svg.selectAll("rect")
 		.data(dataset)
 		.enter()
@@ -32,35 +32,38 @@ function makeD3Chart(dataset){
 			return i * (w / dataset.length);
 		})
 		.attr("y", function(d) {
-			return h - d.day;
+			return h;
+			//return h - d.day;
 			//return h - (yScale(d.day));
 		})
 		.attr("width", w / dataset.length - barPadding)
 		.attr("height", function(d) {
-			return d.day;
-			//return yScale(d.day);
+			//return d.day;
+			return yScale(d.day);
 		})
 		.attr("fill", function(d){
 			var red = Math.min(Math.round(d.day) * 2, 255);
 			var color = 'rgb(' + red + ',20,80)';
 			return color;
-		});
-
-		// .attr("class", "rects")
-		// .transition()
-		// .attr("y", function(d){
-		// 	return h - d.day;
-		// })
-		// .duration(2000);
+		})
+		.attr("class", "rects")
+		.transition()
+		.attr("y", function(d){
+			return h - (yScale(d.day));
+		})
+		.duration(1000);
 
 		// .on('click', function(d){
-		// 	console.log("The temp is " + d.day);
+		// 	console.log(d);
+		// 	var htmlString = "<p>The temp that night will be " + d.night + "</p>";
+		// 	$('#temp-text').html(htmlString);
 		// 	d3.select(this)
 		// 		.transition()
-		// 		.attr("y", h)
+		// 		.attr("y", 0)
 		// 		.attr("fill", "blue")
 		// 		.duration(1000);
 		// });
+
 
 	//Add text to the page
 	svg.selectAll("text")
@@ -85,7 +88,7 @@ function makeD3Chart(dataset){
 function requestWeatherData(num){
 
 	var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Abu%20Dhabi&mode=json&units=metric&cnt=' + num;
-	var weatherKEY = '&APPID=' + 'YOUR-WEATHER-API-KEY-GOES-HERE';
+	var weatherKEY = '&APPID=' + 'YOUR-WEATHER-API-KEY';
 
 	$.ajax({
 		url: weatherURL + weatherKEY,
