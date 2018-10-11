@@ -62,6 +62,7 @@ function makeD3Chart(dataset){
 		// 		.duration(1000);
 		// });
 
+	//Add text to the page
 	svg.selectAll("text")
 		.data(dataset)
 		.enter()

@@ -14,6 +14,8 @@ function drawD3Astros(totalNum){
 			"r" : 40
 		});
 
+		/*
+		//Append and animate using transition()
 		d3SVG.append('circle')
 		.attrs({
 			"class": 'smallCircle',
@@ -27,6 +29,7 @@ function drawD3Astros(totalNum){
 		.delay(500);
 	
 		centerX += 100;
+		*/
 	}
 }
 
@@ -55,8 +58,9 @@ $('document').ready(function(){
 
 	console.log("Document is ready!");
 	// For demonstration purposes - appending to an svg through jquery will NOT work	
-	// $('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
+	$('#mySVG').append('<circle class="mainCircle" cx="200" cy="200" r="30"/>');
 
+	/*
 	var d3SVG = d3.select('#mySVG');
 	var centerX = 50;
 	for (var i = 0; i < 6; i++){
@@ -70,7 +74,7 @@ $('document').ready(function(){
 		centerX += 100;
 	}
 	
-	
 	//Make request for space data
 	getSpaceData();
+	*/
 });
