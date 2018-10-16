@@ -1,6 +1,8 @@
 ### WEEK 7 Classes 13_14: Animation Playstation with p5 and Three
 
 #### I. Discussion - Class 11_12 Homework
+* Data Visualization Essay
+* "Bellingcat's Online Investifation Toolkit"[https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic]
 
 #### II. Discussion - Project #2 (Due Thurs 11/08)
 * Create a single web page experience that utilizes data from either a public api or a static data set (or both) and that incorporates the use of at least one "interaction" library (i.e. D3, p5, ml5, Three, etc.). The project must be deployed on the world wide web.
