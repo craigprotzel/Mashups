@@ -20,7 +20,7 @@
 * [p5 DOM](http://p5js.org/reference/#/libraries/p5.dom)
 * [p5 Web Based EDitor](http://alpha.editor.p5js.org/)
 * [Coding Train by Dan Shiffman](https://www.youtube.com/user/shiffman/featured)
-* ITP Classes
+* ITP Courses
   * [Creative JS](https://github.com/lmccart/itp-creative-js)
   * [Nature of Code](http://natureofcode.com/book/introduction/) - [p5 Code Examples](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 * [PaperJS](http://paperjs.org/) - similar(ish) to Adobe Illustrator

@@ -43,7 +43,6 @@ var material = new THREE.MeshBasicMaterial( { map: imageTexture} );
 //Alt - Set the material to be a color
 //var material = new THREE.MeshBasicMaterial({color: 'white', wireframe: true});
 
-
 // (3) Initialize the mesh
 var cube = new THREE.Mesh(geometry, material);
 //Put the mesh into the scene
@@ -53,12 +52,12 @@ scene.add(cube);
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
 camera.position.z = 3;
 
-
 var rotate = true;
 var rotateX = 0.01;
 var rotateY = 0.01;
 //Define a render/animate funnction to be called repeatedy
 function animate() {
+
 	requestAnimationFrame(animate);
 
 	if (rotate){
@@ -68,6 +67,8 @@ function animate() {
 
 	controls.update();
 	renderer.render(scene, camera);
+
+
 }
 //Call the render function
 animate();

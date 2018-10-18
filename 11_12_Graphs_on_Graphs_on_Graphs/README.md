@@ -46,4 +46,5 @@ Create a single web page experience that utilizes data from either a public api 
   * [The Definitive Guide to Object-Oriented Javascript (27 min)](http://www.youtube.com/watch?v=PMfcsYzj-9M) (Note - we will subscribe to the "Classical" pattern in class)
   * Stewart Smith - [Javascript Basics - Prototypal Inheritance](http://stewd.io/javascript/05-1-inheritance.html)
   * [Mozilla - Intro to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+ * [Classes in ECMAScript2015](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
   * [What Is 'this' in Javascript](http://www.sitepoint.com/what-is-this-in-javascript/)
