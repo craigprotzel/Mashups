@@ -6,7 +6,7 @@ Grading Rubric - 100 Points
 (20 pts each)
 - **Technical Competency** (20pts): Correct implementation of code and fulfillment of technical aspect of the assignment. Proper order of operations, data flow, and use of logic. 
 - **Technical Insight** (20 pts): No redundancy or unnecessary duplication of code. Clear and easy to follow structure. Robustness and appropriate handling of invalid inputs, data responses, and edge cases. Intelligent debugging (or logging) messages.
-- **User Experience** (20pts): The quality of the experience for a person who visits the web page, specifically the usability, design, and intent.
+- **User Experience** (20pts): The quality of the experience for a person who visits the web page, specifically the usability, design, and tacit intent (often referred to as being intuitive).  
 - **Creativity** (20pts): Evidence of creative input, personal expression, meaningful direction, and overall thoughtfulness.
 - **Documentation** (20pts): Clear description of the project, creative and technical decisions, influences and inspiration, key challenges and solutions, overall lessons learned, and relevant references and resources. Code well organized and meaningfully commented. Variables, functions, classes, and objects have meaningful names. Unused variables, functions, or commented-out code explained.
 

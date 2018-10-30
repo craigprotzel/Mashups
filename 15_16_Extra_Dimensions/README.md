@@ -1,4 +1,4 @@
-### WEEK 8 Classes 15_16: Extra Dimensions with Sound & ml5
+### WEEK 8 Classes 15_16: Extra Dimensions with Sound, Video & ml5
 
 #### I. Discussion - Class 13_14 Homework
 
@@ -31,15 +31,27 @@
 	* [Timbre](http://mohayonao.github.io/timbre.js/) - Process and Synthesize Audio
 	* [Annyang](https://www.talater.com/annyang/) - Speech Recognition	
 
-#### IV. ml5
-
-#### V. Video (Time Permitting)
+#### IV. Video
 * [HTML5 Rocks - Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 * [HTML5 Video Events & API](http://www.w3.org/2010/05/video/mediaevents.html)
 * HTML5 Video Libraries
-	* [PopcornJS](http://popcornjs.org/) - [OReilly Video Lesson Prototype](http://oreillymedia.github.io/prototype-video-lesson/)
+	* [PopcornJS](https://github.com/menismu/popcorn-js)  
+		* [PopcornJS Documentation](https://menismu.github.io/popcorn-docs/index.html)
+		* [Example - OReilly Video Lesson Prototype](http://oreillymedia.github.io/prototype-video-lesson/)
 	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
+
+#### V. Machine Learning on the Web
+* [Teachable Machine Example](https://teachablemachine.withgoogle.com/)
+* [Tensorflow.js](https://js.tensorflow.org/)
+* [Machine Learning for Artists](http://ml4a.github.io/) by Gene Kogan
+* [A.rt I.ntel](https://github.com/artintelclass) by Aarons Sherwood	
+* [ml5](https://ml5js.org/)	
+	* ITP Adjacent Post - [ml5: Friendly Open Source Machine Learning Library for the Web](https://itp.nyu.edu/adjacent/issue-3/ml5-friendly-open-source-machine-learning-library-for-the-web/)
+* The Coding Train with Dan Shiffman
+	* [Neural Networks & Machine Learning](https://www.youtube.com/user/shiffman/playlists?sort=dd&view=50&shelf_id=16)
+	* [A Beginner's Guide to Machine Learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0)
+* The Verge - [Christie's Sells First AI Portrait for $432,000](https://www.theverge.com/2018/10/25/18023266/ai-art-portrait-christies-obvious-sold)
 
 #### VI. Homework
 * For Class 17 (Tues 11/06)
