@@ -40,6 +40,10 @@
 		* [Example - OReilly Video Lesson Prototype](http://oreillymedia.github.io/prototype-video-lesson/)
 	* [Youtube IFrame Player API](https://developers.google.com/youtube/js_api_reference)
 	* [VideoJS](http://www.videojs.com/)
+* Examples
+	* [Google 360 Performing Arts Videos](https://performingarts.withgoogle.com/en_us)
+	* [Doug Aitken - The Source Interviews](http://dougaitkenthesource.com/)
+	* [NFCB Interactive](https://www.nfb.ca/interactive/) - [A Way To Go](http://a-way-to-go.com/)
 
 #### V. Machine Learning on the Web
 * [Teachable Machine Example](https://teachablemachine.withgoogle.com/)

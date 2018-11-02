@@ -1,10 +1,10 @@
 var myKey = 'YOUR-KEY-GOES-HERE';
-
 var soundIsReady = false;
 
 /*******************/
 //FreeSound Requests
 /*******************/
+
 //Second Request to FreeSound for Sound File Location
 function getSoundContent(soundID){
 	var url = 'http://www.freesound.org/apiv2/sounds/' + soundID + '/?token=';
@@ -57,6 +57,7 @@ function getFreeSound(term){
 /**************************/
 //Native JS - Web Audio API
 /**************************/
+
 var context, source, buffer;
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 //Confirm Web Audio API is available

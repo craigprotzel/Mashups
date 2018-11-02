@@ -58,8 +58,6 @@ var rotateY = 0.01;
 //Define a render/animate funnction to be called repeatedy
 function animate() {
 
-	requestAnimationFrame(animate);
-
 	if (rotate){
 		cube.rotation.x += rotateX;
 		cube.rotation.y += rotateY;
@@ -68,7 +66,7 @@ function animate() {
 	controls.update();
 	renderer.render(scene, camera);
 
-
+	requestAnimationFrame(animate);
 }
 //Call the render function
 animate();

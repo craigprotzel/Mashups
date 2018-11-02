@@ -1,5 +1,4 @@
 var myKey = 'YOUR-KEY-GOES-HERE';
-
 var soundIsReady = false;
 
 /*******************/

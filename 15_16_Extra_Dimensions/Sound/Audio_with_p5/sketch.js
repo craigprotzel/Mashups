@@ -1,6 +1,8 @@
 var chimes, snare;
 
 function preload(){
+
+	//Load a local sound
 	chimes = loadSound('chimes.wav');
 
 	//Load a sound from a remote url
@@ -9,8 +11,7 @@ function preload(){
 	snare = loadSound('snare.mp3');
 	snare.playMode = "restart";
 
-
-	console.log("Sound is ready!");
+	console.log("Sounds are ready!");
 }
 
 function setup() {
