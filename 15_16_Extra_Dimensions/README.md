@@ -59,7 +59,7 @@
 
 #### VI. Homework
 * For Class 17 (Tues 11/06)
-	* Read Janet Murray "Inventing the Medium Ch.2 - Affordances of the Digital Medium"
+	* Read Janet Murray ["Inventing the Medium Ch.2 - Affordances of the Digital Medium"](https://github.com/craigprotzel/Mashups/blob/master/_Readings/JanetMurray_InventingTheMedium_Ch2.pdf)
  	* Work - on Project #2 which is due Thursday 11/08. Be prepared to share a user-testable version of your project idea in class on Tuesday 11/06
 * For Class 18 (Thurs 11/08)
 	* DUE - Project #2 
