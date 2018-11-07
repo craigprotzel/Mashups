@@ -17,6 +17,7 @@ Create a single web page experience that utilizes data from either a public api 
 	* [Mike Bostock Examples](http://bost.ocks.org/mike/) & [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)  
 	* [Fernanda Viegas and Martin Wattenberg](http://hint.fm/)
 	* [Fathom.info](https://fathom.info/projects/) Projects  
+	* [National Geographic - What the World Eats](https://www.nationalgeographic.com/what-the-world-eats/)
 	* Bloomberg Data - [Star Wars - The Force Accounted](http://www.bloomberg.com/graphics/2015-star-wars-the-force-accounted/) & [How Americans Die](https://www.bloomberg.com/graphics/dataview/how-americans-die/)  
 	* The Pudding - [Film Dialogue](http://polygraph.cool/films/) & [Hamilton](https://pudding.cool/2017/03/hamilton/)  
 * SVG Workshop

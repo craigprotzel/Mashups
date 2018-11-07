@@ -8,8 +8,8 @@ function setup() {
     var posX = random(50,width-50);
     var posY = random(50,height-50);
     var diameter = random(50,100);
-    var speedX = random(-5,5);
-    var speedY = random(-5,5);
+    var speedX = random(-3,3);
+    var speedY = random(-3,3);
 
     var aBall = new BouncingBall(posX, posY, diameter, speedX, speedY, i);
     bouncingBalls.push(aBall);
@@ -18,6 +18,7 @@ function setup() {
 
 function draw() {
   background(175, 255, 175);
+
   for (var i = 0; i < bouncingBalls.length; i++){
     bouncingBalls[i].draw();
     bouncingBalls[i].update();
@@ -48,8 +49,16 @@ function BouncingBall(posX, posY, diameter, speedX, speedY, num){
   this.b = random(0,255);
 
   this.draw = function(){
-    noStroke();
-    fill(this.r, this.g, this.b);
+
+    if (wasClicked){
+      stroke(20);
+      fill(255);
+    }
+    else{
+      noStroke();      
+      fill(this.r, this.g, this.b);
+    }
+    
     ellipse(this.posX, this.posY, this.diameter);
   };
 
@@ -65,12 +74,17 @@ function BouncingBall(posX, posY, diameter, speedX, speedY, num){
     this.posY = this.posY + this.speedY;
   };
 
+  var wasClicked = false;
+
   this.clicked = function(){
     var theDistance = dist(mouseX, mouseY, this.posX, this.posY);
     if (theDistance < this.diameter/2){
+ 
+        //Do something
+        wasClicked = !wasClicked;
+
         console.log(this.num);
         console.log(this);
-
         var theSpan = document.getElementById('the-num');
         theSpan.innerHTML = this.num;
     }
