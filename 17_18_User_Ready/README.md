@@ -5,12 +5,11 @@
 #### II. Presentations - Project #2
 
 #### III. Homework
-* Post - Project #2 + the "About" (Documentation) page on Github by 11:59pm Sunday, Nov.11
+* Post - Project #2 + the "About" (Documentation) page on Github by 11:59pm Monnday, Nov.12
 * OPEN STUDIOS! (11/12)
 * Read - [What Is Node.JS and Why Should I Care?](http://www.makeuseof.com/tag/what-is-node-js-and-why-should-i-care-web-development/)
 * Install [NodeJS](http://nodejs.org/)
 * Read - Evan Hahn - [Understanding ExpressJS](http://evanhahn.com/understanding-express/)
-* Read - [The Basics of Express Routes](http://flippinawesome.org/2014/04/07/the-basics-of-express-routes/)
 * Additional Readings
 	* [The Node Beginner Book](http://www.nodebeginner.org/)
 	* [Understanding NodeJS](http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb)
