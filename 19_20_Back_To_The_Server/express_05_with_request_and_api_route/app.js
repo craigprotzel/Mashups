@@ -31,6 +31,7 @@ app.get("/", function(req, res){
 });
 
 //Main Page Route - WITH data requested via the client
+//Note - you could also just make the Wikipedia request inside this route
 app.get("/:word", function(req, res){
 	var currentWord = req.params.word;
 	var dataForThePage = {

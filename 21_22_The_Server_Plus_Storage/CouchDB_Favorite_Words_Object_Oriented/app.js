@@ -18,11 +18,14 @@ app.use(express.static(__dirname + '/public'));
 // Enable json body parsing of application/json
 app.use(bodyParser.json());
 
+/*---------------
 //DATABASE CONFIG
+----------------*/
 var cloudant_USER = 'YOUR-USER-NAME';
 var cloudant_DB = 'YOUR-DB-NAME';
-var cloudant_KEY = 'YOUR-KEY';
-var cloudant_PASSWORD = 'YOUR-PASSWORD';
+var cloudant_KEY = 'YOUR-DB-KEY';
+var cloudant_PASSWORD = 'YOUR-DB-PASSWORD';
+
 var cloudant_URL = "https://" + cloudant_USER + ".cloudant.com/" + cloudant_DB;
 
 /*-----
@@ -78,6 +81,7 @@ app.post("/save", function(req,res){
 });
 
 //UPDATE an object in the database
+//Need to send the saved object with the property value to replace what is in the DB
 app.post('/update', function(req,res){
 	console.log("Updating an object");
 	var theObj = req.body;
@@ -105,6 +109,7 @@ app.post('/update', function(req,res){
 });
 
 //DELETE an object from the database
+//NEED to include the objects id and rev value in the Request URL
 app.post("/delete", function(req,res){
 	console.log("Deleting an object");
 	var theObj = req.body;
