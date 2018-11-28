@@ -27,8 +27,9 @@
 
 #### V. Twitter
 * [Twitter API](https://dev.twitter.com/overview/documentation)
-* [Twiiter Apps Account](https://apps.twitter.com/)
-* [Twitter Passport JS Strategy])(https://github.com/jaredhanson/passport-twitter)
+* [Twiiter Developer Account](https://developer.twitter.com)
+* [Twitter Passport JS Strategy](http://www.passportjs.org/packages/passport-twitter/) &
+[Code Example](https://github.com/passport/express-4.x-twitter-example/blob/master/server.js)
 * Shiffman - [Twitter Bot Examples](http://shiffman.net/a2z/twitter-bots/) & [Twitter Bot Video Tutorial](https://www.youtube.com/watch?v=7-nX3YOC4OA)
 * [Twit Package](https://www.npmjs.com/package/twit)
 

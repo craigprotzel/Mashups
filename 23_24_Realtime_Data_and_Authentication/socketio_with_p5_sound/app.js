@@ -37,12 +37,12 @@ app.get("/", function(req, res){
 io.on('connection', function (socket) {
  //console.log('a user connected');
 	socket.on('sounds', function (data) {
+		//console.log(data);
+
 		//Will send to everyone
 		io.emit('news', data);
 
 		//Will send to everyone except the sender
 		//socket.broadcast.emit('news', data);		
-
-		//console.log(data);
   });
 });

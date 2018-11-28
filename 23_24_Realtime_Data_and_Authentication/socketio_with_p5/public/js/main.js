@@ -74,6 +74,7 @@ function drawData(data){
 }
 
 //Send data to the server using .emit()
+//This is called in the mouseMoved() function above
 function grabAndSend(shape, posX, posY, curFill){
 	var rgba = curFill.levels;
 	var data = {

@@ -37,7 +37,10 @@ app.get("/", function(req, res){
 io.on('connection', function (socket) {
  //console.log('a user connected');
 	socket.on('drawing', function (data) {
-		socket.broadcast.emit('news', data);
 		//console.log(data);
+
+		//Will send to everyone except the sender
+		socket.broadcast.emit('news', data);
+
   });
 });
