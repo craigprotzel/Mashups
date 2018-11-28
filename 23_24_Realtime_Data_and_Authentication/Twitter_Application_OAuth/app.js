@@ -33,7 +33,7 @@ var TWITTER_CONSUMER_SECRET = 'YOUR-TWITTER-CONSUMER-SECRET';
 var TWITTER_ACCESS_TOKEN_KEY = 'YOUR-TWITTER-ACCESS-TOKEN-KEY';
 var TWITTER_ACCESS_SECRET = 'YOUR-TWITTER-ACCESS-SECRET';
 
-var client = new Twitter({
+var twitterClient = new Twitter({
 	consumer_key: TWITTER_CONSUMER_KEY,
 	consumer_secret: TWITTER_CONSUMER_SECRET,
 	access_token_key: TWITTER_ACCESS_TOKEN_KEY,
@@ -52,7 +52,7 @@ app.get("/", function(req, res){
 
 //Using the 'Twitter' lib - https://www.npmjs.com/package/twitter
 app.get("/search", function(req, res){
-	client.get('statuses/user_timeline', params, function(error, tweets, response){
+	twitterClient.get('statuses/user_timeline', params, function(error, tweets, response){
 		if (error){
 			throw error;
 		}

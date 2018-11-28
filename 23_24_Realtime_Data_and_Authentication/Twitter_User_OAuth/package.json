@@ -15,6 +15,6 @@
     "passport": "*",
     "passport-twitter": "*",
     "serve-favicon": "^2.2.0",
-    "twitter": "^1.7.1",
+    "twitter": "^1.7.1"
   }
 }
