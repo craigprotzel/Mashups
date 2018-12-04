@@ -35,7 +35,7 @@ app.get("/", function(req, res){
 
 //Main Socket Connection
 io.on('connection', function (socket) {
- //console.log('a user connected');
+ 	console.log('a user connected');
 	socket.on('drawing', function (data) {
 		//console.log(data);
 

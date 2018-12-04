@@ -22,5 +22,7 @@
 #### IV. Final Project Workshop
 
 #### V. Homework
-* Participate  - in IM "Fall Showcase" on Wed Dec.13 6pm-8pm
+* Deploy -  a version of your project to Herkou for class on Tuesday
 * Due - Final Project on Thursday In Class
+* Participate  - in IM "Fall Showcase" on Thursday Dec.13 6pm-8pm
+* Final Project Submission DUE by 6pm Sunday, Dec. 16
