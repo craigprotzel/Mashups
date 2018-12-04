@@ -5,6 +5,7 @@
 #### II. Realtime Data
 * [Socket.io](http://socket.io/)
 * [How To Write A Chat Application](http://socket.io/get-started/chat/)
+* [Handling Different Routes & Connections - Custom Namespaces](https://socket.io/docs/rooms-and-namespaces/#custom-namespaces)
 
 #### III. Web Security & Authentication 
 * Mozilla - [How Do I Tell If My Connection To A Website Is Secure](https://support.mozilla.org/en-US/kb/how-do-i-tell-if-my-connection-is-secure)
