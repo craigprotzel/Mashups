@@ -7,6 +7,7 @@
 #### III. Course In Review
 
 #### IV. Where Do We Go Now?
+* [AirBnB Style Guide](https://github.com/airbnb/javascript)
 * [ToDo MV* Frameworks](http://todomvc.com/)
 * [Single Page App Book](http://singlepageappbook.com/)
 * [SuperHeroJS](http://superherojs.com/)
