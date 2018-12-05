@@ -73,7 +73,7 @@ How to Deploy to Heroku
 	```
 	heroku login
 	```  
-	You will be asked for your username and password. When typing your password, only asterisks will appear. Once you press enter, it should say that you are logged in.
+	You will be asked to click any key and directed to a web page to login. After you login, return to the Terminal.
 * You are now ready to create an empty Heroku app repo by typing:
 
 	```
