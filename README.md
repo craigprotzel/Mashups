@@ -4,7 +4,7 @@ Mashups: Creating with Web APIs
 
 School: NYUAD
 Program: Interactive Media  
-Course Number: IM-UH 2110 (Formerly MDMED-AD 116)   
+Course Number: IM-UH 2310
 Semester: Fall 2018  
 Class: Tues 2:40pm - 3:55pm & Thurs 2:40pm - 5:20pm  
 Room: Arts Center IM Lab (Rm.029)   
@@ -118,6 +118,7 @@ Readings
 --------
 Required Text
 * Croll, Angus, "If Hemingway Wrote Javascript" (No Starch Press, 2015)
+* Murray, Janet H, "Inventing the Medium - Principles of Interaction Design As A Cultural Medium" (MIT Press, 2012) 
 
 Supplemental Texts
 (These readings will either be distributed or available at the library)
@@ -125,8 +126,6 @@ Supplemental Texts
 * Harrison, Nate & Navas, 	Eduardo, "Mashup" Essay from "Keywords in Remix Studies"  
 * Krug, Steve, "Don't Make Me Think" (New Riders, 2000)  
 * Lanier, Jaron, "Who Owns the Future" (Simon & Shuster, 2013)  
-* Murray, Janet H, "Inventing the Medium" (MIT Press, 2012)  
-
 
 Attendance
 ----------
